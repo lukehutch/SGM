@@ -1,0 +1,35 @@
+{
+  "identifier": "10.1103/PhysRev.109.193",
+  "cite_key": "Feynman:1958ty",
+  "identifiers": {
+    "doi": "10.1103/PhysRev.109.193",
+    "title": "Theory of the Fermi Interaction",
+    "author": "Feynman"
+  },
+  "indexes_answered": [
+    "Crossref",
+    "INSPIRE-HEP"
+  ],
+  "indexes_silent": [
+    "DataCite",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/doi/10.1103/PhysRev.109.193",
+    "Crossref": "https://doi.org/10.1103/PhysRev.109.193",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Theory+of+the+Fermi+Interaction&as_occt=title"
+  },
+  "located_not_fetched": [],
+  "abstract_source": "OpenAlex abstract_inverted_index",
+  "artefacts": [
+    {
+      "artefact": "pdf",
+      "url": "",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "sha256": null,
+      "note": "no identity-confirmed PDF among 0 locations"
+    }
+  ]
+}

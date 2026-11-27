@@ -1,0 +1,305 @@
+L1: Counterexamples to the maximum force conjecture
+L2: Aden Jowsey and Matt Visser
+L3: School of Mathematics and Statistics, Victoria University of Wellington,PO Box 600, Wellington 6140, New Zealand.
+L4: E-mail: aden.jowsey@sms.vuw.ac.nz, matt.visser@sms.vuw.ac.nz
+L5: ABSTRACT:
+L6: Dimensional analysis shows that the speed of light and Newton's constant of gravitation can be combined to define a quantity F_* = \frac{c^4}{G_N} with the dimensions of force (equivalently, tension). Then in any physical situation we must have F_{\text{physical}} = f F_*, where the quantity f is some dimensionless function of dimensionless parameters. In many physical situations explicit calculation yields f = \mathcal{O}(1), and quite often f \leq \frac{1}{4}. This has lead multiple authors to suggest a (weak or strong) maximum force/maximum tension conjecture. Working within the framework of standard general relativity, we will instead focus on counter-examples to this conjecture, paying particular attention to the extent to which the counter-examples are physically reasonable. The various counter-examples we shall explore strongly suggest that one should not put too much credence into any universal maximum force/maximum tension conjecture. Specifically, fluid spheres on the verge of gravitational collapse will generically violate the weak (and strong) maximum force conjectures. If one wishes to retain any general notion of “maximum force” then one will have to very carefully specify precisely which forces are to be allowed within the domain of discourse.
+L7: DATE: Wednesday 3 February 2021; Tuesday 2 March 2021; LATEX-ed March 3, 2021
+L8: KEYWORDS: maximum force; maximum tension; general relativity.
+L9: Contents
+L10: 1Introduction22Spherical symmetry33Perfect fluid spheres43.1Generalities . . . . .43.2Schwarzschild's constant density star . . . . .63.2.1Radial Force . . . . .83.2.2Equatorial force . . . . .103.2.3DEC . . . . .103.2.4Summary . . . . .133.3Tolman IV solution . . . . .133.3.1Radial force . . . . .143.3.2Equatorial force . . . . .153.3.3DEC . . . . .163.3.4Summary . . . . .173.4Buchdahl-Land spacetime: \rho = \rho_s + p . . . . .173.4.1Radial force . . . . .183.4.2Equatorial force . . . . .193.4.3DEC . . . . .193.4.4Summary . . . . .193.5Scaling solution . . . . .203.5.1Radial force . . . . .203.5.2Equatorial force . . . . .203.5.3Summary . . . . .213.6TOV equation . . . . .213.6.1Radial force . . . . .213.6.2Equatorial force . . . . .223.6.3Summary . . . . .234Discussion235Conclusions24
+L11: 1 Introduction
+L12: The maximum force/maximum tension conjecture was independently mooted some 20 years ago by Gary Gibbons [1] and Christoph Schiller [2]. At its heart one starts by noting that in (3+1) dimensions the quantity
+L13: F_* = \frac{c^4}{G_N} \approx 1.2 \times 10^{44} \text{ N} \quad (1.1)
+L14: has the dimensions of force (equivalently, tension). Here c is the speed of light in vacuum, and G_N is Newton's gravitational constant. Thereby any physical force can always be written in the form
+L15: F_{\text{physical}} = f F_*, \quad (1.2)
+L16: where the quantity f is some dimensionless function of dimensionless parameters. In very many situations [1–4] explicit calculations yield f \leq \frac{1}{4}, though sometimes numbers such as f \leq \frac{1}{2} also arise [5]. Specifically, Yen Chin Ong [5] formulated strong and weak versions of the conjecture:
+L17: 1. Strong form: f \leq \frac{1}{4}.2. Weak form: f = \mathcal{O}(1).
+L18: Note that F_* = E_{\text{Planck}}/L_{\text{Planck}} can also be interpreted as the Planck force, though it is not intrinsically quantum as the various factors of \hbar cancel, at least in (3+1) dimensions. Furthermore it is sometimes interesting [6] to note that the Einstein equations
+L19: G_{ab} = 8\pi \frac{G_N}{c^4} T_{ab}, \quad (1.3)
+L20: can be written in terms of F_* as
+L21: T_{ab} = \frac{F_*}{8\pi} G_{ab}. \quad (1.4)
+L22: When recast in this manner, maximum forces conjectures have tentatively been related to Jacobson's entropic derivation of the Einstein equations [7].
+L23: Considerable work has also gone into attempts at pushing various modifications of the maximum force conjecture beyond the framework of standard general relativity [8, 9]. Overall, while there is little doubt that the quantity F_* is physically important, we feel that the precise status of the maximum force conjecture is much less certain, and is less than universal.
+L24: We shall investigate these conjectures within the context of standard general relativity, focussing on illustrative counter-examples based on simple physical systems, analyzing the internal forces, and checking the extent to which the counter-examples are physically reasonable. Specifically, we shall consider static spherically symmetric fluid spheres [10–18], and investigate both radial and equatorial forces. We shall also include an analysis of the speed of sound, and the relevant classical energy conditions, specifically the dominant energy condition (DEC), see [19–28]. We shall see that even the most elementary static spherically symmetric fluid sphere, Schwarzschild’s constant density star, raises significant issues for the maximum force conjecture. Other models, such as the Tolman IV solution and its variants are even worse. Generically, we shall see that any prefect fluid sphere on the verge of gravitational collapse will violate the weak (and strong) maximum force conjectures. Consequently, if one wishes to retain any truly universal notion of “maximum force” then one will at the very least have to very carefully delineate precisely which forces are to be allowed within the domain of discourse.
+L25: 2 Spherical symmetry
+L26: Consider spherically symmetric spacetime, with metric given in Schwarzschild curvature coordinates:
+L27: ds^2 = g_{tt} dt^2 + g_{rr} dr^2 + r^2(d\theta^2 + \sin^2 \theta d\phi^2). \quad (2.1)
+L28: We do not yet demand pressure isotropy, and for the time being allow radial and transverse pressures to differ, that is p_r \neq p_t.
+L29: Pick a spherical surface at some specified value of the radial coordinate r. Define
+L30: F_r(r) = \int p_r(r) dA = 4\pi p_r(r) r^2. \quad (2.2)
+L31: This quantity simultaneously represents the compressive force exerted by outer layers of the system on the core, and the supporting force exerted by the core on the outer layers of the system.
+L32: Consider any equatorial slice through the system and define the equatorial force by
+L33: F_{eq} = \int p_t(r) dA = 2\pi \int_0^{R_s} \sqrt{g_{rr}} p_t(r) r dr. \quad (2.3)
+L34: This quantity simultaneously represents the force exerted by the lower hemisphere of the system on the upper hemisphere, and the force exerted by the upper hemisphere of the system on the lower hemisphere. Here R_s is the location of the surface of the object (potentially taken as infinite). As we are investigating with spherically symmetric systems, the specific choice of hemisphere is irrelevant.
+L35: 3 Perfect fluid spheres
+L36: 3.1 Generalities
+L37: The perfect fluid condition excludes pressure anisotropy so that radial and transverse pressures are set equal: p(r) = p_r(r) = p_t(r). Once this is done, the radial and equatorial forces simplify
+L38: F_r(r) = \int p(r) dA = 4\pi p(r) r^2; \quad (3.1)
+L39: F_{eq} = \int p(r) dA = 2\pi \int_0^{R_s} \sqrt{g_{rr}} p(r) r dr. \quad (3.2)
+L40: Additionally, we shall impose the conditions that pressure is positive and decreases as one moves outwards with zero pressure defining the surface of the object [10–18].1 Similarly density is positive and does not increase as one moves outwards, though density need not be and typically is not zero at the surface [10–18].
+L41: We note that for the radial force we have by construction
+L42: F_r(0) = 0; \quad F_r(R_s) = 0; \quad \text{and for } r \in (0, R_s) : F_r(r) &gt; 0. \quad (3.3)
+L43: In particular in terms of the central pressure p_0 we have the particularly simple bound
+L44: F_r(r) &lt; 4\pi p_0 R_s^2. \quad (3.4)
+L45: This suggests that in general an (extremely) weak version of the maximum force conjecture might hold for the radial force, at least within the framework outlined above, and as long as the central pressure is finite. Unfortunately without some general relationship between central pressure p_0 and radius R_s this bound is less useful than one might hope. For the strong version of the maximum force conjecture no such simple argument holds for F_r, and one must perform a case-by-case analysis. For the equatorial force F_{eq} there is no similar argument of comparable generality, and one must again perform a case-by-case analysis.
+L46: Turning now to the classical energy conditions [19–28], they add extra restrictions to ensure various physical properties remain well-behaved. For our perfect fluid solutions, these act as statements relating the pressure p and the density \rho given by the stress-
+L47: 1There is a minor technical change in the presence of a cosmological constant, the surface is then defined by p(R_s) = p_\Lambda.
+L48: energy tensor T_{\hat{\mu}\hat{\nu}}. Since, (in view of our fundamental assumptions that pressure and density are both positive), the null, weak, and strong energy conditions, (NEC, WEC, SEC) are always automatically satisfied, we will only be interested in the dominant energy condition (DEC). In the current context the dominant energy condition only adds the condition |p| \leq \rho. But since in the context of perfect fluid spheres, the pressure is always positive, it is more convenient to simply write this as
+L49: \frac{p}{\rho} \leq 1; \quad \text{that is} \quad p \leq \rho. \quad (3.5)
+L50: The best physical interpretation of the DEC is that it guarantees that any timelike observer with 4-velocity V^a will observe a flux F^a = T^{ab} V_b that is non-spacelike (either timelike or null) [25]. However, it should be pointed out that the DEC, being the strongest of the classical energy conditions, is also the easiest to violate — indeed there are several known situations in which the classical DEC is violated by quantum effects [20–28].
+L51: The DEC is sometimes [somewhat misleadingly] interpreted in terms of the speed of sound not being superluminal: naively v_s^2 = \partial p / \partial \rho \leq 1; whence p \leq \rho - \rho_{\text{surface}} &lt; \rho. But the implication is only one-way, and in addition the argument depends on extra technical assumptions to the effect that the fluid sphere is well-mixed with a unique barotropic equation of state p(\rho) holding throughout the interior. To clarify this point, suppose the equation of state is not barotropic, so that p = p(\rho, z_i), with the z_i being some collection of intensive variables, (possibly chemical concentrations, entropy density, or temperature). Then we have
+L52: \frac{dp}{dr} = \frac{\partial p}{\partial \rho} \frac{d\rho}{dr} + \sum_i \frac{\partial p}{\partial z^i} \frac{dz^i}{dr} = v_s^2(\rho, z^i) \frac{d\rho}{dr} + \sum_i \frac{\partial p}{\partial z^i} \frac{dz^i}{dr}. \quad (3.6)
+L53: Then, (noting that d\rho/dr is non-positive as one moves outwards), enforcing the speed of sound to not be superluminal implies
+L54: \frac{dp}{dr} \geq \frac{d\rho}{dr} + \sum_i \frac{\partial p}{\partial z^i} \frac{dz^i}{dr}. \quad (3.7)
+L55: Integrating this from the surface inwards we have
+L56: p(r) \leq \rho(r) - \rho(R_s) + \sum_i \int_r^{R_s} \frac{\partial p(\rho, z^i)}{\partial z^i} \frac{dz^i}{dr} dr. \quad (3.8)
+L57: Consequently, unless one either makes an explicit barotropic assumption \partial p/\partial z^i = 0, or otherwise at the very least has some very tight control over the partial derivatives \partial p/\partial z^i, one simply cannot use an assumed non-superluminal speed of sound to deduce the DEC. Neither can the DEC be used to derive a non-superluminal speed of sound, at least not without many extra and powerful technical assumptions. We have been rather explicit with this discussion since we have seen considerable confusion on this point. Finally we note that there is some disagreement as to whether or not the DEC is truly fundamental [21–24].
+L58: 3.2 Schwarzschild’s constant density star
+L59: We shall now consider a classic example of perfect fluid star, Schwarzschild’s constant density star [29], (often called the Schwarzschild interior solution), which was discovered very shortly after Schwarzschild’s original vacuum solution [30], (often called the Schwarzschild exterior solution).
+L60: It is commonly argued that Schwarzschild’s constant density star is “unphysical” on the grounds that it allegedly leads to an infinite speed of sound. But this is a naive result predicated on the physically unreasonable hypothesis that the star is well-mixed with a barotropic equation of state p = p(\rho). To be very explicit about this, all realistic stars are physically stratified with non-barotropic equations of state p = p(\rho, z_i), with the z_i being some collection of intensive variables, (possibly chemical concentrations, entropy density, or temperature). We have already seen that
+L61: \frac{dp}{dr} = \frac{\partial p}{\partial \rho} \frac{d\rho}{dr} + \sum_i \frac{\partial p}{\partial z^i} \frac{dz^i}{dr} = v_s^2(\rho, z^i) \frac{d\rho}{dr} + \sum_i \frac{\partial p}{\partial z^i} \frac{dz^i}{dr}. \quad (3.9)
+L62: Thence for a constant density star, d\rho/dr = 0, we simply deduce
+L63: \frac{dp}{dr} = \sum_i \frac{\partial p}{\partial z^i} \frac{dz^i}{dr}. \quad (3.10)
+L64: This tells us nothing about the speed of sound, one way or the other — it does tell us that there is a fine-tuning between the pressure p and the intensive variables z^i, but that is implied by the definition of being a “constant density star”. We have been rather explicit with this discussion since we have seen considerable confusion on this point. Schwarzschild’s constant density star is not “unphysical”; it may be “fine-tuned” but it is not a priori “unphysical”.
+L65: Specifically, the Schwarzschild interior solution describes the geometry inside a static spherically symmetric perfect fluid constant density star with radius R_s and mass M by the metric:
+L66: ds^2 = -\frac{1}{4} \left( 3\sqrt{1 - \frac{2M}{R_s}} - \sqrt{1 - \frac{2Mr^2}{R_s^3}} \right)^2 dt^2 + \left( 1 - \frac{2Mr^2}{R_s^3} \right)^{-1} dr^2 + r^2 d\Omega^2. \quad (3.11)
+L67: Here we have adopted geometrodynamic units (c \rightarrow 1, G_N \rightarrow 1). Calculating the non-zero orthonormal stress-energy components from the Einstein equations applied to this metric yields:
+L68: T_{\hat{t}\hat{t}} = \rho = \frac{3M}{4\pi R_s^3}; \quad (3.12)
+L69: T_{\hat{r}\hat{r}} = T_{\hat{\theta}\hat{\theta}} = T_{\hat{\phi}\hat{\phi}} = p = \rho \frac{\sqrt{1 - \frac{2Mr^2}{R_s^3}} - \sqrt{1 - \frac{2M}{R_s}}}{3\sqrt{1 - \frac{2M}{R_s}} - \sqrt{1 - \frac{2Mr^2}{R_s^3}}}. \quad (3.13)
+L70: This gives us the relation between density and pressure, as well as demonstrating the perfect fluid condition (p = p_r = p_t), and also verifying that the density is (inside the star) a position independent constant. In these geometrodynamic units both density and pressure have units 1/(\text{length})^2, while forces are dimensionless. Note that the pressure does in fact go to zero at r \rightarrow R_s, so R_s really is the surface of the “star”. Rewriting the relation between pressure and density in terms of the simplified dimensionless quantities \chi = \frac{2M}{R_s} and y = \frac{r^2}{R_s^2} we see
+L71: p = \rho \frac{\sqrt{1 - \chi y} - \sqrt{1 - \chi}}{3\sqrt{1 - \chi} - \sqrt{1 - \chi y}}. \quad (3.14)
+L72: Here 0 \leq y \leq 1, and 0 \leq \chi &lt; \frac{8}{9}. The first of these ranges is obvious from the definition of y, while the second comes from considering the central pressure at y = 0:
+L73: p_0 = \rho \frac{1 - \sqrt{1 - \chi}}{3\sqrt{1 - \chi} - 1}. \quad (3.15)
+L74: Demanding that the central pressure be finite requires \chi &lt; \frac{8}{9}. (This is actually a rather more general result of general relativistic stellar dynamics, not restricted to constant density, see various discussions of the Buchdahl–Bondi bound [31, 32].)
+L75: 3.2.1 Radial Force
+L76: The radial force F_r as defined by equation (3.1) can be combined with the pressure-density relation given by equation (3.14), giving:
+L77: F_r = 4\pi pr^2 = 4\pi\rho R_s^2 y \frac{\sqrt{1-\chi y} - \sqrt{1-\chi}}{3\sqrt{1-\chi} - \sqrt{1-\chi y}} = \frac{3}{2}\chi y \frac{\sqrt{1-\chi y} - \sqrt{1-\chi}}{3\sqrt{1-\chi} - \sqrt{1-\chi y}}. \quad (3.16)
+L78: As advertised in both abstract and introduction, this quantity is indeed a dimensionless function of dimensionless variables. Furthermore this quantity is defined on the bounded range 0 \leq y \leq 1, 0 \leq \chi &lt; \frac{8}{9}. To find if F_r itself is bounded we analyse the multi-variable derivative for critical points.
+L79: For \partial_\chi F_r we find:
+L80: \partial_\chi F_r = -\frac{3y}{2} \left( \frac{\{4 - \chi(3+y)\}\sqrt{1-\chi}\sqrt{1-\chi y} - \{4 - \chi(3+5y-4\chi y)\}}{\sqrt{1-\chi}\sqrt{1-\chi y}(3\sqrt{1-\chi} - \sqrt{1-\chi y})^2} \right). \quad (3.17)
+L81: For \partial_y F_r we find:
+L82: \partial_y F_r = -\frac{3\chi}{2} \left( \frac{\{4 - \chi(3+y)\}\sqrt{1-\chi y} - \{4 - 5\chi y\}\sqrt{1-\chi}}{\sqrt{1-\chi y}(3\sqrt{1-\chi} - \sqrt{1-\chi y})^2} \right). \quad (3.18)
+L83: In particular we see that
+L84: \chi \partial_\chi F_r - y \partial_y F_r = \frac{3\chi^2 y}{2} \left( \frac{\sqrt{1-\chi y}}{\sqrt{1-\chi}(3\sqrt{1-\chi} - \sqrt{1-\chi y})^2} \right). \quad (3.19)
+L85: To have a critical point, \partial_\chi F_r = \partial_y F_r = 0, we certainly require \chi y = 0. So either \chi = 0 or y = 0. But for y = 0, and \chi \in (0, \frac{8}{9}) we have
+L86: \partial_y F_r \longrightarrow \frac{3\chi(3\chi + 4\sqrt{1-\chi} - 4)}{2(3\sqrt{1-\chi} - 1)^2} &gt; 0. \quad (3.20)
+L87: In contrast, for \chi = 0, and y \in (0, 1), we have \partial_\chi F_r \rightarrow 0. So the only critical points lie on one of the boundary segments:
+L88: \partial_\chi F_r = \partial_y F_r = 0 \iff \chi = 0. \quad (3.21)
+L89: Therefore to find the maxima of F_r(\chi, r) we must inspect all four of the boundary segments of the viable region. Along three of the boundary segments we can see that the three lines corresponding to \chi = 0, y = 0, and y = 1 all give F_r(\chi, r) = 0, leaving only \chi \rightarrow \frac{8}{9} to be investigated.
+L90: We note
+L91: \lim_{\chi \rightarrow \frac{8}{9}} F_r(\chi, y) = \frac{4y}{3} \frac{(\sqrt{9-8y}-1)}{3-\sqrt{9-8y}}. \quad (3.22)
+L92: Inserting this into the partial derivative \partial_y F_r reveals:
+L93: \lim_{\chi \rightarrow \frac{8}{9}} \partial_y F_r = -\frac{4}{3} \left( 1 + \frac{1}{\sqrt{9-8y}} \right). \quad (3.23)
+L94: This is a strictly negative function in the range 0 \leq y \leq 1.
+L95: Thus the maximum of F_r(\chi, y) can be found by taking the limit \lim_{y \rightarrow 0} giving:
+L96: (F_r)_{\max} = \lim_{y \rightarrow 0} \lim_{\chi \rightarrow \frac{8}{9}} F_r = 2. \quad (3.24)
+L97: This is therefore bounded, with the radial force approaching its maximum at the centre of a fluid star which is on the verge of collapse. This force violates the strong maximum force conjecture, though it satisfies the weak maximum force conjecture. This limit can easily be seen graphically in Figure 1.
+L98: Figure 1: Radial force F_r(\chi, y) for the interior Schwarzschild solution. Note F_r(\chi, y) is bounded above by 2 in the region of interest y \in [0, 1], \chi \in [0, 8/9].
+L99: 3.2.2 Equatorial force
+L100: Using equation (3.2) and the metric defined in equation (3.11), with the relabelling of the previous subsection in terms of \chi and y gives:
+L101: F_{eq}(\chi) = \frac{3}{8} \chi \int_0^1 \frac{1}{\sqrt{1-\chi y}} \left( \frac{\sqrt{1-\chi y} - \sqrt{1-\chi}}{3\sqrt{1-\chi} - \sqrt{1-\chi y}} \right) dy. \quad (3.25)
+L102: The integral evaluates to:
+L103: F_{eq}(\chi) = \frac{3}{4} \left[ \sqrt{1-\chi y} + 2\sqrt{1-\chi} \ln\left(3\sqrt{1-\chi} - \sqrt{1-\chi y}\right) \right] \Big|_{y=0}^{y=1}. \quad (3.26)
+L104: Ultimately
+L105: F_{eq}(\chi) = \frac{3}{4} \left[ \sqrt{1-\chi} \left\{ 1 + \ln(4-4\chi) - 2\ln\left(3\sqrt{1-\chi} - 1\right) \right\} - 1 \right]. \quad (3.27)
+L106: However, due to the presence of the -\ln(3\sqrt{1-\chi} - 1) term in this equation, it can be seen that as \chi \rightarrow \frac{8}{9}, F_{eq}(\chi) \rightarrow +\infty. Indeed
+L107: F_{eq}(\chi) = \frac{\ln\left(\frac{8}{9} - \chi\right)}{2} + \mathcal{O}(1), \quad (3.28)
+L108: implying that the equatorial force in this space-time will grow without bound as the star approaches the critical size, (just prior to gravitational collapse), in violation of both the strong and weak maximum force conjectures.
+L109: So while the interior Schwarzschild solution has provided a nice example of a bounded radial force, F_r(y, \chi), it also clearly provides an explicit counter-example, where the equatorial force F_{eq}(\chi) between two hemispheres of the fluid star grows without bound.
+L110: 3.2.3 DEC
+L111: Imposing the DEC (equation 3.5) within the fluid sphere we would require:
+L112: \frac{p}{\rho} = \frac{\sqrt{1-\chi y} - \sqrt{1-\chi}}{3\sqrt{1-\chi} - \sqrt{1-\chi y}} \leq 1 \quad (3.29)
+L113: That is
+L114: \sqrt{1-\chi y} \leq 4\sqrt{1-\chi}, \quad (3.30)
+L115: whence
+L116: 1 - \chi y \leq 16(1 - \chi). \quad (3.31)
+L117: Applying the boundary conditions of 0 \leq \chi \leq \frac{8}{9}, 0 \leq y \leq 1, we have a solution range:
+L118: \left( 0 \leq \chi \leq \frac{3}{4}, \quad 0 \leq y \leq 1 \right) \quad \cup \quad \left( \frac{3}{4} &lt; \chi \leq \frac{8}{9}, \quad 4 - \frac{3}{\chi} \leq y \leq 1 \right). \quad (3.32)
+L119: See figures 2 and 3.
+L120: Figure 2: \frac{p}{\rho} in first range
+L121: Figure 3: \frac{p}{\rho} in second range
+L122: Within the first region 0 \leq \chi \leq \frac{3}{4}, 0 \leq y \leq 1, the radial force is maximised at:
+L123: \chi = \frac{3}{4}, \quad y = \frac{1}{6}(5 - \sqrt{5}) \approx 0.46; \quad \rightarrow \quad F_r = \frac{3}{16}(\sqrt{5} - 1) \approx 0.23 &lt; \frac{1}{4}. \quad (3.33)
+L124: Under these conditions the strong maximum force conjecture is satisfied. This can be seen visually in figure 4.
+L125: Within the second region \frac{3}{4} &lt; \chi \leq \frac{8}{9}, 3 - \frac{4}{\chi} \leq y \leq 1, the radial force is maximised at:
+L126: \chi = \frac{8}{9}, \quad y = \frac{5}{8}; \quad \rightarrow \quad F_r = \frac{5}{6} &gt; \frac{1}{4}. \quad (3.34)
+L127: Under these conditions the strong maximum force conjecture is violated, though the weak maximum force conjecture is satisfied. This can be seen visually in figure 5.
+L128: Turning to the equatorial force, we see that the integrand used to define integral for F_{eq}(\chi) satisfies the DEC only within the range 0 \leq \chi \leq \frac{3}{4}. Using the result for F_{eq}(\chi) given above, equation (3.27), we have:
+L129: (F_{eq})_{\max, \text{DEC}} = F_{eq}(\chi = 3/4) = \frac{3}{8}(2 \ln 2 - 1) \approx 0.1448603854 &lt; \frac{1}{4}. \quad (3.35)
+L130: This now satisfies the strong maximum force conjecture.
+L131: Figure 4: Radial force F_r(\chi, y) for the interior Schwarzschild solution in region 1 (0 \leq \chi \leq \frac{3}{4}, 0 \leq y \leq 1) where the DEC is satisfied.
+L132: Figure 5: Radial force F_r(\chi, y) for the interior Schwarzschild solution in region 2 (\frac{3}{4} &lt; \chi \leq \frac{8}{9}, 4 - \frac{3}{\chi} \leq y \leq 1) where the DEC is satisfied.
+L133: 3.2.4 Summary
+L134: Only if we enforce the DEC can we then make Schwarzschild's constant density star satisfy the weak and strong maximum force conjectures. Without adding the DEC Schwarzschild's constant density star will violate both the weak and strong maximum force conjectures. Since it is not entirely clear that the DEC represents fundamental physics [21–24], it is perhaps a little sobering to see that one of the very simplest idealized stellar models already raises issues for the maximum force conjecture. We shall soon see that the situation is even worse for the Tolman IV model (and its variants).
+L135: 3.3 Tolman IV solution
+L136: The Tolman IV solution is another perfect fluid star space-time, however it does not have the convenient (albeit fine-tuned) property of constant density like the interior Schwarzschild solution. The metric can be written in the traditional form [10]:
+L137: ds^2 = - \left( 1 + \frac{r^2}{A^2} \right) dt^2 + \frac{1 + \frac{2r^2}{A^2}}{\left( 1 - \frac{r^2}{R^2} \right) \left( 1 + \frac{r^2}{A^2} \right)} dr^2 + r^2 d\Omega^2. \quad (3.36)
+L138: Here A and R represent some arbitrary scale factors with units of length. This metric yields the orthonormal stress-energy tensor:
+L139: T_{\hat{t}\hat{t}} = \rho = \frac{1}{8\pi} \frac{6r^4 + (7A^2 + 2R^2)r^2 + 3A^2(A^2 + R^2)}{R^2(A^2 + 2r^2)^2}; \quad (3.37)
+L140: T_{\hat{r}\hat{r}} = T_{\hat{\theta}\hat{\theta}} = T_{\hat{\phi}\hat{\phi}} = p = \frac{1}{8\pi} \frac{R^2 - A^2 - 3r^2}{R^2(A^2 + 2r^2)}. \quad (3.38)
+L141: This demonstrates the non-constancy of the energy-density \rho as well as the perfect fluid conditions. Physically, the surface of a fluid star is defined as the zero pressure point, which now is at:
+L142: R_s = \sqrt{\frac{R^2 - A^2}{3}}. \quad (3.39)
+L143: And likewise we can find the surface density (\rho at R_0):
+L144: \rho_s = \frac{3}{4\pi} \frac{2A^2 + R^2}{R^2(A^2 + 2R^2)}. \quad (3.40)
+L145: The central pressure and central density are
+L146: p_0 = \frac{1}{8\pi} \frac{R^2 - A^2}{R^2 A^2}; \quad \rho_0 = \frac{1}{8\pi} \frac{3(R^2 + A^2)}{R^2 A^2}. \quad (3.41)
+L147: Moving forwards, we will likewise calculate the radial and equatorial forces in this space-time.
+L148: 3.3.1 Radial force
+L149: Using the previously defined radial force equation, (2.2), we can write the radial force for the Tolman IV space-time as:
+L150: F_r(r, R, A) = 4\pi p_r r^2 = \frac{r^2}{2R^2} \left( \frac{R^2 - A^2 - 3r^2}{A^2 + 2r^2} \right). \quad (3.42)
+L151: Defining y = r^2/R_s^2 and a = A^2/R^2 we have y \in (0, 1) and a \in (0, 1). The radial force then simplifies to
+L152: F_r(a, y) = \frac{(1 - a)^2 y(1 - y)}{6a + 4(1 - a)y}. \quad (3.43)
+L153: Note this is, as expected, a dimensionless function of dimensionless variables.
+L154: The multivariable derivatives are:
+L155: \partial_a F_r(a, y) = \frac{y(1 - y)(1 - a)(2ay - 3a - 2y - 3)}{2(2ay - 3a - 2y)^2}. \quad (3.44)
+L156: \partial_y F_r(a, y) = \frac{(1 - a)^2 (2ay^2 - 6ay - 2y^2 - 3a)}{2(2ay - 3a - 2y)^2}. \quad (3.45)
+L157: For both derivatives to vanish, (within the physical region), we require a = 1. However a = 1 actually minimises the function with F_r(a, y) = 0. So we need to look at the boundaries of the physical region. Both y = 0 and y = 1 also minimise the function with F_r(a, y) = 0. We thus consider a = 0:
+L158: F_r(0, y) = \frac{1}{4}(1 - y), \quad (3.46)
+L159: where then it is clear that the function is maximised at a = 0, y \rightarrow 0, which corresponds (F_r)_{\max} = \frac{1}{4}. This can be seen visually in figure 6. Thus F_r(a, y) for the Tolman IV solution is compatible with the strong maximum force conjecture, but as for the Schwarzschild constant density star, we shall soon see that the equatorial force does not behave as nicely.
+L160: Figure 6: F_r(a, y) for the Tolman IV solution.
+L161: 3.3.2 Equatorial force
+L162: Using equation (3.2) for this space-time, and combining it with radial surface result of equation (3.39), we obtain:
+L163: F_{eq} = 2\pi \int_0^{R_s} \sqrt{g_{rr}} p(r) r dr = \frac{1}{4} \int_0^{\sqrt{\frac{R^2-A^2}{3}}} \sqrt{\frac{1 + \frac{2r^2}{A^2}}{\left(1 - \frac{r^2}{R^2}\right) \left(1 + \frac{r^2}{A^2}\right)}} \frac{R^2 - A^2 - 3r^2}{R^2(A^2 + 2r^2)} r dr. \quad (3.47)
+L164: As an integral this converges, however the resultant function is intractable. Instead, we will opt for a simpler approach by finding a simple bound. Since the radial coordinate is physically bound by 0 \leq r \leq R_s = \sqrt{\frac{R^2-A^2}{3}} &lt; R, we find that in that range:
+L165: g_{rr} = \frac{1}{1 - \frac{r^2}{R^2}} \frac{1 + \frac{2r^2}{A^2}}{1 + \frac{r^2}{A^2}} \geq \frac{1 + \frac{2r^2}{A^2}}{1 + \frac{r^2}{A^2}} \geq 1. \quad (3.48)
+L166: This is actually a much more general result; for any perfect fluid sphere we have
+L167: g_{rr} = \frac{1}{1 - 2m(r)/r}, \quad (3.49)
+L168: where m(r) is the Misner–Sharp quasi-local mass.
+L169: So as long as m(r) is positive, which is guaranteed by positivity of the density \rho(r), we have g_{rr} &gt; 1, and so in all generality we have
+L170: F_{eq} &gt; 2\pi \int_0^{R_s} p(r) r dr. \quad (3.50)
+L171: For the specific case of Tolman IV we can write
+L172: F_{eq} &gt; \frac{1}{4} \int_0^{\sqrt{\frac{R^2-A^2}{3}}} \frac{R^2 - A^2 - 3r^2}{R^2(A^2 + 2r^2)} r dr. \quad (3.51)
+L173: Now make the substitutions y = r^2/R_s^2 and a = A^2/R^2. We find
+L174: F_{eq} &gt; \pi r_s^2 \int_0^1 p dy = \frac{1}{8} \int_0^1 \frac{(1-a)^2 (1-y)}{2(1-a)y + 3a} dy. \quad (3.52)
+L175: This integral yields
+L176: F_{eq} &gt; \left\{ \frac{(a+2) \ln[(2y-3)a-2y]}{32} - \frac{(1-a)y}{16} \right\} \Big|_0^1. \quad (3.53)
+L177: Thence
+L178: F_{eq} &gt; \frac{(a+2)[\ln(2+a) - \ln(3a)]}{32} - \frac{(1-a)}{16}. \quad (3.54)
+L179: Under the limit a \rightarrow 0 we find that the term -\log(3a) \rightarrow +\infty. So the inequality (3.54) diverges to infinity, demonstrating that the equatorial force in the Tolman-IV space-time can be made to violate the weak maximum force conjecture.
+L180: Thus, as in the case of the interior Schwarzschild solution, we have shown that the radial force is bounded (and in this case obeys both the weak and strong maximum force conjectures). However, the equatorial force can be made to diverge to infinity and act as a counter example to both weak and strong conjectures.
+L181: 3.3.3 DEC
+L182: To see if the DEC is satisfied over the range of integration for the equatorial force, we inquire as to whether or not
+L183: \frac{p}{\rho} = \frac{(A^2 + 2r^2)(R^2 - A^2 - 3r^2)}{3A^4 + 7A^2r^2 + 6r^4 + (3A^2 + 2r^2)R^2} \leq 1 ? \quad (3.55)
+L184: It is straightforward to check that this inequality will always hold in the physical region. Using the definitions a = A^2/R^2 and z = r^2/R^2, so that a \in (0, 1), and z \in (0, \frac{1-a}{3}), we can write this as
+L185: \frac{p}{\rho} - 1 = -\frac{2(2a^2 + 6az + a + 6z^2)}{(7a + 2)z + 3a(a + 1) + 6z^2} &lt; 0, \quad (3.56)
+L186: which is manifestly negative. So adding the DEC does not affect or change our conclusions. Indeed, we have already seen that the equatorial force diverges in the limit of a \rightarrow 0 implying A \rightarrow 0. Applying this limit to the ratio p/\rho gives:
+L187: \lim_{A \rightarrow 0} \frac{p}{\rho} = 1 - \frac{6r^2}{3r^2 + R^2} = 1 - \frac{6y}{1 + 3y} \leq 1. \quad (3.57)
+L188: Again, this is always true within any physical region, so we verify that adding the DEC does not change our conclusions.
+L189: 3.3.4 Summary
+L190: For the Tolman IV solution, while the radial force is bounded (and obeys both the weak and strong maximum force conjectures), the equatorial force can be made to diverge to infinity in certain parts of parameter space (A \rightarrow 0) and acts as a counter-example to both weak and strong maximum force conjectures. For the Tolman IV solution, adding the DEC does not save the situation, the violation of both weak and strong maximum force conjectures is robust.
+L191: 3.4 Buchdahl–Land spacetime: \rho = \rho_s + p
+L192: The Buchdahl–Land spacetime is a special case of the Tolman IV spacetime, corresponding to the limit A \rightarrow 0 (equivalently a \rightarrow 0). It is sufficiently simple that it is worth some discussion in its own right. The Tolman IV metric (with a re-scaled time coordinate t \rightarrow At) can be written:
+L193: ds^2 = -(A^2 + r^2)dt^2 + \frac{1 + \frac{2r^2}{A^2}}{\left(1 - \frac{r^2}{R^2}\right) \left(1 + \frac{r^2}{A^2}\right)} dr^2 + r^2 d\Omega^2. \quad (3.58)
+L194: Under the limit A \rightarrow 0, this becomes:
+L195: ds^2 = -r^2 dt^2 + \frac{2R^2}{R^2 - r^2} dr^2 + r^2 d\Omega^2. \quad (3.59)
+L196: Then the orthonormal stress-energy components are:
+L197: \begin{aligned} T_{\hat{t}\hat{t}} &amp;= \rho = \frac{1}{16\pi} \left( \frac{1}{r^2} + \frac{3}{R^2} \right); \\ T_{\hat{r}\hat{r}} &amp;= T_{\hat{\theta}\hat{\theta}} = T_{\hat{\phi}\hat{\phi}} = p = \frac{1}{16\pi} \left( \frac{1}{r^2} - \frac{3}{R^2} \right). \end{aligned} \quad (3.60)
+L198: The surface is located at
+L199: R_s = \frac{R}{\sqrt{3}}; \quad \text{with} \quad \rho_s = \frac{3}{8\pi R^2} = \frac{1}{8\pi R_s^2}. \quad (3.61)
+L200: At the centre the pressure and density both diverge — more on this point later.
+L201: We recast the metric as
+L202: ds^2 = -r^2 dt^2 + \frac{2}{1 - \frac{1}{3} \frac{r^2}{R_s^2}} dr^2 + r^2 d\Omega^2. \quad (3.62)
+L203: This is simply a relabelling of equation (3.59). The orthonormal stress-energy tensor is now relabelled as:
+L204: \begin{aligned} T_{\hat{t}\hat{t}} &amp;= \rho = \frac{1}{16\pi} \left( \frac{1}{r^2} + \frac{1}{R_s^2} \right); \\ T_{\hat{r}\hat{r}} &amp;= T_{\hat{\theta}\hat{\theta}} = T_{\hat{\phi}\hat{\phi}} = p = \frac{1}{16\pi} \left( \frac{1}{r^2} - \frac{1}{R_s^2} \right). \end{aligned} \quad (3.63)
+L205: Note that
+L206: p = \rho - \rho_s; \quad \text{that is} \quad \rho = \rho_s + p. \quad (3.64)
+L207: That is, the Buchdahl–Land spacetime represents a “stiff fluid”. This perfect fluid solution has a naked singularity at r = 0 and a well behaved surface at finite radius. The singularity at r = 0 is not really a problem as one can always excise a small core region near r = 0 to regularize the model.
+L208: 3.4.1 Radial force
+L209: Due to the simplicity of the pressure, the radial force can be easily calculated as:
+L210: F_r = \frac{1}{4} \left( 1 - \frac{r^2}{R_s^2} \right). \quad (3.65)
+L211: The radial force is trivially bounded with a maximum of \frac{1}{4} at the centre of the star. This obeys the strong (and so also the weak) maximum force conjecture.
+L212: 3.4.2 Equatorial force
+L213: The equatorial force is:
+L214: F_{eq} = 2\pi \int_0^{R_s} \sqrt{\frac{2}{1 - \frac{1}{3}\frac{r^2}{R_s^2}}} \frac{1}{16\pi} \left( \frac{1}{r^2} - \frac{1}{R_s^2} \right) r dr. \quad (3.66)
+L215: This is now simple enough to handle analytically. Using the dimensionless variable y = r^2/R_s^2, with range y \in (0, 1), we see:
+L216: F_{eq} = \frac{1}{16} \int_0^1 \sqrt{\frac{2}{1 - \frac{1}{3}y}} (1 - y) \frac{dy}{y}. \quad (3.67)
+L217: This is manifestly dimensionless, and manifestly diverges to +\infty. If we excise a small region r &lt; r_{\text{core}}, (corresponding to y &lt; y_{\text{core}}) to regularize the model, replacing r &lt; r_{\text{core}} with some well-behaved fluid ball, then we have the explicit logarithmic divergence
+L218: F_{eq} = -\frac{1}{16} \ln y_{\text{core}} + \mathcal{O}(1). \quad (3.68)
+L219: This violates the weak (and so also the strong) maximum force conjecture.
+L220: 3.4.3 DEC
+L221: The DEC for this space-time is given by:
+L222: \frac{p}{\rho} = \frac{\rho - \rho_s}{\rho} = 1 - \frac{\rho_s}{\rho} \leq 1. \quad (3.69)
+L223: which is always true for positive values of r, \rho_s.
+L224: 3.4.4 Summary
+L225: The Buchdahl–Land spacetime is another weak maximum force conjecture counter-example, one which again obeys the classical energy conditions.
+L226: 3.5 Scaling solution
+L227: The scaling solution is
+L228: ds^2 = -r^{\frac{4w}{1+w}} dt^2 + \left( \frac{w^2 + 6w + 1}{(1+w)^2} \right) dr^2 + r^2 d\Omega^2. \quad (3.70)
+L229: This produces the following stress energy tensor:
+L230: \begin{aligned} T_{\hat{t}\hat{t}} = \rho &amp;= \frac{w}{2\pi(w^2 + 6w + 1)r^2}; \\ T_{\hat{r}\hat{r}} = T_{\hat{\theta}\hat{\theta}} = T_{\hat{\phi}\hat{\phi}} = p &amp;= \frac{w^2}{2\pi(w^2 + 6w + 1)r^2}. \end{aligned} \quad (3.71)
+L231: This perfect fluid solution has a naked singularity at r = 0 and does not have a finite surface — it requires r \rightarrow \infty for the pressure to vanish. Nevertheless, apart from a small region near r = 0 and small fringe region near the surface r = R_s, this is a good approximation to the bulk geometry of a star that is on the verge of collapse [34, 35]. To regularize the model excise two small regions, a core region at r \in (0, r_{\text{core}}), and an outer shell at r \in (r_{\text{fringe}}, R_s), replacing them by segments of well-behaved fluid spheres. Note that for r \in (r_{\text{core}}, r_{\text{fringe}}) we have p/\rho = w, (and since \rho &gt; 0 we must have w &gt; 0), so the DEC implies w \in (0, 1].
+L232: 3.5.1 Radial force
+L233: Using equation (2.2), we find that the radial force is very simply given by:
+L234: F_r = \frac{2w^2}{w^2 + 6w + 1}. \quad (3.72)
+L235: This is independent of r and attains a maximum value of \frac{1}{4} when w = 1, giving a bounded force obeying the strong maximum force conjecture.
+L236: 3.5.2 Equatorial force
+L237: Now, using equation (3.2), the equatorial force can be calculated as:
+L238: F_{eq} = \int_{r_{\text{core}}}^{r_{\text{fringe}}} \sqrt{\frac{w^2 + 6w + 1}{(1+w)^2}} \left( \frac{w^2}{(w^2 + 6w + 1)r} \right) dr + \mathcal{O}(1). \quad (3.73)
+L239: That is
+L240: F_{eq} = \frac{w^2}{(1+w)\sqrt{w^2+6w+1}} \ln(r_{\text{fringe}}/r_{\text{core}}) + \mathcal{O}(1), \quad (3.74)
+L241: which trivially diverges logarithmically as either r_{\text{core}} \rightarrow 0 or r_{\text{fringe}} \rightarrow \infty, providing a counter-example to weak maximum force conjecture.
+L242: 3.5.3 Summary
+L243: Again we have an explicit model where the radial force F_r is well-behaved, but the equatorial force F_{eq} provides an explicit counter-example to weak maximum force conjecture. This counter-example is compatible with the DEC.
+L244: 3.6 TOV equation
+L245: Let us now see how far we can push this sort of argument using only the TOV equation for the pressure profile in perfect fluid spheres — we will (as far as possible) try to avoid making specific assumptions on the metric components and stress-energy. The TOV equation is
+L246: \frac{dp(r)}{dr} = -\frac{\{\rho(r) + p(r)\}\{m(r) + 4\pi p(r)r^3\}}{r^2\{1 - 2m(r)/r\}}. \quad (3.75)
+L247: 3.6.1 Radial force
+L248: From the definition of radial force F_r = 4\pi pr^2, we see that at the maximum of F_r we must have
+L249: (2pr + r^2p')|_{r_{\text{max}}} = 0. \quad (3.76)
+L250: Thence, at the maximum
+L251: (F_r)_{\text{max}} = (4\pi pr^2)_{\text{max}} = -2\pi (r^3p')|_{r_{\text{max}}}. \quad (3.77)
+L252: In particular, now using the TOV at the location r_{\text{max}} of the maximum of F_r:
+L253: (F_r)_{\text{max}} = 2\pi \left[ \frac{(\rho + p)r(m + 4\pi pr^3)}{(1 - 2m/r)} \right] \Big|_{r_{\text{max}}}. \quad (3.78)
+L254: Let us define the two parameters
+L255: \chi = \left[ \frac{2m(r)}{r} \right]_{r_{\text{max}}} = \frac{2m(r_{\text{max}})}{r_{\text{max}}}, \quad \text{and} \quad w = \left[ \frac{p(r)}{\rho(r)} \right]_{r_{\text{max}}} = \frac{p(r_{\text{max}})}{\rho(r_{\text{max}})}. \quad (3.79)
+L256: Then
+L257: (F_r)_{\max} = \frac{1}{2} \left( \frac{4\pi p(1 + \frac{1}{w})r^2(\chi/2 + 4\pi pr^2)}{1 - \chi} \right) \bigg|_{r_{\max}}. \quad (3.80)
+L258: Simplifying, we see:
+L259: (F_r)_{\max} = \frac{1}{2} \frac{(F_r)_{\max} [1 + 1/w] [(F_r)_{\max} + \chi/2]}{1 - \chi} \quad (3.81)
+L260: Discarding the unphysical solution (F_r)_{\max} = 0, we find
+L261: (F_r)_{\max} = \frac{4w - \chi - 5w\chi}{2(1 + w)} = \frac{2w}{1 + w} - \chi \frac{1 + 5w}{1 + w}. \quad (3.82)
+L262: The physical region corresponds to 0 \leq \chi &lt; 1, while w &gt; 0. Furthermore we have (F_r)_{\max} &gt; 0, whence 4w - \chi - 5w\chi &gt; 0, implying \chi &lt; 4w/(1 + 5w) &lt; 4/5. That is, at the location r_{\max} of the maximum of F_r we have
+L263: \left[ \frac{2m(r)}{r} \right]_{r_{\max}} = \frac{2m(r_{\max})}{r_{\max}} &lt; \frac{4}{5}. \quad (3.83)
+L264: This is not the Buchdahl–Bondi bound, it is instead a bound on the compactness of the fluid sphere at the internal location r_{\max} where F_r is maximized.
+L265: Observe that (F_r)_{\max} is maximized when \chi = 0 and w = \infty, when (F_r)_{\max} \rightarrow 2. This violates the strong conjecture maximum force but not the weak maximum force conjecture. If we impose the DEC then w \leq 1, and (F_r)_{\max} is maximized when \chi = 0 and w = 1, when (F_r)_{\max} \rightarrow 1. This still violates the strong maximum force conjecture but not the weak maximum force conjecture. Consequently the weak conjecture for F_r generically holds for any prefect fluid sphere satisfying the TOV.
+L266: 3.6.2 Equatorial force
+L267: As we have by now come to expect, dealing with the equatorial force will be considerably trickier. In view of the non-negativity of the Misner–Sharp quasi-local mass we have:
+L268: F_{eq} = 2\pi \int_0^{R_s} \sqrt{g_{rr}} p r dr = 2\pi \int_0^{R_s} \frac{1}{\sqrt{1 - 2m(r)/r}} p r dr &gt; 2\pi \int_0^{R_s} p r dr. \quad (3.84)
+L269: To make the integral \int_0^{R_s} p r dr converge it is sufficient to demand p(r) = o(1/r^2). However, for stars on the verge of gravitational collapse it is known that p(r) \sim K/r^2, see for instance [34, 35]. More specifically, there is some core region r \in (0, r_{\text{core}})
+L270: designed to keep the central pressure finite but arbitrarily large, a large scaling region r \in (r_{\text{core}}, r_{\text{fringe}}) where p \sim K/r^2, and an outer fringe r \in (r_{\text{fringe}}, R_s) where one has p(r) \rightarrow p(R_s) = 0. Then we have the identity
+L271: \int_0^{R_s} p r \, dr = \int_0^{r_{\text{core}}} p r \, dr + \int_{r_{\text{core}}}^{r_{\text{fringe}}} p r \, dr + \int_{r_{\text{fringe}}}^{R_s} p r \, dr. \quad (3.85)
+L272: But under the assumed conditions this implies
+L273: \int_0^{R_s} p r \, dr = \mathcal{O}(1) + \left[ \int_{r_{\text{core}}}^{r_{\text{fringe}}} \frac{K}{r} \, dr + \mathcal{O}(1) \right] + \mathcal{O}(1). \quad (3.86)
+L274: Thence
+L275: \int_0^{R_s} p r \, dr = K \ln(r_{\text{fringe}}/r_{\text{core}}) + \mathcal{O}(1). \quad (3.87)
+L276: Finally
+L277: F_{eq} &gt; 2\pi K \ln(r_{\text{fringe}}/r_{\text{core}}) + \mathcal{O}(1). \quad (3.88)
+L278: This can be made arbitrarily large for a star on the verge of gravitational collapse, so the weak and strong maximum force conjectures are both violated.
+L279: Note that technical aspects of the argument are very similar to what we saw for the exact scaling solution to the Einstein equations, but the physical context is now much more general.
+L280: 3.6.3 Summary
+L281: We see that the weak maximum force conjecture generically holds for the radial force F_r when considering perfect fluid spheres satisfying the TOV. In contrast we see that the weak maximum force conjecture fails for the equatorial force F_{eq} when considering perfect fluid spheres satisfying the TOV that are close to gravitational collapse.
+L282: 4 Discussion
+L283: With the notion a natural unit of force F_* = F_{\text{Planck}} = c^4/G_N in hand, one can similarly define a natural unit of power [36–40]
+L284: P_* = P_{\text{Planck}} = \frac{c^5}{G_N} = 1 \text{ Dyson} \approx 3.6 \times 10^{52} \text{ W}, \quad (4.1)
+L285: a natural unit of mass-loss-rate
+L286: (\dot{m})_* = (\dot{m})_{\text{Planck}} = \frac{c^3}{G_N} \approx 4.0 \times 10^{35} \text{ kg/s}, \quad (4.2)
+L287: and even a natural unit of mass-per-unit-length
+L288: (m')_* = (m')_{\text{Planck}} = \frac{c^2}{G_N} \approx 1.36 \times 10^{27} \text{ kg/m}. \quad (4.3)
+L289: Despite being Planck units, all these concepts are purely classical (the various factors of \hbar cancel, at least in (3+1) dimensions).
+L290: Indeed, consider the classical Stoney units which pre-date Planck units by some 20 years [41–43], and use G_N, c, and Coulomb’s constant \frac{e^2}{4\pi\epsilon_0}, instead of G_N, c, and Planck’s constant \hbar. Then we have F_* = F_{\text{Planck}} = F_{\text{Stoney}}. Similarly we have P_* = P_{\text{Planck}} = P_{\text{Stoney}}, (\dot{m})_* = (\dot{m})_{\text{Planck}} = (\dot{m})_{\text{Stoney}}, and (m')_* = (m')_{\text{Planck}} = (m')_{\text{Stoney}}. Based ultimately on dimensional analysis, any one of these quantities might be used to advocate for a maximality conjecture: maximum luminosity [36–40], maximum mass-loss-rate, or maximum mass-per-unit-length. The specific counter-examples to the maximum force conjecture that we have discussed above suggest that it might also be worth looking for specific counter-examples to these other conjectures [39].
+L291: 5 Conclusions
+L292: Through the analysis of radial and equatorial forces within perfect fluid spheres in general relativity, we have produced a number of counter-examples to both the strong and weak forms of the maximum force conjecture. These counter-examples highlight significant issues with the current phrasing and understanding of this conjecture, as merely specifying that forces are bounded within the framework of general relativity is manifestly a falsehood. As such, should one wish some version of the maximum force conjecture to be considered viable as a potential physical principle, it must be very clearly specified as to what types of forces they pertain to.
+L293: Acknowledgments
+L294: MV was supported by the Marsden Fund, via a grant administered by the Royal Society of New Zealand.
+L295: References
+L296: [1] G. W. Gibbons, “The Maximum Tension Principle in General Relativity”, Foundations of Physics 32 (2002), 1891doi: 10.1023/A:1022370717626. [arXiv:hep-th/0210109 [hep-th]].[2] C. Schiller, “Motion Mountain — A Hike Beyond Space and Time Along the Concepts of Modern Physics” (http://www.motionmountain.net, 1997-2004),section 7: Maximum force — a simple principle encompassing general relativity.[3] J. D. Barrow and G. W. Gibbons,“Maximum Tension: with and without a cosmological constant”,Mon. Not. Roy. Astron. Soc. 446 (2015) no.4, 3874–3877doi: 10.1093/mnras/stu2378 [arXiv:1408.1820 [gr-qc]].[4] J. D. Barrow and N. Dadhich, “Maximum Force in Modified Gravity Theories”,Phys. Rev. D 102 (2020) no.6, 064018 doi: 10.1103/PhysRevD.102.064018[arXiv:2006.07338 [gr-qc]].[5] Y.C. Ong,“GUP-Corrected Black Hole Thermodynamics and the Maximum Force Conjecture”,Physics Letters B 785 (2018), 217doi: 10.1016/j.physletb.2018.08.065 [arXiv:1809.00442 [gr-qc]].[6] C. Schiller, “General Relativity and Cosmology Derived From Principle of Maximum Power or Force”, Int J Theor Phys 44 (2005), 1629 doi: 10.1007/s10773-005-4835-2[arXiv:physics/0607090 [physics.gen-ph]].[7] T. Jacobson, “Thermodynamics of space-time: The Einstein equation of state”,Phys. Rev. Lett. 75 (1995), 1260-1263 doi: 10.1103/PhysRevLett.75.1260[arXiv:gr-qc/9504004 [gr-qc]].[8] M. P. Dabrowski and H. Gohar, “Abolishing the maximum tension principle”,Phys. Lett. B 748 (2015), 428-431 doi: 10.1016/j.physletb.2015.07.047[arXiv:1504.01547 [gr-qc]].[9] Y. L. Bolotin and V. A. Cherkaskiy, “Principle of maximum force and holographic principle: two principles or one?”, [arXiv:1507.02839 [gr-qc]].[10] M. S. R. Delgaty and K. Lake, “Physical acceptability of isolated, static, spherically symmetric, perfect fluid solutions of Einstein’s equations”, Comput. Phys. Commun. 115 (1998) 395 doi: 10.1016/S0010-4655(98)00130-1 [arXiv:gr-qc/9809013 [gr-qc]][11] S. Rahman and M. Visser, “Space-time geometry of static fluid spheres”,Class. Quant. Grav. 19 (2002), 935-952 doi: 10.1088/0264-9381/19/5/307[arXiv:gr-qc/0103065 [gr-qc]].
+L297: [12] D. Martin and M. Visser, “Algorithmic construction of static perfect fluid spheres”, Phys. Rev. D 69 (2004), 104028 doi: 10.1103/PhysRevD.69.104028 [arXiv:gr-qc/0306109 [gr-qc]]. [13] D. Martin and M. Visser, “Bounds on the interior geometry and pressure profile of static fluid spheres”, Class. Quant. Grav. 20 (2003), 3699-3716 doi: 10.1088/0264-9381/20/16/311 [arXiv:gr-qc/0306038 [gr-qc]]. [14] P. Boonserm, M. Visser and S. Weinfurtner, “Generating perfect fluid spheres in general relativity”, Phys. Rev. D 71 (2005), 124037 doi: 10.1103/PhysRevD.71.124037 [arXiv:gr-qc/0503007 [gr-qc]]. [15] P. Boonserm, M. Visser and S. Weinfurtner, “Solution generating theorems for perfect fluid spheres”, J. Phys. Conf. Ser. 68 (2007), 012055 doi: 10.1088/1742-6596/68/1/012055 [arXiv:gr-qc/0609088 [gr-qc]]. [16] P. Boonserm, M. Visser and S. Weinfurtner, “Solution generating theorems: Perfect fluid spheres and the TOV equation”, doi: 10.1142/9789812834300_0388 [arXiv:gr-qc/0609099 [gr-qc]]. [17] P. Boonserm and M. Visser, “Buchdahl-like transformations in general relativity”, Thai Journal of Mathematics 5 # 2 (2007) 209–223. [18] P. Boonserm and M. Visser, “Buchdahl-like transformations for perfect fluid spheres”, Int. J. Mod. Phys. D 17 (2008), 135-163 doi: 10.1142/S0218271808011912 [arXiv:0707.0146 [gr-qc]]. [19] See https://en.wikipedia.org/wiki/Energy_condition. [20] M. Visser, “Lorentzian wormholes: From Einstein to Hawking”, (AIP press — now Springer Verlag, Woodbury, USA, 1995). [21] C. Barceló and M. Visser, “Twilight for the energy conditions?”, Int. J. Mod. Phys. D 11 (2002), 1553-1560 doi: 10.1142/S0218271802002888 [arXiv:gr-qc/0205066 [gr-qc]]. [22] M. Visser, “Energy conditions in the epoch of galaxy formation”, Science 276 (1997), 88-90 doi: 10.1126/science.276.5309.88 [arXiv:1501.01619 [gr-qc]]. [23] M. Visser, “Gravitational vacuum polarization. 2: Energy conditions in the Boulware vacuum”, Phys. Rev. D 54 (1996), 5116-5122 doi: 10.1103/PhysRevD.54.5116 [arXiv:gr-qc/9604008 [gr-qc]].
+L298: [24] C. Cattöen and M. Visser, “Cosmological milestones and energy conditions”, J. Phys. Conf. Ser. 68 (2007), 012011 doi:10.1088/1742-6596/68/1/012011 [arXiv:gr-qc/0609064 [gr-qc]]. [25] P. Martín-Moruno and M. Visser, “Classical and semi-classical energy conditions”, Fundam. Theor. Phys. 189 (2017) 193–213, (formerly Lecture Notes in Physics), doi:10.1007/978-3-319-55182-1_9 [arXiv:1702.05915 [gr-qc]]. [26] P. Martín-Moruno and M. Visser, “Semiclassical energy conditions for quantum vacuum states”, JHEP 09 (2013), 050 doi:10.1007/JHEP09(2013)050 [arXiv:1306.2076 [gr-qc]]. [27] P. Martín-Moruno and M. Visser, “Classical and quantum flux energy conditions for quantum vacuum states”, Phys. Rev. D 88 (2013) no.6, 061701 doi:10.1103/PhysRevD.88.061701 [arXiv:1305.1993 [gr-qc]]. [28] P. Martín-Moruno and M. Visser, “Semi-classical and nonlinear energy conditions”, Proceedings of the 14th Marcel Grossmann Meeting, Rome, 12–18 July 2015. doi:10.1142/9789813226609_0126 [arXiv:1510.00158 [gr-qc]]. [29] K. Schwarzschild, “Über das Gravitationsfeld einer Kugel aus inkompressibler Flüssigkeit nach der Einsteinschen Theorie”, (On the gravitational field of a sphere of incompressible fluid according to Einstein’s theory), Sitzungsberichte der Königlich-Preussischen Akademie der Wissenschaften, Berlin, 7(1916) 424–434. [30] K. Schwarzschild, “Über das Gravitationsfeld eines Massenpunktes nach der Einsteinschen Theorie”, (On the gravitational field of a mass point according to Einstein’s theory), Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften, Berlin, 7 (1916) 189–196. [31] H. A. Buchdahl, “General Relativistic Fluid Spheres”, Phys. Rev. 116 (1959), 1027 doi: 10.1103/PhysRev.116.1027 [32] H. Bondi, “Massive spheres in general relativity”, Proc. Roy. Soc. Lond. A 282 (1964) 303-317 doi: 10.1098/rspa.1964.0234 [33] H. A. Buchdahl and W. Land, “The relativistic incompressible sphere”, Journal of the Australian Mathematical Society, 8(1) (1968),6 doi: 10.1017/S1446788700004559. [34] B. Kent Harrison, Kip S. Thorne, Masami Wakano, and John Archibald Wheeler, Gravitation theory and gravitational collapse, (University of Chicago Press, Chicago, 1965)
+L299: [35] M. Visser and N. Yunes, “Power laws, scale invariance, and generalized Frobenius series: Applications to Newtonian and TOV stars near criticality”, Int. J. Mod. Phys. A 18 (2003), 3433-3468 doi:10.1142/S0217751X03013892 [arXiv:gr-qc/0211001 [gr-qc]].[36] Freeman Dyson, “Gravitational machines”, Chapter 12 in Interstellar Communication, A. G. W. Cameron, editor, New York: Benjamin Press, 1963. https://www.ifa.hawaii.edu/~barnes/ast242_s14/Dyson_Machines.pdf Also awarded 4th prize in the 1962 Gravity Research Foundation essay contest: https://www.gravityresearchfoundation.org/year https://static1.squarespace.com/static/5852e579be659442a01f27b8/t/5873d777e4fcb5de501305f7/1483986808648/dyson.pdf[37] J. D. Barrow and G. W. Gibbons, “Maximum magnetic moment to angular momentum conjecture”, Phys. Rev. D 95 (2017) no.6, 064040 doi:10.1103/PhysRevD.95.064040 [arXiv:1701.06343 [gr-qc]].[38] Footnote 5 in reference [37]: In reply to an enquiry by Christoph Schiller, Dyson replied on 14th Feb 2011: “It is not true that I proposed the formula c^5/G as a luminosity limit for anything. I make no such claim. Perhaps this notion arose from a paper that I wrote in 1962 with the title, “Gravitational Machines”, published as Chapter 12 in the book, “Interstellar Communication” edited by Alastair Cameron, [New York, Benjamin, 1963]. Equation (11) in that paper is the well-known formula 128V^{10}/5Gc^5 for the power in gravitational waves emitted by a binary star with two equal masses moving in a circular orbit with velocity V. As V approaches its upper limit c, this gravitational power approaches the upper limit 128c^5/5G. The remarkable thing about this upper limit is that it is independent of the masses of the stars. It may be of some relevance to the theory of gamma-ray bursts.”[39] V. Cardoso, T. Ikeda, C. J. Moore and C. M. Yoo, “Remarks on the maximum luminosity”, Phys. Rev. D 97 (2018) no.8, 084013 doi: 10.1103/PhysRevD.97.084013 [arXiv:1803.03271 [gr-qc]].[40] J. P. Bruneton, “Notes on several phenomenological laws of quantum gravity”, [arXiv:1308.4044 [gr-qc]].[41] See https://en.wikipedia.org/wiki/Stoney_units[42] G. Johnstone Stoney, “On The Physical Units of Nature”, Phil.Mag. 11 (1881) 381–391.[43] G. Johnstone Stoney, “On The Physical Units of Nature”, Scientific Proceedings of the Royal Dublin Society, 3 (1883) 51–60.
+L300: Figure 1: Radial force F_r(\chi, y) for the interior Schwarzschild solution. Note F_r(\chi, y) is bounded above by 2 in the region of interest y \in [0, 1], \chi \in [0, 8/9].
+L301: Figure 2: \frac{p}{\rho} in first range
+L302: Figure 2: \frac{p}{\rho} in first range
+L303: Figure 4: Radial force F_r(\chi, y) for the interior Schwarzschild solution in region 1 (0 \leq \chi \leq \frac{3}{4}, 0 \leq y \leq 1) where the DEC is satisfied.
+L304: Figure 4: Radial force F_r(\chi, y) for the interior Schwarzschild solution in region 1 (0 \leq \chi \leq \frac{3}{4}, 0 \leq y \leq 1) where the DEC is satisfied.
+L305: Figure 6: F_r(a, y) for the Tolman IV solution.

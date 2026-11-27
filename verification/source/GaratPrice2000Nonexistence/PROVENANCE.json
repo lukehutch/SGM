@@ -1,0 +1,82 @@
+{
+  "identifier": "gr-qc/0002013",
+  "cite_key": "GaratPrice2000Nonexistence",
+  "identifiers": {
+    "doi": "10.1103/PhysRevD.61.124011",
+    "arxiv": "gr-qc/0002013",
+    "title": "Nonexistence of conformally flat slices of the Kerr spacetime",
+    "author": "Garat"
+  },
+  "indexes_answered": [
+    "Crossref",
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/gr-qc/0002013",
+    "DataCite": "https://doi.org/10.48550/arXiv.gr-qc/0002013",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=gr-qc%2F0002013",
+    "Crossref": "https://doi.org/10.1103/PhysRevD.61.124011",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Nonexistence+of+conformally+flat+slices+of+the+Kerr+spacetime&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.gr-qc/0002013",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/gr-qc/0002013",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    },
+    {
+      "source": "OpenAlex",
+      "format": "pdf",
+      "url": "https://arxiv.org/pdf/gr-qc/0002013",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false,
+      "also": [
+        "arXiv"
+      ]
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/gr-qc/0002013",
+      "ok": true,
+      "path": "GaratPrice2000Nonexistence-arxiv-src.tar.gz",
+      "bytes": 7389,
+      "sha256": "6b445abda52ec7ba11270b82280b351f284b5ba42cf3d9fc9b9f79f7b4e64e51",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/gr-qc/0002013",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 20516,
+      "sha256": null,
+      "note": "1 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_gr-qc0002013/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 18836,
+      "sha256": "ed67ff43e9b549ac8e6d57e856e1f58fb236d9f0700187642ae1545c24bbfaed",
+      "note": "74 lines of 74, citable as content.lines#L<n>"
+    }
+  ]
+}

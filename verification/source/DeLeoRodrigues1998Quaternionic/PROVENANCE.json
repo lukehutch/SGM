@@ -1,0 +1,80 @@
+{
+  "identifier": "arXiv:hep-th/9806057",
+  "cite_key": "DeLeo:1998yi",
+  "identifiers": {
+    "doi": "10.48550/arXiv.hep-th/9806057",
+    "arxiv": "hep-th/9806057",
+    "title": "Quaternionic Electron Theory: Dirac's Equation",
+    "author": "Leo"
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/hep-th/9806057",
+    "DataCite": "https://doi.org/10.48550/arXiv.hep-th/9806057",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=hep-th%2F9806057",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Quaternionic+Electron+Theory%3A+Dirac%27s+Equation&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.hep-th/9806057",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/hep-th/9806057",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/hep-th/9806057",
+      "ok": true,
+      "path": "DeLeo:1998yi-arxiv-src.tar.gz",
+      "bytes": 13717,
+      "sha256": "f24f2b6385400ebd0bd507caedd5a95604922252cc7319e276ed978e667c04c5",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/hep-th/9806057",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 49636,
+      "sha256": null,
+      "note": "1 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_hep-th9806057/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 40667,
+      "sha256": "e14308829cae854d9e298e09c2966c64e16f6358583fb5420b47e65ae5788cf4",
+      "note": "280 lines of 280, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/hep-th/9806057",
+      "ok": true,
+      "path": "DeLeo:1998yi.pdf",
+      "bytes": 167743,
+      "sha256": "7da743a94ea965be6bd5d554323c1765df9110343b69dfcdbbec0613e9fb9679",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

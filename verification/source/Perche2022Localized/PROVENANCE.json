@@ -1,0 +1,72 @@
+{
+  "identifier": "arXiv:2206.01225",
+  "cite_key": "Perche:2022dzy",
+  "identifiers": {
+    "doi": "10.48550/arXiv.2206.01225",
+    "arxiv": "2206.01225",
+    "title": "Localized nonrelativistic quantum systems in curved spacetimes: A general characterization of particle detector models"
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/2206.01225",
+    "DataCite": "https://doi.org/10.48550/arXiv.2206.01225",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=2206.01225",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Localized+nonrelativistic+quantum+systems+in+curved+spacetimes%3A+A+general+characterization+of+particle+detector+models&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/2206.01225",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/2206.01225",
+      "ok": true,
+      "path": "Perche:2022dzy-arxiv-src.tar.gz",
+      "bytes": 640720,
+      "sha256": "e9641e6ff96fe23453ad06e5045922786911817ba7ab3b7ee280712131a62281",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/2206.01225",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 856770,
+      "sha256": null,
+      "note": "6 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_2206.01225/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 111391,
+      "sha256": "95439a1252b77e1807a76fba5e2a516e4df84d83f423af4a47b6338a871b062c",
+      "note": "328 lines of 328, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/2206.01225",
+      "ok": true,
+      "path": "Perche:2022dzy.pdf",
+      "bytes": 1158998,
+      "sha256": "370f8d5088564dd1b28f712b8dd2cf068de3c89a2f58cae12b8d97b321125d66",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

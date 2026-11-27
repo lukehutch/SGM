@@ -1,0 +1,216 @@
+\documentclass[aps,prl,reprint,superscriptaddress,nofootinbib,floatfix]{revtex4-2}
+\usepackage{amsmath,amssymb,amsthm}
+% revtex4-2 redefines \label, so nameref warns while loading and puts the
+% kernel \label back, which is what hyperref needs. Mute nameref's warnings
+% during the load only.
+\makeatletter
+\let\SGM@PackageWarning\PackageWarning
+\def\SGM@nameref{nameref}
+\def\PackageWarning#1#2{\def\SGM@pkg{#1}%
+  \ifx\SGM@pkg\SGM@nameref\else\SGM@PackageWarning{#1}{#2}\fi}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue,citecolor=blue,bookmarks,psdextra]{hyperref}
+\let\PackageWarning\SGM@PackageWarning
+\makeatother
+
+\hyphenation{Zeit-schrift}\setlength{\emergencystretch}{1.5em}\tolerance=1000\def\bibpreamble{\raggedright}
+
+\newtheoremstyle{prlthm}%
+  {3pt}{3pt}{\itshape}{0pt}{\bfseries}{.}{0.5em}{}
+\theoremstyle{prlthm}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+
+\newcommand{\prlsec}[1]{\par\smallskip\noindent\emph{#1.}---}
+
+\makeatletter
+\def\frontmatter@title@format{\Large\bfseries\centering\linespread{1.12}\selectfont\parskip\z@skip}
+\makeatother
+
+\begin{document}
+
+\title{Deriving Force Laws from a Quaternionic Reformulation of the Dirac Equation}
+\newif\ifanonymous \anonymousfalse % \anonymoustrue restores double-anonymous review
+\newcommand{\companionauthor}{\ifanonymous Anonymous\else L.~Hutchison\fi}
+\ifanonymous\else\author{Luke Hutchison}
+\email{luke.hutch@alum.mit.edu}\noaffiliation\fi
+\date{\today}
+
+\begin{abstract}
+We derive the frequency operator $\hat{\omega}=\hat{H}/\hbar$ feeding $\mathbf{F}=-\hbar\nabla\omega|_{\mathbf{p}}$ for a spin-$\tfrac{1}{2}$ particle in electromagnetic, scalar, and curved gravitational fields. Writing chiral spinors as real quaternions gives one second-order wave equation and compresses Maxwell's equations into one biquaternion law. Exact Riccati decoupling for bounded and unbounded spatial Dirac operators yields rest time dilation $\hbar\omega=V+mc^2\alpha$, a pole-free $c^{-2}$ force catalog, four one-to-one $O(\hbar^2)$ Bohr--Sommerfeld theorems, Hurwitz uniqueness of $\mathbb{H}$, and Stone unitary unification.
+\end{abstract}
+
+\maketitle
+
+\prlsec{Introduction}
+The companion paper derives forces from the force--frequency identity $\mathbf{F}=-\hbar\nabla\omega|_{\mathbf{p}}$, $\dot{\mathbf{x}}=\hbar\nabla_{\mathbf{p}}\omega$~\citep{HutchisonSGM2026}, once a particle's frequency $\omega(\mathbf{x},\mathbf{p})$ is given. For a spin-$\tfrac{1}{2}$ particle, $\omega$ originates in the minimally coupled Dirac equation~\citep{Dirac1928Quantum}. Building on Foldy--Wouthuysen~\citep{Foldy1950Dirac,Eriksen1958Foldy,HehlNi1990Inertial,ObukhovSilenkoTeryaev2011Dirac}, Riccati~\citep{Heully1986Diagonalisation}, quaternionic~\citep{Lanczos1929Tensoranalytischen,FeynmanGellMann1958Theory,Hestenes1967Real}, and semiclassical~\citep{BolteKeppeler1999Semiclassical,Keppeler2003Semiclassical,BeckerFujiieWittsten2025Bohr} methods, we work in SI units with signature $(-,+,+,+)$ and establish: (i) a second-order quaternionic Dirac wave equation and one-equation biquaternion Maxwell; (ii) exact Riccati decoupling for bounded and unbounded spatial Dirac operators $\mathsf{P}$; (iii) the master frequency operator and direct Dirac derivation of rest time dilation $\hbar\omega=V+mc^2\alpha$; (iv) a convergent, pole-free $c^{-2}$ force catalog whose single dressed product yields Darwin, Thomas ($\tfrac{1}{2}$), geodetic ($\gamma_\text{PPN}+\tfrac{1}{2}$), and scalar spin--orbit couplings; (v) all-speeds WKB precession and four \emph{one-to-one} $O(\hbar^2)$ relativistic Bohr--Sommerfeld theorems (including crossed fields and exact uniform/$\tanh$ spectra); and (vi) Hurwitz uniqueness of $\mathbb{H}$ over $\mathbb{O}$, Stone unitary unification of curved Dirac and optical-gravity Maxwell, general-slice proper acceleration, and the horizon Zitterbewegung/Tolman--Unruh floor.
+
+\prlsec{Quaternionic wave equation and Maxwell}
+Let $e_1,e_2,e_3$ obey $e_je_k=-\delta_{jk}+\epsilon_{jkl}e_l$. Identifying a Pauli spinor $(\psi_1,\psi_2)^T$ with a real quaternion $\psi=\operatorname{Re}\psi_1-(\operatorname{Im}\psi_1)e_3+\allowbreak e_2(\operatorname{Re}\psi_2-(\operatorname{Im}\psi_2)e_3)$ maps $i\psi\mapsto-\psi e_3$, $\sigma_k\psi\mapsto-e_k\psi e_3$ (so $-i\sigma_k\psi\mapsto e_k\psi$), spin density to $\psi e_3\bar{\psi}$, spatial $SU(2)$ rotations to left multiplication $\exp(\tfrac{1}{2}\vartheta\hat{\mathbf{m}}\cdot\mathbf{e})\psi$, $U(1)$ phases to right multiplication $\psi\exp(e_3\phi)$ (commuting pointwise by associativity), and charge conjugation to $\psi e_2$. Minimal coupling to $(V,\mathbf{A})$ (with $V$ containing $q\Phi$) defines $D_t\psi\equiv\partial_t\psi-(V/\hbar)\psi e_3$ and $D_k\psi\equiv\partial_k\psi+(q/\hbar)A_k\psi e_3$, giving $\boldsymbol{\sigma}\cdot\hat{\boldsymbol{\pi}}\psi=\hbar\,\mathbf{e}\cdot\mathbf{D}\psi$.
+
+On stationary conformally flat slices
+\begin{equation}
+  ds^2=-\alpha_n^2c^2\,dt^2+W^2(d\mathbf{x}+\mathbf{A}_g\,dt)^2,
+  \label{eq:conformal_metric}
+\end{equation}
+with lapse $\alpha_n>0$, scale factor $W>0$, shift $\mathbf{A}_g$, clock factor $\alpha\equiv\sqrt{\alpha_n^2-W^2|\mathbf{A}_g|^2/c^2}$, and gravitomagnetic field $\mathbf{B}_g\equiv\nabla\times\mathbf{A}_g$, the Kosmann spinor Lie derivative couples rigid rotation identically to $\mathbf{L}+\mathbf{S}$ (zero anomalous gravitomagnetic moment~\citep{KobzarevOkun1963Gravitational}). On the rescaled spinor $\psi\equiv\alpha_n^{1/2}W^{3/2}\psi_o$, the slice-normal derivative is $D_n\psi=(c\alpha_n)^{-1}[D_t\psi-\mathbf{A}_g\cdot\mathbf{D}\psi+\tfrac{1}{4}(\mathbf{e}\cdot\mathbf{B}_g)\psi-\tfrac{1}{2}(\nabla\cdot\mathbf{A}_g)\psi+\tfrac{1}{2}(\mathbf{A}_g\cdot\nabla\ln\alpha_n)\psi]$. Setting $\kappa\equiv mc/\hbar$ ($m=m_0+V_\text{sc}/c^2$ with Lorentz-scalar potential $V_\text{sc}$), $\mathsf{N}\psi\equiv(D_n\psi)e_3$, $\mathsf{X}\psi\equiv\mathbf{e}\cdot\mathbf{D}\psi$, $\mathsf{X}_W\psi\equiv W^{-1/2}\mathsf{X}(W^{-1/2}\psi)$, and chiral quaternions $\varphi_R=\psi_R$, $\varphi_L=-\psi_L$ turns the curved Dirac equation~\citep{ObukhovSilenkoTeryaev2011Dirac} into the first-order pair $(\mathsf{N}+\mathsf{X}_W)\varphi_R=\kappa\varphi_L$, $(\mathsf{N}-\mathsf{X}_W)\varphi_L=\kappa\varphi_R$ (whose flat free limit is, up to basis equivalence, the unique translation-, rotation-, and $U(1)$-covariant pair factoring Klein--Gordon on $\mathbb{H}$, and which collapses at $q=0,V=0$ to the curved Majorana equation under $\varphi_L=\varphi_Re_1$). Eliminating $\varphi_L$ for $\psi\equiv\varphi_R$ at constant $m=m_0>0$ ($V_\text{sc}=0$; generally $(\mathsf{N}-\mathsf{X}_W)\kappa^{-1}(\mathsf{N}+\mathsf{X}_W)\psi=\kappa\psi$) yields the exact \emph{quaternionic wave equation}
+\begin{equation}
+  (\mathsf{N}-\mathsf{X}_W)(\mathsf{N}+\mathsf{X}_W)\,\psi=\kappa^2\,\psi,
+  \label{eq:pure_form}
+\end{equation}
+with conserved density $(|\varphi_R|^2+|\varphi_L|^2)/\alpha_n$. Expanding Eq.~\eqref{eq:pure_form} over the $4\times 4$ conjugate quaternion table $(\bar{e}_\mu e_\nu)$ via $(A-B)(A+B)=A^2-B^2+[A,B]$ sorts the diagonal into the Klein--Gordon operator $-D_n^2+\mathbf{D}^2$, the border $[\mathsf{N},D_k]$ into $\mathbf{E}$ and $-c^2\nabla\alpha_n$, and the interior $[D_j,D_k]$ into the Pauli magnetic coupling ($g_s=2$) and spatial-curvature spin coupling $\mathbf{e}\cdot(\nabla W^{-1}\times\mathbf{D})\psi$, with $\mathbf{B}_g$ entering all three sectors.
+
+The covariant Jacobi identity $[D_a,[D_b,D_c]]+\text{cyc.}=0$ immediately enforces $\nabla\cdot\mathbf{B}=0$ and $\nabla\times\mathbf{E}+\partial_t\mathbf{B}=\mathbf{0}$. Introducing commuting $\mathsf{i}^2=-1$ and Riemann--Silberstein biquaternion $\mathfrak{F}\equiv\mathbf{E}\cdot\mathbf{e}+\mathsf{i}c\mathbf{B}\cdot\mathbf{e}$, all four flat-space Maxwell equations compress into one biquaternion law~\citep{Silberstein1912Quaternionic,BialynickiBirula1996Photon}:
+\begin{equation}
+  \left(\mathbf{e}\cdot\nabla-\frac{\mathsf{i}}{c}\,\partial_t\right)\mathfrak{F}=-\frac{\rho_q}{\varepsilon_0}+\mathsf{i}\,\mu_0 c\,\mathbf{J}_q\cdot\mathbf{e},
+  \label{eq:maxwell_biquaternion}
+\end{equation}
+matching the massless Weyl operator $\mathsf{N}+\mathsf{X}$, whose conjugate yields the wave equation and $\partial_t\rho_q+\nabla\cdot\mathbf{J}_q=0$.
+
+\prlsec{Riccati decoupling and master equation}
+For stationary fields, set $\hat{\Pi}_g\equiv\alpha_n^{1/2}\tfrac{1}{2}\{\mathbf{A}_g,\hat{\boldsymbol{\pi}}\}\alpha_n^{-1/2}$, $\hat{V}\equiv V-\hat{\Pi}_g-\tfrac{1}{4}\hbar\boldsymbol{\sigma}\cdot\mathbf{B}_g$, lapse energy $\mathsf{G}\equiv m_0c^2(\alpha_n-1)$, $\mathsf{G}_\text{tot}\equiv\mathsf{G}+\alpha_n V_\text{sc}$ (so $\alpha_nmc^2=m_0c^2+\mathsf{G}_\text{tot}$), and $\mathsf{P}\equiv\alpha_n\hbar\mathsf{X}_W$. In the Dirac basis $u=(\varphi_R-\varphi_L)/\sqrt{2}$, $w=(\varphi_R+\varphi_L)/\sqrt{2}$, the chiral pair reads $\hbar\omega\binom{u}{w}=\mathsf{H}\binom{u}{w}$ with
+\begin{equation}
+  \mathsf{H}=\begin{pmatrix}\hat{V}+\alpha_n mc^2 & c\,\mathsf{P}\\ c\,\mathsf{P} & \hat{V}-\alpha_n mc^2\end{pmatrix},
+  \label{eq:block_equation}
+\end{equation}
+symmetric in the weighted space $\mathcal{H}$ ($\langle\phi,\chi\rangle=\int\phi^\dagger\chi\,\alpha_n^{-1}d^3x$). Writing the positive-frequency subspace as $w=\mathsf{R}u$ yields the operator Riccati equation
+\begin{equation}
+  2m_0c^2\mathsf{R}=c\,\mathsf{P}-\{\mathsf{G}_\text{tot},\mathsf{R}\}-[\mathsf{R},\hat{V}]-c\,\mathsf{R}\mathsf{P}\mathsf{R}.
+  \label{eq:riccati}
+\end{equation}
+With $\mathsf{W}\equiv 1+\mathsf{R}^\dagger\mathsf{R}$, $\mathsf{S}\equiv\mathsf{W}^{-1/2}$, $\mathsf{T}\equiv(1+\mathsf{R}\mathsf{R}^\dagger)^{-1/2}$, and $\chi\equiv\mathsf{W}^{1/2}u$, the unitary Eriksen map $\mathsf{U}=(\begin{smallmatrix}\mathsf{S}&\mathsf{R}^\dagger\mathsf{T}\\-\mathsf{R}\mathsf{S}&\mathsf{T}\end{smallmatrix})$ block-diagonalizes $\mathsf{H}$ into $\operatorname{diag}(\hat{h},\hat{h}_-)$, where
+\begin{equation}
+  \hat{h}=\mathsf{W}^{1/2}(\hat{V}+\alpha_n mc^2+c\,\mathsf{P}\mathsf{R})\mathsf{W}^{-1/2}.
+  \label{eq:frequency_hamiltonian}
+\end{equation}
+
+\begin{proposition}[Bounded and unbounded-$\mathsf{P}$ decoupling]\label{prop:decoupling}
+(a) \emph{Bounded contraction:} If $\mathsf{P},\mathsf{G}_{\mathrm{tot}},\hat{V}$ are bounded with $\epsilon\equiv(c\|\mathsf{P}\|+\|\mathsf{G}_{\mathrm{tot}}\|+\|\hat{V}-V_0\|)/(m_0c^2)<1$ for some $V_0\in\mathbb{R}$, Eq.~\eqref{eq:riccati} has a unique solution with $\|\mathsf{R}\|\le\epsilon<1$.
+(b) \emph{Unbounded-$\mathsf{P}$ Lyapunov coercivity:} Without any norm bound on $\mathsf{P}$ or cap $\alpha_n<2$, let $\mathsf{P}$ be unbounded self-adjoint on $\operatorname{dom}(\mathsf{P})\subset\mathcal{H}$, $\alpha_n m,\hat{V}$ bounded self-adjoint with $\alpha_n m\ge m_{\min}>0$, and $\delta\equiv m_{\min}c^2-\|\hat{V}-V_0\|>0$. Then $\mathsf{H}-V_0$ is self-adjoint on $\operatorname{dom}(\mathsf{P})^{\oplus 2}$, its spectrum misses $(-\delta,\delta)$, and its upper spectral subspace $\mathcal{H}_+=\operatorname{ran}\mathbf{1}_{[\delta,\infty)}(\mathsf{H}-V_0)$ is the graph of a unique bounded $\mathsf{R}$ with $\|\mathsf{R}u\|<\|u\|$ ($u\neq 0$), solving Eq.~\eqref{eq:riccati} on $P_1(\mathcal{H}_+\cap\operatorname{dom}(\mathsf{H}))$. Moreover, $\hat{h}$ is self-adjoint, and $\hbar\hat{\omega}\equiv\alpha_n^{-1/2}\hat{h}\alpha_n^{1/2}$ is self-adjoint in the unweighted inner product $(\cdot,\cdot)_0$ and generates a Stone unitary group $\exp(-i\hat{\omega}t)$~\citep{Stone1932}.
+\end{proposition}
+\emph{Proof sketch.}---Part (a) applies Banach contraction on $\|\mathsf{R}\|\le 1$. For (b), Kato--Rellich yields self-adjointness; with $\beta=\operatorname{diag}(1,-1)$ and $\Psi=(u,w)^T$, off-diagonal terms cancel in the real part, giving Lyapunov coercivity
+\begin{equation}
+  \operatorname{Re}\langle\beta\Psi,(\mathsf{H}-V_0)\Psi\rangle\ge\delta\|\Psi\|^2.
+  \label{eq:lyapunov}
+\end{equation}
+Cauchy--Schwarz puts $(-\delta,\delta)$ in the resolvent set; integrating $\frac{d}{dt}\langle\Psi(t),\beta\Psi(t)\rangle\le-2\delta\|\Psi(t)\|^2$ along $e^{-t(\mathsf{H}-V_0)}\Psi$ for $\Psi\in\mathcal{H}_+\setminus\{0\}$ gives $\|u\|>\|w\|$. Injectivity, closed range, and $(v,0)^T\perp\mathcal{H}_+\implies v=0$ make $P_1|_{\mathcal{H}_+}$ a Banach isomorphism defining $\mathsf{R}$, and unitary conjugation by $\mathsf{U}$ and $\alpha_n^{-1/2}$ yields Stone's group. \hfill$\square$
+
+Part~(b) covers arbitrary unbounded momenta and static magnetic/curvature fields (e.g., free-particle $\|\mathsf{R}\|=1$); only for unbounded $\hat{V}$ (such as unbounded $-\hat{\Pi}_g$) is a bounded graph assumed on the low-momentum subspace. Extracting the commuting root defines $\mathsf{C}$ and gives the \emph{master frequency equation}:
+\begin{equation}
+  \begin{aligned}
+  \hbar\omega\chi=\Big[&V+\alpha_n\sqrt{(mc^2)^2+c^2W^{-1}(\hat{\boldsymbol{\pi}}^2-q\hbar\boldsymbol{\sigma}\cdot\mathbf{B})W^{-1}}\\
+  &-\hat{\Pi}_g-\tfrac{1}{4}\hbar\boldsymbol{\sigma}\cdot\mathbf{B}_g+\mathsf{C}\Big]\chi.
+  \end{aligned}
+  \label{eq:master}
+\end{equation}
+Under unweighted Moyal conjugation $\alpha_n^{-1/2}\star(\operatorname{sym}\hat{h})\star\alpha_n^{1/2}=\operatorname{sym}\hat{h}+O(\hbar)$, the $\hbar^0$ symbol is $V+\alpha_n\sqrt{(mc^2)^2+c^2W^{-2}|\boldsymbol{\pi}|^2}-\mathbf{A}_g\cdot\boldsymbol{\pi}$; setting $\dot{\mathbf{x}}=\nabla_{\mathbf{p}}(\hbar\omega)=\mathbf{0}$ yields
+\begin{equation}
+  \hbar\omega=V+mc^2\alpha,
+  \label{eq:static_master}
+\end{equation}
+deriving gravitational rest-frequency time dilation directly from the Dirac equation.
+
+\prlsec{Pole-free $c^{-2}$ convergence and dressed force catalog}
+Setting $\mathsf{Q}\equiv c\mathsf{R}$ and replacing $1/(2m_0c^2)$ by complex $\lambda$ rewrites Eq.~\eqref{eq:riccati} as the pole-free fixed-point equation $\mathsf{Q}(\lambda)=\mathsf{P}/(2m_0)-\lambda(\{\mathsf{G}_\text{tot},\mathsf{Q}\}+[\mathsf{Q},\hat{V}]+\mathsf{Q}\mathsf{P}\mathsf{Q})$.
+\begin{proposition}[Pole-free $c^{-2}$ convergence]\label{prop:conv}
+If $\|\mathsf{G}_{\mathrm{tot}}\|+\|\hat{V}\|+\|\mathsf{P}\|^2/m_0<m_0c^2/4$, then on $|\lambda|\le\lambda_1\equiv[4(\|\mathsf{G}_{\mathrm{tot}}\|+\|\hat{V}\|+\|\mathsf{P}\|^2/m_0)]^{-1}$ the $\mathsf{Q}$-map is a $\tfrac{1}{2}$-contraction on $\|\mathsf{Q}\|\le\|\mathsf{P}\|/m_0$, Schwarz-reflected $\mathsf{W}(\lambda)\equiv 1+2m_0\lambda\mathsf{Q}(\bar{\lambda})^\dagger\mathsf{Q}(\lambda)$ obeys $\|\mathsf{W}(\lambda)-1\|\le\tfrac{1}{2}$, and $\hat{h}(\lambda)-m_0c^2$ is analytic, so the $c^{-2}$ series converges at $\lambda=1/(2m_0c^2)<\lambda_1/2$ with Cauchy error $O(c^{-2N-2})$ after order $c^{-2N}$.
+\end{proposition}
+
+With dressing potential $f\equiv\hat{V}+\mathsf{G}-V_\text{sc}$, $\tilde{\mathsf{X}}\equiv e^{-f/4m_0c^2}\mathsf{X}e^{f/4m_0c^2}$, and $\tilde{\mathsf{X}}_W\equiv W^{-1/2}\tilde{\mathsf{X}}W^{-1/2}$ (unweighted adjoint $\tilde{\mathsf{X}}_W^\dagger$), expanding Eq.~\eqref{eq:frequency_hamiltonian} through $O(c^{-2})$ yields eight additive frequency terms (taking $m=m_0$ in $O(c^{-2})$ terms):
+\begin{equation}
+  \begin{aligned}
+  \hat{h}={}&\underbrace{mc^2\alpha_n}_{\hbar\omega_\text{geom}}+\underbrace{V}_{\hbar\omega_\text{ext}}+\underbrace{\tfrac{1}{4}\alpha_n\{m^{-1},W^{-1}\hat{\boldsymbol{\pi}}^2W^{-1}\}}_{\hbar\omega_\text{kin}}\underbrace{-\hat{\Pi}_g}_{\hbar\omega_\text{gm}}\\
+  &\underbrace{-\frac{\alpha_nq\hbar\boldsymbol{\sigma}\cdot\mathbf{B}}{2mW^2}}_{\hbar\omega_\text{Pauli}}\underbrace{-\frac{\hbar\boldsymbol{\sigma}\cdot\mathbf{B}_g}{4}}_{\hbar\omega_\text{rot}}\underbrace{-\frac{\hbar^4\mathsf{X}^4}{8m_0^3c^2}}_{\hbar\omega_\text{rel}}\\
+  &+\underbrace{\frac{\hbar^2}{2m_0}(\tilde{\mathsf{X}}_W\tilde{\mathsf{X}}_W^\dagger-W^{-1}\mathsf{X}^2W^{-1})}_{\hbar\omega_\text{so}}\!+\!O(c^{-4}),
+  \end{aligned}
+  \label{eq:nr_expansion}
+\end{equation}
+cataloged in Table~\ref{tab:forces}. For $\mathbf{A}_g=\mathbf{0}$, writing $f_W\equiv V+\mathsf{G}-V_\text{sc}-2m_0c^2\ln W$ evaluates the single dressed product in one step (including spatially varying $V_\text{sc}$):
+\begin{equation}
+  \begin{aligned}
+  \frac{\hbar^2}{2m_0}\tilde{\mathsf{X}}_W\tilde{\mathsf{X}}_W^\dagger&=W^{-1}\!\Big[\frac{(\boldsymbol{\sigma}\cdot\hat{\boldsymbol{\pi}})^2}{2m_0}+\frac{\hbar^2}{8m_0^2c^2}\nabla^2f_W\\
+  &\quad+\frac{\mathbf{S}\cdot(\nabla f_W\times\hat{\boldsymbol{\pi}})}{2m_0^2c^2}+\frac{\hbar^2|\nabla f_W|^2}{32m_0^3c^4}\Big]W^{-1},
+  \end{aligned}
+  \label{eq:dressed_square}
+\end{equation}
+simultaneously yielding the Darwin term~\citep{Darwin1928Wave}, electric spin--orbit coupling with exact Thomas factor $\tfrac{1}{2}$~\citep{Thomas1926Motion}, PPN geodetic spin precession $\boldsymbol{\Omega}_\text{spin}=(\gamma_\text{PPN}+\tfrac{1}{2})(GM/c^2r^3)(\mathbf{x}\times\mathbf{v})$~\citep{deSitter1916Einstein,Everitt2011Gravity}, and Lorentz-scalar spin--orbit coupling of opposite sign~\citep{SerotWalecka1986Relativistic}.
+
+\begin{table*}[t]
+\centering
+\caption{Forces and spin precessions generated via $\mathbf{F}=-\hbar\nabla\omega|_{\mathbf{p}}$ by the eight additive frequency terms of Eq.~\eqref{eq:nr_expansion}.}
+\label{tab:forces}
+\begin{ruledtabular}
+\begin{tabular}{lll}
+\textbf{Terms} & \textbf{Eq.~\eqref{eq:master}} & \textbf{Force or spin effect} \\
+\hline
+$\omega_\text{geom},\ \omega_\text{ext}$ & root, $V$ & Newtonian/$1$PN gravity, inertia $-m_0\mathbf{a}$, Lorentz-scalar; Coulomb and trap forces \\
+$\omega_\text{kin},\ \omega_\text{gm}$ & root, $-\hat{\Pi}_g$ & Lorentz, diamagnetic, ponderomotive, $1$PN velocity gravity; Lense--Thirring, Coriolis, Euler \\
+$\omega_\text{Pauli},\ \omega_\text{rot}$ & root, $-\tfrac{1}{4}\hbar\boldsymbol{\sigma}\!\cdot\!\mathbf{B}_g$ & Stern--Gerlach and Larmor precession ($g_s=2$); spin--rotation, Barnett, Lense--Thirring spin \\
+$\omega_\text{rel},\ \omega_\text{so}$ & root, $\mathsf{C}$ & Mass--velocity, $O(v^2/c^2)$ spin; Darwin, Thomas ($\tfrac{1}{2}$), geodetic ($\gamma_\text{PPN}+\tfrac{1}{2}$), scalar spin--orbit \\
+\end{tabular}
+\end{ruledtabular}
+\end{table*}
+
+\prlsec{All-speeds WKB and four one-to-one level theorems}
+The $c^{-2}$ series fails once $2Nq\hbar B>m^2c^2$ (above $0.30$\,T in bismuth~\citep{Fuseya2015Transport}). On static slices ($\mathbf{A}_g=\mathbf{0}$, $V_\text{sc}=0$), substituting $\tilde{\psi}_R=a\,e^{iS/\hbar}$ into the static chiral equation yields a residual terminating identically at $O(\hbar^2)$:
+\begin{equation}
+  \begin{aligned}
+  &\Big(\mathcal{E}^2-(mc^2)^2-\frac{c^2\boldsymbol{\pi}^2}{W^2}\Big)a+\hbar^2c^2\mathfrak{D}^2a\\
+  &\quad+i\hbar\big[c^2(\mathfrak{B}_0\mathfrak{D}+\mathfrak{D}\mathfrak{B}_0)-cW^{-1}\boldsymbol{\sigma}\cdot\nabla\mathcal{E}\big]a=0,
+  \end{aligned}
+  \label{eq:wkb_residual}
+\end{equation}
+where $\mathcal{E}=(\hbar\omega-V)/\alpha_n$, $\boldsymbol{\pi}=\nabla S-q\mathbf{A}$, $\mathfrak{B}_0=W^{-1}\boldsymbol{\sigma}\cdot\boldsymbol{\pi}$, and $\mathfrak{D}\chi=W^{-1/2}\boldsymbol{\sigma}\cdot\nabla(W^{-1/2}\chi)$. Order $\hbar^0$ gives $H_0=V+\alpha_n R$ ($R=\sqrt{(mc^2)^2+c^2|\boldsymbol{\pi}|^2/W^2}$); order $\hbar^1$ gives the all-speeds BMT/geodetic spin precession~\citep{BolteKeppeler1999Semiclassical,SilenkoTeryaev2005Semiclassical}
+\begin{equation}
+  \boldsymbol{\Omega}_\text{spin}=\dot{\mathbf{x}}\times\nabla\ln\big[W(\mathcal{E}+mc^2)\big]-\frac{q\alpha_n c^2}{W^2\mathcal{E}}\,\mathbf{B}.
+  \label{eq:spin_rate_all}
+\end{equation}
+Global $O(\hbar)$ solutions with $0\neq\alpha_n^{-1/2}a,\alpha_n^{1/2}\mathfrak{D}^2a\in L^2$ obey $\operatorname{dist}(\hbar\omega,\operatorname{spec}\mathsf{H})\le(\hbar^2/m)\allowbreak\|\alpha_n^{1/2}\mathfrak{D}^2a\|_0/\|\alpha_n^{-1/2}a\|_0$.
+
+To upgrade Hausdorff bounds~\citep{BeckerFujiieWittsten2025Bohr} to \emph{one-to-one} level counts (every eigenvalue in a compact $J'\subset\operatorname{int}J$ lies within $C\hbar^2$ of a rule root $E_n^0$, and every $E_n^0\in J'$ has exactly one eigenvalue counted with multiplicity within $C\hbar^2$), let fields vary along $x$ alone with $\mathbf{B}=B(x)\hat{\mathbf{z}}$, $\varrho\equiv qA_y(x)-p_y$, $\hat{p}=-i\hbar d/dx$, $Q\equiv\hat{p}-i\varrho$, and fixed $p_y,s=\pm 1$. Set $\mathcal{P}_s\equiv\hat{p}^2+\varrho^2-sq\hbar B$ and (for $p_z=0$) $g\equiv[W(\mathcal{E}+mc^2)]^{-1}$, $Q_{+1}=Q$, $Q_{-1}=Q^\dagger$, $\mathsf{K}(E)\equiv c^2Q_s^\dagger gQ_s-W(\mathcal{E}-mc^2)$ with principal symbol $\mathsf{K}_0\equiv c^2g(\xi^2+\varrho^2)-W(\mathcal{E}-mc^2)$. With $\Theta_\text{spin}\equiv\oint\Omega_zdt$, the relativistic Bohr--Sommerfeld rule is~\citep{Keppeler2003Semiclassical}
+\begin{equation}
+  \oint_{H_0=E}\xi\,dx=2\pi\hbar\big(n+\tfrac{1}{2}\big)+\tfrac{1}{2}s\hbar\,\Theta_\text{spin}+O(\hbar^2),
+  \label{eq:bs_rule}
+\end{equation}
+splitting $\Theta_\text{spin}$ into Berry solid angle plus a Rammal--Wilkinson dynamical term ($\Theta_\text{spin}=-2\pi$ for constant $\alpha_n,V$).
+\begin{theorem}[Four one-to-one $O(\hbar^2)$ level theorems]\label{thm:all_four}
+Let $B\in C_b^\infty(\mathbb{R})$ (smooth and bounded with bounded derivatives), $qB>0$, $\varrho(x)\to\varrho_\pm$ ($\varrho_-<0<\varrho_+$, finite or infinite) as $x\to\pm\infty$, and fix $p_y,s$. Then for $0<\hbar<\hbar_0$ on compact interior intervals, the Dirac levels are simple within the block and form a \emph{one-to-one} $O(\hbar^2)$ spectral approximation of Eq.~\eqref{eq:bs_rule} in all four classes:
+(1) \emph{Magnetic} ($V$ constant, $\alpha_n=W=1$, arbitrary $p_z$): $\Lambda\equiv[(E-V)^2-(mc^2)^2]/c^2-p_z^2\in I\subset(0,\min\varrho_\pm^2)$ with $\Theta_{\mathrm{spin}}=-2\pi$, $\Lambda=0$ simple for $\mathcal{P}_{+1}$ only, and $\operatorname{spec}_+(\mathcal{P}_{+1})=\operatorname{spec}_+(\mathcal{P}_{-1})$.
+(2) \emph{Electric} ($V\in C_b^\infty(\mathbb{R})$, $m>0$, $p_z=0$): wherever $E-V+mc^2\ge E_{\mathrm{gap}}>0$, $\mathsf{K}_0=0$ is one simple closed curve with no critical point, and $0<\liminf_{|x|\to\infty}\mathsf{K}_0|_{\xi=0}$.
+(3) \emph{Crossed fields} ($V=\beta_{\mathrm{d}}cqA_y$, $0<\beta_{\mathrm{d}}<1$, $m>0$, $p_z=0$, $E_{\mathrm{d}}=E-\beta_{\mathrm{d}}cp_y>0$, $\gamma_{\mathrm{d}}=(1-\beta_{\mathrm{d}}^2)^{-1/2}$, $b_{\mathrm{d}}=p_y/\gamma_{\mathrm{d}}-\gamma_{\mathrm{d}}\beta_{\mathrm{d}}E_{\mathrm{d}}/c$, $\varrho_{\mathrm{d}}\equiv qA_y/\gamma_{\mathrm{d}}-b_{\mathrm{d}}$, $\Lambda_c(b_{\mathrm{d}})\equiv\min\varrho_{\mathrm{d}\pm}^2$ with $\varrho_{\mathrm{d}-}<0<\varrho_{\mathrm{d}+}$, $c^2\Lambda=(\gamma_{\mathrm{d}}E_{\mathrm{d}})^2-(mc^2)^2$): (a) $\Theta_{\mathrm{spin}}=-2\pi$ on admissible closed orbits ($\mathcal{E}\ge mc^2$); (b) on compact $J$ with $0<\Lambda<\Lambda_c(b_{\mathrm{d}})$, laboratory electronic levels at fixed $p_y$ are one-to-one $O(\hbar^2)$; (c) uniform $qB$ gives exact zero-remainder $E_{\mathrm{d}}^2=(1-\beta_{\mathrm{d}}^2)[(mc^2)^2+(2n+1-s)\hbar qBc^2\gamma_{\mathrm{d}}^{-1}]$; (d) $qA_y=\mathfrak{a}\tanh(x/L)$ ($\mathfrak{a},L>0$, $\mathfrak{a}_{\mathrm{d}}=\mathfrak{a}/\gamma_{\mathrm{d}}$, $\mathcal{N}_k=\mathfrak{a}_{\mathrm{d}}-k\hbar/L$, $N=n+\tfrac{1}{2}(1-s)$) gives exact zero-remainder levels
+\begin{equation}
+  (\gamma_{\mathrm{d}}E_{\mathrm{d}})^2=(mc^2)^2+c^2\Big(\mathfrak{a}_{\mathrm{d}}^2+b_{\mathrm{d}}^2-\mathcal{N}_N^2-\frac{\mathfrak{a}_{\mathrm{d}}^2b_{\mathrm{d}}^2}{\mathcal{N}_N^2}\Big)
+  \label{eq:crossed_tanh}
+\end{equation}
+for all $n\ge 0$ with $\mathcal{N}_N>\sqrt{\mathfrak{a}_{\mathrm{d}}|b_{\mathrm{d}}|}$.
+(4) \emph{Static gravity} ($\alpha_n,W\in C_b^\infty(\mathbb{R})$, $\inf\alpha_n,\inf W>0$, $m>0$, $p_z=0$): under the same gap ($E-V+\alpha_n mc^2\ge E_{\mathrm{gap}}>0$), simple-closed-curve, and infinity conditions (equally covering gapped strained graphene with $W=c/v_{\mathrm{F}}(x)$~\citep{deJuanSturlaVozmediano2012Space}).
+\end{theorem}
+\emph{Key proof mechanisms.}---Olver Airy asymptotics and Sturm/Pr\"ufer comparison establish strict $\Delta_\theta$ monotonicity in (1), (2), and (4); in (4), conjugating the unweighted block by $\nu^{\pm 1/2}=(\alpha_n/W)^{\pm 1/2}$ maps $\ker\mathsf{K}(E)$ bijectively onto $\ker(H_\text{unweighted}-E)$ and isolates $J$ from the essential spectrum. In (3b), pointwise monotonicity fails, so we apply the $2\times 2$ boost congruence $M_\eta(\mathcal{D}_s^\text{lab}-E)M_\eta=c\hat{p}\sigma_1-sc\varrho_\text{d}\sigma_2+mc^2\sigma_3-\gamma_\text{d}E_\text{d}\mathbf{1}$ ($M_\eta=e^{\frac{1}{2}s\eta\sigma_2}$, $\tanh\eta=\beta_\text{d}$) and Kato--Rellich ($\beta_\text{d}<1$) to reduce levels to zeros of $f_n(E_\text{d})=\Lambda_n(b_\text{d}(E_\text{d}))-\Lambda(E_\text{d})$. Hellmann--Feynman gives $f_n'(E_\text{d})=\frac{2\gamma_\text{d}}{c}(\beta_\text{d}\langle\varrho_\text{d}\rangle_n-\gamma_\text{d}E_\text{d}/c)$, which Cauchy--Schwarz forces strictly negative at any zero for $\hbar<\gamma_\text{d}m^2c^2/\sup(qB)$, so top-edge connectedness transfers integer labels bijectively. In (3d), shape invariance~\citep{CooperKhareSukhatme1995Supersymmetry} yields Eq.~\eqref{eq:crossed_tanh}; at the terminating index $j_*$ ($\mathcal{N}_{j_*}\le\sqrt{\mathfrak{a}_\text{d}|b_\text{d}|}$), either $\mathcal{N}_{j_*}>0$ (no Rosen--Morse~II bound state) or $\mathcal{N}_{j_*}\le 0$, where expanding $Q_{(j_*-1)}Q_{(j_*-1)}^\dagger$ directly without dividing by $\mathcal{N}_{j_*}$ puts the potential everywhere at or above its continuum threshold. \hfill$\square$
+
+Dropping $\mathsf{C}$ from Eq.~\eqref{eq:master} replaces $\Theta_\text{spin}$ by $\Theta_\text{spin}-\Theta_W$ ($\Theta_W=\oint\varrho\Upsilon'\xi^{-1}dx$, $\Upsilon=\ln[W(\mathcal{E}+mc^2)]$), shifting levels at $O(\hbar)$ by (with classical orbital period $T$)
+\begin{equation}
+  E_\text{root}-E_\text{full}=-s\hbar\,\frac{\Theta_W}{2T}+O(\hbar^2),
+  \label{eq:root_shift}
+\end{equation}
+proving $\mathsf{C}$ indispensable at first order in $\hbar$.
+
+\prlsec{Algebraic uniqueness, unitary unification, and horizons}
+Three structural bounds complete the formalism.
+
+\emph{Hurwitz uniqueness of $\mathbb{H}$ vs.\ $\mathbb{O}$.} In a finite-dimensional real normed division algebra $\mathbb{A}$ with $L_a(x)=ax$, $R_b(x)=xb$, sequential closure ($\forall a,b\,\exists c,\,L_a\circ L_b=L_c$) holds iff $\mathbb{A}$ is associative; requiring non-commutative spin selects $\mathbb{H}$ uniquely among $\{\mathbb{R},\mathbb{C},\mathbb{H},\mathbb{O}\}$. Over $\mathbb{H}$, $[L_a,R_b]=0$ while $[D_a,R_{fe_3}]\psi=(\partial_a f)\psi e_3$. Over the octonions $\mathbb{O}$ (Fano triples $(1,2,3)$, $(1,4,5)$, $(1,7,6)$, $(2,4,6)$, $(2,5,7)$, $(3,4,7)$, $(3,6,5)$), operator composition still obeys operator Jacobi, yet: (a) $\operatorname{End}_{\mathbb{O}_L}(\mathbb{O})=\mathbb{R}\mathbf{1}_8$, forbidding any commuting complex phase $J^2=-\mathbf{1}_8$; (b) element Jacobi fails ($[e_1,[e_2,e_4]]+\text{cyc.}=-12e_7$) and $[L_a,L_b]=L_{[a,b]}-2[L_a,R_b]$ obstructs single-element curvature; and (c) left Clifford relations force an elliptic 7D square $\mathcal{D}_7^2=-\Delta_7\mathbf{1}_8$.
+
+\emph{Stone unitary unification.} On static slices ($\mathbf{A}_g=\mathbf{0}$, $\partial_t n_\text{opt}=0$), Pleba\'nski's optical-gravity relations $\mathbf{D}_\text{el}=\varepsilon_0n_\text{opt}\mathbf{E}$, $\mathbf{B}=\mu_0n_\text{opt}\mathbf{H}_\text{mag}$ ($n_\text{opt}=W/\alpha_n$ uniformly positive and bounded) rewrite source-free curved Maxwell for $\tilde{\mathbf{F}}=\sqrt{\varepsilon_0n_\text{opt}/2}\,\mathbf{E}+i\sqrt{\mu_0n_\text{opt}/2}\,\mathbf{H}_\text{mag}$ as
+\begin{equation}
+  i\,\partial_t\tilde{\mathbf{F}}=\hat{H}_\text{Max}^{(n)}\tilde{\mathbf{F}},\qquad \hat{H}_\text{Max}^{(n)}\equiv M_\text{opt}C_0M_\text{opt},
+  \label{eq:optical_maxwell}
+\end{equation}
+($M_\text{opt}=n_\text{opt}^{-1/2}$, $C_0=c\nabla\times$), self-adjoint on transverse $\mathcal{H}_\text{Max}^{(n)}=\{\tilde{\mathbf{F}}\in L^2:\nabla\cdot(\sqrt{n_\text{opt}}\tilde{\mathbf{F}})=0\}$ and generating $\exp(-i\hat{H}_\text{Max}^{(n)}t)$---unifying curved Maxwell, decoupled Dirac (Proposition~\ref{prop:decoupling}), and Schr\"odinger evolution. By contrast, a two-sided real bimodule flow $\partial_t\psi=g_0e_3\psi e_3$ ($g_0>0$) has $(L_{e_3}R_{e_3})^2=+\mathbf{1}$, giving hyperbolic blow-up $\|\psi(t)\|^2=e^{2g_0t}\|\psi(0)\|^2$ on $\sigma_3=-1$ states.
+
+\emph{General slices, lapse scaling, and horizon floor.} On any static metric $ds^2=-\alpha_n^2c^2dt^2+h_{jk}dx^jdx^k$ with general (possibly non-diagonal) $h_{jk}$ and bounded $\alpha_n\in[\alpha_{\min},\alpha_{\max}]$: (i) proper wavefront speed is $c$ everywhere and unweighted/$\alpha_n^{-1}$-weighted norms are equivalent; (ii) $\mathbf{F}=-mc^2\nabla\alpha_n$ yields static-observer proper acceleration $a_\text{prop}=(\alpha_n m)^{-1}\sqrt{h^{jk}F_jF_k}=c^2\sqrt{h^{jk}(\partial_j\ln\alpha_n)(\partial_k\ln\alpha_n)}$, matching the $h_{jk}$-norm of $a^j=\Gamma^j_{00}(u^0)^2$ identically; (iii) uniform lapse $\alpha_0$ (with constant $\hat{V}$) scales only the coordinate gap to $2\alpha_0mc^2$, and $\epsilon<1$ in Proposition~\ref{prop:decoupling}(a) is sufficient not necessary (e.g., $\mathsf{P}=0,\hat{V}=0,\alpha_n=3$ has $\epsilon=2$ yet exact $\mathsf{R}=0$); and (iv) near a Killing horizon of surface gravity $\kappa_\text{hor}$, the coordinate Margolus--Levitin/Zitterbewegung time $\tau_\text{ML}^{(\text{coord})}=\pi\hbar/(2\alpha_n mc^2)$ diverges as $\alpha_n\to 0$, with single-particle decoupling valid above the Tolman--Unruh pair-creation floor $\alpha_\text{gap}=\hbar\kappa_\text{hor}/(4\pi mc^3)$ where $k_BT_\text{loc}=\hbar\kappa_\text{hor}/(2\pi c\alpha_n)=2mc^2$.
+
+\prlsec{Outlook and scope}
+Tests include breakdown of the $c^{-2}$ Landau series above $0.30$\,T in bismuth, quantum-spin geodetic precession, and the $O(\hbar)$ shift~\eqref{eq:root_shift} in gapped strained graphene. Scope boundaries are minimal coupling (no anomalous magnetic moment), stationary/adiabatic backgrounds with potential spread below $m_{\min}c^2$, one-dimensional gap/boundedness hypotheses in Theorem~\ref{thm:all_four} (excluding unbounded lapses or radial Schwarzschild profiles), Abelian/vectorial potentials (excluding confined color beyond the $SU(3)$ Wong limit and left-chiral weak interactions), and external field equations.
+
+\bibliographystyle{apsrev4-2}
+\bibliography{references-sgm}
+
+\end{document}

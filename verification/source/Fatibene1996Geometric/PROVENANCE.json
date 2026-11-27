@@ -1,0 +1,80 @@
+{
+  "identifier": "arXiv:gr-qc/9608003",
+  "cite_key": "Fatibene:1996tf",
+  "identifiers": {
+    "doi": "10.48550/arXiv.gr-qc/9608003",
+    "arxiv": "gr-qc/9608003",
+    "title": "A geometric definition of Lie derivative for Spinor Fields",
+    "author": "Fatibene"
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/gr-qc/9608003",
+    "DataCite": "https://doi.org/10.48550/arXiv.gr-qc/9608003",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=gr-qc%2F9608003",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=A+geometric+definition+of+Lie+derivative+for+Spinor+Fields&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.gr-qc/9608003",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/gr-qc/9608003",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/gr-qc/9608003",
+      "ok": true,
+      "path": "Fatibene:1996tf-arxiv-src.tar.gz",
+      "bytes": 11438,
+      "sha256": "6d1d3f1741188c105bc9b11882cbea92f13d54cefd2f3db3e32eb05ddc3c72ca",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/gr-qc/9608003",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 34139,
+      "sha256": null,
+      "note": "1 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_gr-qc9608003/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 29174,
+      "sha256": "fa731de5f32a50899244a2eedd5f7f65d5bdafd5b0d66ba0ecf3a53a084ebe67",
+      "note": "114 lines of 114, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/gr-qc/9608003",
+      "ok": true,
+      "path": "Fatibene:1996tf.pdf",
+      "bytes": 127178,
+      "sha256": "178d4ddc44765571aa6421f552ce41c937cdebe0650e16c8d99203bddc007c60",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

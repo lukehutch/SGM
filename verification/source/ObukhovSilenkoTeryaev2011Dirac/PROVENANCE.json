@@ -1,0 +1,80 @@
+{
+  "identifier": "arXiv:1106.0173",
+  "cite_key": "Obukhov:2011ks",
+  "identifiers": {
+    "doi": "10.48550/arXiv.1106.0173",
+    "arxiv": "1106.0173",
+    "title": "Dirac fermions in strong gravitational fields",
+    "author": "N."
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/1106.0173",
+    "DataCite": "https://doi.org/10.48550/arXiv.1106.0173",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=1106.0173",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Dirac+fermions+in+strong+gravitational+fields&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.1106.0173",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/1106.0173",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/1106.0173",
+      "ok": true,
+      "path": "Obukhov:2011ks-arxiv-src.tar.gz",
+      "bytes": 20794,
+      "sha256": "7390bacd0d47ba10dd76e06abe599d31ebbc5b368a0b90751ca236c475b18de7",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/1106.0173",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 66674,
+      "sha256": null,
+      "note": "1 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_1106.0173/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 55112,
+      "sha256": "cbcd20a34933dc9b6f7c1829d129095c7b38eb728608fc90217fb9f203d90349",
+      "note": "251 lines of 251, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/1106.0173",
+      "ok": true,
+      "path": "Obukhov:2011ks.pdf",
+      "bytes": 254388,
+      "sha256": "301d9d84e199070bcbf9d5eca37d7086134163862b059cd5dfb8135fb4f47086",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

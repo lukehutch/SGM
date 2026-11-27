@@ -1,0 +1,4716 @@
+ACADÉMIE DES SCIENCES. 
+
+
+# a 
+Pi = Apr 
+
+
+SÉANCE DU LUNDI 24 OCTOBRE 1921. 
+
+
+© PRÉSIDENCE DE M. Groncrs LEMOINE. 
+
+
+MÉMOIRES ET COMMUNICATIONS 
+DES MEMBRES ET DES CORRESPONDANTS DE L’'ACADÉMIE. 
+
+
+MÉCANIQUE. Le Mécanique classique et la théorie de la relativité. 
+e Note de M. Paur Parxrevé. 
+
+
+? 
+
+
+Je voudrais exposer Dci à l’Académie certaines conclusions d’une 
+étude critique de la théorie dela relativité que je publierai prochainement 
+et où je compare les postulats de la théorie de la relativité (restreinte et 
+généralisée) aux postulats de la mécanique newtonienne. J'y discute notam- 
+ment la question de savoir s’il existe ou non des axes privilégiés parmi tous 
+_ les modes de référence ne La mécanique newtonienne repose tout 
+entière sur cet axiome, qu’on on appeler l’axiome de causalité en méca- 
+nique : = 
+
+« est be une fois pour toutes, et pour tout l'univers, de définir une 
+mesure des longueurs, du temps, et un trièdre de référence tels que le principe 
+de causalité soit vrai toujours el partout. » 
+
+Autrement dit, considérons un système matériel dont chaque élément 
+reste identique à soi-même, et qui est très éloigné de tous les autres corps 
+matériels; si les conditions initiales (positions et vitesses des éléments à 
+l'instant considéré t,) se reproduisent transportées seulement dans l’espace 
+et le temps, le même mouvement se reproduira, au même transport près, 
+dans l’espace et Le temps. 
+
+Une première conséquence, c’est que les lois du mouvement du système 
+ne dépendront pas L PHEEReNT du temps. 
+
+Une seconde conséquence, c’est l’axiome de la symétrie (corollaire de 
+_ l’axiome de causalité). Si les conditions initiales présentent une symétrie 
+C. R., 1921, ° Semestre. (T. 113, N° 17.) 59 
+
+
+‘ 
+je 
+à \ 
+à 
+
+
+678 ACADÉMIE DES SCIENCES. 
+
+
+quelconque (par rapport à un plan, un axe ou un point), la même symétrie 
+persistera dans le mouvement. 
+
+Cet axiome de la symétrie entraine le principe de Képler ou de l’inertie 
+et une foule d’autres conséquences capitales. 
+
+Si ces propriétés sont vraies quand on a adopté un repérage espace- 
+temps convenable, elles ne le sont plus quand on lui substitue un repérage 
+arbitraire. Sous sa forme positive, le postulat fondamental de la doctrine 
+
+
+newtonienne, c’est qu'un tel repérage existe effectivement. Pour les new- 
+
+
+toniens, il correspond à une mesure du temps, des longueurs et des mouve- 
+ments absolus. Bornons-nous à l’appeler repérage privilégié. 
+
+“L'expérience a montré, par un prodigieux ensemble de vérifications, 
+aussi précises que le comportent nos mesures actuelles, qu’il existe effecti- 
+vement un repérage espace-temps possédant à la fois toutes les propriétés 
+attribuées & priori par les newtoniens au repérage absolu. Aucun autre 
+repérage ne répond à ces axiomes, sauf ceux qui se déduisent du premier 
+par la substitution aux axes de nouveaux axes animés relativement aux 
+premiers d’une translation rectiligne et uniforme; les axes privilégiés sont 
+ainsi définis à une translation + et uniforme près. 
+
+Les doctrines d’Einstein, dont j’admire profondément l'audace de pensée 
+et la puissance constructive, conduiront-elles à abandonner définitivément 
+le postulat fondamental de la mécanique newtonienne”? Je crois au contraire 
+qu'il subsistera de ces doctrines un corps de formules qui sans la contredire 
+se fondra dans la science classique, mais que ne subsisteront pas les prin- 
+cipes ou conséquences philosophico-scientifiques qui ont été, suivant les 
+jugements, le scandale ou le miracle de la théorie de la relativité. 
+
+Lorsqu'on analyse les postulats et raisonnements qui ont conduit 
+Einstein à ses résultats positifs (*), on voit combien ils sont imprfégnés de 
+« newtonisme ». 
+
+Insistons notamment sur la formule explicite de la gravitation dans le 
+cas d’un centre unique (?}. C’est la célèbre formule qui a donné lieu aux deux 
+vérifications éclatantes : mouvement du périhélie de Mercure, déviation 
+d’un rayon lumineux au voisinage du Soleil. 
+
+Rapportons le mouvement de l'élément gravitant à des axes Oxyz ayant 
+
+
+(*) Cette analyse sera développée dans une Note prochaine. 
+
+(?) Cette remarque a déjà été faite par plusieurs auteurs, notamment par 
+M. Le Roux, dans d'intéressantes Communications (Comptes Fan t°172 "1921, 
+p. 1227, 1467). 
+
+
+4 
+
+
+SÉANCE DU 2} OCTOBRE 1921. ARE 679 
+le centre matériel comme origine O. Pour un newtonien, si ces axes sont 
+des axes absolus, les équations différentielles du mouvement doivent être 
+indépendantes du temps et symétriques autour du centre O; mais si le 
+centre O est animé d’un mouvement absolu varié, ou si les axes tournent 
+par rapport aux étoiles, il n’en est plus ainsi. Or, pour arriver à leur loi 
+explicite de gravitation, les einsteiniens doivent admettre & priori que, le 
+
+
+-temps # et les coordonnées polaires r, 0, s étant mesurées à la manière 
+
+
+ordinaire, leur formule fondamentale dde ue pas dépendre explicitement 
+du temps et doit être dissymétrique par rapport à r,0,0 autour de l° origine. 
+Or cette hypothèse n'est vraie que si les axes tr sont des axes privi- 
+légiés au sens newtonien et présuppose par conséquent l'existence de tels 
+axes. Cette hypothèse admise, les einsteiniens parviennent au ds? (à quatre 
+variables) aujourd’hui célèbre, dont les géodésiques définissent dans leur 
+. théorie le mouvement du point gravitant, à savoir 
+
+
+“(0 À $ : as= de(s = £) ET pe (d6® +. sin? 0 do) — Eee 
+
+
+Nr 
+
+a désignant une constante arbitraire ts déterminera la masse du centre 
+matériel O. 
+
+_ Mais ce ds? n’est pas le seul qui réponde à toutes les conditions ein- 
+steiniennies. Il en est une infinité d’autres dépendant de deux fonctions de r 
+et le choix de la formule (1) entre toutes ces formules est purement arbi- 
+traire. Parmi ces formules il en est d'aussi simples que la formule (1) et 
+qui entraînent exactèment les mêmes vérifications. Telle celle-ci : 
+
+
+ù (2) ds de(s À) +adr VE 
+
+
+de = dr" -<7r?| 40 sin? 0 do?] 
+
+
+(ds? euclidien à trois dimensions). 
+
+Or on sait que pour les einsteiniens, le ds? a une signification mystique 
+et universelle, contraignant tous les Hé Diénes à à se couler dans une sorte 
+de forme espace-temps comme l’eau dans un vase. D'une formule déduite de 
+l'étude du mouvement des corps gravitants et de la propagation de la 
+lumière, ils pensent déduire des conséquences relatives aux phénomènes 
+imatiles ou quasi immobiles. C'est ainsi que de la formule (1) ils 
+concluent : ÿ 
+
+1° Que les vibrations lumineuses d’un même atome doivent être plus 
+
+
+4X 
+
+
+680 ACADÉMIE DES SCIENCES. 
+
+
+courtes près du Soleil que sur la Terre (le ralentissement étant le même 
+pour tous les atomes); 
+
+2° Que nos solides, dits invariables, nos mètres en particulier, doivent 
+se raccourcir tous dans le même rapport dans la direction du Soleil, quand 
+ils sont plus près de celui-ci. 
+
+Lors même que la formule (1) serait tmposée sans aucune ambiguïté, par 
+la doctrine einsteinienne de la gravitation et de la propagation de la 
+lumière, les conclusions que je viens d’énoncer m’apparaîtraient comme 
+des conjonctures des plus audacieuses, et non pas comme des conséquences 
+inévitables de cette doctrine, qui suffiraient (comme l’affirme Einstein avec 
+sa magnifique franchise) à la faire crouler si elles ne se vérifiaient pas. 
+Mais l'existence de la formule (2) et d'une infinité d’autres possibles me 
+paraît suffire à démontrer le caractère plus qu’aventureux de telles prévi- 
+sions. 
+
+Si l'on admet, en effet, la formule (2), on retombe, pour dt = 0, sur 
+le ds? euclidien ordinaire; d’où (en raisonnant comme les einsteiniens) la 
+conséquence que nos solides ne subissent aucune contraction dans aucun 
+sens quand ils se rapprochent du Soleil. D’autres formules, aussi simples, 
+conduiraient à la conclusion que ces corps se dilatent dans le sens du Soleil 
+au lieu de se contracter; d’autres encore que les corps se dilatent perpendi- 
+culairement à la direction du Soleil. 
+
+Ma conclusion c’est que c’est pure imagination de prétendre tirer du ds? 
+des consequences de cette nature. 
+
+
+PHYSIQUE. — Quelques remarques sur la théorie de la relativité. 
+Note de M. Emme Prcarv. 
+
+
+Ayant écrit, pour l'Annuaire du Bureau des Longitudes de 1922, une 
+Nouce sur la théorie de la relativité et l'Astronomie, je demande la per- 
+mission de faire quelques remarques sur cette théorie, à l’occasion de la 
+
+
+trés intéressante communication que vient de faire M. Painlevé. En 
+traçant une esquisse de la théorie moderne de la relativité, j'ai voulu 
+tout d'abord rester narrateur impartial, n’ayant pas encore une opi- 
+
+
+nion sur la place que l'avenir réservera à l'édifice, si séduisant par cer- 
+talus côtés, construit par Einstein, et me demandant si c’est un progrès de 
+chercher à ramener la Physique à la Géométrie; j'admire d’ailleurs haute- 
+ment l'effort accompli dans cette audacieuse tentative. 
+
+
+4 
+
+
+: SÉANCE DU 2/4 OCTOBRE 1921. 681 
+
+
+_ Ceux que ne fascine pas une sorte de mystique de la relativité, ont tous 
+été frappés des nombreuses hypothèses plus ou moins de een que ren- 
+ferme la théorie. La première partie de celle-ci, dite théorie de la relativité 
+restreinte, se développe harmonieusement en partant de l'interprétation, 
+communément sinon universellement admise, de l’expérience classique de 
+Michelson, interprétation d’après laquelle la vitesse de la lumière pour un 
+
+
+Det placé dans un système animé d’une translation uniforme est une 
+
+
+constante universelle, et en faisant intervenir les signaux lumineux dans les 
+mesures du temps et de l’espace; en particulier, la cinématique de cette 
+relativité restreinte est une des belles parties de l’œuvre d’'Einstein. 
+
+
+Quand on passe à la théorie générale, on est conduit à rattacher la phy- 
+
+
+sique d’un Univers à une forme quadratique de différentielles à quatre 
+coordonnées, et l’on pose en principe que toute loi physique doit être 
+exprimée par des équations gardant dans leur ensemble la même forme, 
+quand on substitue aux coordonnées initiales des fonctions quelconques de 
+celles-ci, ce qui constitue, sous une forme générale, le principe de relativité, 
+D’ loire, pour une catégorie étudiée de il est nécessaire de 
+faire des hypothèses complémentaires pour parvenir à une forme quadra- 
+tique correspondante. Le raccord, si je puis dire, entre la théorie restreinte 
+et la théorie générale, se fait par l'intermédiaire de ce que l’on appelle 
+l'Univers tangent en chaque point à l'Univers envisagé; c'est là un point 
+capital, mais les difficultés d'application peuvent être grandes, comme en 
+témoigne la question controversée du déplacement vers le rouge des raies 
+du spectre solaire sous l’action du champ de gravitation du Soleil. 
+
+Pour que la Physique s'engage définitivement dans la voie ouverte par la 
+théorie de la relativité, il faudra probablement que de nombreuses expé- 
+riences d'un caractère positif aient été effectuées dans les laboratoires. Une 
+expérience, se rattachant aux questions qui nous occupent, fut faite, il y a 
+une dizaine d'années, par M. Sagnac. Elle présente quelque analogie avec 
+
+
+celle de Michelson, mais elle se passe dans un système auquel on donne un 
+
+
+mouvement de rotation. Dans cette expérience, on observe un déplacement 
+de franges d’interférence, qui met en évidence la rotation. Comme il ne 
+s’agit pas d’un mouvement de translation uniforme, il n’y a pas d’opposi- 
+tion avec la théorie restreinte d’'Einstein. Il serait intéressant d'expliquer la 
+belle expérience de M. Sagnac au moyen de la théorie générale de la rela- 
+tivité, en allant jusqu'aux concordances numériques. 
+
+Nous avons dit qu'on trouve dans l'établissement de la théorie de la 
+relativité einstéinienne des points obscurs et des hypothèses insuffisamment 
+
+
+EX 
+
+
+682 ACADÉMIE DES SCIENCES. 
+
+
+formulées. Mais cette critique touche peu ceux qui pensent qu’une théorie 
+ne doit pas avoir la prétention de donner des apparences une explication 
+conforme à la réalité, et que seuls importent les formules finales et leur 
+accord aussi exact que possible avecun ensemble de résultatsexpérimentaux, 
+le but essentiel étant de sauver les phénomènes, coerv 54. caivéueve, suivant 
+une expression qui remonte à Platon, et la partie essentielle d’une théorie 
+
+
+étant surtout le moule analytique dans lequel elle enferme les choses: À ce” 
+
+
+point de vue, on peut dire que ce qui constitue une théorie de la relativité, 
+c'est la forme quadratique qui lui correspond. Celle-ci obtenue, on peut 
+faire abstraction de la manière dont on y a été conduit. 
+
+D'autres, attachés aux idées traditionnelles, ont été surtout frappés par 
+les propositions d’allure paradoxale qu’on rencontre dans la théorie de la 
+relativité, et y ont vu principalement une modification dans les idées fon- 
+damentales de l'humanité relatives à l’espace et au temps. Ils ne prennent 
+pas facilement leur parti d’une sorte de rupture avec le sens commun. 
+L'avenir dira dans quelle mesure les idées nouvelles, si elles recoivent de 
+nouvelles confirmations expérimentales, pourront s’incorporer dans ce bon 
+sens moyen de l'humanité, où Descartes mettait le fondement de la certi- 
+tude, et qui était pour lui le trait d'union entre notre pensée et le réel. 
+Sans cet accord, il n'y à que scepticisme; c’est un écueil que n'ont pas 
+toujours évité les théoriciens de la Physique. 
+
+
+CHIMIE ORGANIQUE. — Sur les produits de réduction 
+
+
+de l'amide diméthylcampholique. Note de M. A. Harver et Me P. RamanT. 
+
+
+Dans une série de Notes publiées avec nos regrettés collaborateurs 
+Ed. Bauer (') et J. Louvrier (*), l’un de nous a montré que les solutions 
+benzéniques des dialcoylcamphres, chauffées à l’ébullition pendant 7 
+
+
+à 8 heures avec de l’amidure de sodium finement pulvérisé, subissent une : 
+
+
+ruplure d’un des noyaux pour donner naissance à des amides des acides 
+dialcoylcampholiques 
+
+
+22 TR 
+cernee ES ee DA OURS 
+0 Nconi 
+
+
+Avec Ed. Bauer l’un de nous a étudié, en particulier, l’amide diméthyl- 
+
+
+(1) À. Haréen et En. Bauer, Ann. de Chim., 9° série, t. 8, p. 132. 
+(®) À. Hazver et J. Louvrier, Ann. de Chim., 9° série, t. 9, p. 189. 
+
+
+K 
+
+
+SÉANCE DU 24 OCTOBRE | 1921. 683 
+
+
+CORDROAQUE oi nous avons pu rectifier quelques constantes après avoir 
+réussi à le faire cristalliser dans un mélange d’éther et d’éther de pétrole. 
+Il se présente alors sous la forme de gros cristaux blancs et transparents 
+qui fondent à 81°-82°, et non à 722-739, et dont le pouvoir rotatoire dans 
+l'alcool est [x], = + 700,8. 
+
+Réduction de l’amide par le sodium et l'alcool absolu. Nitrile one 
+pholique. — Elle a été effectuée, comme à l'ordinaire, sur 50% d’amide. 
+Après élimination de l'alcool par distillation dans le vide, on agite le résidu 
+alcalin avec de l’éther, on décante la couche éthérée et on l’acidule avec de 
+Pacide sulfurique à 5 pour 100. On sépare la liqueur acide et on l’évapore. 
+On obtient un résidu cristallisé qui est constitué par un sulfate d’amine, 
+
+La partie aqueuse, fortement alcaline, provenant du premier traitement 
+
+
+à l’éther, est sursaturée par de l'acide chlorhydrique; elle ne donne qu'un 
+faible précipité qui ne peut être que de l'acide diméthylcampholique. La 
+
+
+liqueur éthérée, dont on a séparé l'amine, est séchée sur du sulfate de sodium 
+
+
+anhydre, puis be et le résidu est rectifié sous pression réduite. Au. 
+
+
+cours de cette rectification sous 20"", le thermomètre monte graduellement 
+de 130° à 155° en même temps qu'il passe de l’eau et un liquide qui distille 
+entre 155° et 165°. On recueille ce dernier et l’on sèche sa solution dans 
+l’éther sur du sulfate de sodium anhydre. Après évaporation de léther et 
+
+
+rectification du résidu on obtient un liquide qui distille entre 131°-133° 
+
+
+sous 14% et à 245°-247° à la pression ordinaire. L'analyse du composé 
+obtenu conduit à la formule C'?H?°N qui est celle du nitrile de l’acide 
+diméthyleampholique. Ce corps s'est donc formé par déshydratation de 
+l’amide RP EPROEe ; 
+
+
+/ CH nor 
+pe ou CE NP Gopue NO, 
+NCONHP: NEN 
+
+
+\ 
+
+
+Notons que la désh nor de l’amide ne s'effectue que lorsqu'elle a été 
+q 7 q q 
+
+
+préalablement soumise à l’action du sodium et de l'alcool, le produit pri- 
+
+
+mitif pouvant être distillé impunément sans perdre de l’eau. L'intervention 
+d’un réducteur facilitant cette déshydratation nous paraît inexplhicable pour 
+le moment. 
+
+Le pouvoir rotatoire de ce nitrile [ «|, — + 30,2 à 25°, 
+
+_ Chauffé au bain-marie avec de l'acide sulfurique à 85 pour 100, ce nitrile 
+est converti en l’amide primitive avec le même point de fusion 81°-82°. 
+
+
+= 
+3 
+o 
+
+
+DL ie AR ON NS A ELLE REG à 
+0 LE: 27 ETF TEE L 
+
+
+- 684 | ACADÉMIE DES SCIENCES. 
+
+
+/ CH 
+
+NCH, — Ainsi que nous l’avons 
+CIP NH? 
+
+fait remarquer, cette amine se forme en petites quantités quand on réduit 
+l’'amide par l'alcool et le sodium. Elle se produit plus facilement en partant 
+du nitrile, qui est soumis à la même action réductrice du sodium et de 
+l'alcool absolu, et la base est isolée sous la forme de sulfate en suivant le 
+même traitement que celui déjà signalé. 
+
+Si l’on veut obtenir l’amine pure par disüllation du sulfate avec de la 
+potasse, il convient d'éviter le contact de l'air, car la base s’y carbonate 
+‘très rapidement. 
+
+Elle constitue un liquide incolore, très mobile, possédant des propriétés 
+basiques très énergiques et distillant à 123°-124° sous 20"®. Elle doit être 
+conservée dans des ampoules fermées [a], = 30°,r à 25°. | 
+
+Son sulfate [C'?H°5N[?SO'H? + 2H°0 cristallise avec deux molécules 
+d’eau et se présente sous la forme de paillettes brillantes assez solubles dans 
+l'alcool et dans l’eau bouillante, très peu soluble à froid dans ces deux 
+solvants. : 
+
+Son chlorhydrate | C'?H°° N |HCI constitue de fines aiguilles blanches. 
+
+Chloroplatinate | C'’H?*NH CIF PtCl'. Poudre d’un jaune clair. 
+
+
+CH 
+Aminodiméthylcampholyle CS H' < 
+
+
+NOHITES Préparé en vue de sa 
+COOC?H5 
+
+
+réduction en alcool diméthylcampholique, ce corps prend naissance en 
+faisant agir du chlorure de l'acide diméthylcampholique sur l'alcool absolu. 
+Le chlorure lui-même a été obtenu en traitant l'acide par un léger excès de 
+chlorure de thionyle et éliminant cet excès en chauffant le mélange à 50°-60° 
+sous pression réduite. Nous n'avons pas essayé de le purifier par distil- 
+lation et l'avons directement mis en présence de l'alcool absolu. Une assez 
+vive réaction se manifeste et, quand elle est calmée, on rectifie le produit 
+dans le vide. Après élimination de l'alcool on recueille un liquide passant 
+intégralement à 138° sous 24%" et qui constitue le diméthylcampholate 
+d'éthyle. Le rendement est quantitatif. 
+
+A 25°, le pouvoir rotaoire [x |, — + 37°, 2. 
+
+Cet éther a été soumis à l’action de l'alcool et du sodium de façon à le 
+convertir en l'alcool correspondant, mais comme la réduction n’est pas 
+intégrale et qu'il est impossible de séparer par distillation fractionnée 
+l'alcool formé de l’éther-sel non réduit, les deux corps ayant le même point 
+
+
+Diméthylcampholate d’éthyle CS HU 
+
+
+: Le diméthylcampholate de phényle CS H'* 
+
+
+SÉANCE DU 24 OCTOBRE 1921. 685 
+
+
+d’ébullition, nous avons renoncé à l'emploi de cetéther et lui avons substitué 
+le diméthylcampholate de phényle (!). Ce dernier a été préparé comme le 
+
+
+dérivé éthylé, en faisant agir du chlorure de l'acide diméthylcampholique 
+
+
+sur le phénate de sodium, au lieu et place de l'alcool éthyle absolu. 
+: SNS : 
+dre est un liquide qui dis- 
+tille à 190°-195° sous 3omm, À 
+/CH(CH} 
+NGHOH 
+
+sance dans la réduction énergique de l’éther phénylique par du sodium et de 
+l'alcool absolu, Malgré toutes les précautions prises, tout l’éther phénylique 
+
+
+n’est pas transformé, et il en reste toujours mélangé à l'alcool formé. Tou- 
+
+
+Alcool diméthylcampholique CH °° 
+
+
+tefois comme le point d'ébullition de ce dernier, 139°-140° sous 20°", diffère 
+notablement de celui du diméthylcampholate de phényle on réussit, après 
+
+
+plusieurs rectifications, à séparer ces deux corps. 
+
+Le pouvoir rotatoire de cet alcool [a] = + 32° à 24°. 
+
+Il résulte des recherches qui font Pobjet de cette Note : 
+
+1° Que la réduction de l’amide de l'acide diméthylcampholique, au moyen 
+de l’alcoo! absolu et du sodium, au lieu de fournir directement l'alcool dimé- 
+thylcampholique avec plus ou moins d'amine correspondante, comme nous 
+l'avons observé sur maintes amides arborescentes (?), ne fournit que de 
+petites quantités de base mélangée avec un corps indéterminé qui, au cours 
+de la rectification, se nd par perte d’eau, en nitrile de l'acide cam- 
+‘pholique diméthylé- 
+
+2° Ce nitrile peut être retransformé en l’amide primitive (81-82) db 
+on le chauffe au bain-marie avec de l’acide sulfurique à 85 pour r00. Réduit 
+au moyen de l'alcool absolu et du sodium, il fournit quantitativement 
+l’amine diméthylcampholique dont il a été préparé quelques sels. 
+
+3° Des deux éthers-sels de l’acide diméthylcampholique, seul, celui de phé- 
+nyle permet d'obtenir aisément par réduction de l'alcool do 
+lique. 
+
+Nous poursuivons l'étude de ces corps et en particulier celle de l’amine 
+de l'alcool diméthylcampholique que nous nous proposons de soumettre à 
+l’action de l’acide azoteux dans le but de nous rendre compte des transposi- 
+tions moléculaires que pourraient éventuellement provoquer cette action. 
+
+
+\ 
+
+
+(:) M. Rupe, pour obtenir avec de bons rendements de l’alcool campholique, s’est 
+également adressé au campholate de phényle au lieu et place de campholate d’éthyle. 
+(?) À. Hazcer et En. Bauer, Ann. de Chim., 9° série, t. 9, p. 15. 
+
+
+— Cet alcool prend nais- 
+
+
+AA 
+
+
+686 ACADÉMIE DES SCIENCES. 
+
+
+ASTRONOMIE. — Observation de Ld'éclipse partielle de Lune du 16 octobre 1921 
+Jaite à l'Observatoire de Besançon. Note de M. À. Lrseur.. 
+
+
+C’est par un temps calme et un beau ciel que l’éclipse partielle de Lune 
+du 16 octobre 1921 a été suivie à l'Observatoire de Besançon par MM. Lebeuf, 
+Chofardet, Goudey et M. Arcay de la Faculté des Sciences. “+ 
+
+Voici un résumé suceinct de leurs observations données en temps moyen 
+de Greenvich : 
+
+
+h mn Re Te 
+: 14,0 D == 440, 0 Chofardet 
+Entrée de la Lune dans l'ombre. RS Î 4, 
+
+
+ED Pi em Goudey 
+h m k 
+À 9.55, ombre bien limitée : bord gris bleu, voisinage du limbe éclipsé rougeûtre; 
+Grimaldi sombre, Aristarchus brillant sont visibles sous l’ombre. 
+, partie sous l’ombre rose rouge, bord de l'ombre gris bleu, détails lunaires 
+_ bien apparents. 
+
+
+ART O 
+
+
+O2 
+= 
+
+
+A 10.54; plus grande phase : étoiles lumineuses comme par une nuit sans Lune. 
+| Selon le diamètre N-S les teintes de l'ombre se répartissent pour lés deux 
+tiers en rouge orange ; l'autre tiers, près du bord, gris bleu; partie 
+extrême sud non éclipsée blanc jaunâtre. L'ombre, très transparente, 
+permet d’apercevoir tous les détails lunaires. 
+A l'œil nu la Lune est d'aspect plus cuivré, 
+Dès 11.20, un voile de cirrus se forme à chaque instant sur la Lune ; à l’œil nu, dans 
+| ce cas, le segment éclipsé se confond avec le fond du ciel. 
+A 11.26, l'ombre est plus opaque, presque unilormément gris cendré, sauf ‘au 
+nord-ouest du limbe où la teinte rouge existe encore. 
+À 11.40, la teinte rouge n’est plus visible. 1 
+
+
+h Lun 
+1200. à — Arcay 
+Sortie de la Lune du cône d'ombre... ! 12,33,7 Lo Goudey 
+12-03: p—%283,3 =. Chofardet 
+
+
+En résumé, l’aspect lumineux de ce phénomène donne nettement cette sensation que 
+la coloration rougeätre de la Lune pendant cette éclipse est fonchion de CHPPORRREE 
+de Ja pénétration de son disque dans le cône d'ombre de la Terre, 
+
+
+Les observations des entrée et sortie dans l’ombre, ainsi que la plupart 
+des remarques ci-dessus, ont été faites à l’équatorial coudé, gross. 66, par 
+M. Chofardet; à l’équatorial droit, gross. 57, par M. Gode: à l'équatorial 
+double Secrétan, gross. 38, par | M. Arcay. 
+
+
+A on double Secrétan (objectif Viennet), M. Chofardet a 
+obtenu 12 clichés de cette éclipse. 
+
+
+ie 
+À sa 
+
+
+4 
+# 
+
+
+ï __ SÉANCE DU 24 OCTOBRE 1921. | 687 
+
+
+ASTRONOMIE. — Observation de l’éclipse de Lune du 16 octobre 1925, 
+faite à Marseille. Note de M. Louis Fasry. 
+
+
+Le éclipse de Lune du 16 octobre a été observée à l'Observatoire de Mar- 
+
+
+lunette de 16°* par Mi Jasse; avec des jumelles par MM. Maître et Fabry 
+qui, étant occupés à préparer d’autres observations, n’ont pas pu observer 
+les contacts, et par M. Larrieu qui a noté les heures ÉLE contacts. 
+
+Les heures suivantes ont été observées pour l'entrée dans ombre, la 
+sortie, et pour les occultations de petites étoiles. 
+
+
+Temps moyen de Greenwich. 
+= L l M CRE rm M ec ces CENRT ET Dà 
+Lunette de 26°" Lunette de 16°". Jumelle. 
+
+
+3 = has h ms hr 
+Immersion de 263 B. Poissons 6°....,. 8.56.r2 » SU à 
+Entrée dans l'ombre....... Re Se LRO AU SO LEO Ho er Mo: 6 
+
+Emersion de 263 B. Poissons 6°, ...., 09.46.37 09.46.35 » 
+Immersion de 227 BD + 70, 9°...... TER » » 
+Immersion de-228 BD + 5°, 9°....... 11.11.50 » » 
+Emersion de 218 BD: 7°, 9°.:.....,, °11:18.17 » » 
+Sortie de lOMRDEES NES. Mere TS SO LE Ne T2200108 12-9000 
+
+
+L’épaisseur du segment de la Lune, qui, au milieu de l'éclipse, est resté 
+
+
+en dehors de l'ombre de la Terre, a été mesurée à la lunette de 16° et 
+
+
+trouvée égale à 2°2”. 
+Voici les remarques faites aux divers instruments par les observateurs 
+cités ci-dessus : 
+
+
+A la lurelte de 26%, — Le bord de l'ombre est mal défini. Au milieu de l’éclipse, 
+
+
+on distingue bien les détails de la surface lunaire, et le bord de la Lune se détachant 
+
+
+sur le fond du ciel. La région éclipsée Nord-précédant est rouge cuivré, la région 
+opposée au contraire gris verdâtre, Le cratère TFycho en particulier paraît gris- 
+bleuâtre. 
+
+A la lunette de 16% : Le contour de l'ombre est mal défini; après l’heure du pre- 
+mier contact notée ci-dessus (9*13"15) le bord de la Lune est resté encore un peu 
+visible, faiblissant rapidement, il a disparu à 913" 575. 
+
+Au ee de l’éclipse le petit segment de la Lune resté en dehors de l'ombre est 
+de couleur jaunâtre. Le contour mal défini de l'ombre est aussi légèrement teinté de 
+jaune à l'extérieur et seulement gris sombre à l’intérieur, 
+
+Avec les jumelles : Au milieu de l’éclipse, le disque entier de la Lune se voit 
+neltement détaché isur le fond du ciel. Avec le petit segment non éclipsé, l’aspect 
+
+
+_seille : avec la lunette de 200% ouverture par M. Michkovitch; avec la 
+
+
+683 ACADÉMIE DES SCIENCES., 
+
+
+rappelle celui de la lumière cendrée lorsqu'elle est à son maximum d'éclat, peu après 
+la nouvelle Lune. On distingue assez bien Les taches sombres de la surface lunaire. 
+
+La couleur de l'ombre de la Terre n’est pas uniforme, près de son bord l'ombre est 
+gris cendré; en s’éloignant de ce bord pour se rapprocher du centre on remarque une 
+couleur rougeâtre de plus en plus prononcée. 
+
+A l'œil nu on voit sur le pourtour de la Lune, de part et d'autre de la partie non 
+éclipsée, deux ares de cercle plus brillants que la partie centrale de l’astre. Cet aspect 
+très visible attire l'attention des observateurs ; mais en regardant avec une jumelle, on 
+voit qu'il provient seulement de ce que le centre de la Lune est occupé en grande 
+partie par des taches grises. 
+
+
+En résumé, au point de vue de l'éclat du disque lunaire, l’éclipse peut 
+ètre classée comme assez claire. 
+
+Notons encore que l'on à pu remarquer un très léger obscurcissement du 
+côté gauche de la Lune à partir de 845", donc trois quarts d’heure après 
+l'entrée dans la pénombre. Jusque-là, l'aspect de la Lune n'avait pas changé. 
+Cette teinte grise de la pénombre s’est accentuée peu à peu à mesure que la 
+Lune se rapprochait de l'ombre, 
+
+
+M. Euise Borez s'exprime en ces termes : 
+
+
+En offrant à l’Académie la deuxième édition de mes Leçons sur les fonc- 
+ions entières, je mc permets d’attirer particulièrement son attention sur la 
+Note importante dans laquelle M. G. Varmon a résumé l’ensemble des tra- 
+vaux publiés depuis 20 ans et sur la Bibliographie qui complète cette Note. 
+Les progrès accomplis depuis apparition de la première édition sont ainsi 
+mis en évidence; ils se rapportent pour une grande part au célèbre théo- 
+rème de M. Émile Picard, dont la démonstration directe que j'ai donnée 
+en 18906 a été l’origine de ce petit Livre. Je souhaite que la deuxième édi- 
+tion, comme la première, suggère de nombreuses recherches dans une 
+branche de la Théorie des fonctions qui n’a pas cessé d’être cultivée en 
+: France, depuis les travaux de Laguerre et de Poincaré. 
+
+
+Sir Azmroru E. Wrrçur fait hommage à l’Académie d’un Ouvrage qu’il 
+vient de publier, en collaboration avec M. Lronarn Coresrook, sous le 
+titre : Technique 0 f the teat and capillary glass tube. 
+
+
+Re 
+
+
+er EN 
+
+
+SÉANCE DU 24 OCTOBRE 1921. 689 
+
+
+=" 
+
+
+CORRESPONDANCE. 
+
+
+MM. Cuarzes Azrvaun, R. ANTHony, P. de Beauchamp au nom de la 
+FÉDÉRATION FRANÇAISE DES SOCIÉTÉS DE SCIENCES NATURELLES, ANpré Boca, 
+Have: Cauror, Louis Duvoyse, Louis Germais, Armano Keeuwprr, Cu. 
+Maveuix, Jacques PELLEGRIN, TiFFENEAU adressent des Rapports relatifs 
+à l'emploi qu'ils ont fait, des subventions qui leur ont été accordées sur 
+le Fonds Bonaparte. | 
+
+
+CA 
+
+
+M. le MinisrRe pe L'ENsrRuCrIoN PUBLIQUE Er ps Braux-Anrs invite 
+l’Académie à lui présenter une liste de deux candidats pour la place de 
+Membre artiste vacante au Bureau des Longitudes par décès de 
+mue “T. pee | tie É 
+
+
+M. le Manisrre pe L'INsrrucTION PUBLIQUE ET DES BEaux-Ânrrs invite 
+
+
+_ l'Académie à lui présenter une liste de deux candidats à la place de Membre 
+
+
+titulaire vacante, au Bureau des Longitudes, par le décès de M. G. 
+
+
+- Lippmann ; 
+
+
+(Ces deux lettres sont renvoyées à une Commission composée de la 
+division des scierices mathématiques et du Secrétaire perpétuel pour les 
+sciences mathématiques.) | 
+
+
+M. le Miusrre pe La Guerre invite l’Académie à lui désigner deux de 
+ses Membres qui feront partie du Conseil de perfectionnement de l’École 
+Polytechnique pour l’année scolaire 1921- 1022; en remplacement de 
+MM. Jordan et Le Chatelier, rééligibles. 
+
+
+M. Louis Bazy adresse des remerciments pour la subvention qui lui a été 
+accordée sur la Fondation Loutreurl. 
+
+
+MM. J. Brrnexon, Enouarp Bouroerre, Pierre Bourroux, ANDRÉ 
+Cuauer, ANDREW C. D. Croumeenx, Foveau pe Couruerires, X. DeLore, 
+
+
+ET Er ne annee er EL 
+
+
+SU PO, “ Fa re TRANS E TOR RTS 
+
+
+600 ACADÉMIE DES SCIENCES. 
+
+
+Gryxeseir, C.-F, Guuserr, Epuond Marsier, E.-A. Marrer, M. Mévarp, 
+Hsnri Piero, Louis Mexeaup, Marc Reninéiée, Sreur et Mercier, PAUL 
+S'rrooganr adressent des remerciments pour les distinctions que l’Académie 
+
+
+a accordées à leurs travaux. 
+
+
+ANALYSE MATHÉMATIQUE. — Sur la permutabilté des substiuutuons 
+rationnelles ('). Note de M. Gasron Jurra. 
+
+
+Deux hu rationnelles| Z|'R,(Z)}et[Z|R,(Z)] sont permutables 
+si R,[R:(Z) = R,[R, (2). 
+
+J'étudie les propriétés des substitutions permutables, puis je résous, 
+dans la mesure du possible, le problème de leur détermination. 
+
+I. 1° Tout point double & d’uneitérée R° de R, a des conséquents R,(&), 
+R?(«), .. qui sont points doubles de RŸ et de même nature que «& (répul- 
+sifs, attractifs ou indiflérents). Les RŸ(a), £—1, 2, ..., sont donc en 
+nombre fini et conduisent à un cycle de R,. Ce cycle de R, est de méme 
+nature que le cycle de R, auquel appartient «. Il en résulte que deux cer- 
+taines ttérées KR: et R°° ont au moins un point double répulsif commun. 
+
+Soient E,, l’ensemble des cycles répulsifs de R, ; E,;, l’ensemble analogue - 
+pour R,. Leurs dérivés KE, et KE, sont par faits et identiques. Mais E,, et E,, ne 
+le sont pas toujours, on le voit par l'exemple où R, et R, sont les polynomes 
+exprimant sin3z et sin5z en sinz — Z. 
+
+2° On montre que l’ensemble des points critiques des fonctions inverses des 
+RY" uérées de KR,, est identique à l’ensemble analogue pour R,. Mais 
+
+
+Re 1) 
+
+
+dZ 
+
+
+dR gr Le : DIS LT DEEE 
+nr: OÙ le voit par. l'exemple précédent. T out zéro d’une TT 
+
+
+» ou bien appartient à un cycle de R,, ou bien est 
+
+
+l’ensemble des zéros des peut ne pas coïncider avec celui des zéros 
+
+
+des 
+
+
+ou 
+
+
+{ors) 
+az 
+
+lantécédent, dans l’itération définie par R,, d’un cycle de R,. 
+3° L'ensemble formé des points des cycles attractifs ou indifférents (multi- 
+plicateur <[1 où — 1 en module) de R, est identique à l'ensemble analogue 
+pour R,. Car cet ensemble ne compte qu’un nombre fini de points et, à 
+parur de tout point « d’un cycle de R,, on obtient, parmi les RO (a), un 
+cycle de R, d'ordre =d, (degré de R,), parmi les RC (a), un cycle de R, 
+d'ordre <d}, etc. Tous ces cycles sont distincts et de même nature que le 
+
+
+bien est zéro d’une 
+
+
+(') Cette Note sera développée dans un Mémoire inséré aux Annales de l'Ecole 
+Normale supérieure. 
+
+
+SÉANCE DU 24 OCTOBRE 1921. Ggr 
+
+
+cycle initial de R,. On arrive ainsi, -par les RT?°(«) successifs, à une suite 
+qui se ferme, c’est-à-dire à un cycle de R, lorsque le cycle initial RE 
+
+
+_est attractif ou indifférent. 
+
+
+4° Deux itérées R“ et R(”, pour m2, et m, entiers convenabl es, ayant 
+toujours un point double répulsif commun &, de multiplicateurs respec- 
+Ufs 5, et s,, les deux équations de Poincaré 
+
+
+G(a3) = Ré [G(3)], 
+Gas) =Rm[G(+)] 
+
+
+nets la même solution méromorphe fondamentale, et sices deux équa- 
+
+
+tions ont une même solution méromorphe, R° et R°" sont permutables. 
+L'existence d'une pareille solution exige que |0,| et |o,| soient > 1: 
+le problème qui nous occupe se lie à celui de la recherche des fonctions 
+méromorphes qui ont un double théorème de multiplication rationnel. 
+
+5° Les points des cycles attractifs étant les mêmes pour R, et R,, 
+soit & un point double attractif commun à R, etR, : SiS,=R'( (x) F 0 
+
+
+or S, = R,(a) <o. Les équations de Schr Es correspondantes 
+
+
+F[R(2)]=SF(Z) et F[R:(2)]=SF(2) 
+
+
+ont la même solution fondamentale holomorphe dans le domaine immédiat 
+D, du point «, qui est le méme pour R, et R, (D, ne contient pas l'infini). 
+
+
+e) mue —oetsi R,(Z)— se développe par 
+(Do) doute aps, 
+autour de &, alors, nécessairement R!(«) = 0, et si 
+R(Z)—a— 0,(2— a+. 
+les deux équations de Büuicher 
+
+
+DIR (Z)1=a,[P(Z)}, 
+.. DIR(2)]=0,1#(2)} 
+
+
+ont la même solution fondamentale holomorphe dans le domaine V... 
+Enfin, l'ensemble de tous les antécédents de x, intérieurs & D, sou 
+par KR, soit:par Rs (ARE, 27 A6), oo) est leiméme: 
+6° Soit « un point double indifférent à l'infini, de R,, de multiplica- 
+teur +1 tel que R,(a«)=+1, Ri(x)o. Ce point est double pour 
+une certaine itérée R°, par exemple pour R,, et l’on a 
+RCA) NT -. et LAC AE 
+
+
++ ..., DR 
+
+
++: } 
+REZ ÉaiE 7. 
+
+
+Z 
+
+
+TR EE Se RC ATE Lex y Set 4 a A" FSRSVRE = : Ë Nr 
+: : au NOIRS ENTER TS 
+: : Ÿ LS ER 
+
+
+692. ACADÉMIE DES SCIENCES. 
+
+
+Les équations d’ Abel 
+F[R(Z)]=F(Z)+an  F[R(Z)]=F(Z)+æ 
+
+
+ont la méme solution fondamentale holomorphe dans le domaine D, du 
+point « — >. De même les équations 
+
+
+Hfs+al=R[H(:)], H{(s+æel]=R[H(:)] 
+
+
+ont la même solution fondamentale méromorphe dans tout le plan. 
+
+IL. 1° Je résous le problème des substitutions R, de degré >> 1 permutables 
+à une substitution du premier degré R,. Deux seuls cas sont possibles : 
+
+a. Ou bien on a la forme canonique 
+
+
+Riz) = Z2R(ZE), R(z) = 02, GN 
+
+
+dans ce cas rentrent, lorsqu'elles existent, les multiplications complexes 
+donnant p(+iu)et p(Hou) (avec + 1—o) linéaires en p(u), et qui 
+sont permutables aux multiplications ordinaires donnant p(Ku) en p(u). 
+
+b. Ou bien on a la forme canonique 
+
+
+RAT OreC Ro w?-1  (n entier de signe quelconque). 
+
+
+2° SiR,et R, sont de degré >ret indépendants (R7£ R': pour tous 
+entiers À, et À,), on ramène la question à celle de la recherche de G(z) 
+méromorphe, avec deux théorèmes de multiplication. On démontre 
+que Ex, se compose d'un cercle entier ou d'un arc de cercle ou de tout le 
+plan. 
+
+3° Si E,, est le cercle trigonométrique (forme canonique), R, et R, sont 
+à cercle fondamental et simultanément ordinaires ou singulières de pre- 
+mière espèce. Cela ne conduit, en définitive, qu’aux formes canoniques 
+
+
+R—ZH,  R—AZR  (Alrt— 1) 
+
+
+et aux théorèmes de multiplication de ef. SiE, est l'axe réel, on a ceux de 
+tangz qui en dérivent par une substitution homographique. 
+
+4° SiE,, est le segment (— 1 + 1) (forme canonique d’are de cercle), on 
+est conduit aux polynomes exprimant cos(K,z+e,x) et cos(K, 3 +e,T) 
+encosz = /2(e,,e, —=oou1; K,e,+e, et K,e, + e, de même parité). Les 
+théorèmes de multiplication correspondants sont ceux du cosinus. On a 
+ainsi résolu complètement la permutabilité des polynomes indépendants (les 
+formes canoniques sont celles du 3° et du 4°) et trouvé toutes les fonctions 
+eutiéres ayant deux théorèmes distincts de muluplication. 
+
+
+SÉANCE DU 24 OCTOBRE 1921. 693 
+
+
+SES = tout le plan, je ne sais pas s’il y a d’autres fractions R, et R, 
+que celles provenant de la multiplication des fonctions elliptiques (*). 
+
+
+ANALYSE MATHÉMATIQUE. ee Suriles fonctions croissantes. 
+Note de M. Taéonore N'AROPOULOS. 
+
+
+es _ 4. Cette Note complète ma Communication précédente (2). Nous allons 
+ici étudier une classe de fonctions croissantes qui croissent de plus en plus 
+lentement. 
+Soient les fonctions S,(x), S,(æx), ..., Sx(æ), ... qui croissent respecti- 
+vement comme les fonctions 
+
+
+dits 
+NW 
+
+
+NES 
+
+
+7 
+
+
+LAMlOb re le ra ocre" 
+
+
+Nous posons toujours le problème suivant : > 
+Chercher les fonctions croissantes m(x) dont l'addition à x altère, ou n'al- 
+_tére pas, l’ordre de la croissance de la fonction croissante donnée. 
+
+
+EE résultats suivants qui répondent à nos problèmes : 
+TuéorÈue [. — Pour toutes les fonctions croissantes 
+
+
+So(æ); S(æ), …..) Sx(æ), 
+
+
+et positives qu croissent respectivement comme les fonctions 
+
+
+D'IoEd- se, lot; 
+
+
+l'addition à x de toute fonction m(x) croissante telle que m(x)£e* altère 
+l’ordre de la croissance de fonctions croissantes données S(x). 
+TFaéorème [T. — Pour toutes les fonctions S(x) nous avons l'inégalité sur- 
+
+
+vante 
+4 SIæ+m(r)l<S(xŸ, 
+
+
+0 étant un nombre positif quelconque et supérieur à l'unité, et m(x) étant une 
+foncuüon décroissante queïconque. 
+
+
+(*) Les résultats des paragraphes 2° à 5° de la partie II ont été également obtenus, 
+et indépendamment de moi, par M. P. Fatou, qui vient de les exposer dans une Note 
+aux derniers Comptes rendus. 
+
+(?) Comptes rendus, t. 173, 1921, P: 560. 
+
+
+C. R., s92r, 2° Semestre. (T. 173, N° 17.) 54 
+
+
+Suivant la même voie que dans mes Notes précédentes, je suis arrivé aux : 
+
+
+13 
+
+
+064 ACADÉMIE DES SCIENCES. 
+
+
+ANALYSE MATHÉMATIQUE. — Sur un groupe de subsututions algébriques ('). 
+Note de M. P, Farovu, présentée par M. E. Goursat. 
+
+
+Les groupes discontinus de substitutions algébriques ont fait l’objet de 
+deux Notes importantes de M. Painlevé qui a étudié le cas où ces substitu- 
+tions sont de degré limité; les groupes de cette nature sont semblables à 
+des groupes linéaires(?). eu le degré des substitutions n’est plus borné, 
+la question est beaucoup plus Tu et n’a pu être abordée que dans des 
+cas particuliers. Dans les Mémoires cités en note, j'ai étudié le groupe G des 
+.substitutions définies par les équations | 
+
+
+(1) a) R, tr) 
+
+
+D,(@),.n 7-1Lér6e d'une fraction rationnelle de degré à > 1, j'aiformé, dans 
+les cas de discontinuité propre, les invariants de G, fonctions uniformes 
+de x. Je n'avais pas fait la remarque, cependant presque évidente, que 
+G possède un sous CRUE invariant G’ dont l'étude n’est pas moins intéres- 
+. Sante que celle de G; c’est le groupe des substitutions définies par les 
+relations 
+
+
+(2) ee Re(z) = Ray). 
+
+Pour une valeur donnée de n, cette relation définit un groupe fini G!,; il est 
+évident que G est contenu For G,., et par suite que G”, somme de tous 
+les G°, jouit de la propriété suivante : le groupe dérivé d’un nombre fini 
+quelconque d'éléments du groupe proposé est toujours un groupe fini. Nous 
+appellerons groupe quasi fini tout groupe infini qui jouit de la propriété 
+précédente. 
+
+Supposons que R (+) soit un polynome; l’équation 
+
+
+Rx) — R;(y) Sr 
+3 A 
+(9 Razi(@) — Roi(9) ESP 
+
+
+(1) Voir Paixrevé, Sur les groupes discontinus de substitutions non linéaires à 
+une variable (Comptes rendus, t. 11%, 1802, p. 1345); Sur une application de la 
+théorie des groupes continus à la théorie des fonctions (1bid., t. 118, 1894, p. 845). 
+— Farou, Sur les équations fonctionnelles (3 Mémoires) (Bull. Soc. math. Fr... 
+1919-1020); Sur les fonctions invariantes par une substitution rationnelle (Ibid., 
+en cours d'impression). 
+
+(2) Nous disons : « groupe fini ou infini » au lieu de « groupe contenant un nombre 
+fini ou une infinité dénombrable d'opérations »; « groupe linéaire » au lieu de 
+« groupe fini ou infini de substitutions du premier degré ». 
+
+
+SÉANCE DU 24 OCTOBRE I921. 695 
+est en général irréductible. Il suffit pour qu'il en soit ainsi que les racines a, 
+
+_b,... du polynome dérivé R’(x) soient simples et que l’on ait toujours 
+R,(a) ÆR;(0) . 
+
+
+pour deux racines distinctes, quels. que soient p et g, et 
+
+
+R,(a) ÆRÇ;(a), 
+
+
+si pq. La courbe (3) de degré ®’—3"-" est alors sans point double, 
+donc indécomposable. Indiquons à titre d'exemple qu’en posant 
+R(æ) = 5æ + x, 
+
+
+les conditions précédentes sont remplies pour o <|s|<1. 
+Si nous prenons pour R(x).une fraction rationnelle arbitraire, l’équa- 
+
+
+tion (3) représente une courbe de degré u,= 2(3"— d"-!), avec deux 
+
+
+points multiples d'ordre = es à tangentes distinctes, à l'infini sur les axes des x 
+
+
+et des y; une pareille courbe est nécessairement indécomposable, n ayant 
+
+
+Fe 
+pas d'autre point singulier: son genre est ( à 1). Ceci arrive quand 
+
+
+sont remplies des conditions semblables à celles de tout à l'heure pour les 
+polynomes. 
+
+C'est là le cas général (‘), mais il peut arriver que F, se décompose et 
+même en un produit de facteurs linéaires; exemple : R(æ)— 2°. Soit en 
+
+
+général L le groupe linéaire contenu dans G’; L peut être fini et coincider 
+avec l’un quelconque des groupes connus de cette espèce; sinon L est 
+
+
+quasi fini. Or tous les groupes linéaires quasi finis sont semblables à des 
+
+
+: mere - : = . . ’ I 
+diviseurs du groupe continu (x; ex) avec adjonction éventuelle de (æ:2) 
+
+
+_ Ceci ne peut arrivér dans le cas actuel que si la substitution [æ; R(x)] est 
+
+
+la transformée linéaire de (x; ae L et G’ sont alors identiques et se 
+ramènent au groupe des substitutions (x; eæ), les e étant les racines des 
+
+
+Lors 
+
+
+équations € 
+Il peut arriver également que les F, se décomposent en courbes de degré 
+
+fixe © 1 (nécessairement de genre zéro ou un). Car, si l’on pose : 
+- L DU, Pepe, 
+
+Rr}=po 7, R(y}= per 
+
+
+=: 
+
+
+(1) G'ne possède alors d'autre sous-groupe que les groupes finis G’,. 
+
+
+4 
+
+
+PPENT UP DER EMPIO Ter A DE 
+
+
+EE PS a de 
+
+
+696 ACADÉMIE DES SCIENCES. 
+
+
+(p; fonction de Weierstrass), l'équation R,(x) —=R,(y) équivaut à 
+u=+p+h(h= 2"X période); on applique alors la formule d’addition 
+de pu et l’on est ramené à l’un des cas de M. Painlevé. Je ne connais pas 
+toutes les formes de R(x) pour lesquelles cette circonstance se présente, 
+mais il n’en est pas ainsi quand G’ est proprement discontinu. 
+
+Le cas le plus important de discontinuité propre de G’ est celui où 
+[æ:; R(æ)] possède un point fixe de multiplicateur s, tel que o |s[<7, 
+ou encore $— +1, la discontinuité ayant lieu dans le domaine invariant D 
+qui est étudié dans les Mémoires cités. Il est facile de trouver les points fixes 
+des substitutions de G’; le fait intéressant est celui-ci : les points fixes inté- 
+rieurs à D ou sur sa frontière n'appartiennent qu'à un nombre borné de subsu- 
+tutions distinctes (*). À ce point de vue, G’ est à rapprocher des groupes 
+fuchsiens de la première famille (exclusivement): mais il à une structure 
+essentiellement différente puisqu'il est quasi fini et que les groupes linéaires 
+quasi finis (voir plus haut) ne sont pas discontinus. Il existe une fonction 
+uniforme et holomorphe dans D qui est pour G°’ un invariant absolu et 
+caractéristique ; c’est la fonction # = È(x) de M. Kœnigs, solution fonda- 
+HORLAlE de l’é équation de Schrüder : 
+
+
+AlRta)|=s 26e) COR STE), 
+et pour s=—+1, la solution nice cie de l’équation d’Abel : 
+E[R(x)] = O(x) + const. 
+Toutes les valeurs de la fonction Lu), inverse deX, [ou y (uw), inverse de O], 
+se déduisent d’une seule d’entre elles par les substitutions de G'; les points cri- 
+tiques (algébriques) de L sont de la forme — A (NO; 1205 
+
+
+nombre fini); ceux de y sont B;+ #20 (n —0,1,2,...; les B; en nombre 
+fini). En outre l’& est un point critique ur de Ÿ tx, les fonctions È 
+et © admettant des chemins de détermination infinie qui aboutissent aux 
+points frontières de D, tandis que les fonctions fuchsiennes de la première 
+famille n’ont évidemment aucune valeur asymptotique aux points frontières 
+de leurs domaines d'existence. 
+
+
+(1) Une seule, dans le cas général. 
+
+
+PT Te RES M RE ee PQ re 
+
+
+SÉANCE DU 24 OCTOBRE 1921. 697 
+
+
+CHRONOMÉTRIE. — Les spiraux cylindriques et l'hypothèse dite des techniciens. 
+
+
+Note de M. JuLes Axpraps. 
+
+. [ La théorie de Philipps et celle de Résal-Caspari sont également 
+muettes sur les composantes longitudinales des couples d'encastrement ou 
+des forces supplémentaires aux couples d'encastrement d’un ressort spiral, 
+agissant sur ses attaches fixe et mobile. 
+
+. L'hypothèse dite des techniciens consiste à admettre que ces actions sup- 
+plémentaires sont deux forces mutuelles dirigées suivant la droite de jonc- 
+tion du piton à la virole. 
+
+_ [I En ce qui concerne les composantes transverses des actions complé- 
+mentaires, l'hypothèse des techniciens est conforme à l’interprétation de 
+la force élastique transverse que j'ai donné en 1920 (!}), et qui se résume 
+(en projection sur un plan transverse) dans la répulsion ou l’attraction réci- 
+proque des deux attaches proportionnellement à leur distance; cette force 
+étant répulsive où attractive suivant que le spiral dans sa déformation élas- 
+tique se ferme ou s'ouvre. | 
+
+IIT. Cette remarque a suggéré des prévisions intuitives sur les effets 
+mécaniques des spiraux associés et en particulier la prévision d’un isochro- 
+nisme à une approximation possible du trois-cent-millième. 
+
+IV. Les pressions transverses sont, par rapport à l'intensité du moment 
+transmis au balancier (et rapporté au bras de virole), de l’ordre du quatre- 
+millième, elles engendrent des frotiements perturbateurs extrêmement 
+faibles, mais que l’on peut réduire à des types absolument sans effet sur 
+l’isochronisme. 
+
+
+V. Si l’on veut obtenir un contrôle expérimental de l'hypothèse des 
+
+
+techniciens, par la pesée d’un effort longitudinal provenant d’une associa- 
+tion convenable de spiraux, il faudra donc demander à la balance spirale 
+appropriée une approximation du quatre-millième par rapport aux évalua- 
+tions de l'effet principal qui est le moment transmis au balancier. 
+
+
+_VI. Ce contrôle délicat est pourtant nécessaire si l’on veut conquérir. 
+en toute sécurité tout l’isochronisme qu’il est aujourd’hurpossible d'obtenir. 
+
+
+Sous la réserve de la vérification de l’hypothèse des techniciens, et même 
+d’une hypothèse un peu plus générale, voici un quadruple de spiraux à la 
+
+
+(:) Comptes rendus, t. 171, 1920, p. 995. 
+
+
+BNP DRRUE 1 ne En DS CT Re RSS 
+
+
+PE TEE EE PARENT DE es 
+
+
+14 
+el 
+1 
+à 
+
+
+PERTE 
+d'en dl Pc 
+
+
+' 
+2 nn” des 
+
+
+\ 
+
+
+PE TELE DA 
+
+
+d 
+
+
+RASE in cute ON née CESR Y Ne de fe NE, Ses L'été 
+
+
+4 
+
+
+ei 
+rs 
+
+
+PAPE EN CR 
+
+
+698 ACADÉMIE DES SCIENCES. 
+
+
+fois isochrone et soustrait à toute pression élastique transverse ou longi- 
+tudinale sur le balancier. 
+
+‘ VIH. Adoptons comme premier dobblet deux spiraux de Le Roy symé- 
+triques par rapport au pied de l'axe sur le plan transverse commun des 
+viroles; celles-ci sont et restent diamétralement opposées durant la défor- 
+mation élastique du ressort et les pitons correspondants Q, et Q, sont égale- 
+ment opposés en projection ; sur chacun de ces ressorts les sens d’enroulement 
+du piton vers la virole correspondante sont discordants; prenons le syré- 
+trique de ce doublet par rapvort à un plan transverse, et nous aurons un 
+quadruple dont chaque doublet produit un couple transverse et un couple 
+longitudinal contenant son bras de virole. 
+
+Sous le bénéfice de l'hypothèse des techniciens, ce quadruple produit un 
+couple pur proportionnel à l’écart du balancier au point mort; effet que 
+l’on ne peut obtenir avec disparition des pressions électriques transverses 
+ou longitudinales qu'au moyen de huit spiraux; car les couples longitudi- 
+naux s’équilibrent ici mutuellement. 
+
+
+HYDRODYNAMIQUE. — Équations du mouvement d’un fluide rapportées à des 
+axes mobiles. Note de M. Rrasoucmmnski, présentée par M. G. Kœnigs. 
+
+
+On rapporte les équations du mouvement d’Euler à des axes mobiles (') 
+en remplaçant les projections des accélérations sur les axes fixes par leurs 
+projections sur les axes mobiles d’après les formules de Bour. Nous étu- 
+dions dans la présente Note les modifications que subissent quelques-unes 
+des formules de l'Hydrodynamique en raison de cette substitution. 
+
+Les équations du mouvement sous la forme ee par Helmholtz se 
+transforment comme suit 
+
+
+CLS Se 
+G) . dx — 
+
+
+(2) He (WeW)+ fu; 
+
+
+f 
+
+
+(Er — mat) — %, EU .….. 
+
+
+(u, v,æ), (u',v, æ'), (u,v,w) sont les projections sur les axes mobiles Oæ, 
+y, z des vitesses absolue W, relative W' et d'entrainement VW respecti- 
+
+
+vement. 
+En éliminant H entre la seconde et la troisième des Rte 1), one 
+
+
+_— + 
+
+
+(!) G. GREENHILL, Proc. Camb. Phil. Soc., 1. 4, 1880. 
+
+
+_obtient l'équation 
+
+
+SÉANCE DU 24 OCTOBRE 1921. 699 
+on 
+L et MOSS TETE 
+que l’on ramène facilement : à la suivante : 
+d é CNE NE OR 0 n dé 
+
+
+ss RE 
+ë HNBOE TE = Por pay, por 
+
+
+CS 
+
+
+He première Nue de cette équation exprime la projection de l'accélération 
+_rotatoire absolue, rapportée à l'unité dé masse, sur l'axe Ox. : 
+
+Supposons que le mouvement absolu du fluide est permanent par rapport 
+aux axes mobiles qui se meuvent uniformément. Dans ce cas, 
+
+
+(3) “quid 0 Qu! de! dw! 
+ne du — 
+
+
+“lres équations différentielles des lignes de tourbillon dans le mouvement 
+absolu et des lignes de courant dans le mouvement relatif sont 
+
+
+| LED VEN ds res dy ederpeds 
+ee RL A 0 Ge p' ral W! 
+
+
+oh 
+
+
+En raison . conditions (3) ces équations sont Spas du su 
+
+
+En multipliant les équations (1 ) respectivement par w’, 6, y" et par ÉHNE 
+et en les ajoutant, on a 
+
+
+D ON de ON 0H ou 
+
+
+0 NE ni — 
+? 0x à Ho 
+
+
+5 | DO EE 
+(5) De O0 0Y 03 
+Les équations (5) et (x) font voir que, si le mouvement du fluide est per- 
+manent par rapport aux axes mobiles, animés d’un mouvement uniforme, 
+les surfaces H — const. contiennent une infinité de lignes de courant du 
+mouvement relatif et une infinité de lignes de tourbillon du mouvement 
+absolu. En désignant par ôr un élément de la normale à l’une des surfaces, 
+nous avons d’après les formules (1) 
+RS Dee Re 
+(6) UD once — = 29 W'sinQW'. 
+on 
+Ces expressions correspondent aux conditions de M. H. Lamb de la 
+permanence d’un mouvement fluide rapporté à des axes fixes. 
+Dans un domaine où Ha une valeur constante, mais Q £ 0, W'Æ 0, on 
+
+
+L L L as ÿ “ . _ . 
+doit avoir sinQW'— 0. Les lignes de tourbillon absolu se confondent 
+
+
+700 ACADÉMIE DES SCIENCES. 
+avec les trajectoires du mouvement relatif : 
+
+
+Pen era 
+(3 LPS RS APT ANS 
+
+
+En remplaçant dans l’équation 
+
+
+CMOS 
+
+
+— + —+——=o 
+ODARON OS . 
+
+
++ « Q 1 Q ñ Q , \ ’ 2 x 
+hs CG par qu Lo qu > jy Et en tenant compte de l'équation de conti- 
+nuité, on obuent 
+
+
+(8) We — const. 
+le long de chaque trajectoire du mouvement relatif considéré. Les for 
+mules (7) et(8) correspondent à celles qu’avait obtenues Beltrami pour le 
+mouvement permanent par rapport à des axes fixes. 
+
+Si les vitesses dérivent d’un potentiel o(x, y, z,t), on obtient en inté- 
+grant les équations (r) et en faisant rentrer la fonction arbitraire du temps 
+
+
+dans © 
+
+
+[+ NT ue 
+p 2 2 ol 
+
+
+Démontrons encore un théorème de Cinématique qui trouve une appli- 
+cation dans le problème du mouvement de x corps solides dans un fluide 
+parfait avec circulations, lorsqu'on calcule la force et le couple résultants, 
+agissant sur l’un quelconque des solides, en appliquant l'équation de pres- 
+sion rapportée à des axes mobiles invariablement liés à ce corps. 
+
+Référons le trièdre mobile Oxys à un trièdre fixe O,æ,y,3, ayant au 
+moment considéré z la même orientation et désignons par &,,6,, 41, Pi, Gil 
+les projections sur les axes fixes des vitesses instantanées de glissement et 
+de rotation du trièdre mobile, par a, b, c, «, 6, y les paramètres correspon- 
+dants déterminant la position du trièdre mobile, et par Lo, Po, M les projec- 
+tions sur les axes mobiles de la vitesse d'entrainement due à la rotation du 
+trièdre. Désignons par W, la projection de la vitesse d'entrainement totale 
+au point P sur une direction PN dont les cosinus directeurs par rapport aux 
+axes fixes sont /,, m,, n, et par rapport aux axes mobiles /, », n : 
+
+——— = — Los 
+Wat + em + win + ol + vin + mn. 
+
+
+En calculant la variation de W, au point P(x,, y,, z,), lorsqu'on fait 
+
+
+SÉANCE DU 2/4 OCTOBRE 1921. 701 
+
+
+varier les paramètres à, b, c et les vitesses 4,,9,,#,, on a. 
+
+
+HR eee oW, ON Re ee 
+ms AVR RRE RE AE 70 — Pi, moe = Pi = 491 1° 
+de DS 7 Nues OM 
+9 Dies dP; sn Der 
+
+
+Supposons maintenant que le point P et la direction PN sont invariable- 
+
+
+ment liés aux axes mobiles et calculons la dérivée par rapport au temps des 
+
+
+. expressions (9) au moment £. On obtient 
+
+
+to de dt dr db 0 Je dur 00 
+
+
+On obtient de même, en Rp un raisonnement analogue, les 
+expressions 
+
+
+a) M EN RE 
+( Hp da dt ag dB, de 
+
+
+Les expressions (1o)et (11) constituent le théorème. 
+
+
+HYDRODYNAMIQUE. — Sur la-nécessité de l'existence du vecteur tourbillon dans 
+les mouvements des liquides, lorsqu'il y a variation d'énergie le long des 
+trajectoires des diverses particules. Note de M. D. Evypoux, présentée par 
+
+
+M. Rateau. 
+
+
+Les équations générales de l’Hydrodynamique, applicables aux liquides 
+parfaits, sont établies dans l'hypothèse que la pression en un point est nor- 
+male à la paroi sur laquelle elle s'exerce et indépendante de l'orientation. 
+
+Si l'on suppose que les forces extérieures dérivent d’un potentiel U et 
+
+
+_ si l’on désigne par X, Ÿ, Z les forces rapportées à l’unité de volume, on a 
+
+
+& OU 
+DER L VA) TERRA 
+( O(xZ; y, 2) 
+
+
+Les équations fondamentales sont alors 
+
+
+0 
+
+
+() OL, Pit 2) 
+
+
+[2 + (] + (u/, »', æ') — 0, 
+1° Sous cette forme, on peut donner immédiatement une généralisation 
+du théorème de Lagrange et Cauchy. Les premiers termes des équations (1) 
+dérivant d’un potentiel, il doit en être de même des seconds termes. 
+L 0 
+
+
+Re 
+" 
+
+
+702 _. ACADÉMIE DES SCIENCES. 
+
+
+Écrivons alors, en ce qui concerne ces seconds termes, les conditions 
+d'intégrabilité. Nous aurons 
+
+
+: du’ CRT CRÉES. DE TR 
+(2) YA Te | Or SION 03 D 
+Or on sait que 
+GATE Ne ds dv 
+ES tre CE RE 
+dt di di 
+
+
+Intervertissant l’ordre des dérivations et faisant apparaitre l'expression 
+
+
+des composantes du vecteur lourbillon, nous voyons que 
+Ave à 
+FR 1, 6)=0 ; 
+à ALES A es A Nr , 
+d'où: quand, dans un liquide parfait soumis à ‘les forces dérivant d’un 
+
+
+potentiel, il existe, en un point quelconque et à un instant quelconque, un 
+vecteur tourbillon, ce vecteur reste constant en grandeur et direction tout 
+
+
+le long de la trajectoire de Ja particule considérée. En particulier, si le 
+
+
+tourbillon est nul à un instant quelconque, il sera nul tout le long de la 
+! trajectoire. 
+2° Les équations (1) ont pour conséquence l'expression 
+d x me 
+je + + LU + D: RO: 
+dt o) 2 
+
+
+qui exprime que l'énergie de la particule considérée reste constante. Sil’on 
+a affaire à un mouvement permanent, on en déduit le théorème de 
+D. Bernoulli ; l'énergie est constante le long d’un filet liquide en mouvement 
+et l’on ne peut Me autre chose des équations. 
+
+Or, on peut obtenir en fait des variations d’énergie le long des filets 
+Daties en mouvement; le cas des turbines et des pompes centrifuges en 
+est un exemple frappant. Les hypothèses faites sont donc insuffisantes et, si 
+l’on conserve l’hypothèse de la pression normale, on devra envisager que 
+les filets liquides doivent être soumis à des forces ne dérivant pas d’un 
+potentiel. 
+
+Nous aurons alors 
+
+à 
+
+
+. 2 ES RS 
+
+
+Le premier terme dérivant d’un potentiel, la somme des deux derniers 
+
+
++ 
+
+
+JE. 
+
+
+a 
+
+
+lité de la question. 
+
+
+SÉANCE DU 24 OCTOBRE 1921. 703 
+termes doit aussi en dériver; on a alors 
+
+
+LLC aY TRE) CE 14 a D 
+4 — A LEE CR RS À Te te Ra ee re 
+(D) 27 = 0p ur 0e CURE Ds or Es dE dy 
+
+
+Les forces ne dérivant pas d’un potentiel, le vecteur tourbillon n’est ni 
+nul, ni constant en grandeur et direction le long de la trajectoire. 
+
+Si nous prenons, d'autre part, un liquide visqueux en mouvement, les 
+
+pressions ne sont pas normales : mais on considère toujours une composante 
+
+
+| normale p et l’on ajoute des composantes tangentielles qui s’introduisent, 
+
+
+dans les équations de Navier, par les termes = A(u, v, æ). Si les vitesses 
+
+
+dépendent d’un potentiel, ces termes disparaissent eb1l D VaR plus perte 
+d'énergie par frottements dus à la viscosité. 
+
+L'existence de forces ne dérivant pas d’un potentiel et, par voie de consé- 
+quence, l’existence du vecteur tourbillon, est donc une nécessité pour obtenir 
+
+
+la variation de l’énergie d’un filet fluide en mouvement. 
+
+
+* Ce fait, visible sur les équations de Navier, pour les liquides visqueux, 
+avait été indiqué, comme une conséquence des équations des turbines, par 
+Bakersfeld et Lorentz. Ce dernier indiquant en particulier que « l’accélé- 
+
+
+_ ration de liaison et, par conséquent, le champ de forces substitué aux aubes, 
+
+
+disparaissent en même temps que le tourbillon ». 
+
+
+Nous avons tenu à montrer, sous la forme qui précède, toute la généra- 
+
+
+ASTRONOMIE. — Contribution à l’étude de la formation des étoiles doubles, 
+muluples, des amas et des nébuleuses planétair es. Note de M. Éuue Beuor, 
+présentée par M. Bigourdan. 
+
+
+On connaît maintenant la fréquence des alignements et des courants 
+d'étoiles (courants de la Grande Ourse, du Taureau, etc.) en dehors des 
+deux courants généraux de Kapteyn. Cherchons les conditions qui peuvent 
+rapprocher les étoiles dans un alignement ou un courant. 
+
+Soit un alignement 1 d’étoiles, ayant la vitesse V,, espacées dans lPali- 
+gnement de la longueur E = V,T. Imaginons que l’alignement vienne 
+heurter en 2 la nébuleuse N de vitesse W. Supposons d’abord W négli- 
+
+
+geable vis-à-vis de V, : deux étoiles 1, 2 de l'alignement séparées d’abord 
+
+
+par la distance E occuperont après des temps T, 2T, 3T, ... les posi- 
+
+
+tions 2, 3, 4, ... dans la nébuleuse et arriveront ainsi plus ou moins vite 
+
+
+ÉC 
+L 
+
+
+704 ACADÉMIE DES SCIENCES. 
+
+dans la sphère d'attraction l’une de l’autre. Si la résistance dans la nébu- 
+. ? . Éd! û 
+
+leuse est proportionnelle au carré de la vitesse et à > le mouvement retardé 
+
+
+sera régi par l’équation 
+
+
+LL 1, A ZINE l'oi PHARE Fe 
+de = AVE ST N PONT 
+RE =KL(:+ —. (Lo; VEN Npoureie 
+
+
+Les Z étant comptés dans la nébuleuse à partir du point A, la distance. 
+séparant les deux étoiles 1, 2 après les temps n T, (nr +1)T sera, si elles 
+rencontrent la même résistance de milieu : 
+. \ 
+PE KL + Re R) 
+
+Aüïnsi, quel que soit K et d'autant plus vite que la résistance de la nébu-. 
+leuse sera plus grande, la distance des deux étoiles deviendra nulle, alors 
+qu’elles étaient séparées dans l'alignement par une distance E dépassant le 
+rayon d'attraction de leurs masses. 
+
+Si la vitesse W de la nébuleuse est faible, la pénétration de Pétoile 1 
+dans le milieu résistant sera facilitée par le vide relatif de matière nébu- 
+leuse produit par la condensation sur l'étoile 2. Par le même processus une 
+troisième étoile de l'alignement 2 pourra être captée par l’étoile double 
+déjà formée. | 
+
+Si la vitesse W est assez grande, le problème se traitera comme celuides_ 
+trajectoires balistiques dans un milieu résistant, la pesanteur étant rem- 
+placée par la pression de W sur le projectile stellaire. La trajectoire aurait 
+à distance finie une asymptote parallèle à W si l'attraction mutuelle des 
+étoiles n’en augmente la courbure : elle s’infléchira de 2-6 à 2-6’, les étoiles 
+de l’alignementse rapprochant le long de la trajectoire comme dans le pre- 
+mier cas. La courbure de la trajectoire aura comme conséquence la forma- 
+üon d'étoiles doubles avec excentricité d’orbite moins grande que dans le 
+cas de la trajectoire rectiligne. Cette courbure s'accentuera d’ailleurs si la 
+nébuleuse augmente de densité dans ses couches profondes. 
+
+Cas d'un courant d'étoiles K.— On peut schématiquement le réduire à des 
+alignements parallèles et ne considérer que les alignements situés dans le 
+plan des vitesses V,W. Dans le cas particulier où le bord AB de la nébu- 
+leuse est parallèle à W, les trajectoires de deux alignements sont parallèles 
+dans la nébuleuse, mais se rapprochent au point de pouvoir faciliter la cap- 
+
+
+CT 
+
+
+SÉANCE DU 2/4 OCTOBRE 1921. 705 
+
+
+ture d’une étoile d’un alignement par une étoile d’un autre alignement. 
+Dans le cas général où le bord BF de la nébuleuse n’est pas parallèle à W, 
+les trajectoires BB", FF se croisent dans la nébuleuse, ce qui rend presque 
+inévitable les captures. Une étoile parcourant FF’ croise la trajectoire BB 
+avec une grande vitesse relative; les étoiles doubles produites auront des 
+orbites très excentrées (binaires visuelles) tandis que les étoiles doubles pro- 
+duites par deux étoiles d’un même alignement formeront des couples très 
+serrés (binaires spectroscopiques). Les étoiles du type B ayant peu de vitesse 
+et un grand diamètre pour leur masse auront une trajectoire BB” à forte 
+courbure favorisant les orbites relatives peu excentrées. Les binaires de ce 
+type seront exclusivement spectroscopiques. Inversement il n’y aura pas de 
+binaires du type N en raison de leur grande vitesse et de leur grande den- 
+sité. Ve 
+Cas des amas globulatres et des nébuleuses planétaires. — La figure 
+montre que toutes les trajectoires sont déviées dans le même sens par 
+
+
+la vitesse W comme si elles tournaient en moyenne autour d’un axe 
+perpendiculaire au plan de la figure. D'autre part, la résistance de 
+milieu ramasse les étoiles dans un volume beaucoup plus petit que celui 
+qu’elles occupaient dans le courant K et augmente leurs masses de toute 
+celle captée dans la nébuleuse. Leur attraction mutuelle resserrera encore 
+leurs intervalles en uniformisant leur rotation d'ensemble. Il en est de 
+même dans tous les plans parallèles à celui de la figure. Ce sont les condi- 
+
+
+tions propres à former un amas globulaire M tournant dans le sens f : sa 
+
+
+vitesse moyenne dont la direction V sera intermédiaire entre celles de V, 
+et W l’entrainera hors de la nébuleuse N elle-même attirée par l'attraction 
+dans la direction V. Le choc des étoiles sur la nébuleuse y produira une 
+pulsation comme celle des Céphéides. Les mêmes phénomènes pourront 
+
+
+« 
+
+
+706" =: ACADÉMIE DES SCIENCES. 
+
+
+recommencer pour former un second amas aux dépens du courant K : dans 
+l'intervalle de la formation de deux amas, la nébuleuse N, qui avait été 
+relardée et comme coupée par la formation des amas, reprendra sa marche 
+en N, qui constituera une nébuleuse isolée ayant tendance à se réunir en 
+sphéroïde autour d'un noyau stellaire comme les nébuleuses planétaires. 
+
+Dans la nébuleuse spirale de la Voie lactée, le courant K peut repré- 
+senter la spire extérieure divergeant du noyau, et la nébuleuse W fa masse 
+génératrice des amas nl obilanas et des nébuleuses planétaires dont le 
+nombre est limité (86- on et dont les vitesses excèdent notablement celle 
+des étoiles. Dans la nébuleuse des Chiens de Chasse, la nébuleuse secon- 
+daire représente aussi le refoulement de la spire extérieure par la nébu- 
+leuse W. 
+
+Ainsi les étoiles multiples, les amas globulaires et les nébuleuses pla- 
+nétaires ont, d’après la cosmogonie dualiste, la même origine (choc de 
+masses done sur une Leds se le système solaire et les nébu- 
+leuses spirales. 
+
+
+ASTRONOMIE. — Étude photométrique de l’échpse de Lune 
+des 16-17 octobre 1921. Note de M. A. Dansox, présentée par M. Baillaud. 
+
+
+L’éclipse des 16-17 octobre s'étant présentée à Strasbourg dans des 
+conditions atmosphériques favorables, j'ai pu exécuter le programme 
+d'observations photométriques que je m'étais tracé. Il s'agissait de déter- 
+miner la courbe de l’éclairement e de la Lune à l’intérieur de l'ombre et de 
+la pénombre, en fonction de la distance d à l’axe du cône. 
+
+
+Le photomètre construit dans ce but permet de comparer l'éclat du bord de la 
+Lune le plus voisin du centre de l'ombre, et que j'appellerai bord intérieur, au bord 
+diamétralement opposé ou bord extérieur. Pendant un certain temps, au début et à 
+la fin de lPéclipse, le bord extérieur se trouve en dehors de la pénombre et son éclai- 
+rement peut être pris comme unité. La mesure fournit alors directement la valeur de 
+l’éclairement à la distance d du bord intérieur au centre de l'ombre. Pendant les 
+phases voisines du milieu de l’éclipse, il y a lieu de tenir compte de l'assombrissement 
+du bord extérieur par la pénombre; les mesures de celle-ci, effectuées au début et à 
+la fin du phénomène, fournissent aisément la correction. 
+
+Le photomètre à double image employé se compose d’une lunette astronomique, 
+d’un prisme biréfringent de Wollaston et d’un nicol tournant, muni d’un index 
+mobile sur un cercle divisé, Le Wollaston est placé entre l'objectif et l’oculaire, de 
+manière à fournir deux i images de la Lune exactement tangentés. On oriente la lunette 
+autour de son axe de telle sorte que le bord intérieur d’une image soit en contact 
+
+
+Te Era LE 7 we 
+
+
+SÉANCE DU 24 OCTOBRE 1921. 707 
+
+
+avec le bord extérieur de l’autre. En tournant le eh on égalise l’éclat des deux 
+
+
+bords en regard, et l’on noté la position de l'index où l’on déduit le rapport des 
+éclairements. En raison des colorations de l’ombre, j'ai placé devant l’œilleton tantôt 
+
+
+_un filtre rouge orangé (À moyen — 610), tantôt un vert (À moyen — 5/0). 
+
+
+A priort, la Lune se prête mal aux mesures photométriques, à cause 
+de la diversité de son pouvoir diffusant. Heureusement, les régions qui 
+touchent au limbe sont d’une blancheur à peu près uniforme, et c’est ce qui 
+a déterminé le choix de la méthode. D'ailleurs, l'entrée et la sortie de 
+
+
+ lPombre et de la pénombre se faisaient en des points diamétralement 
+
+
+opposés. S’ ils n’ont pas le même éclat, l'erreur systématique disparaîtra 
+dans la moyenne des mesures Éecraées en phase croissante et en phase 
+décroissante; du moins quant aux mesures se rapportant à la pénombre, et 
+aux parties extérieures de l'ombre. à \ 
+223 déterminations ont été faites entre 8" et 14" (Lt. m.a. G.). Je les ai 
+groupées en 27 moyennes, et portées sur un graphique dont les abscisses 
+représentent la distance au centre de l’ombre. Il est très facile de relier les 
+points par une courbe d’allure régulière, avec une précision de quelques 
+unités pour cent. Je fournis ici, non les mesures elles-mêmes, mais quelques 
+
+
+points de la courbe qui pe ne à en fixer la forme. 
+
+
+Ombre. è Pénombre. 
+: log e log e 
+
+3 LR ee RE EE ere 
+d. D10 10 SN _ d. : observé. calculé. 
+
+RE RS ES 4,08 5,40 40.40 SRE 3.90 " 
+
+DO O en MER 1,18 5,83 HO ES md oe 5,34 / 
+SOON ra are 4533 1,08 one 5,88 2,9 
+DÉPOT TE done 7,42 7,27 DORE uit ete En E,42 
+DE D nn Le ce Te 3:10 DOS, Mie 1,79 7,80 
+HOMO Rene as Dore OO E E ve Rom LL, 
+TS Os ee Ca sens 0,00 0,00 
+
+
+1° J’ai calculé les valeurs théoriques de loge dans la pénombre, et le 
+Tableau ci-dessus permet de les comparer aux valeurs observées. L'accord 
+est très bon, ce qui légitime la méthode employée. 
+
+2° Les valeurs trouvées pour l’ombre appellent quelques remarques. 
+Dans les parties extérieures de l’ombre, la lumière réfractée par notre atmo- 
+sphère reste blanche, les mesures étant indépendantes de la longueur d’onde. 
+Mais à mesure que l’on s'enfonce dans l’intérieur du cône, la lumière devient 
+
+
+de plus en plus rouge. En extrapolant la courbe jusqu’à d — o (éclipse cen- 
+
+
+trale), on trouvepourlerouge orangéloge — 5,9; etpour le vert, loge — 6,8. 
+
+
+Une première analyse du phénomène m'a permis de déduire de ces. valeurs 
+
+
+708 ACADÉMIE DES SCIENCES. 
+
+
+le coefficient de transmission de notre atmosphère au moment de l’éclipse. 
+
+
+En désignant par # le coefficient de transmission verticale (c’est-à-dire cal- 
+
+
+culé pour une colonne d'air normal d’un centimètre carré de section et 
+pesant 10335), on arrive aux résultats suivants : 
+
+
+À K. 
+CT RS Heernie 0,90 
+DO PIS RER EU MEME CAE 0,89 
+
+
+Les absorptions sont dansle rapport 1,54 et les inverses des quatrièmes 
+puissances des longueurs d'ondes, dans le rapport 1,63. La théorie plus 
+complète que je poursuis actuellement ne modifiera pas sensiblement ces 
+nombres. 
+
+Si l’éclipse avait été centrale, la Lune aurait rayonné, en lumière rouge, 
+autant qu’une étoile de grandeur — 2%,6. Comparé aux quelques évalua- 
+tions antérieures que l’on possède, cet éclat est exceptionnellement intense. 
+D'ailleurs, la partie dans l'ombre n’a jamais disparu dans une petite lunette. 
+A l'œil nu, elle était encore visible à 12/20", c’est-à-dire 14 minutes seu- 
+lement avant la sortie de l’ombre. Or, il résulte du très grand nombre 
+d'observations d’éclipses que j'ai rassemblées, que, même dans des éclipses 
+qualifiées « claires » pendant la totalité, la partie dans l’ombre est souvent 
+invisible à l'œil nu pendant la phase partielle. 
+
+L’éclipse du 16 octobre a donc été exceptionnellement claire, comme 
+je l'avais annoncé (). 
+
+
+ASTRONOMIE. —. Observations, faites à l'Observatoire de Lyon, pendant 
+l’éclipse de Lune du 16 octobre 1921. Note de MM. J. GuiLrauue 
+et H. Grouic£er, présentée par M. B. Baillaud. 
+
+
+Le commencement et la fin du phénomène ont été notés ainsi : 
+
+
+Temps moyen Greenwich. 
+A" 
+
+
+Instrument. Ouverture, Grt, Observatr. Commencement. Fin. 
+F m h m ss h m ss 
+Equatorial coudé..,.:., 0,320 7ù JC: ot 12:94,7 
+Eq. Eichens-Gautier (2). 0,160 DOMADHACE » 1269259 
+Lunette Bardou...... D 0 80 C. B. 0.19,0 12.33,6 
+AMÉŒtnU Lee ASE ». » M.B. ON 12200 
+
+
+(1) Comptes rendus, t. 171, 1920, p. 1127 et 1207. 
+(?) Une panne d'électricité ayant bloqué la coupole, l'équatorial Brünner n’a pu 
+être utilisé, 
+
+
+NTI PER NTI CI TS PERL 100 QUES CNED DOME Pa CERN POS DEV PTIT SMS PT ME 
+
+
+PNY [ PPPPPT TOR 
+
+
+£ 
+» 
+E 
+> 
+î 
+
+
+SÉANCE DU 24 OCTOBRE 1921. 709 
+
+
+Entre temps, pour faciliter l'observation d’occultations d’étoiles, 
+M. Guillaume était assisté par Mie M. Bloch, et M. Grouiller par 
+Mie C. Bac. : 
+
+La présence ne voile de brume élevé, dû au temps sec dont la période 
+exceptionnellement longue se poursuit, rendait le ciel laiteux, ne laissant 
+discerner que les étoiles les plus brillantes avant et après l’éclipse, et au voi- 
+sinage de la phase presque totale ou ne pouvait voir, à l’équatorial coudé, 
+
+
+celles inférieures à la grandeur 9,5, lesquelles, d’ailleurs, disparaissaient 
+
+
+à l'approche du limbe lunaire plongé dans l’ombre; à l’équatorial Eichens- 
+Gautier, ces mêmes étoiles étaient complètement invisibles. 
+
+Les immersions suivantes, seules, ont été observées : 
+
+_ À aucun moment, pendant la durée de l’éclipse, le disque entier de la 
+Lune n’a cessé d’être visible, et la teinte rouge cuivré de l'ombre, bordée 
+d'une zone gris bleuté, permettait aisément d’en discerner les détails sélé- 
+nographiques. 
+
+
+Instrument. Gr!. Obs". T,n. Greenwich. 
+; km s 
+Anonyme (9,4)...... : Eq. Eichens-Gautier Dors HG 103002 :6 0) 
+B.D.+5%7,218 (9°,2). Equatorial coudé 1602: JG 031.76 9 (7) 
+B. D.+ 7.225 (9°,0). » : BOOT GE RES OU ES OH) 
+Remarques. — (*) L'étoile est au tiers de la distance entre B. D.+50,215 et 5°,217. 
+
+
+— (**) Instantanée. 
+
+
+‘PHYSIQUE. — Potentiels critiques relatifs aux discontinutés Ke L, d'absorp: 
+tion de l’aluminium. Nouvelle dêéter mination de la constante À 7 Planck. 
+Note de M. Horwkxck, présentée par M. G. Urbain. 
+
+
+Principe. — Si l’on détermine la transparence T d’un corps pour les 
+rayons X produits en arrêtant, sur une anode, un faisceau d'électrons 
+lancés par une différence de potentiel V (T étant le nombre qui mesure 
+lintensité des rayons traversant le corps, le rayonnement incident étant 
+
+
+égal à 100); la courbe T — (V) présentera un point singulier au moment 
+où V prendra la valeur 
+Ne ca 
+C 
+h étant l'élément d'action de Planck, e la charge élémentaire et v la fré- 
+quence d’une discontinuité d'absorption du corps considéré. Ce point 
+singulier sera d'autant plus net que les rayons seront plus filtrés, c’est- 
+
+
+Rate 
+C. R., 1927, 2° Semestre. (T. 173, N° 17 ) - 99 
+
+
+710 ACADÉMIE DES SCIENCES. 
+
+
+à-dire contiendront une proportion plus grande de radiations intéfessant 
+
+
+l'extrémité du spectre continu du côté des hautes fréquences. 
+
+Si l’on a déterminé, par l'angle de diffraction des rayons sur un cristal 
+de constante réticulaire connue, la fréquence y d’une discontinuité d’ab- 
+sorption et si l’on mesure le potentiel V, on a les éléments pour calculer k. 
+
+
+Appareil, — Le dispositif expérimental est toujours le même (1) : un fil dé tungs- 
+tène rectiligne est porté à l’incandescence et émet des électrons qui bombardent une 
+anode, ên forme de V, entourant la cathode à une petite distance. Tout ce dispositif 
+est placé dans une enceinte métallique où un bon vide est fait au moyen d’une pompe 
+moléculaire tournant constamment pendant les expériences. Les rayons sortent du 
+tube producteur en traversant une feuille de celluloïd mince et étanche, et pénètrent 
+
+
+dans un électroscope contenant de l'air à une pression suffisante pour absorber entiè-. 
+rement les rayons. Entre la grille épaisse supportant là feuille étanche, qui constitue 
+
+
+en même temps un canaliseur multitubulaire, ét l’'anodé où sont produits les rayons, 
+un dispositif à volets, mû de l'extérieur par des rodages, permet d’interposer, sur le 
+trajet des rayons, la feuille d'aluminium dont on veut mesurer la transparence; un 
+autre volet permet d’interposer un filtre convenable, La différence de potentiel entre 
+l’anode et la cathode était produite au moyen d’une batterie de petits accumulateurs 
+et! mésutée au inoyen d'un voltmètre étalon Weston; le point commun, origine des 
+‘potentiels, étant l'extrémité négative du filament incandescent. 
+
+
+Résultats : Potentiel critique K. — Trois déterminations ont été faites. 
+Dans ces mesures, la feuille d'aluminium employée avait 8,99.10-‘ cm 
+d'épaisseur et l'électroscope contenait de l'air à la pression dé Serde 
+mercure (profondeur 12°"). 
+
+Dans la première détermination, les rayons étaient filtrés au travers d’une 
+feuille d’alaminium semblable à celle en expérience : la filtration étant 
+insuffisante, une discontinuité peu prononcée apparaissait à 1575 + 20 volts. 
+Dans la deuxième détermination, les rayons étaient filtrés au travers de 
+
+
+trois feuilles de celluloïd de 4.10" cm d'épaisseur environ, La discontinuité. 
+4 P ? 
+
+
+beaucoup plus franche, a été observée à 1560 Æ 10 volts. Dans la troisième 
+détermination, les rayons étaient considérablement filtrés au travers 
+de 32.10 * cm d’acétate de cellulose qui laissait passer moins de + du 
+rayonnement incident. La discontinuité, très nette, a été trouvée à 
+
+
+1995 + 10 volts, soit en prenant pour la valeur 6,35.107? : 
+À —" (7,99 æÆ 0,09) ro7° cm: 
+
+
+La précision n’a pas été augmentée par suite de la faible intensité des rayons 
+
+
+(1) Voir Comptes rendus, t, 171, 1920, p. 849, et t; 172, 1931, p, 439. 
+
+
+PORT) PPS EE 
+
+
+SÉANCE DU 24 OCTOBRE 1921. , 711 
+
+
+fltés rendant les mesures un peu flottantes. C’est cependant ce dernier 
+nombre que nous conserverons. Le Tableau suivant donne les valeurs de T 
+en | fonction der V: : 
+
+
+EPeV ie volts)... 1400 1450 1500 1525 1550 15795 1600 1650 1700 
+Elempourros). 31,8 286,1 36,4 137,7 38,6 97:00 199,8: :32)31.28,8 
+
+
+Porehiet critique PRE La feuille d'aluminium employée avait6,3.10 cm 
+d’é épaisseur environ (aluminium battu). La filtration des rayons était uni- 
+
+
+quement faite par la feuille étanche de celluloïd qui avait 0,8. 10cm. 
+| pie La discontinuité, très franche, se place A:64,0 9 volts, soit 
+
+
+mo) 21) 10710, 
+
+Ce nombre est en bon accord avec celui déduit, d’après le principe de 
+combinaison, de la raie Kx, et de la discontinuité K et avec celui calculé 
+par extrapolation, suivant la loi de Moseley, de la raie LB,, d’où la discon- 
+tinuité L,, est voisine. La valeur observée directement est vraisemblablement 
+la plus précise. 
+
+Voici les valeurs de T en fonction de V : 
+
+
+V (en volts)... : 4ÿ 50 bo 60 GO ACES 70 70 80 
+. T (en pour 100). 068,7 070 124,91120,810 2014. 95.6)122:6.. 17,8 
+
+
+Cette discontinuité L, pouvant avoir, suivant les prévisions de Kossel ('), 
+une structure fine importante, il sera intéressant de déterminer le même 
+potentiel critique pour un composé dans lequel Palaminium aura perdu un 
+certain nombre de ses électrons de valence (dans Al°0*, par exemple). 
+
+Il est à remarquer que la disconunuité L, de l° dt tombe dans le 
+domaine des radiations ultraviolettes étudiées par Millikan (longueur d'onde 
+minimum 100.107 cm). 
+
+Ces mesures seront étendues aux éléménts voisins et à leurs composés. 
+
+Mesure de la constante k. — Hugo Fricke (?) a déterminé,au moyen du spec- 
+trographe de Siegbahn, la longueur d'onde des discontinuités K d’un certain 
+nombre d'éléments légers, de l'aluminium en particulier. Il à trouvé pour 
+AIKA= 7,9470.10-*cmenseservantcommeréférences de WLa, À = 1,4735 
+et de SnLa; À — 3,5929. Le potentiel critique K étant 1555 +ro volts, 
+et en prenant pour la charge élémentaire la valeur 4,774.107'° on 
+trouve pour À (6,55 Æo,o2)10-?". [erreur porte principalement sur 
+la détermination du potentiel critique. La structure fine de la discontiriuité 
+
+
+4 
+
+
+CAPer rit: D. Phys. Ges., 1.18, 1916, p. 339, et Zeits. für Physik, 4, 1920, 
+DATI 
+(2?) Huco Friexe, Physical Review, septembre 1920. 
+
+
+LR - ACADÉMIE DES SCIENCES. 
+
+
+qui s'étend sur 4,9 volts était, en effet, insensible avec une feuille aussi 
+épaisse que celle en expérience : Fricke a observé que cette structure com- 
+plexe se réduisait à la discontinuité principale pour les feuiiles d'épaisseur 
+supérieure à 1.107*cm. La précision sur la détermination du potentiel cri- 
+tique est susceptible d’être accrue en améliorant, par des mesures croisées, 
+
+
+le tracé de la courbe T = f(V). 
+
+
+CHIMIE PHYSIQUE. — Recherche magneétochimique des constitutions en Chimie 
+minérale. 1. Lés acides du soufre. Note de M. Paur Pasca, présentée par 
+
+
+M. H. Le Chatelier. 
+
+
+Les résultats fournis par l'analyse magnétique dans l’étude des consti- 
+tutions organiques m'ont conduit à l'appliquer à la recherche des 
+constitutions minérales. J'avais l’espoir de mettre en évidence certains 
+groupements atomiques magnétiquement définis, et de prolonger ainsi à la 
+chimie des métalloïdes l'emploi des formules développées, dont on connaît 
+l'intérêt didactique et euristique. 
+
+Pour les acides du soufre, l'étude a englobé tous les composés oxygénés 
+minéraux de cetélément, les hydroxylamine-sulfonates, les amidosulfonates, 
+enfin les acides sulfiniques ou sulfoniques, les sulfoxydes et les sulfones 
+organiques. Le Tableau ci-dessous rassemble une partie des susceptibilités 
+moléculaires observées, et, grâce aux règles d’additivité précédemment 
+données, on en a déduit par différence la part contributive des groupements 
+oxysulfurés. 
+
+
+Composés. Susceptibilités. Radicaux. 
+SOMEAEENR NES SR AU . : — 869.107 S0+==356 1107! 
+SORA ns COR PAR ERIC TER — 714 336 
+A 0 EU SAR RER RARE TOR PAT TEEN — 1002 31/4 
+CPE SOMCHE NET ARMES — 818 SOU 580tr0e 
+NOHCSO RSA AR NNU er en — 1079 289 
+NH°== CH(SOSK) (SOS) 27: — 973 278 
+NHESOPEL, LU A SRE RU Er — 428 289 
+CO DS ON ENTRE AS — 1289 SO? —=—247.1077 
+SOCCER NA UE MR AE — 750.107 SO$ —— 292.107! 
+
+DONS OS NP ES — 1314 223 
+
+MUGTHPSO2) Me, 211207 LAC EE — 1263 SO: 179.107 
+COMM ÉSONE, 2 CANNES — 670 SO = 1937:407 
+SONORE tn 2 DOTE — 618.107 SOS MBATEON! 
+SOA PO ERE T.E  enee + —1197 S205 — — 560. 107 
+
+
+SOIN ANR RENE TE Le. NA — 1244 … St06—— 874.1077 
+
+
+SÉANCE DU 24 OCTOBRE 1921. T1 
+
+
+Ces résultats prêtent immédiatement à quelques remarques, indé- 
+pendantes, il faut le noter, de toute théorie de la valence, et de toute formule 
+développée préalable. 
+
+1° Les groupements SO?, SO*, SO‘ des sulfones, sulfonates et sulfates 
+possèdent une individualité magnétique constante : 
+
+
+SO 247.107, SO—— 285,107", SOS 5010 
+
+
+Au degré de précision des mesures, ces nombres forment une progression 
+arithmétique dont la raison est précisément la susceptibilité atomique 
+
+
+ (46.1077) de l’oxygène des foncüons alcool ou éther-oxyde. Nous sommes 
+
+
+donc fondé à admettre la présence du groupe SO* des sulfones dans l’acide 
+sulfurique ou les acides sulfonés; l'oxygène en excès servirait à faire la 
+
+
+jiaison avec l'hydrogène de l’acide ou le métal du sel. C’est la justification 
+
+
+des formules rationnelles : RSO? (OH) ou SO? (OH }. 
+
+2° Le groupement S?0* del’acidehyposulfureux compte pour — 434.107" 
+dans la susceptibilité moléculaire; il diffère du radical sulfurique SO‘ de 
+l'écart — (150-46).10 7 qui sépare le soufre des mercaptans de l’oxygène 
+des alcools; c’est la consécration de la formule développée /hiosulfurique 
+SO COH)CSET) 
+
+3° Dans la série thionique, la part contributive du radical acide se 
+calcule exactement en doublant la valeur du groupe SO*H des acides 
+sulfonés et en y ajoutant éventuellement la susceptibilité atomique normale 
+du soufre. L’acide dithionique est donc l’acide disulfonique 
+
+
+SO2(0H) — SO’(OH); 
+
+
+- les autres des dérivés disulfonés du soufre : 
+
+
+SO?(OH) — Sr — SO2(0H). 
+A aucun ne conviennent les formules dissymétriques proposées par Debus. 
+4° Les sulfites, les sulfinates et les sulfoxydes ont une constitution totale- 
+ment différente des précédentes, et dans le sens d’une non-saturation de la 
+
+
+molécule (dépréciation du diamagnétisme). La comparaison des radicaux 
+acides fournit cette fois la progression : 
+
+
+SO — — 137.107, SO?=—— 179.107, SOS=— — 223:1077, 
+
+
+dont la raison est encore égale à la susceptibilité atomique de l'oxygène 
+dans les alcools et les éthers. 
+Ainsi, les acides sulfureux et sulfiniques doivent contenir le groupement 
+
+
+714 ACADÉMIE DES SCIENCES. 
+SO des sulfoxydes et s’écriront : SO(OH)* ou RSO(OH). IL faut donc 
+
+
+renoncer aux formules dissymétriques données parfois aux sulfites et aux 
+sulfinates métalliques pour expliquer leur transformation en sulfonates et 
+en sulfones par double décomposition avec un éther halogéné. Ces réactions 
+_inattendues sont le fait de combinaisons moléculaires suivies de transposi- 
+tions, et elles trouvent bien dans les travaux d’Arbusow et d'Otto leur 
+explication naturelle, en parfait accord avec l’analyse magnétique. 
+Noys montrerons bientôt que l'étude des acides du phosphore et de l’azote 
+conduit à des résultats analogues pour la constitution des phosphites et des 
+azotites. 
+
+
+CHIMIE ANALYTIQUE. — Sur un nouveau procédé de dosage de ta silice. 
+Note de M. Travers, présentée par M. Haller. 
+
+
+Tout le monde connaît les difficultés du dosage de la silice, en présence 
+d'un grand excès de sels alcalins. Ces difficultés ont été très bien étudiées par 
+Hildebrand ('); cet auteur a montré que malgré deux insolubilisations en 
+milieu chlorbydrique, on n’obtenait pas toute la silice; que la silice non 
+précipitée ne se retrouvait pas non plus quantitativement avec l’alumine, au | | 
+cours de l'analyse. En substituant à HCI, SO'F®, Hildebrand a pu obtenir & 
+des résultais plus exacts (?). | 
+
+C’est en vue d'obtenir un procédé de dosage moins long, et a améliorer 
+les résultats, que nous avons étudié la tbe de suivante. Nous montrerons 
+d'autre part qu'elle permet un dosage exact de la silice, en présence à la fois 
+de fluor et d’ alumine, alors que la méthode de Bei donne des résultats 
+inférieurs. 
+
+
+Principe de la réaction. — La silice étant à l’état de silicate alcalin, on la 
+précipite à l’état de SiFCK?, insoluble dans une solution de concentration 
+suffisammentricheenions K (155 à 20f KCI dans 100%). Le précipité humide 
+est titré alcalimétriquement, à l’ébullition, en présence de phtaléine, par 
+
+
+4 ! 7 N 1 . OT 
+une liqueur de KOH décarbonatee, 3; ce dosage volumétrique du fluosili- 
+
+
+(1) Amer. Chem. Soc., t. 24, 1902, p. 362. 
+
+(?) La solubilisation de la silice, en [présence des sels alcalins et l'amélioration du 
+procédé par le remplacement de HCT par un acide plus fixe, SO*H®? par exemple, nous 
+paraissent une conséquence directe de la réversibilité de la réaction 
+
+
+Si0?+ 9 NaGL+ HO = SiO3Na? + 9 HCI, 
+
+
+SÉANCE DU 24 OCTOBRE 19217) 715 
+
+
+cale a été indiqué par Hilemann (t). La réaction correspond exactement à 
+
+
+® 
+
+
+SIF'K?+ A HQE —=6KP SOL HO 
+
+
+| Transformation du silicate en fluosilicate. . La solution alcaline de 
+
+
+silicate alcalin (5o°% par exemple) est traitée en OU d'argent par 15 au 
+
+
+moins de KKF pour 0f,150 de no on verse ensuite de l’acide chlorhy- 
+drique diisiret d'abord jusqu’à à neutralisation (hélianthine), puis en 
+faible excès, 2% environ; on ajoute enfin un excès de KCI solide (55 à 108 
+
+
+au moins pour bo” de Des 
+HCI déplace HF du fluorure de potassium; HF réagit sur alé silicate 
+alcalin d’après la réaction  . / 
+
+
+Den GHP + Si0®= SiP'H + 2H°0, 4 
+
+
+/ 
+
+
+_ L’acide in Line réagit sur KCI d’après la réaction réversible 
+
+
+apr SiFeH°+2KC) = SiFeK?+ 21H01. 
+
+
+Si la concentration du milieu en KCI est hante la réaction (2) est 
+complète de gauche à droite. 
+
+L'étude + cette réaction sera donnée dans un Mémoire ultérieur. 
+
+Le précipité de SiF°K? est filtré sur filtre dur et sur entonnoir en ébonite 
+ouen carton durci; il est lavé avec une solution de KCI à 20 pour 100 
+(ou d’eau alcoolisée à 50 pour 100), Jusqu'à cessation d’acidité à l’hélian- 
+thine, puis titré alcalimétriquement, comme on l’a indiqué plus haut. 5e 
+
+
+_ virage est net et peut s affirmer à 5 de centimètre cube près de KOH © . 
+
+
+La précision du dosage est ie car 1% de KOH ù correspond à 5m8 . 
+
+
+510%; la méthode est donc tout à fait intéressante pour la recherche de 
+traces de silice. 
+
+
+APPLICATIONS. — À. Dosage d’un silicate alcalin.— La méthode fournit rapidement et 
+en une seule opération la teneur en SiO. 
+
+Soit une solution de silicate K. 
+
+La détermination de la silice par deux insolubilisations, au bain-marte en mi- 
+lieu HCI, a donné : prise 10° SiO? : 08,1225, 08,123, 08,123. 
+_ Dosage à l’état de SiFSK? : prise rocm : 
+
+
+(1) Zeit. für anorg. Chem., À. 51, 1906, p. 159. 
+
+
+746: =: ACADÉMIE DES SCIENCES- 
+| N 
+KOH bis : Si O2. 
+N cm? | 
+
+
+à 
+ARE PE RE DAC M D ME Pat 0,1237 
+ARE PEN UP D AR En CPS es Eee ec GE fes 
+LS A PE TE RS EP LPS MONS Pr NE 
+
+
+Les résultats trouvés par notre méthode sont systématiquement plus élevés que 
+ceux donnés par la méthode classique (insolubilisation en présence de sels alcalins). 
+
+2. Recherche de traces de SiO? dans les alcalis, potasse caustique, soude, peroxyde 
+de sodium, dans les sels alcalins : La méthode fournit dans ce cas rapidement et avec 
+précision, les traces de Si O?. , 
+
+3. Dosage du quartz ou des silicates. — On fait passer la silice à l’état de silicate 
+alcalin par füsion avec KOH caustique, en creuset d'argent. On reprend par l’eau, on 
+filtre à lébullition dans une capsule d’argent; après lavage et refroidissement, on 
+procède comme précédemment. S'il n’y a pas d’alumine, toute la silice passe dans le 
+filtrat; la présence d’alumine entraîne la formation d’un silicoaluminate alcalin inso- 
+luble, qui reste sur le filtre. Dans ce dernier cas, on fait tomber le précipité humide 
+dans la liqueur filtrée : on neutralise avec HNO® au lieu de HCI, pour éviter la forma- 
+tion de AgCI résultant d’une faible attaque du creuset d’argent, et pour la même 
+raison, on remplace KCI par KNOë. 
+
+Nous réservons le cas de la présence de Ti0?, Zr0?, à côté de la silice : une étude 
+ultérieure précisera les conditions d'application de la méthode. 
+
+Remarque. — On devra déterminer dans un essai à blanc la silice renfermée dans le 
+réactif d'attaque, KOH, comme il a été indiqué dans 2), de même que dans le chlo- 
+rure de potassium utilisé; la correction déterminée avec précision n’entraîne aucune 
+erreur sur le dosage. 
+
+k. Enfin cette méthode est surtout intéressante dans la recherche de SiO? à côté 
+du fluor. Cette séparation est l’une des plus difficiles connues; les seules méthodes 
+décrites dérivent de la méthode de Berzélius (1), plus ou moins modifiée. 
+
+2. Supposons d’abord le cas le plus simple, l'absence d’alumine. La solution 
+alcaline est additionnée de CO Am? qui précipite la silice; d’après les recherches très 
+complètes de Seemann (2), la précipitation de la silice est très incomplète en milieu 
+alcalin ; aussi est-elle suivie d’une précipitation par Zn O en solution ammoniacale; les 
+résultats obtenus sont très acceptables, mais, comme ajoute l’auteur, « la méthode est 
+incommode, et la silice précipitée avec Zn O doit être encore insolubilisée ». 
+
+Notre méthode fournit en une seule précipitation toute la silice; et si la propor- 
+tion de fluorure est suffisante, il est inutile d'ajouter KF. 
+
+B. Par contre, en présence d’alumine la méthode Berzélius fournit des résultats 
+
+inférieurs pour la silice; ce cas n’a pas été étudié par Seemann; nous avons pu 
+démontrer que la silice précipitée, en méme temps que l’alumine (sous forme vrai- 
+semblablement d'un silicoaluminate) retenait du fluor ; il en résulte que dans l’inso- 
+
+
+(!) Poggendorfs Ann., t. 1, p. 169. 
+(?) Zeit. für Analyt, Chem., t. kk, 1905, p. 362. 
+
+
+lrisatiirat tés il né tirées, fée Se, de dE 
+
+
+a) 
+
+
+He. # 
+
+
+SÉANCE DU 2/4 OCTOBRE 1921. A1 
+
+
+lubilisation chlorhydrique qui suit, une partie de SiO? est volatilisée à l'état de SiF*. 
+Cet inconvénient disparaît dans notre méthode. Enfin nous signalons son application 
+
+à la recherche du quartz dans la fluorine : la méthode d’attaque habituelle, fusion 
+
+avec du quartz et des carbonates alcalins, est évidemment inacceptable dans ce cas. 
+
+
+Nous décrirons dans un Mémoire ultérieur ces diverses applications. 
+
+
+CHIMIE ORGANIQUE. — La dibromoanthraguinone ayant servi à la synthèse 
+de l’alisarine. Note (‘) de M. Graxpmouein, présentée par M. H. Le 
+Chatelier. 
+
+
+‘Au moment où l’industrie française vient de reprendre, à nouveau, la 
+fabrication de l’alizarine synthétique, il n'est peut-être pas sans intérêt d’élu- 
+cider un petit problème historique resté jusqu’à présent sans solution délfi- 
+nilive. , 
+
+Quelle est la constitution de la dibromoanthraquinone ayant servi à la 
+synthèse historique de l’alizarine par MM. Graebe et Liebermann (Ann. 
+Spl. 1/7; 1870; p.289)? 
+
+On sait que cette dibromoanthraquinonc qui, par fusion alcaline, donne 
+de l’alizarine a été obtenue en prenant comme point de départ le tébrabro- 
+mure de dibromanthracène d’Anderson (Ann. Chem., 1. 122, p. 304). 
+Celui-ci traité par la potasse alcoolique donne un tétrabrome-anthracène 
+que l’on oxyde par le mélange chromique en dibromoanthraquinone. 
+
+Ce qui a compliqué sensiblement la recherche, c’est que les premiers 
+auteurs n’ont pas indiqué le point de fusion de leur composé; le point de 
+fusion indiqué par la suite par Perkin (Soc., t. 37, p. 555) est par suite 
+d’une erreur d'impression de 100° trop bas (174°-195° au lieu de 
+2542750} (2). 
+
+Quelques auteurs se sont déjà occupés de cette question ; je signalerai en 
+particulier les travaux d’un de mes anciens assistants, M. F. Kaufler, Pri- 
+vat-docent à l'École Polytechnique de Zurich qui avec différents collabora- 
+teurs (MM. Crinsoz, Imhotf) avait serré le problème d'assez près, sans être 
+cependant arrivé à une conclusion certaine (Ber., t. 37, 1904, p. 4709). 
+
+Au moment où, avec l'assistance de M. Sack, nous nous sommes appli- 
+
+
+(!) Séance du 10 octobre 1921. 
+(2) La rectification du point de fusion se trouve faite dans le Beilstein, Suppl., 
+t. 3, p. 295, mais a échappé aux rédacteurs du Memento du Chimiste (4° édition, 
+
+
+1921). 
+
+
+M STATE PET TA 
+
+
+PSS 
+
+
+718 ACADÉMIE DES SCIENCES. 
+
+qué à résoudre ce problème, celui-ci était déjà circonserit en ce sens qu’il: 
+était à peu près certain que la dibromoanthraquinone historique était homo- 
+nucléaire, c’est-à-dire qu’elle avait les deux atomes de brome dans le même 
+noyau benzénique. 
+
+Le problème se réduisait donc à préparer les quatre dibromoanthraqui- 
+nones homonucléaires : 1.2.3 1.3.3; 2.3. et 1.4. en partant de dérivés à 
+position certaine de façon à n’avoir aucun doute sur la constitution des pro- 
+duits obtenus. Il est juste d'ajouter que ces synthèses n’ont pu aboutir que 
+grâce au développement considérable pris par la chimie de l’anthraquinone 
+dans le cours de ces dernières années. AA | 
+
+Disons de suite que c’est la 2.3-dibromoanthraquinone qui s’est trouvée 
+être identique à la dibromoanthraquinone historique de Graebe et Lieber- 
+mann. DE 
+
+Cette certitudé résulte d’une comparaison minutieuse des deux produits : 
+mêmes propriétés physiques et chimiques; le point de fusion est iden- 
+tique (283°) et ne subit aucune dépression parle mélange des deux produits 
+d’origine différente. 
+
+
+À 
+% 
+i 
+1 
+| 
+Î 
+
+
+Cette 2.3-dibromoanthraquinone donne par fusion potassique non pas de b: 
+l’hystazarine à laquelle on aurait pu s'attendre, mais la fusion violette carac- ÿ 
+téristique de l’alizarine, qui fut, de plus, identifiée par ses réactions spec- ù 
+
+
+troscopiques. 
+
+
+F5 
+
+
+Ce qu’il y a de particulier et qui mérite d’être souligné précisément, c'est 
+le hasard qui a favorisé les premiers auteurs : la dibromoanthraquinone dont 
+ils sont partis ne possédait pas la constitution correspondant à l’alizarine. 
+Ce n’est que par une transposition que celle-ci a pu se former. 
+
+On sait, au surplus, que ce procédé de laboratoire a été remplacé, très 
+rapidement, par le procédé qui prend la 6-sulfoanthraquinone comme point 
+de départ et qui sert encore actuellement pour la préparation industrielle 
+de l’alizarine, 
+
+On peut enfin ajouter que la constitution maintenant établie de la B:di- 
+bromanthraquinone permet également d’attribuer une constitution à peu 
+près certaine aux produits intermédiaires qui ont servi à sa préparation, 
+et notamment au tétrabromure de dibromanthracène d’Anderson. 
+
+
+LÉ EN 
+
+
+_ — es 
+uA+pB+wC+3:D, 
+
+
+=> 
+
+
+._ SÉANCE DU 24 OCTOBRE 1921. 719 
+
+
+CRISTALLOGRAPHIE. — Utilisation possible des diagrammes de diffraction 
+
+
+des rayons X pour la détermination complète de la structure du quartz. 
+
+
+Note (*) de M. En. Maveurs, présentée par M. Fréd. Wallerant. 
+
+
+le mode d’ arrangement des molécules de silice à liées des cristaux 
+de quartz proposé par Bragg (° pour interprétèr les résultats de son étude 
+de la réflexion des rayons X sur les principaux plans réticulaires du 
+minéral peut se définir de la manière suivante, en utilisant les coordonnées 
+
+
+bexagonales de Bravais à à trois axes Hotbtiaus ou, 09, ow et un axe ver- 
+
+
+RU 
+tical 0%, et en représentant par les vecteurs A, B, C, D parallèles à ces 
+
+
+axes les paramètres cristallins absolus (4,89.10-° cm et 5,38.10-° cm) : 
+Une première molécule SiO? a son atome de silicium sur ou, ses deux 
+
+
+atomes d'oxygène placés de telle manière qu’une rotation de 180° autour 
+de ou les substitue l’un à l’autre. Une en et une LORIE molécules 
+
+
+nr Ar T 
+
+
+R vf autour de 05, dccom- 
+
+
+se déduisent de la précédente par les rotations 7 
+
+
+EE $ 
+é Le groupe initial de trois molécules, 
+
+
+He 
+D, 
+
+
+20) 
+pagnées des is 3 5 D 
+
+
+particule cristalline complexe, par la translation D etses multiples engendre 
+
+
+une colonne verticale admettant oz comme axe ternaire hélicoïdal, coupé. 
+
+
+aux niveaux zéro, 5 -D, :D, ... par des axes binaires successivement paral- 
+
+
+5 . .: L U L r 
+lèles à OU, OP, OW, = édifice cristallin du quartz est constitué par un 
+
+
+ensemble de toiles colonnes déduites de l’une d’entre elles par les transla- 
+
+
+B m4 Hi L4 ‘od | à LA L£ 
+tions À, B, C indéfiniment répétées. 
+
+
+On Dune représenter les vecteurs qui joignent l’origine aux différents 
+atomes de la particule (SiO?), par les formules ANtEeNeR U+yÿ+w—= 0): 
+
+
+Pour Si, 
+1 TC À, TL B re 
+Pour O, 
+
+
+\ 
+
+
+TRES > EN > \ S 
+A + uB + eC+( :+3)b, rA+wB+uC+ ( 3 
+
+
+> > > > . + 1 \ => > a > 
+uA+wB£ ve C—3zD, CAE BCE (54 )5 vÂ+eB+uC (34 
+
+
+(1) Séance du 17 octobre 1921. 
+(2) Æ Rays and Crystal Structure, 1918, p. 160 et suiv. 
+
+
+D ENS M OS OO TT SLI EE MERE RTE 
+\ û ‘ VS , ET PURE RAT É 
+
+
+Î 
+
+
+720 ACADÉMIE DES SCIENCES. 
+
+
+En combinant ces expressions avec la translation générale 
+
+
+- S 5 
+kLA+KkB +!ID 
+
+
+(A, #4, L'entiers), on obtient les vecteurs aboutissant à tous les atomes du 
+cristal. 
+
+Cette définiuon de la structure du quartz, conforme aux prévisions 
+théoriques énoncées par L. Sohncke en 1858 (Systèmes 23 et 24, page 133, 
+Theorie der Krystallstruktur) n'est pas complète, car elle laisse Indéterminés 
+les paramètres x, u, , 4,2. : 
+
+J'ai cherché des renseignements complémentaires dans l’examen des 
+radiogrammes obtenus selon la méthode primitive de Laue (diffraction 
+d'un faisceau étroit de rayons X transmis au travers de lames d’orientations 
+variées), déterminant les caractéristiques cristallographiques des plans 
+réticulaires qui correspondent aux nombreuses taches (plusieurs centaines) 
+des diagrammes, et notant les particularités que présentent leurs intensités 
+relatives. | 
+
+La règle énoncée par G. Friedel (‘), d'après laquelle les cristaux, dans 
+
+
+leur action sur les rayons X, se comportent toujours comme s'ils admet- 
+
+
+taient un centre de symétrie, se vérifie dans les moindres détails. 
+
+1. Lame perpendiculaire à l'axe ternatre. — Le radiogramme, qui semble 
+sénaire au premier abord, n’admet qu’un axe L, et trois plans de symétrie 
+(normaux aux axes L, du quartz). La symétrie ternaire est bien mise en 
+évidence par l'opposition entre la forte intensité des taches diffractées par 
+les faces des rhomboëdres (3031), (0441), (0552) ou des scalénoëdres 
+(1451), (3251) et l'intensité très faible des taches dues aux formes conju- 
+guées (0331), (4041), (4151); les taches (5052), (2351) manquent 
+complétement (mème après deux heures de pose, l'incidence étant telle que 
+les radiations correspondant à ces taches soient dans la bande d’absorption 
+sélective de l'argent, où la plaque photographique a le sensibilité maxima). 
+
+2. Lame perpendiculaire à un axe binaire. — L'axe binaire normal à la 
+lame est l’unique élément de symétrie du diagramme ainsi qu'il résulte de 
+la comparaison des taches d'intensité moyenne ou forte dues aux scalé- 
+
+
+noëdres (2135), (1234), (2355), (3254), (3251), (1451) et des taches 
+conjuguées (1235), .… toutes très faibles; les taches correspondant au scalé- 
+
+
+noëdre(23 51) manquent comme dans le cas précédent. 
+
+
+(1) Comptes rendus, t. 157, 1913, p. 1933. Voir aussi Laure, Annalen der Physik, 
+t, 90, 1916, p. 433. — Haca et Jxcer, Akademie Amsterdam, 1915, p. 546. 
+
+
+La . 
+malt? 4 éafel ‘ess UE LA 
+
+
+Suns. 
+
+
+ol mort 
+
+
+! 
+
+
+RESTE, PORT 
+
+
+4 
+2 
+‘à 
+1 
+
+
+SÉANCE DU 2/4 OCTOBRE 1921. 721 
+
+
+3. Lames parallèles aux faces de la pyramide qu termine les cristaux de 
+quartz. — Les diagrammes admettent un plan de symétrie unique (normal 
+à un axe L, du quartz). Les lames parallèles à deux faces adjacentes p 
+
+1 
+
+
+ete, que les minéralogistes différencient par les figures de corrosion, 
+donnent des diagrammes qui, bien que très analogues, se distinguent de 
+
+
+suite : alors que (3031), (2352), (1451), (3254) sont des taches intenses 
+
+
+sur le cliché p, les taches conjuguées (0331)..., qui occupent des positions 
+
+
+correspondantes sur le cliché e?, sont extrêmement faibles. 
+
+
+Il y a lieu de noter l'absence complète des taches (2351) et (5052) sur le 
+
+
+chiche p E 251) et (0552) sont intenses sur le cliché e° | confirmant les 
+résultats obtenus avec les lames 1 et 2. 
+
+Conséquences au point de vue de la structure. — Le calcul indique que 
+amplitude de la vibration diffractée par le plan (pgrs) est proportionnelle 
+au module de l'expression 
+
+
+VASE e?TPpX e2T (put + +HrWw+Sss) + eÉTIpPu+ re +qWw ES) 
+
+
+. e dl 5 & 
+27 | QX + = l om( U+ PP HE pPW ÆS3 + — T| QUE po +TWw—=S3 + > 
+14 +e Ve pale . ) ne ‘ ï) 
+
+
+> 25 
+TTL 
+Lente à) 
+
+
+: 2.5 £ 25 
+OT PU+HPO+H AW +SE + — IT 4U+HQP+pW —Ss3 ee 
+R(ru+ po +q ne (ru qe + pw se + À) 
+
+
+He 
+
+
+où les deux parenthèses correspondent aux ondes élémentaires fournies 
+respectivement par les atomes Si et les atomes O (on a admis que l’ampli- 
+tude de l’onde diffractée par chaque atome est proportionnelle au nombre 
+alomique, 14 pour Si, 8 pour O). 
+
+Pour le plan (0552) par exemple, l'amplitude diffractée est 
+
+
+16]: + 2 cosar (5x +5) 
+
+
+; J 
+
+416) cos2r (56 — 525) + cosar (5 HR prior :) 
+ee) 
+
++ cos 2m (ñu — 5e — DE 5)|: 
+
+
+On à vu plus haut que cette amplitude est nulle; ce qui fournit une rela- 
+tion entre æ, u, 6, w, 3. En exprimant de même que l'amplitude est nulle 
+ou:très faible pour les vibrations dilfractées par (2951 (0934),..:, on 
+trouve d’autres relations auxquelles les paramètres doivent satisfaire. 
+C’est en étudiant ces équations qu’on peut espérer trouver la valeur des 
+paramètres et résoudre complètement le problème de la structure du 
+quartz. 
+
+
+Pa Si dE x: 
+"Do .. ACADÉMIE DES SCIENCES. 
+GÉOPHYSIQUE. — Recherches expérimentales sur des relations entre les phéno- 
+
+
+mènes électriques terrestres, l’état de l'atmosphère et les foyers solaires. 
+Note de M. Azserr Nono, présentée par M. Bigourdan. 
+
+
+Nous avons entrepris une étude simultanée des courants telluriques, de 
+la conduction tellurique, des variations de la charge dans un électromètre : 
+clos, de la composante magnétique horizontale, des troubles visibles sur 
+la surface solaire, ainsi que les relations de ces >s phénomènes avec l’état de 
+l'atmosphère. 
+
+Le dispositif adopté dans ces recherches fut le suivant : 
+
+Deux lignes conductrices isolées, furent tendues au-dessus d’une prairie, 
+suivant les directions NS et EO, sur des longueurs respeetives de 100%. 
+Deux autres lignes furent posées, près des précédentes, dans les directions 
+SO-NE et SE-NO sur des longueurs respectives de So". Les extrémités de 
+
+
+ces lignes furent reliées à des plaques en zinc de 15% de surface, enfouies 
+
+
+dans un sol humide. Ces lignes aboutissaient à une chambre d’ Shea e 
+renfermant des instruments de mesure. 
+
+
+L'étude des courants telluriques circulant dans les divers azimuts fut faite à l’aide 
+d’un galvanomètre apériodique de Chauvin et Arnoux, décelant des courants d’une 
+intensité de o%%P,0002. 
+
+La mesure de la conduction tellurique de les divers azimuts, fut faite au moyen 
+
+du même instrument, dont la résistivité était connue, et d’un Element Leclanché. 
+D’autres mesures furent entreprises à l’aide d’un électromèlre à feuille d'aluminium 
+chargé à potentiel constant au moyen d’une pile sèche à colonne de 1000 volts enfermée, 
+ainsi que l’instrument, dans une caisse close en zinc. Les déviations de la feuille 
+métallique furent mesurées à l’aide d’un microscope à échelle micrométrique. 
+
+L'instrument, placé dans une pièce close, était mis à l’abri de toute influence élec" 
+trique extérieure, par sa cage métallique. Il accusait cependant des variations consi- 
+dérables de charge souvent importantes, qui ne pouvaient être provoquées que par 
+des radiations extérieures extrêmement pénétrantes, des ultraradiations, comparables 
+aux rayons 7. Ces wltraradialions, après avoir traversé les parois du bâtiment ainsi 
+que la caisse métallique, provoquaient une ionisation à l’intérieur de l'instrument, 
+traduisant leur présence par la décharge de l’électromètre. 
+
+
+Ces ultraradiations, d'origine inconnue, paraissent devoir se rattacher à 
+l'action solaire. 
+
+
+Les variations de la composante horizontale du magnétisme terrestre furent 
+mééurées à l'aide d’un magnétomèêtre très sensible. Cét instrument était composé 
+d’un équipage aimanté, d'un poids très faible, suspendu à un ruban métallique extrè- 
+mement mince, dont la torsion permettait d'orienter l'équipage dans une direction 
+perpendiculaire à celle du méridien magnétique. 
+
+
+[E 4 Q af. 
+| PERSO TT 
+
+
+} 
+
+
+ÉTÉ pi nd ARE, 
+
+
+a te ont abras tdi 
+
+
+| 
+
+
+Sat bre 8 db dec tie ice Laden 4 AL De tint) À dis 2 à d'à, 
+
+
+4 
+
+
+SÉANCE DU 21 OCTOBRE 1921. 
+
+
+L'un des magnétomètres portait une longue aiguille indicatrice en aluminium, l’autre 
+instrument était muni d’un petit miroir mobile réfléchissant une image lumineuse 
+sur une échelle graduée placée à 5" de distañce. 
+
+Enfin l'étude de la surface solaire était faite avec une petite lunette astronomique, 
+dont l’oculaire était recouvert d'une bonnette en verre noir. ; 
+
+
+| 
+
+
+Les principaux résultats observés furent les suivants : 
+_ Pendant les périodes d’agitation solaire, lors des formations ou des dis- 
+
+
+paritions rapides de foyers solaires, on observa des troubles électriques et 
+
+
+magnétiques dans l'atmosphère et dans le sol. 
+
+_ L’élecitromètre accusait alors de brusques variations de charge et le 
+magnétomètre des changements rapides dans la composante horizontale; 
+le galvanomètre décelait des variations rapides et souvent importantes dans 
+
+
+l'intensité et dans la direction des courants telluriques, principalement 
+dans les directions NS et SO, ainsi que des variations dans la conduction 
+
+
+tellurique. 
+Les fortes perturbations telluriques étaient accompagnées de modifica- 
+tions dans la direction même des courants NS et SE. Les courants EO 
+
+
+ne subissent pas de changements de direction, leurs variations sont moins 
+
+
+accusées que celles des courants NS, elles ont généralement lieu en sens 
+contraire de celles de ces derniers. La direction des courants EO et SO 
+est invariable, celle des courants NS et SE subit des inversions soumises 
+à l’état du Soleil et de l'atmosphère. Pendant les périodes de calme, les 
+directions sont SN et SO-NE. Pendant les périodes d’agitation, les direc- 
+tions des courants sont inversées. 
+
+La conduction terrestre subit des variations incessantes, principalement 
+dans la direction NS. Ces variations correspondent à celles des ultrara- 
+diations. Une émission plus intense des ultraradiations concorde avec un 
+accroissement de la conduction tellurique et de l'intensité des courants. 
+On constate, d’une façon générale, que le magnétisme, les ultraradiations, 
+les courants telluriques et la conduction tellurique varient dans le même 
+sens. Ces variations sont faibles pendant les périodes de calme; elles sont 
+rapides, incoordonnées et importantes pendant les périodes de troubles. 
+Ces variations sont généralement enverses de celles des foyers solaires. 
+
+Nous avons fait, à ce sujet, une étude des divers phénomènes précédents 
+pendant une période d’activité solaire, comprise du 16 au 25 sep- 
+tembre 1921, qui fut caractérisée par la présence d’un gros foyer calme qui 
+passa au voisinage du méridien central du 17 au 19 septembre. Ce foyer 
+subit des variations du 21 au 22, puis il disparut au Nord-Ouest le 25. 
+D’autres foyers se formérent le 24. 
+
+
+FAIR 
+
+
+Re TL NS DO 
+
+
+524 ACADÉMIE DES SCIENCES. 
+
+
+Il résulte de l'examen des graphiques, tracés d’après les indications des 
+mesures, que l’ensemble des phénomènes terrestres affecte une allure géné- 
+rale CET à celle des foyers solaires, mais de signe contraire. 
+
+Le magnétisme, les de one les courants telluriques NS et 
+SO, ainsi que la conduction terrestre diminuèrent du 17 au 19, lorsque 
+le foyer passa au voisinage du méridien central; ainsi que du 25 au 22, lors 
+d’une variation de l’activité de ce foyer. Les phénomènes précédents subi- 
+rent, au contraire, un accroissement du 20 au 21, puis du 22 au 23, pendant 
+deux périodes de diminution et de départ de foyers. 
+
+Ces graphiques permettent en outre d'observer que les périodes d’acti- 
+vité électrique correspondent aux troubles ds l'atmosphère ; tandis que les 
+périodes de calme électrique correspondent aux périodes de beau temps. 
+
+Resume. — Les résultats précédents laissent pressentir de nouvelles 
+relations importantes entre l’action solaire, les phénomènes électriques et 
+l’état de l'atmosphère terrestre, susceptibles d’intéresser la physique du 
+globe, la météorologie et de contribuer à la prévision du temps. 
+
+e effets d'ionisation observés dans l'atmosphère et dans la terre, sous 
+l’action de radiations ultrapénétrantes paraissent également susceptibles de 
+présenter un intérêt dans l’étude des transmissions par ondes hertziennes. 
+
+Enfin les observations sur les courants telluriques paraissent devoir être 
+intéressantes en agriculture par leur action possible sur les racines et la 
+croissance des plantes. 
+
+
+BOTANIQUE. — Sur le rétablissement du Genre Chlorocrepis dans la tribu 
+des Composées-Chicoracées. Note de Me Marcezze Guéraup, présentée 
+
+
+par M. Guignard. 
+
+
+Le genre Chlorocrepis, créé par Grisebach (Comm. Gen. Hierac., p. 75, 
+1852), est représenté en Europe par une seule espèce, le C. staticefolia 
+Grisob. Cette plante est rangée par Schultz dans le genre Tolpis sous le 
+nom de 7. staticefolia (Schultz Bip. in Bonplandia, 1861). Villars en faisait 
+auparavant le Æieracium statice folium, et aujourd'hui presque tous les bo- 
+tanistes la placent dans le genre Hieracium, au sein duquel, à cause de ses 
+caractères spéciaux, elle constitue le type du sous-genre Stenotheca de Fries, 
+dont les quelques autres espèces sont américaines. Le genre Æreracium est 
+divisé, à la suite de Fries, en trois sous-genres : Stenotheca, Pulosella, Archie- 
+racium ; le genre monotype Chlorocrepis n'existe donc plus. 
+
+Les vicissitudes subies par l'espèce de Villars montrent combien l'analyse 
+
+
+| 
+4 
+L 
+‘ 
+
+
+ANNE PT Ve 
+
+
+edge KE Craie À Ce 
+
+
+ER RE ES ET 
+
+
+PPT TU PP A 
+
+
+D sssét, à 
+
+
+\t 
+
+
+? 
+
+
+D cé és st à À nd dé dt di 
+
+
+SÉANCE DU 24 OCTOBRE 1921. 72 
+
+
+des seuls caractères morphologiques externes est impuissante, dans ce cas 
+particulier, à établir une certitude taxonomique. | 
+
+Dans le genre Hieracium, le plus critique des genres, où les espèces ne 
+paraissent pas encore fixées et, pour beaucoup de botanistes, évoluent 
+encore, le A. staucifolium est invariable. Ce fait paraît unique dans le 
+genre, en tout cas 1l est rarissime et semble nous faire prévoir qu’une étude 
+plus approfondie de cette espèce pourrait nous révéler des caractères nou- 
+veaux capables de nous renseigner sur sa véritable valeur au point de vue 
+de la classification. Nous trouvons, en effet, ces faits nouveaux dans l’étude 
+morphologique interne de la racine, du rhizome et de la tige de cette 
+
+
+“espèce, et dans la comparaison de la structure de ces organes avec celle 
+
+
+des mêmes organes dans les Hieracium en général. 
+
+Voici, d’une manière succincte, et ht parmi les principaux, Les 
+caractères mor phologiques internes du A. statuer folium et des Hieracium en 
+général, dont j'ai étudié un assez grand nombre d'espèces appartenant aux 
+divers nombreux groupes des deux sous-genres Pilosella et Archieracium. 
+
+
+1° Chez les ÆJieracium, la racine primaire présente un cercle de 3 à 6 faisceaux 
+libériens et ligneux, alternant entre cux autour d’une moelle centrale. Dans la racine 
+secondaire, des faisceaux libéroligneux bien individualisés et massifs viennent s’inter- 
+caler entre les faisceaux ligneux primaires. L’écorce présente pendant longtemps deux 
+zones bien différenciées. 
+
+Dans le 7. staticifolium, la racine primaire est à deux faisceaux libériens etligneux ; 
+ces derniers confluent en une bande ligneuse diamétrale et il n’y a pas de moelle; dans 
+la racine secondaire, deux faisceaux libéroligneux viennent se superposer aux fais- 
+ceaux libériens primaires; ces faisceaux larges, en forme d’éventail, sont constitués par 
+de longues files libéroligneuses rayonnantes, corce toujours homogène. 
+
+2° Dans les /Jieracium, le rhizome adulte possède un appareil libéroligneux annu- 
+laire parfois divisé en secteurs correspondant aux faisceaux primitifs. Liber secondaire 
+peu développé. 
+
+Dans le /7. stalicifolium le rhizome a le même aspect général que la racine secon- 
+daire de la même espèce, mais avec une moelle, et les bandes libéroligneuses corres- 
+pondent à peu près aux files ligneuses primitives. 
+
+3° Dans les Æieracium la tige présente un cercle de faisceaux libéroligneux de 
+dimensions différentes. Entre de gros faisceaux, qui impriment leur forme au cylindre 
+central en faisant saillie sous l’endoderme, se trouvent des faisceaux plus petits qui 
+restent cà et là purement libériens. 
+
+Le gros faisceau ligneux, à section triangulaire, est formé de faisceaux disposés en 
+files à partir du pôle. 
+
+Le /1. slaticifolium présente également un | cercle de faisceaux libéroligneux de 
+dimensions différentes, ce qui est le cas, d’ailleurs, de beaucoup de Chicoracées. Mais 
+les gros faisceaux ne dessinent pas de feston endodermique, ils sont en forme de crois- 
+
+
+C. R., 1921, 2° Semestre. (T. 173, N° 17.) | 56 
+
+
+726 ACADÉMIE DES SCIENCES. 
+sant et parfois le péricycle massif pénètre assez profondément dans la concavité libé- 
+rienne, alors que dans les Æieracium il forme toujours un arc autour du hiber, 
+
+
+Le Hieracium aui ressemble le plus au /Z. statici folium est le H. glaucum 
+
+
+AÏL. Or, cette dernière espèce se rattache absolument, au point de vue mor- 
+phologique interne, aux {ieracium en général et, ne ressémble pas au 
+H. staticifolium. 
+
+La structure du /7. staticifolium diffère, au premier coup d'œil, de celle 
+des Hieracium én général, autant qu'en différent les Crepis et les Mitgéthire: 
+wenres voisins des Hieracium. 
+
+Les caractères tirés de la structure interne du A. static folium Vi. mili- 
+tent donc en faveur dé fa conservation, por, cette espèce, du genre Chloro- 
+crepis, Créé par Grisebach. 
+
+
+EMBRYOGÉNIE VÉGÉTALE. — Embryogénie des Boragacees. Lès premiers terres 
+du développement de l'embryon chez le Myosotis hispida Schleéhr. Note de 
+M. Rex Souëers, présentée par M. L. Guignard. 
+
+
+L'embryon du WMyosois hispida constitue un nouveau type du dévelop- 
+pement qui se distingue nettement de tous ceux qui ont été étudiés jusqu'ici. 
+Il permet, en outre, d’assister à la différenciation, au sommet du proëm- 
+bryon, dès le stade octocéllulaire, d’une cellule qui se comporte comme 
+cellule-mère du cône végétatif de la tige. 
+
+
+La cellule apicale (ca, fig. 1 et 2), puis la cellule (cb) du proembryon bicellulairé 
+se segmentent transVersalement et donnent naissance à uné tétrade de quatre éléments 
+superposés, /, l',m, ci(Jig. 3). C’est l'élément RE se divise ensuite le premier ( /êg. 4) 
+pär une cloison oblique séparant deux cellules d' aspect très différent à et b; l'élément l' 
+se segmente ensuite par une paroi verticalé méridienne pour donner deux cellules 
+Juxtaposées ( fig. 5 et 6). Pendant ce temps, les deux éléments inférieurs, m et ci, 
+demeurent indivis. Les cinèses qui apparaissent aux stades suivants dans les céllules a 
+et b sont nettement rectangulaires; elles sont suivies d’une éloison verticale méri- 
+dienhe dans b, oblique et normale à la précédente dans a (RE, 872)! 
+
+Les quatre noyaux issus de ces deux divisions viennent occuper les quatre sommets 
+
+
+d'un tétraèdré s'appuyant par l’une de ses faces sur la patoi horizontale de séparation 
+
+
+des deux étages let /'. Au sommet du proembryon se trouve placée une cellule (e, 
+Jig.9 à 15), toujours très distincte, dont le rôle histogénique est bien défini : c’est 
+cette cellule qui donnera naissance au cône végétatif de la tige où épicotyle. L'indivi- 
+dualisation de cette cellule au sommet du proembryon rappelle, à beaucoup d’égards, 
+la différenciation de la cellule hypophysaire à la base de l'embryon proprement dit : 
+
+les deux éléments se segmmentent sélon des règles comparables et engendrent, à l'inté- 
+
+
+NT AN PRIE ES NT Ts 7 Lyer en dot 
+
+
+D] PR? | 
+
+
+d tem te “ue 2 bd. 
+
+
+ex D 
+
+
+SÉANCE DU 24 OCTOBRE 1921. CR ‘585 
+
+
+1 rieur d’un épiderme, simple dans le premier cas, nie dans le second, les initiales 
+ee de l'écorce aux deux pôles embryonnaires, Rien ne s'oppose à ce qu’on appelle épi- 
+* physe le premier de ces éléments et les tissus qui en dérivent, si l’on veut se servir, 
+_ pour désigner le second, du terme d’ hypophyse qui conserve, dans le cas actuel, le 
+sens qui lui a été donné lors des premières recherches embryogéniques. 
+
+
+_ Fig. 1 à 15. Myosotis hispida Sckilecht. — Formation du proembryon dodécacellulaire : ca et 
+cb, cellule apicale et cellule basale du proembryon bicellulaire; £ et l', cellules-filles de c& 
+ou les deux étages supérieurs du proembryon; m», cellule-fille supérieure de cb ou étage 
+moyen du proembryon; ci, cellule-fille inférieure de cb; a et b, cellules-filles de /; nr et n’, 
+cellules-filles de cé ou étages inférieurs du ER LE e, épiphyse ou Connie are du cône. 
+
+à. végétatif de la tige. G. — 420. 
+
+
+Les deux cellules de l'étage /’ se segmentent verticalement et donnent quatre cellules 
+circumaxiales (/üg.6 à 15). L'élément m se divise par une paroi méridienne pour 
+donner deux cellules juxtaposées (fig. 11 à 15), peu après, la cellule inférieure, cz, se 
+sépare, par une cloison horizontale, en deux éléments superposés x et n' (fig. 13 
+
+
+à 15). 
+
+
+Au térme de ces divisions, le proembryon se trouve composé de douze 
+cellules distinctement réparties en cinq étages, /, l', m, n et n°. Comme on 
+le verra ultérieurement, l’étage / donne naissance à la partie cotylée, 
+l'étage /’ à la moitié supérieure, et l'étage m à la moitié inférieure de l’axe 
+hypocotylé; aux dépens de n se fran de P SHPEbAIRÉ et, aux dépens de», 
+ie suspenseur. Le 
+
+Les formules du développement, résumant, jusqu’à la quatrième généra- 
+tion, l’origine, la disposition et les destinées des éléments proembryonnaires 
+
+
+peuvent ainsi être établies RE 
+
+
+(1) On pourra comparer ces formules à celles qui ont déjà été données au sujet de 
+PÜrtica pilulifera (Comptes rendus, t. AT, 1920, p. io10) et au sujet du Mentha 
+véridis (Comptes rendus, 1. 172, 1921, p. 1057). 
+
+
+728 ACADÉMIE DES SCIENCES. 
+1. — Première génération. 
+
+
+ca qui engendre pco + pol + =phy | L ; 
+
+
+Proembryon à deux cellules 
+
+
+disposées en deux étages : | 7 ï phy + ice +iec+co+s 
+À ; 2 
+II. — Deuxième génération. 
+{qui engendre pco + pol 
+; le » ph 
+Proembryon à quatre cellules | 21 
+disposées en quatre étages : : 1 à | 
+P d ES m » sPhy + ice X é 
+ct » ec + CO +S. 
+IT. — Troisième génération. 
+
+
+! Ces quatre étages sont ceux que l’on observe à 
+
+
+Proembryon à six cellules | es ANTON. HS 
+; ; as la deuxième génération; leurs destinées sont 
+disposées en quatre étages : | vs 
+: | les mêmes. 
+
+
+IV. — Quatrième génération. 
+
+
+{qui engendre pco + pet 
+
+
+4° » =phy \ - 
+Proembryon à douze cellules : i 
+disposées en cinq étages : | m» te SPhy + ice 
+n ) tecC + co 
+n' » S 
+GÉOGRAPHIE BOTANIQUE. — Phytogéographie génétique des dunes 
+du golfe du Lion. Note de M. G. Küuxmorrz-Lorpar, présentée 
+par M. Guignard. | 
+: È 
+Dans une première Note ('), nous avons établi la part qui revient aux | 
+végétaux dans l'édification des dunes méditerranéennes francaises et nous 
+avons fait ressortir que les conceptions de M. Astre (?) ne paraissaient pas | 
+applicables aux rivages du golfe du Lion. | 
+
+
+(!) G. Küuxaozrz-Lorpar, Phytogéographie dynamique des dunes du golfe du 
+oo de rendus, t. 172, 1921, p. 86). 
+
+(*) Gasr. AsrRe, Sur la biologie des Mollusques dans les dunes maritimes fran- 
+
+çaises et ses rapports avec la géographie botanique (Thèse pour le doctorat de 
+
+
+SÉANCE DU 24 OCTOBRE 1921. 729 
+
+
+Ce point de vue purement dynamique doit être complété par l'étude des 
+associations végétales et de leur succession. A chacun des stades de l’évo- 
+lution des dunes, tels que nous les avons décrits, correspond en effet une 
+population végétale qui varie en raison même des conditions diverses du 
+milieu. 
+
+Les associations psammophiles du golfe du Lion trouvent leurs condi- 
+tions optima de développement en Camargue sur les lidos successifs, et 
+c’est de la comparaison de ces associations d’âges divers que l’on peut le 
+plus utilement tirer des conclusions d'ordre génétique. 
+
+Si, au point de vue dynamique, l’Ammophila arenaria Link nous appa- 
+rait comme l'agent édificateur de dunes le plus puissant, nous devons 
+néanmoins rattacher à son type d'organisation offensive l’Agropyrum jun- 
+ceurn P. B. qui, dans des conditions assez exceptionnelles (plage large, à 
+l'abri des incursions marines) et avec une « puissance édificatrice » moindre, 
+constitue un important élément de conquête des plages maritimes. 
+
+Aux dunes basses d’un tel Agropyretum, extrêmement pauvre en espèces, 
+succèdent les dunes hautes à Ammoplhila. Autour de l'Oyat gravitent alors 
+les nombreuses espèces dont l’ensemble réalise une association nouvelle ou 
+Ammopluletum qui correspond surtout au stade d’édification. 
+
+Mais nous avons établi combien était précaire la conservation des dunes : 
+elle est fonction de l’emprise d’une flore spéciale qui n’a plus de puissance 
+édificatrice et dont le Crucranella maritima L représente aux points de vue 
+sociologique et génétique (!} l’espèce de premier plan. Le Crucianelletum 
+apparaît comme le symptôme floristique précurseur de la dégénérescence 
+des dunes : il prélude au « chaos caoudeyrisé » et se maintient ou se trans- 
+forme suivant le mode d’action des agents destructeurs. 
+
+La disparition progressive des espèces les plus fidèles de l’Ammophiletum 
+et du Orucianelletum constitue le fait saillant de l’évolution organique des 
+dunes lorsque, par la formation de lidos nouveaux, elles cessent d’être 
+proches de la mer. C’est ainsi qu’en Camargue de très rares pieds d’Ammo- 
+phila existent encore sur le lido intermédiaire de Jarras (2“",5 de la mer), 
+et que l’espèce disparaît totalement sur le lido le plus ancien de Montcalm 
+(14% de la mer). A cet appauvrissement de la flore maritime correspond la 
+
+
+l’Université, Toulouse, 1920); Contribution à l’étude de la répartition des sones 
+biologiques sur les dunes méditerranéennes du golfe du Lion (Comptes rendus, 
+4792) 1021) p. 1120). 
+
+(') Valens de l'École Suisse. 
+
+
+730 __ ACADÉMIE DES SCIENCES. 
+
+
+\ 
+
+
+‘ pénétration d'espèces plus continentales parmi lesquelles É Sedum allissimum 
+Poir. pour les dunes boisées et le Aumex tingitanus L. pour les dunes non 
+boisées, caractérisent les stades floristiques les plus évolués de nos dunes 
+
+
+2° GAME AREN c 
+
+
+En dehors du delta rhodanien l’ensemble de la flore ie dunes peut être. | 
+
+
+rapporté, au point de vue génétique, à l'une ou l’autre des associations de 
+
+
+Camargue. Mais les conditions de milieu ne sont plus celles qui président à 
+l’évolution d’un delta; et, dans l’ordre physico-chimique, lé sol peut pré- 
+
+
+senter des différences notables avec les limons fins du Rhône. C'est ainsi 
+que les plages à graviers moins calcaires du Roussillon impriment à la 
+succession une allure floristique sensiblement différente de celle qu’elle a 
+eu Camargue et dans le Languedoc, à partir de l'Ammophiletum. 
+
+Cés modalités dans la composition de la flore se traduisent tantôt par de 
+simples facies ('), tantôt par des séries différentes d’associations. Le 
+
+
+Tableau qui suit fait ressortir la corréspondance des facies et le parallélisme 
+
+
+des successions dans le Roussillon d’une part, et sur le reste de notre terri- 
+toire d’autre part (Languedoc, ai 
+
+
+Agropyré etum ET 
+(A. unceurk P. B.) : 
+
+
+. Agropyro-Ammophiletum 
+
+
+Ammophiletum 
+(A. arenaria Link) 
+Facies Malcolmia littorea R. Br. Facies Matthiola sinuata PF. Br. 
+Languedoc-Camargue Roussillon 
+Crucianelletum 
+(C. maritima L.) 
+V Le | 
+Facies Anthemis maritima L. Facies Dianthus attenuatus Sm, 
+Languedoc-Camargue Roussillon 
+| 
+; Y 
+sp Grucianello-Corynephoretum 
+RUN » Ë 
+Sedetunr lèumicetun Corynephoretum 
+(S. altissimunm Poir.) (2. tingitanus L.) (C. canescens P. B.) 
+Camargue Camargue 
+
+
+Languedoc occid! 
+
+
+(*) Au sens floristique et non physionomique. | 
+
+
+L 
+
+
+no en L 1e SCO I à LE: fe CENPR ENS NV NN RARE SPEED RASE TS 
+
+
+QE Left indie : 
+
+
+_ SÉANCE DU 2% OCTOBRE 1921. 
+
+
+CHIMIE AGRICOLE. — /nfluence de la température sur les pro- 
+_ priélés absorbantes des sols. Note de M. Sroquer, Piasniés par 
+M. Schlæsine. 
+
+
+Les ie agricoles subissent des variations de température importantes. 
+La différence entre les températures mensuelles moyennes d’un même sol _ 
+en juilleteten janvier a êté trouvée de 24°, 4 à la surface et de F0 3 4020 
+
+
+_de profondeur aux environs de Paris (Flammarion). Gasparin a trouvé une 
+
+
+différence de 39° à Orange. Il n’est pas inutile de rechercher si de telles 
+variations influent sur le pouvoir qu'ont les sols agricoles de fixer certains 
+principes fertilisants. J'ai fait choix de quatre terres différant par leur com- 
+position, et j'ai étudié leurs propriétés absorbantes vis-às -vis du sulfate 
+d'ammoniac à 0°, 16°, 35° et 59°. à 
+
+
+La marche d’une expérience a tele suivante : on introduit dans un flacon un poids 
+
+
+de terre correspondant à 1008 de terre sèche avec un volume total de 25of% d’une solu- 
+
+
+tion très diluée de sulfate d’ammoniaque. Le flacon, maintenu dans un bain à tempéra- 
+ture constante, est agité vivement au début, puis toutes les 15 minutes pendant 1 heure. 
+
+
+Dans de telles conditions l'équilibre de répartition de l’'ammoniac entre l’eau et la 
+
+
+terre s'établit, comme on sait, très rapidement. Pour obtenir la clarification de la 
+
+
+solution, on abandonne les flacons au repos pendant 3 hèures, dans le bain, toujours 
+
+
+à la même température. Sur une portion de liqueur claire qu’on décante, on dose 
+
+
+lammoniac restant par distillation en présence de magnésie. Du résultat trouvé, on 
+
+
+déduit la quantité d'ammoniac fixée par la terre. 
+
+Afin d’avoir des résultats aussi comparables que possible, on s’est attaché avec le 
+plus grand soin à rendre identiques toutes les conditions pouvant influer sur le titre 
+final; la majeure partie des expériences ont été faites en double. 
+
+ba s’est également attaché à mettre en œuvre des quantités de sulfate d'ammoniaque 
+de l’ordre de grandeur de celles qui peuvent se rencontrer dans des sols ayant reçu ce 
+sel comme engrais. Le titre des solutions employées était lui-même comparable, dans 
+une certaine mesure, à celui des dissolutions qui peuvent se former dans de tels sols. 
+Si l’on suppose qu'il y a dans un hectare 3000 tonnes de terre active et qu'on 
+emploie 100$ d'engrais à l’hectare, il y aura, en supposant la répartition uniforme, 
+06,033 d'engrais pour 1 de terre. Admettons en outre que la dissolution du sel soit 
+complète et que le taux d'humidité du sol soit de 15 pour 100 par exemple, la disso- 
+lution qui se formera aura un titre de 0,22 pour 1000, En réalité, par suite des yaria- 
+tionsimportantes de l'humidité, de l inépalilé de répartition des engrais, des quantités 
+d’ammoniac préexistantes, on trouvera dans le sol des solutions dont la concentration 
+sera tantôt plus grande et tantôt beaucoup plus faible que celle qui vient d’être 
+indiquée. Ces considérations m'ont conduit à employer, avec chacune des quatre terres 
+ayant servi aux essais, des solutions dont les titres étaient de 6,02, 0,08 el 9,40 
+
+
+732 ACADÉMIE DES SCIENCES. 
+
+
+pour 1000, en sulfate d'ammoniaque (correspondant à 0 ,050, 08,080 et 18 de sel par 1 
+kilogramme de terre). 4 16400 
+
+Dans une quatrième série d’ expériences, la solution saline a été remplacée par un. ‘ 
+égal volume d’eau distillée, dont l'emploi a paru intéressant, étant donné que les sols 
+qui viennent d’être arrosés par la pluie sont en contact avec de l’eau pure. 
+
+
+\ 
+
+
+L'ensemble des résultats obtenus figure dans le Tableau ci-après. 
+
+
+NH? (en mg) absorbé par kg de terre sèche 
+[ou cédé (signe —) par la terre à l’eau |. 
+
+
+Terre de Joinville. 
+
+
+au distillée ...... RUE pr ASE tS — ! 4,9 657 
+Solution à 0,02 pour 1000... DD 4,5 210 o 
+SATA: CS NES PRO RE 29,9 22,0 21 
+» à 0,40 » A 134,0 Hs 108,5 96,5 
+Terre de Fourqueux 
+aurdistuiléesr en PRIE ny) 0 PT 14 
+Solution à 0,02 pour 1000. Fou RE o) — 1,9 
+; 5) à 0,08 » He 34,5 33 28 RTA $ 
+» Lo DEN CADRE ER D 179 163,5 DM 
+_ Terre de Neauphle. 
+Bamidisthléen sci ess DES — 19 0 — 27,9 
+Solution à 0,02 pour 1000... 4,5 RU 10 tt 
+DATA HO » ON COTE PC) 17 6% ; 
+» à 0,40 » IN IOS 158,5 143,5 ET de) 
+
+
+Terreau de jardin ter. 
+
+
+Fu distilléers ie aa mn —13,5 : !—14,5 —21 AE 0 A, 
+Solution à 0,02 pour 1000... — 8,5 —10,Ù 10 id —024,d 
+
+» à 0,08 » See LOL OM 5,0 l'OS — 5 F 
+
+» à 0,40 » ie 106,5 97,0 LABO 67,5 | 
+
+De l'examen de ce Tableau on peut tirer les conclusions suivantes : : : 
+
+
+° Le pouvoir absorbant a toujours augmenté avec la concentration des 
+
+liqueurs, confirmation d’un fait bien connu. | | 
+
+2° Dans les conditions des expériences, le pouvoir absorbant a été parfois ES 
+négatif 9eme que la terre a cédé de l’ammoniac au liquide). Il est 
+passé par zéro (c'est-à-dire que les solutions employées se sont trouvées en 
+équilibre sous le rapport du titre en ammoniac avec les terres données) 
+pour les trois premières terres avec la solution à 0,02 pour 1060 et, pour 
+
+
+o 
+
+
+ts 
+\w2 
+
+
+SÉANCE DU 24 OCTOBRE 1921. 733 
+
+
+la quatrième, avec la solution à 0,08 pour 1000, entre les limites de tempé- 
+ratures étudiées. 
+
+3° Toutes les terres ont cédé de l’ammoniac à l’eau distillée, ce à quoi on 
+devait s attendre, et toutes en ont cédé d’autant plus que ka température 
+a été plus élevée. 
+
+4° D'une manière constante, le pouvoir absorbant des terres vis-à-vis du 
+.. d’ammoniaque a diminué lorsque la température s’est élevée. 
+
+° À des températures quise rencontrent aisément dans les sols, certaines : 
+terres peuvent abandonner de l’ammoniac à des solutions à 0,02 pour 1000 
+et davantage, qui ne sont pas d’une extrême pauvreté en ammoniac et 
+peuvent se présenter dans des sols ayant reçu des engrais ammoniacaux. 
+L’entrainement de l’ammoniac des sols par les eaux pluviales qui les tra- 
+versent n'est donc peut-être pas, dans certaines circonstances, aussi réduit 
+qu'on le pense d'ordinaire, sans même que cet ammoniac ait été transformé 
+en nitrate. 
+
+De plus en plus, on tend à penser que les dissolutions du sol exercent, 
+malgré leur faible teneur en principes fertilisants, une influence capitale 
+sur la nutrition végétale. Ces dissolutions, d’après ce qui précède, sont 
+plus riches en ammoniac aux époques les plus chaudes, et justement alors 
+la végétation présente une plus grande activité; il est peut-être permis de 
+penser qu’il y a une relation entre ces deux faits. 
+
+
+ENTOMOLOGIE. — Sur la biologie d’un Chalcidien. 
+Note (') de M. Jrax-L. Licurexsreix, présentée par M. E.-L. Bouvier. 
+
+
+J'ai observé, il y a deux ans, à Montpellier, l’évolution d’un Chalcidien 
+inédit que je désigne sous le nom d’Habrocytus cionicida n. sp., parasite 
+des coques contenant les larves et nymphes d’un Curculionide, le Cionus 
+thapsi. J'en ai obtenu en septembre, de coques de Ciones, un grand nombre 
+d’adultes des deux sexes. 
+
+La copulation est très rapide, avec préliminaires assez prolongés. La 
+femelle fécondée ne s'attaque jamais aux larves libres. Elle grimpe sur ute 
+coque, l’explore des antennes, puis au bout d’un temps plus ou moins long, 
+se dressant sur ses pattes, recourbe l'abdomen et, faisant saillir sa tarière, 
+perfore la membrane du cocon. La larve attaquée à l’intérieur de sa coque 
+
+
+(!) Séance du 17:octobre 1921. 
+
+
+ACADÉMIE DES SCIENCES. 
+
+
+réagit par des mouvements, mais à la suite des piqüres, la tarière s’enfon- 
+çcant à plusieurs reprises dans ses téguments, elle finit par s'immobiliser. 
+Puis Habrocytus retire sa tarière des téguments de l'hôte et dépose un œuf 
+en un point quelconque à la surface de celui-ci. Généralement, il n’est 
+pondu qu’un œuf sur une même larve. De cet œuf, au bout de deux ou trois 
+jours, sort une petite larve qui se met à sucer activement les sues de la 
+
+
+victime et grossit rapidement; elle se déplace sur les téguments de la larve 
+
+
+. ou de la nymphe du Cione, qui se flétrit et devient noïrätre. Après sept à 
+huit jours de ce régime, le parasite quitte sa proie, vide son tube digestif, 
+puis s’immobilise dans la coque et se métamorphose en nymphe deux jours 
+
+après. L'imago apparaît au bout d’une quinzaine, perfore la coque au 
+moyen de ses mandibules et vient à l'air libre, 
+
+Je désire, dans cette Note, insister particulièrement sur un point de la 
+biologie d’Habrocytus cionicida, constituant un phénomène des plus remar- 
+quables et qui n’a, je crois, jamais été observé jusqu'ici; il s’agit de la 
+façon dont ce Chalcidien se procure de la nourriture. J'ai constaté, en effet, 
+que la perforation de la coque de l’hôte au moyen de la tarière n’avait pas 
+pour unique conséquence le dépôt d’un œuf. 
+
+Les femelles vierges percent également les coques pour se nourrir du 
+suc s’écoulant par l’orifice, Quant à celles qui sont fécondées, elles ne 
+pondent jamais sans faire précéder cet acte d’une prise d'aliments aux 
+dépens de l’hôte par perforation de la coque et succion de l'orifice. Ce 
+phénomène a déjà été signalé par plusieurs auteurs chez d’autres espèces : 
+Silvestri, Marchal, Roubaud, etc. ont décrit le comportement d'Hymé- 
+noptères perforant des chrysalides ou des œufs pour se nourrir ensuite des 
+sucs qui s’en écoulaient. Mais dans les cas cités il s’agit de victimes chez 
+lesquelles une piqüre détermine immédiatement la sortie d’une gouttelette 
+liquide, Chez le Cione au contraire, la larve occupe un espace restreint par 
+rapport au volume de la coque et n’est pas appliquée contre ses parois; il 
+est donc impossible que le sang de la larve blessée puisse jaillir au dehors. 
+Comment donc le parasite peut-il sacer utilement l’orifice de la coque et y 
+amener le liquide nutritif? Il use pour cela d’un procédé des plus curieux. 
+
+J'ai pu l’étudier sur une coque contenant une nymphe de Cione, où j'avais 
+établi une fenêtre. La femelle d’Habrocytus commence la percée ; la tarière 
+passe au bout d’un moment. Puis la bête darde la nymphe de coups, 
+enfoncant profondément son dard dans le corps à plusieurs reprises. Retirant 
+alors un peu la larière qui demeure à peine enfoncée dans la nymphe, elle 
+reste dans cet état, immobile, un très long temps (environ une demi-heure), 
+
+
+in riébitaace-smsiats- dédie 
+
+
+cet f Lt doniif bte db: 
+
+
+TITI O A 
+
+
+RÉ Pi 
+
+
+SÉANCE DU 24 OCTOBRE 1921. 735 
+
+: durant lequel un liquide sécrété s'écoule le long de la tarière l’entourant 
+Die, comme d’une gaine, en se solidifiant. Et lorsque la femelle retire sa tarière, 
+ce liquide coagulé forme un tube très fin, blanchâtre, partant du trou de la 
+nymphe et venant traverser l’orifice de la coque pour ressortir en une courte 
+cheminée externe. C’est par cette cheminée que l'animal, se reculant et y 
+
+Ra appliquant la bouche, pompe les sues de la victime qui montent jusqu'au 
+
+
+l'Habrocytus juché sur la coque (dessinée en partie seulement) en train de 
+
+
+ENS NE 
+
+
+1 
+. Habrocytus cionicida n. sp. suçant une nymphe de Cionus thapsi 
+au moyen du tube qu’il vient de construire. £ 
+RE 
+
+
+sucer le liquide s'écoulant par l'ouverture du tube. Après s'être bien sus- 
+tentée, la femelle repique à nouveau en un autre endroit, pour, cette fois, 
+L. -pondre son œuf. Le tube se dessèche quelques instants après. 
+
+
+Roubaud a bien noté la nécessité de cette alimentation aux dépens de 
+
+
+l'hôte, précédant la ponte, et effectuée par des procédés analogues : perfora- 
+tion au moyen de la tarière ; il en conclut que la tarière a, pour fonction 
+
+
+primitive la recherche d’un aliment. Mais dans le cas de Nasonia qu'it a 
+
+
+étudié, les pupes de Diptères parasitées laissent écouler le liquide nutritif à 
+la simple piqûre. Chez Habrocytus, le phénomène est plus complexe et il ne 
+me paraît pas qu'on doive envisager comme un acte primitif la construc- 
+tion du tube sans lequel il y a impossibilité de se nourrir. Je penche plutôt 
+É: vers l'hypothèse d’une habitude ayant pris naissance chez un parasite qui, 
+au début de son évolution, perforait de sa tarière dans le seul but de pondre. 
+11 se peut que la nécessité d’une alimentation animale se fasse sentir actuel- 
+lement, mais j'hésite à croire que primitivement il en était de même. 
+
+Quoi qu'il en soit, on voit tout l'intérêt de cette observation d’un procédé 
+très ingénieux, qui fait ressortir la complexité des actes instinctifs chez les 
+Hyménoptères parasites. 
+
+
+a 
+
+
+pe dehors, à l’intérieur de ce petit tube capillaire. La figure représente 
+
+
+736 ACADÉMIE DES SCIENCES. 
+
+
+ZOOLOGIE. -— Sur le développement de Molge Walt Mich. (Batracien 
+urodele) et sur son habitat en Guinée française. Note de M. F. Acer, 
+présentée par M. E.-L. Bouvier. l 
+
+
+Les collections herpétologiques du Muséum d'Histoire naturelle ren- 
+ferment une série d'exemplaires prélevés sur une ponte de Molge Wall 
+Mich., qui eut lieu à la Ménagerie des Reptiles en mars 1880. Vingt-cinq 
+individus permettent d'examiner les stades successifs, entre les tailles de 
+_14"® et de 6o"" de longueur totale. 
+
+
+Le développement des membres, particulièrement, semble différer de ce qui se 
+produit chez les autres espèces du même genre. Alors que chez celles-ci, les membres 
+acquièrent de très bonne heure leur nombre normal de doigts, chez celle-là les doigts 
+n'apparaissent que très irrégulièrement et beaucoup plus tard. Si, sur des exemplaires 
+ayant 14% de longueur, les membres antérieurs sont présents avant les postérieurs, 
+en tant que date d'apparition (phénomène normal dans le groupe), on remarque 
+qu’aprês la taille de 20%, l'accroissement des membres postérieurs prédomine nette- 
+ment sur celui des antérieurs. Chez 18 sujets de 14"m à 38»m, 5 présentent les deux 
+membres postérieurs normalement constitués avec leurs cinq doigts, tandis qu'aucun 
+ne présente les deux pattes antérieures respectivement munies de leurs quatre doigts. 
+Il faut arriver à la taille de 50" pour trouver, parfois, les doigts complets aux deux 
+membres antérieurs, alors que les membres postérieurs sont déjà complets, assez 
+souvent, à partir de 25m, Mais ce n’est bien que vers 60"", à part quelques rares 
+exceptions, que l’on trouve les deux paires de pattes munies de tous leurs doigts 
+respectifs. ; 
+
+Aüïnsi, en ce qui concerne l’irrégularité du développement des membres et des doigts, 
+par rapport les uns aux autres, la plus grande asymétrie est de règle jusqu'à 6omm, 
+
+Le Tableau suivant permettra d'établir la comparaison des nombres de doigts 
+développés, sur une vingtaine d'exemplaires de longueurs différentes. 
+
+
+’ Longueur Membres antérieurs. .. Membres postérieurs. 
+de Doigts présents Doigts présents 
+l'exemplaire. à chaque membre. à chaque membre. 
+mm TT DT = — D 
+PRE NP RSC RASE 2 2 (e) (e) 
+THE es ni lee l O (e] o 
+DOVE rte he ets l 3 4 4 
+SM AE PA 0 +2 (9 0 
+DR M UItE DS PNR 0 2 5 5x”) 
+D'OR ANNEE LES () 2 (9 2 
+DE Le eulale esse 0 2 (9) 5] 3 
+DE Se OP NEA 3 3 DNA 
+DA rente RS 2 3 0 D 
+
+
+(*) Normaux. 
+
+
+1 PE } TRES Dre 
+cal a dd lat omis à a era / Lai) de su ES Ut GS dé Sons 
+
+
+SÉANCE DU 24 OCTOBRE 1921. 
+
+
+SI 
+O9 
+Nu] 
+
+
+Longueur CA Membres antérieurs. … Membres postérieurs. 
+de Doigts présents Doigts présents 
+l'exemplaire. ‘à chaque membre. à chaque membre. 
+mm TR ——— 
+et o 0 5 Fa) 
+Dans due en nition 0 2 3 D 
+HARAS TARN 0 0 5 5°) 
+PRE hr 0 ; 5 5 (*) 
+ni dos o 4 5 5 (*) 
+OR me ee nan areas l HAUT) 5 2 
+DOS RAA PEUT ee 0 2 {| 5 
+DD Me rue. k 4) 0 ie 
+DD ! 4 (*) 5 5 (*) 
+Din. one l 6) 5 o 
+HU Re 4 Are 5 5 (*) 
+
+
+(*) Normaux. 
+
+
+Les particularités ci-dessus m'ont paru d’autant plus intéressantes qu’elles- 
+permettent d'identifier exactement une larve de Batracien urodèle récoltée 
+par M. Paul Chabanaud, dans le marigot de Diéké, en Guinée française, 
+et qui fit l’objet d’une Communication de sa part (‘). Il signalait la capture 
+de cette larve, et décrivait l’aspect anormal des membres, qui ne pouvait 
+être rapporté à aucune forme larvaire connue. l'examen comparatif des 
+larves de Molge Waltlu et de la larve capturée à Diéké permet d'affirmer 
+que cette dernière appartient à cette espèce, qui n’était connue jusqu’à 
+présent que de l'Espagne, du Portugal, et du nord de l’Atlas, au Maroc. 
+
+Cette étude confirme, par conséquent, l'opinion de M. Chabanaud sur 
+la présence d’un Batracien urodèle en Afrique intertropicale; de plus, 
+l'identification de cette larve montre que Molge Wall, forme européo- 
+africaine, présente en Afrique une dispersion très étendue vers le Sud. 
+
+
+EMBRYOGÉNIE. — Lois de croissance des lissus constituant le poumon fœtal 
+du mouton. Note de M. E. Fauré-Fremrer, présentée par M. Henneguy. 
+
+
+Nous avons montré, avec le professeur G. Dragoiu et M'e du Vivier de 
+Streel (?), que l'accroissement pondéral du poumon de mouton, étudié en 
+
+
+(:) Comptes rendus, t. 172, 1921, p. 139. 
+(?) La croissance du poumon fœtal chez le mouton et les variations concomt- 
+tantes de sa composition (Comptes rendus, t. 171, 1920, p. 275). 
+
+
+A pr UT) EX N Pirée DCE PER CRTC NAS Tr EN 
+
+
+338 / ACADÉMIE DES SCIENCES. 
+
+
+fonction du temps pendant la vie intra-utérine, peut être représenté par 
+une courbe en S à laquelle s'applique parfaitement l'équation générale 
+proposée par Brailsford Rebertson, soit : 
+
+
+log = K(t — il 
+
+
+Fe 
+
+
+A, poids moyen du PRRTRRS à la naissance, étant égal à à 1258; /,, Lemps 
+correspondant au poids À ou étant égal : à 1/ semaines ; æ étant remplacé par 
+
+
+ses valeurs Ro de aux temps 4, ; les valeurs de K varient très peu 
+autour d’une moyenne telle que K — 0,246. 
+Inversement, si nous adoptons cette valeur dé K, nous pouvons calculer 
+
+
+la valeur moyenne de + au temps t,; on obtient ainsi une courbe qui passe 
+
+
+. très exactement au milieu des points exprimant les déterminations directes 
+du poids du poumon fœtal en fonction du temps. Cette courbe est donc à 
+Ja fois la courbe théorique et la éourbe moyenne de l’accroissement total 
+de l'organe. 
+
+La courbe de croissance d'un organe, ainsi caractérisée par l'équation de 
+Robertson, n’est pas indépendante de la courbe de croissance de fœtus tout 
+entier; d'autre part, elle représente évidemment la somme algébrique des 
+variations pondérales de chacun des tissus constituant l'organe considéré. 
+
+
+Dans le cas du poumon il est possible, en simplifiant légèrement les 
+
+
+données du problème, de ramener à deux le nombre de ces constituants, 
+et d'étudier la croissance propre du sitroma conjonctif et celle des tubes 
+épithéliaux. | 
+
+Nous avons montré d'autre part (!) qu’il est possible d'estimer, d'après 
+des mesures de surface, les variations quantitatives du tissu épithélial pul- 
+monaire au cours du développement fœtal, le dosage du glycogène donnant 
+par ailleurs une sorte de vérification des résultats obtenus. 
+
+Si l’on trace avec les valeurs obtenues par cette méthode la courbe de 
+
+
+croissance propre à l'épithélium, on voit que cette courbe n'obétt pas à la 
+
+
+loi de Robertson. | 
+
+À première vue, el si l’on ne considère que les tout premiers stades du 
+développement, le poids du tissu épithélial x croit à peu prés de telle 
+manière que l’on ait 
+log x — at — b. 
+
+
+DE EEE 
+
+
+OC) Facrt-Fremier, Draëorc et bé Vivier be SraBsz, Le différenciation histothimique 
+de l’épithélium pulmonaire (Uomptes rendus, t. 174, 1920, p. 368). 
+
+
+EST) PERTE LT 
+
+
+i 
+à 
+
+
+de ‘ SÉANCE DU 24 OCTOBRE 1021. 739 
+
+
+ Mhis pour avoir une concordance exacte avec les valeurs expérimenta- 
+lement connues de +, il faut Suns compte du poids total correspondant (P) 
+
+
+_ du poumon. On arrive alors à une relation telle que 
+
+
+| NF 
+
+
+jo l, : , , n D 1 Ù à 
+” | (is ro - : 
+
+
+dans laquelle d = 0,509 et b = 0,525. 
+
+
+On peut donc € écrite | 
+æ = AGP +B#P—+CiP + DP. 
+
+
+En ce qui concerne le stroma conjonctif du poumon fœtal, 1l est difficile 
+d'obtenir une bonne appréciation de ses variations quantitatives (! ); cepen- 
+dant, on est en droit d'estimer que la courbe d’accroissement du tissu con- 
+jonctif présente la mème allure que la courbe de croissance du poumon 
+total, les coefficients numériques ayant une valeur un peu différente : 
+A étant voisin de 110$ , /, de 101 jours et K de 0,232. 
+
+SL apparaît ainsi que ne des deux tissus constituant le poumon. fœtal 
+possède une loi d’aceroissement qui lui est propre; dans le cas du tissu 
+conjonctif la croissance tend vers une limite après avoir passé par un 
+
+
+eus alors que dans le cas du tissu épithélial la croissance tend vers 
+
+
+infini. 
+
+_ Si l’on considère le développement du poumon total, on voit qu'il 
+semble commandé surtout par lPaccroissement conjonctif qui est de même 
+forme. Or, si l’on prélonge par le calcul la courbe de croissance épithéliale 
+au delà de la douzième semaine, on voit qu’elle devient rapidement incom- 
+patible avec la courbe réelle de croissance du poumon total; en effet, le 
+
+
+UA on + . . 
+rapport 100 5; augmentant d'une manière continue, atieindrait vers la 
+
+
+vingtième semaine la valeur de 100 pour 100, ce qui est absurde. 
+
+Nous avons montré (*) que dans la réalité ce même rapport ne dépasse 
+pas 30 pour 100 et qu’au delà de cette valeur limité correspondant à la 
+douzième semaine du développement fœtal, la croissance de l’épithélium 
+accuse un arrêt brusque, puis une régression marquée, tandis que les élé- 
+
+
+ments cellulaires subissent une sorte de métamorphose que nous avons 
+
+
+décrite au point de vue cytologique et histo chimique. 
+
+
+ou 
+
+
+(1) Surtout pendant la seconde moitié du développement, la masse conjonctive ne 
+peut pas correspondre exactement à la dilférence P — x à cause de la complication 
+progressive de la structure de l'organe. 
+
+(AY LOC. cit: 
+
+
+Lada Ita, 
+
+
+Ro nl ACADÉMIE DES SCIENCES. 
+
+
+On sait que Brailsford Robertson a comparé un « cycle de croissance » 
+à une réaction monomoléculaire et autocatalytique au cours de laquelle le 
+corps actif réagit non seulement en fonction de la masse actuelle de sa por- 
+‘tion encore intacte, mais encore en fonction de la masse du corps produit 
+par la réaction. Cette séduisante comparaison peut être appliquée au tissu 
+conjonctif étant donnée la forme de sa courbe de croissance et en assimilant 
+la substance collagène par exemple ‘au produit formé dont l’augmentation 
+de masse ralentit peu à peu la réaction. 
+
+La courbe de croissance indéfinie du tissu épithélial ne correspond pas 
+à un tel schéma et n’explique pas l’accident qui, dans la réalité des phéno- 
+mènes normaux, arrête brusquement le développement de ce tissu à la 
+douzième semaine. 
+
+Nous avons montré dans la même série de recherche (!) que la composi- 
+tion chimique du poumon tout entier, et celle du tissu épithélial, varie 
+d’une manière continue au cours de la vie fœtale. On pourrait donc supposer 
+que la forme embryonnaire de la cellule épithéliale ne peut persister avec 
+des modifications légères (?) qu’autant que les variations de la composition 
+chimique ne dépassent pas certaines limites; au delà de celles-ci des 
+conditions nouvelles sont réalisées auxquelles correspond un nouvel état, 
+forme adulte de la cellule épithéliale sous ses trois aspects principaux de 
+cellule cylindrique ciliée, de cellule anucléée, de cellule à granulations 
+lipoïdes et à réaction cadmiophile (3). 
+
+
+EMBRYOGÉNIE. — De l'existence de rapports biometriques entre la Grenouille 
+rousse (Rana fusca) et ses œufs à l’époque de la ponte. Note de MM. E.-F. 
+TErRRoOINE et H. Barraécémy, présentée par M. Henneguy. 
+
+
+Dans une Note précédenté("), nous avons établi la fixité de composition 
+des œufs de grenouille rousse, son entière indépendance de l’état physiolo- 
+gique (âge, poids, etc.) de la femelle productrice. Or il y a là un fait qui 
+ne peut manquer de surprendre. L’œuf à vitellus très abondant, tel que 
+
+
+(ADO ACEE: 
+(?) Variation continue de la taille et du rapport nucléoplasmique, par exemple. 
+(5) Fauré-Freuier, DraGoiv et pu Vivier Ds STRgEL, Sur une réaction micro-chimique 
+de la cellule épithéliale pulmonaire (Bull. de la Soc. de Chim. biologique, t. 9, 
+1920, p. 166). 
+
+(*) Comptes rendus, t. 173, 1921, p. 611. 
+
+
+SÉANCE DU 24 OCTOBRE 1921. 
+
+
+l'œuf de grenouille, est essentiellement une cellule de réserve : plus de * 
+‘20 pour 100 des substances sèches sont, en effet, des matières grasses. Il 
+semblerait donc que, de même que les tissus de réserve sont plus ou moins 
+riches en graisses suivant l’état de l'organisme dont ils font partie, les œufs 
+- dussent être également de composition variable suivant l’état de l’orga- 
+nisme eue 
+
+Puisqu’il n’en est rien, qu’il est par ailleurs able de supposer une 
+indépendance rigoureuse entre les œufs et l'organisme producteur, nous 
+avons été amenés à penser ques il n'existe aucun rapport entre la composi- 
+tion des œufs et l'état des organismes, il en existe au contraire, et de très 
+précis, entre la masse des œufs produits, la quantité des matières grasses : 
+qu'ils renferment, d’une part; le poids des organismes producteurs et la 
+
+_quantité‘totale de graisse contenue dans ces organismes, d'autre part. 
+
+En vue de déterminer le bien-fondé de cette hypothèse, nous avons, chez 
+un grand nombre de sujets recueillis absolument au hasard, mais présentant 
+entre eux de grandes différences de poids : 
+
+1° Déterminé le poids des œufs ovariens à l’époque de la ponte, le poids 
+total de l'organisme producteur et calculé le rapport de ces deux valeurs; 
+
+2° Déterminé la teneur en substances grasses et lipoïdiques totales des 
+ovaires, ainsi que la teneur de l'organisme total et calculé le rapport de ces 
+deux re 
+
+On trouvera, dans les Tableaux ci-dessous, les résultats de quelques- unes 
+de nos Amiens À 
+
+
+Poids total Poids 
+du sujet. des œufs. 
+CU ES SR PMP PR NE 8,630 
+HAT TEE PO) SN AR PMR 6,618 
+AO OO NA ae late a Le 747 NM à 6,020 
+DT OQ Te en ae nee pe ciare à 5,900 
+SOU OS MR Re ele AS 5,000 
+DO OO NERF NT NE ef à 3,450 
+
+
+K 
+
+
+Relation entre le poids des œufs ovariens et le poids du corps. 
+
+
+Rapport pour 100 du poids 
+des œufs au poids du corps. 
+
+
+15 
+
+
+Relation entre la quantité de substances grasses et lipoidiques 
+
+
+contenues dans les œufs ovariens et celle renfermée dans l'organisme total. 
+
+
+C. 
+
+
+Organisme total 
+
+
+(corps + œufs). OEufs 
+DDR PE D DT RO EL ace ete au ie 0,867 
+OO NN Cu Meter nreerais ele où 0,665 
+OO Mrs ns DUT 0,7245 
+CAO Re re 2e due 0,026 
+D TOO NT MR OT Ne Ur ui 0,0345 
+1,148. AT SIENS ea me 0,677 
+
+
+R., 1921, 2° Semestre (T. 173, N° 17.) 
+
+
+Substance pour 100 
+contenue dans les œufs. 
+70 
+Ji 
+67 
+66 
+
+
+70 
+64 
+
+
+7ha. | ACADÉMIE DES SCIENCES. 
+
+
+La réponse à la question posée n’est pas douteuse : il existe des rapports 
+quantitatifs très étroits entre l’organisme producteur et les œufs. De 
+l’ensemble de nos déterminations, dont nous n’avons donné ci-dessus qu’un 
+petit nombre, il résulte que le poids des ovaires à l’époque de la ponte 
+représente en moyenne 1 pour 100 du poids de l'organisme total, les 
+écarts individuels ne dépassant pas 4 pour 100 de la valeur moyenne; 
+et que les substances grassses et lipoïdiques représentent en moyenne 
+68 pour 100 du contenu total de l’organisme, les écarts individuels par 
+rapport à la moyenne étant de 3,3 pour 100. Il va de soi que des valeurs 
+qui diffèrent entre elles de 3 à 4 pour 100 doivent être considérées comme 
+_ identiques. 
+
+Il était intéressant de rechercher si l’on retrouverait des faits et des 
+chiffres analogues chez d'autres espèces. La bibliographie est malheureu- 
+sement très pauvre, quant aux données permettant d'établir une telle com- 
+paraison. Cependant on peut trouver dans un travail de Milroy (*) sur le 
+hareng six pesées d’ovaires mürs et d'organismes porteurs correspondants. 
+Or le calcul nous a montré que les rapports pondéraux étaient respective- 
+ment de 16, 15, 11, 14, 16 et 16; c’est-à-dire identiques à ceux observés 
+par nous chez la grenouille. Des recherches ultérieures nous permettront 
+de voir s’il y a là une loi biométrique générale. 
+
+Conclusion. — À l’époque de la ponte : 1° le poids des œufs ovariens de 
+grenouille rousse représente 15 pour 100 du poids total du corps; 2° la 
+quantité de substances grasses et lipoïdiques déposées dans les œufs repré- 
+sente 68 pour 100 du contenu total de l’organisme en ces matières. 
+
+
+PARASITOLOGIE. — Sur la coccidiose des alevins de la Carpe. Note 
+de MM. L. Lécer et S. Srankovrreu, présentée par M. Henneguy. 
+
+
+Dans certains étangs de la région du Sud-Est consacrés à la culture de la 
+Carpe, les alevins du premier âge sont souvent atteints par une Coccidie 
+dont l’évolution s’effectue tout entière dans l’épithélium intestinal. Sa 
+multiplication présente une telle intensité qu’il en résulte une destruction 
+par places de la muqueuse digestive avec une entérite grave, parfois 
+mortelle, et, en tout cas, susceptible de porter un sérieux préjudice à 
+
+
+(:) Mucroy, Changes in the chemical Composition of the Herring during the 
+reproductive Period (Bioch. J.,1t. 3, 1908, p. 366-390). | 
+
+
+SÉANCE DU 24 OCTOBRE 1921. 
+
+
+l élevage, car les petits poissons qui résistent restent amaigris et souffreteux, 
+incapables de poursuivre leur croissance normale. 
+
+Déjà Zschiesche (Zoolog. Anzeaig., 1914) a signalé une maladie analogue 
+chez des alevins de Carpe en rapportant le parasite qu’il a observé à la 
+Coccidie décrite par Moroff et Fiebiger (Arch. f. Protistenk, 1905) sous 
+le nom de Eimeria subepithelialis, dans les Carpes adultes. Or, et sans 
+pouvoir dire si cette identification est exacte puisque Zschiesche n’indique 
+pas la forme et les dimensions des ookystes et des spores de sa Coccidie, 
+nous pouvons affirmer que celle que nous avons trouvée comme agent 
+pathogène de la Coccidiose des alevins de Carpe est nettement différente 
+de l'E. subepithelialis tant par la forme et la taille des kystes et des spores 
+que par le siège du parasite. 
+
+Ainsi l'E. subepithelialis dont la sporogonie s'effectue dans la sous- 
+muqueuse intestinale, a des ookystes ovoïdes, de 184 à 214, avec reliquat ; des 
+spores ovoïdes très allongées, à paroi épaisse, de 15 sur 8#. Tandis que 
+notre espèce effectue sa sporogonie tout entière dans l’épithélium intes- 
+tinal, donne des ookystes sphériques de 134 à 14" sans reliquat, des spores 
+largement ovoïdes, acuminées aux deux pôles, à paroi mince et mesurant 
+seulement 84 sur 6. Il est donc impossible de confondre ces deux espèces 
+et nous proposons pour notre Coccidie des jeunes alevins de Carpe, le nom 
+d’Ermeria carpelli n. sp. 
+
+
+Description. — Les schizontes ovoïdes allongés de 64 à 94 sont fréquents dans les 
+cellules épithéliales de lintestin au voisinage de la surface, et leur grand axe est 
+souvent oblique ou même perpendiculaire à celui de la cellule hôte, particularité 
+singulière remarquée déjà par Zschiesche et qui, jointe à leur petite taille également 
+notée par le même auteur, soulève la question de l’identité de son parasite avec le 
+nôtre. | 
+
+Les stades de sporogonie nous ont seulement montré jusqu'ici des ookystes à divers 
+stades de développement. Ces ookystes à paroi très mince, sphériques, de 134 à 144 de 
+diamètre sur le vivant, se trouvent souvent réunis en amas dans les profondeurs de 
+l’épithélium où ils effectuent leur maturation complète pour être ensuite libérés par 
+destruction des cellules. Leur contenu se divise en quatre sporoblastes d’abord sphé- 
+riques qui se transforment en spores ovoïdes, renflées et subconiques à leur extrémité. 
+Ces spores à pôles semblables, à paroi assez mince, renferment à maturité deux gros 
+sporozoïtes recourbés avec un reliquat central globuleux. 
+
+Dans les régions les plus infestées de l’épithélium, les cellules qui entourent les 
+amas coccidiens sont dégénérées, disloquées et beaucoup de noyaux sont en karyolyse. 
+
+
+‘Cette description suffit pour montrer que E. carpelli ne peut êre confon- 
+
+
+r 44 ACADÉMIE DES SCIENCES. 
+
+
+due avec E. subepithelialis. On sait qu’une autre espèce de Coccidie a été 
+signalée par Wierzejski en 1808 dans les Myxosporidies (Myæxobolus) para- 
+sites des Carpes. Cette espèce dont on ne connaît que les kystes sporulés 
+vaguement représentés par Hofer (Handb. der Fischkrank., 190%) qui lui 
+donne le nom de £. Wierzejskiü, ne peut d’ailleurs être confondue avéc 
+E. carpelli en raison de la forme très allongée de ses spores. 
+
+Le fait que nous trouvons chez les mêmes sujets tous les stades évoluuifs 
+du parasite, c’est-à-dire multiplication endogène et exogène, montre que 
+celui-ci évolue sans le secours d’un hôte intermédiaire et que, par consé- 
+quent, les jeunes alevins s’infestent par les spores émises dans l’eau par des 
+sujets contaminés. En conséquence, la maladie sera évitée si l’on pratique 
+l’alevinage et la première croissance de la Carpe dans les étangs préalable- 
+ment tenus en assec. Les reproducteurs sont placés, le plus tard possible, 
+dans les étangs à pose, c’est-à-dire seulement lorsque la température sera 
+devenue favorable à la ponte, et l’on aura soin de les retirer immédiatement 
+après. | 
+
+La méthode de Dubisch, dans laquelle les sujets d'élevage sont changés 
+fréquemment d’étangs tenus préalablement en assec, possède ainsi, entre 
+autres avantages, celui d'offrir aux poissons un milieu toujours indemne de 
+germes infectieux et, en évitant ainsi les coccidioses intestinales si nuisibles 
+à la croissance, lorsqu'elles ne sont pas mortelles, d'obtenir, toutes choses 
+égales d’ailleurs, le maximum de rendement quantitatif et qualitatif. 
+ Dracnose. — Eimeria carpelli n. sp. Kystes sphériques à paroi mince de 
+13#-14* sans reliquat. Quatre spores ovoïdes renflées, à pôles semblables 
+acuminés de 8 sur 6" avec deux gros sporozoïtes et un reliquat central. 
+Schizogonie dans les cellules épithéliales de l’intestin. Schizontes de 64 à 94. 
+Sporogonie complète dans la profondeur de l’épithélium des alevins de 
+
+
+Carpe. 
+
+
+Li 
+
+
+MÉDECINE. — Un nouveau groupe de diurétiques : les diurétiques interstitiels. 
+La diurèse par déplacement d'ions. Note de M. Léon Bzun, présentée par 
+
+
+M. Widal. 
+
+
+La thérapeutique actuelle des hydropisies consiste à associer un régime 
+pauvre en chlorure de sodium et pauvre en eau à une médication cardioto- 
+nique ou rénale, selon que la rétention d’eau est causée par une affection 
+
+
+SÉANCE DU 2/4 OCTOBRE: 1921. 745 
+
+
+dü cœur ou une affection des reins. Ce traitement, qui convient à nombre 
+de ces hydropisies, reste cependant inefficace pour certaines d’entre elles et 
+les rétentions d’eau qui ne relèvent pas d’une affection cardiaque ou rénale 
+n'en sont pour ainsi dire pas influencées. Nous avons constaté que très 
+souvent l’administration de fortes doses de sels de potassium et de calcium, 
+associés au régime déchloruré, était extrêmement efficace là où le traite- 
+ment précédemment indiqué avait échoué; après avoir soumis nos malades 
+à un régime sans sels et pauvre en eau, nous donnions tour à tour de la 
+digitale, de la théobromine ou de la théophylline à hautes doses. Et dans 
+les cas où ce traitement avait échoué nous commencions l’administration 
+des sels. É 
+
+C’est dans ces conditions que nous avons enregistré la réduction parfois 
+très rapide et considérable de certains œdèmes brigthiques, de certains 
+œdèmes de cause inconnue, d’épanchements pleuraux, d’épanchements 
+ascitiques et plus exceptionnellement enfin d’hydropisies cardiaques 
+rebelles à la digitale. | 
+
+L'emploi des sels de potassium comme diurétiques est déjà ancien, 
+l'usage des sels de calcium a été recommandé à diverses reprises dans ces 
+dernières années, mais on n’en avait obtenu que des résultats médiocres : 
+parce qu'on n’y avait pas associé un régime approprié et parce qu’on 
+n'avait pas donné des doses suffisantes. L'institution d’un régime pauvre 
+en sodium, condition parfaitement réalisée par un régime déchloruré 
+puisque la presque totalité du sodium que nous absorbons est prise sous. 
+forme de chlorure de sodium, est indispensable pour obtenir une action 
+diurétique des sels de calcium et de potassium. La question de dose est 
+également capitale et nos observations nous ont prouvé nettement que là 
+où 36 ou 45 de sel de potasse ou de calcium sont inopérants, 156 à 258 
+agissent au contraire puissamment. Doses importantes de sels et associa- 
+tion au régime pauvre en sodium, telles sont donc les caractéristiques de la 
+médication diurétique que nous proposons. Le fait qu’elle agit très effica- 
+cement dans les hydropisies de localisation et d'origines les plus variées, 
+inflammatoires, mécaniques, rénales ou cardiaques donne à penser que son 
+mode d’action est général et pour nous il consiste en un déplacement d’ions 
+dans les humeurs. 
+
+Les liquides d’hydropisies sont, on le sait, essentiellement constitués par 
+une solution de chlorure de sodium et l’on admet que c’est la rétention de 
+sel qui conditionne la rétention d’eau. Mais si nous poussons plus loin 
+l'analyse des faits, nous sommes amenés à conclure que c’est en définitive 
+
+
+RTS ANT Te SA DE] 
+
+
+l 
+
+
+746 ACADÉMIE DES SCIENCES. 
+
+l'ion sodium qui règle les phénomènes d’hydratation ('). Lorsqu'un sujet 
+en état d'hydropisie ingère des quantités suffisantes de sel de potassium et 
+de calcium, le sang et les liquides épanchés s’enrichissent en potassium et 
+en calcium, s'appauvrisent en sodium et son urine élimine du sodium en 
+excès (?). Pour nous, le potassium et le calcium agissent donc en déplaçant 
+dans les humeurs l'ion sodium. Nous pensons donc qu’il y a lieu de consi- 
+dérer à côté des diurétiques rénaux qui agissent sur la cellule rénale et des 
+diurétiques cardiaques qui font uriner en améliorant la circulation des 
+reins, les diurétiques interstitiels qui agissent sur les liquides déposés dans 
+les interstices tissulaires provoquant l'élimination d’eau en l’entraînant par 
+un départ de sodium. 
+
+
+CHIRURGIE. — Traitement de la névralgie faciale par la résection du sympa- 
+thique cervico-thoracique. Note de M. Tuomas Jonnesco, présentée par 
+
+
+M. P. Bazy. 
+
+
+Les opérations pratiquées contre la névralgie faciale sont très nombreuses. 
+On s’est adressé successivement aux branches périphériques du trijumeau, 
+aux ganglions extra-craniens et au ganglion de (Grasser. Toutes ces opéra- 
+tions, les unes bénignes, comme les interventions périphériques, d’autres 
+plus sérieuses comme celles qui s'adressent au ganglion de Meckel, d’autres 
+plus graves encore s'adressant au ganglion de Gasser, ont donné des résul- 
+tats incertains, puisque la récidive est survenue très fréquemment. 
+
+Il ÿ a quelques années déjà que, vu la gravité de quelques-unes de ces 
+opérations ((Gasserectomie) et l’inefficacité de la plupart d’entre elles, on 
+s'est adressé au sympathique cervical (Jaboulay, Chipault, Délagenière, 
+Poirier, Delbet, Cavazzani, etc.) et, moi-même, j'ai pratiqué la résection 
+* partelle du sympathique cervical en 1902 et 4904. 
+
+Ces opérations paraissent actuellement abandonnées, car leurs résultats 
+n’ont pas été durables. Je n’ai plus eu recours à la résection partielle du 
+sympathique depuis des années. | 
+
+
+(1) L. Brun, Ausez et R. Hausknecur, Le mécanisme de l’action du chlorure de 
+sodium et du chlorure de potassium dans les néphrites hydropigènes (CR. Soc. 
+Biol., t. 85, p. 123, et Bulletin de la Société médicale des hôpitaux, 29 juillet 1925). 
+
+(?) L. Bivu, E. Ausez et R, Hausknecur, Les variations de la teneur du sang et des 
+humeurs en sodium el en potassium après ingestion des sels de sodium et de potas- 
+sium (C. R. Soc. Biol., t. 85, 1921, p. 498). 
+
+
+SÉANCE DU 24 OCTOBRE 1921. 747 
+
+
+Tout dernièrement, j'ai cru trouver la cause pour laquelle ces résultats 
+étaient imparfaits. J'ai eu donc recours par deux fois à une’intervention 
+plus large. Ces opérations ont donné des résultats excellents et qui, j'espère, 
+vont devenir définitifs. | 
+
+En effet, dans toutes les opérations précédentes, on s’est adressé seule- 
+ment au ganglion cervical supérieur du côté malade et l’on a cru qu’en le 
+réséquant, cela suffirait à amener les modifications cherchées dans le tri- 
+jumeau et par conséquent la guérison de la névralgie. 
+
+Je crois que cette opération était absolument insuffisante; car l’action du 
+sympathique sur le trijjumeau n’est pas directe, mais ne se fait que par 
+l'intermédiaire des nerfs vaso-moteurs qui modifient la circulation dans le 
+nerf et ses ganglions, produisant la névralgie. Une ablation complète du 
+sympathique cervical, y compris le premier ganglion thoracique, pratiquée 
+des deux côtés, peut donc seule amener des modifications durables, voire 
+permanentes, dans la circulation des vaisseaux du nerf et de ses ganglions. 
+
+Les nerfs vaso-moteurs du sympathique qui agissentsurles vaisseaux intra- 
+craniens passent, en effet, par deux voies : par le cordon prévertébral avec 
+ses trois ganglions cervicaux, pour le terrain carotidien, et par le nerf 
+
+
+vertébral, émanation du dernier ganglion cervical et du premier thoracique, 
+
+
+qui passe dans le canal intervertébral, accompagnant l’artère vertébrale 
+qui constitue la zone postérieure ou basilaire des artères intra-craniennes. 
+_ En résumé, j’ai adopté pour la névralgie du trijumeau le même principe 
+que j'ai mis en pratique depuis longtemps pour la résection du sympa- 
+thique dans le goître exophtalmique avec de brillants résultats. Bien 
+entendu, cette intervention n’est indiquée que dans le cas de névralgie 
+faciale dite essentielle. Elle n’est pas applicable dans le cas de névralgie 
+dite symptomatique. 
+
+Sans décrire ici la technique opératoire, je préciserai deux faits : 
+
+1° Cette opération, comme toutes les autres du reste, est pratiquée sous 
+Ja rachi-anesthésie supérieure, en introduisant entre la dernière vertébre 
+cervicale et la première dorsale (ponction cervico-thoracique) 2'8 de stovaine 
+et 15 de strychnine. se 
+
+2° L'opération est faite en deux temps, chacun comprenant la résection 
+complète du sympathique du côté malade. Quelques jours après, on 
+
+
+| procède à la résection du sympathique du côté opposé. 
+
+
+Dans les deux derniers cas, opérés en mai dernier, il s'agissait de malades 
+âgés dont la névragie remontait, pour les deux, à plus de neuf ans. L'un 
+avait subi la résection périphérique des nerfs du côté malade, sans résultat. 
+
+
+je viens éd'indiquee a eu pour effet ji les guérir pion 
+
+Vu la bénignité absolue de la résection du sympathique, que ads, 
+fût-elle, et la gravité réelle des opérations intra-craniennes qui s'adressent 
+au ganglion de Gasser, ainsi que l’inefficacité des opérations périphériques, Î 
+je crois que la résection du sympathique serait PAIE à toute autre . 
+méthane, à Contes -qu'on à la fasse totale « el bilatérale. ia 
+
+
+.… La séance est levée à 17 heures trois quarts. 
+
+

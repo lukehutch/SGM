@@ -1,0 +1,80 @@
+{
+  "identifier": "arXiv:gr-qc/0411060",
+  "cite_key": "Hamilton:2004au",
+  "identifiers": {
+    "doi": "10.48550/arXiv.gr-qc/0411060",
+    "arxiv": "gr-qc/0411060",
+    "title": "The river model of black holes",
+    "author": "Hamilton"
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/gr-qc/0411060",
+    "DataCite": "https://doi.org/10.48550/arXiv.gr-qc/0411060",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=gr-qc%2F0411060",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=The+river+model+of+black+holes&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.gr-qc/0411060",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/gr-qc/0411060",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/gr-qc/0411060",
+      "ok": true,
+      "path": "Hamilton:2004au-arxiv-src.tar.gz",
+      "bytes": 380920,
+      "sha256": "99b06c38bd8fd26aad811c9535f599f50a579b3fac957592d1a57b9918e8f8d1",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/gr-qc/0411060",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 757169,
+      "sha256": null,
+      "note": "6 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_gr-qc0411060/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 87443,
+      "sha256": "9f82cf73795e93ed2e83717b5bfce5939246b92a13182e8eb7bd93324836c8ce",
+      "note": "304 lines of 304, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/gr-qc/0411060",
+      "ok": true,
+      "path": "Hamilton:2004au.pdf",
+      "bytes": 370505,
+      "sha256": "2155fa5b37b068eb85166a429063206470268f2b8faa7e57dc61700a1bae7741",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

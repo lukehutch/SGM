@@ -1,0 +1,73 @@
+{
+  "identifier": "2102.01831",
+  "cite_key": "JowseyVisser2021Counterexamples",
+  "identifiers": {
+    "doi": "10.48550/arXiv.2102.01831",
+    "arxiv": "2102.01831",
+    "title": "Counterexamples to the Maximum Force Conjecture",
+    "author": "Jowsey"
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/2102.01831",
+    "DataCite": "https://doi.org/10.48550/arXiv.2102.01831",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=2102.01831",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Counterexamples+to+the+Maximum+Force+Conjecture&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/2102.01831",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/2102.01831",
+      "ok": true,
+      "path": "JowseyVisser2021Counterexamples-arxiv-src.tar.gz",
+      "bytes": 1022749,
+      "sha256": "f9c66e63b865397d84ba657ff624117d040a8e9bf723fdbceb4d0edc43ef9c25",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/2102.01831",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 1118307,
+      "sha256": null,
+      "note": "8 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_2102.01831/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 54742,
+      "sha256": "2d59d4c608e9fcac87ece4b91900f1dba61734a63d4ce453fdc1c729a60600b8",
+      "note": "305 lines of 305, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/2102.01831",
+      "ok": true,
+      "path": "JowseyVisser2021Counterexamples.pdf",
+      "bytes": 1544139,
+      "sha256": "3fa136741765f7e56f87b470f756002d97af159431f9e27945bf8a9af77a2572",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

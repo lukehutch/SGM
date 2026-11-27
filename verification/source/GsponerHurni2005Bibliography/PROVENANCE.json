@@ -1,0 +1,73 @@
+{
+  "identifier": "arXiv:math-ph/0511092",
+  "cite_key": "Gsponer:2006vz",
+  "identifiers": {
+    "doi": "10.48550/arXiv.math-ph/0511092",
+    "arxiv": "math-ph/0511092",
+    "title": "Quaternions in mathematical physics (2): Analytical bibliography",
+    "author": "Gsponer"
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/math-ph/0511092",
+    "DataCite": "https://doi.org/10.48550/arXiv.math-ph/0511092",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=math-ph%2F0511092",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Quaternions+in+mathematical+physics+%282%29%3A+Analytical+bibliography&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.math-ph/0511092",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/math-ph/0511092",
+      "ok": true,
+      "path": "Gsponer:2006vz-arxiv-src.tar.gz",
+      "bytes": 119801,
+      "sha256": "d86c97b566d40cf6f95ca730c5cf36f6acb30fd41e633011fbe2d179c927d976",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/math-ph/0511092",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 394893,
+      "sha256": null,
+      "note": "2 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_math-ph0511092/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 227733,
+      "sha256": "2a232ea9a85ddf200cfe2a4609f320aa876e2966ea91e79929343408a66ba004",
+      "note": "368 lines of 368, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/math-ph/0511092",
+      "ok": true,
+      "path": "Gsponer:2006vz.pdf",
+      "bytes": 842534,
+      "sha256": "ff5ea9965948fe7a75b14ce12bd556ec718f03faeb1e2217faa94afb3fc85c80",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

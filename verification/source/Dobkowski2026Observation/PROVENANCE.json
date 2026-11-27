@@ -1,0 +1,80 @@
+{
+  "identifier": "arXiv:2502.14535",
+  "cite_key": "Dobkowski:2025cnz",
+  "identifiers": {
+    "doi": "10.48550/arXiv.2502.14535",
+    "arxiv": "2502.14535",
+    "title": "Observation of quantum free fall and the consistency with the equivalence principle",
+    "author": "Dobkowski"
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/2502.14535",
+    "DataCite": "https://doi.org/10.48550/arXiv.2502.14535",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=2502.14535",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Observation+of+quantum+free+fall+and+the+consistency+with+the+equivalence+principle&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.2502.14535",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/2502.14535",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/2502.14535",
+      "ok": true,
+      "path": "Dobkowski:2025cnz-arxiv-src.tar.gz",
+      "bytes": 5033695,
+      "sha256": "d07fc7951dcd6a1c9d40e486ba7727342f882d323a317e0dfca89dd3e2cb6157",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/2502.14535",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 5430855,
+      "sha256": null,
+      "note": "16 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_2502.14535/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 118398,
+      "sha256": "8f90db60636a5386be9b51bf37507b8ef4087fa3c7757ddedec48aefaea00505",
+      "note": "265 lines of 265, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/2502.14535",
+      "ok": true,
+      "path": "Dobkowski:2025cnz.pdf",
+      "bytes": 5498712,
+      "sha256": "a680b7bad53a803b052af93fc926e1f5b701a8bccba39c2025b98fbe5321d23e",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

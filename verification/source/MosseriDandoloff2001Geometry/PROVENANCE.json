@@ -1,0 +1,80 @@
+{
+  "identifier": "arXiv:quant-ph/0108137",
+  "cite_key": "Mosseri:2001gbm",
+  "identifiers": {
+    "doi": "10.48550/arXiv.quant-ph/0108137",
+    "arxiv": "quant-ph/0108137",
+    "title": "Geometry of entangled states, Bloch spheres and Hopf fibrations",
+    "author": "R."
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/quant-ph/0108137",
+    "DataCite": "https://doi.org/10.48550/arXiv.quant-ph/0108137",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=quant-ph%2F0108137",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Geometry+of+entangled+states%2C+Bloch+spheres+and+Hopf+fibrations&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.quant-ph/0108137",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/quant-ph/0108137",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/quant-ph/0108137",
+      "ok": true,
+      "path": "Mosseri:2001gbm-arxiv-src.tar.gz",
+      "bytes": 13127,
+      "sha256": "9a507ce34caa09a2fdd68718779b4a3179b3d3e12fa92c9d612f0d954b2a6cc8",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/quant-ph/0108137",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 40798,
+      "sha256": null,
+      "note": "1 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_quant-ph0108137/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 35257,
+      "sha256": "8548f8e2107bef839554e8f54806339e6504a2e6c0f40bfc766d160fe16709c9",
+      "note": "109 lines of 109, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/quant-ph/0108137",
+      "ok": true,
+      "path": "Mosseri:2001gbm.pdf",
+      "bytes": 155045,
+      "sha256": "902f6eafd7d3f7f27c7cddeded73d990e7818acd85ef5bbafc1d941f2892d27b",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

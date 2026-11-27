@@ -1,0 +1,49 @@
+cover_letter_*
+
+.claude-scratch/
+.codex-scratch/
+.gemini-scratch/
+
+# LaTeX build artifacts. Papers build to /tmp/latex-build; nothing build-related
+# belongs in the source tree. Aux globs are safe to apply repo-wide. Built paper
+# PDFs are listed by exact path (NOT a blanket *.pdf) so figure PDFs stay tracked.
+*.synctex.gz
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+*.idx
+*.ind
+*.ilg
+*.dvi
+*.xdv
+*.fff
+*.ttt
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Lean 4 / Lake build artifacts
+.lake/
+lake-packages/
+*.olean
+*.olean.server
+*.olean.private
+*.ilean
+*.ir
+*.setup.json
+*.trace
+*.hash
+

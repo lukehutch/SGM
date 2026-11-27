@@ -1,0 +1,80 @@
+{
+  "identifier": "arXiv:hep-th/9401009",
+  "cite_key": "DeLeo:1993av",
+  "identifiers": {
+    "doi": "10.48550/arXiv.hep-th/9401009",
+    "arxiv": "hep-th/9401009",
+    "title": "Translations between Quaternion and Complex Quantum Mechanics",
+    "author": "S."
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/hep-th/9401009",
+    "DataCite": "https://doi.org/10.48550/arXiv.hep-th/9401009",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=hep-th%2F9401009",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Translations+between+Quaternion+and+Complex+Quantum+Mechanics&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.hep-th/9401009",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/hep-th/9401009",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/hep-th/9401009",
+      "ok": true,
+      "path": "DeLeo:1993av-arxiv-src.tar.gz",
+      "bytes": 7669,
+      "sha256": "7711e6fed90e6cd950761ab27cd2b32a5db531cb82a32bef633e29f3a66fe681",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/hep-th/9401009",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 24099,
+      "sha256": null,
+      "note": "1 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_hep-th9401009/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 21129,
+      "sha256": "fafaf510fba22301cbf0bdddc38cd807bb6c6d77bd1a38246ade366c06ad9039",
+      "note": "139 lines of 139, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/hep-th/9401009",
+      "ok": true,
+      "path": "DeLeo:1993av.pdf",
+      "bytes": 106674,
+      "sha256": "f0c2a4d0eb4e23dec0a1e505db7ea32753dc827c22b55d6c6e460c0230f90dd6",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

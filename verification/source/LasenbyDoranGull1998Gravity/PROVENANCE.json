@@ -1,0 +1,80 @@
+{
+  "identifier": "gr-qc/0405033",
+  "cite_key": "LasenbyDoranGull1998Gravity",
+  "identifiers": {
+    "doi": "10.48550/arXiv.gr-qc/0405033",
+    "arxiv": "gr-qc/0405033",
+    "title": "Gravity, Gauge Theories and Geometric Algebra",
+    "author": "Anthony"
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/gr-qc/0405033",
+    "DataCite": "https://doi.org/10.48550/arXiv.gr-qc/0405033",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=gr-qc%2F0405033",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Gravity%2C+Gauge+Theories+and+Geometric+Algebra&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.gr-qc/0405033",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/gr-qc/0405033",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/gr-qc/0405033",
+      "ok": true,
+      "path": "LasenbyDoranGull1998Gravity-arxiv-src.tar.gz",
+      "bytes": 437133,
+      "sha256": "6da84f3303e0fa33b60bc3567abcbc6dd374b80cd8c2afa0fe4b845bb012cf4d",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/gr-qc/0405033",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 1293565,
+      "sha256": null,
+      "note": "8 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_gr-qc0405033/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 306547,
+      "sha256": "9bbb1ed28d9cf21b3a10508a91ca347331849316824018659ecdd90454aa2280",
+      "note": "1538 lines of 1538, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/gr-qc/0405033",
+      "ok": true,
+      "path": "LasenbyDoranGull1998Gravity.pdf",
+      "bytes": 1408184,
+      "sha256": "2478cf777ce26095fb6ab23f9ce05a13ad9faddf39c1a2ecb01fb1c8285149f1",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

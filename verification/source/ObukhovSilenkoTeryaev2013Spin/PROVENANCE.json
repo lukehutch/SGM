@@ -1,0 +1,80 @@
+{
+  "identifier": "1308.4552",
+  "cite_key": "ObukhovSilenkoTeryaev2013Spin",
+  "identifiers": {
+    "doi": "10.48550/arXiv.1308.4552",
+    "arxiv": "1308.4552",
+    "title": "Spin in an arbitrary gravitational field",
+    "author": "N."
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/1308.4552",
+    "DataCite": "https://doi.org/10.48550/arXiv.1308.4552",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=1308.4552",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Spin+in+an+arbitrary+gravitational+field&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.1308.4552",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/1308.4552",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/1308.4552",
+      "ok": true,
+      "path": "ObukhovSilenkoTeryaev2013Spin-arxiv-src.tar.gz",
+      "bytes": 23904,
+      "sha256": "0f4545e346118d8ac3d66aba409b48cbe221b1e0002f5a97b2fd0e16020c13f3",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/1308.4552",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 74586,
+      "sha256": null,
+      "note": "1 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_1308.4552/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 65643,
+      "sha256": "7d738bb78f07b926aa412db19a1d5cc7dabd726e964847b15b810695d42d60fb",
+      "note": "250 lines of 250, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/1308.4552",
+      "ok": true,
+      "path": "ObukhovSilenkoTeryaev2013Spin.pdf",
+      "bytes": 292140,
+      "sha256": "2146efdbb3e6598bff99f5a0efaab7065659b4d974dfc265514d2545caab4c51",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

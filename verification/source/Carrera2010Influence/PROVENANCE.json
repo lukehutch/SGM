@@ -1,0 +1,80 @@
+{
+  "identifier": "arXiv:0810.2712",
+  "cite_key": "Carrera:2008pi",
+  "identifiers": {
+    "doi": "10.48550/arXiv.0810.2712",
+    "arxiv": "0810.2712",
+    "title": "Influence of global cosmological expansion on local dynamics and kinematics",
+    "author": "Matteo"
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/0810.2712",
+    "DataCite": "https://doi.org/10.48550/arXiv.0810.2712",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=0810.2712",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Influence+of+global+cosmological+expansion+on+local+dynamics+and+kinematics&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.0810.2712",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/0810.2712",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/0810.2712",
+      "ok": true,
+      "path": "Carrera:2008pi-arxiv-src.tar.gz",
+      "bytes": 175622,
+      "sha256": "7cb522a889bb8e0994d0d3641e059c07ca5bdfb05001cdd220dd547ad144d26e",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/0810.2712",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 504713,
+      "sha256": null,
+      "note": "5 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_0810.2712/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 236633,
+      "sha256": "243d0b993ffa6cabdbf29f3ef386a6c39a8735ce06ba11ae55653e734e2ad856",
+      "note": "823 lines of 823, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/0810.2712",
+      "ok": true,
+      "path": "Carrera:2008pi.pdf",
+      "bytes": 882562,
+      "sha256": "491a441264920baad41c06f22faf6b9878a52a4284d46983b10b72703bd0d990",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

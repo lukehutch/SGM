@@ -1,0 +1,79 @@
+{
+  "identifier": "arXiv:math-ph/0201058",
+  "cite_key": "AndreGsponer2002physical",
+  "identifiers": {
+    "doi": "10.48550/arXiv.math-ph/0201058",
+    "arxiv": "math-ph/0201058",
+    "title": "The physical heritage of Sir W.R. Hamilton",
+    "author": "Gsponer"
+  },
+  "indexes_answered": [
+    "DataCite",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "INSPIRE-HEP",
+    "Scholar"
+  ],
+  "index_urls": {
+    "DataCite": "https://doi.org/10.48550/arXiv.math-ph/0201058",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=math-ph%2F0201058",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=The+physical+heritage+of+Sir+W.R.+Hamilton&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.math-ph/0201058",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/math-ph/0201058",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/math-ph/0201058",
+      "ok": true,
+      "path": "AndreGsponer2002physical-arxiv-src.tar.gz",
+      "bytes": 35437,
+      "sha256": "6a5d9b847edbe5ff2b7fa62d95dc4e1ec1b29ab0fe8002bb817cd783c930022f",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/math-ph/0201058",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 103513,
+      "sha256": null,
+      "note": "1 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_math-ph0201058/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 84001,
+      "sha256": "b43b746bf873e9c0a83ec31b9f41ef7ac74cced5fd874fe35f463fbb8d604f0f",
+      "note": "316 lines of 316, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/math-ph/0201058",
+      "ok": true,
+      "path": "AndreGsponer2002physical.pdf",
+      "bytes": 333515,
+      "sha256": "894c3bccce67551a36b83bf9c82ea610160d4b7e8dd295c0f647faa8388fee62",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

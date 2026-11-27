@@ -1,0 +1,80 @@
+{
+  "identifier": "arXiv:gr-qc/0001069",
+  "cite_key": "Martel:2000rn",
+  "identifiers": {
+    "doi": "10.48550/arXiv.gr-qc/0001069",
+    "arxiv": "gr-qc/0001069",
+    "title": "Regular coordinate systems for Schwarzschild and other spherical spacetimes",
+    "author": "Karl"
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/gr-qc/0001069",
+    "DataCite": "https://doi.org/10.48550/arXiv.gr-qc/0001069",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=gr-qc%2F0001069",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Regular+coordinate+systems+for+Schwarzschild+and+other+spherical+spacetimes&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.gr-qc/0001069",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/gr-qc/0001069",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/gr-qc/0001069",
+      "ok": true,
+      "path": "Martel:2000rn-arxiv-src.tar.gz",
+      "bytes": 18914,
+      "sha256": "5f1944bc4ffbe35a8d3b0f490323750c4ca02a7fa7c34dafd85373b641488101",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/gr-qc/0001069",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 82640,
+      "sha256": null,
+      "note": "3 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_gr-qc0001069/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 26649,
+      "sha256": "bb6b6dc6abfd3cf9f37ae7af88074f58c10d99953c4870fd434ea0daa8fa22fb",
+      "note": "110 lines of 110, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/gr-qc/0001069",
+      "ok": true,
+      "path": "Martel:2000rn.pdf",
+      "bytes": 157032,
+      "sha256": "bbe25ac4ca10a7d67d7b122866dfd9de1f0fcc7765221d53468e83e906cd6e9d",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

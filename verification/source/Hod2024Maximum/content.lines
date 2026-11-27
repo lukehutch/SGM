@@ -1,0 +1,94 @@
+L1: On the maximum force conjecture in curved spacetimes of stable self-gravitating matter configurations
+L2: Shahar Hod
+L3: The Ruppin Academic Center, Emeq Hefer 40250, Israel
+L4: and
+L5: The Hadassah Institute, Jerusalem 91010, Israel
+L6: (Dated: January 6, 2025)
+L7: Gibbons and Schiller have raised the physically interesting conjecture that forces in general relativity are bounded from above by the mathematically compact relation \mathcal{F} \leq c^4/4G. In the present compact paper we explicitly prove, using the non-linearly coupled Einstein-matter field equations, that the force function \mathcal{F} \equiv 4\pi r^2 p(r) in stable self-gravitating horizonless matter configurations is characterized by the upper bound \mathcal{F} \leq c^4/G [here p(r) is the radial pressure inside the self-gravitating matter configuration].
+L8: I. INTRODUCTION
+L9: The maximum force conjecture in general relativity was raised by Gibbons [1] and Schiller [2, 3] more than two decades ago. This intriguing conjecture asserts that, within the framework of general relativity, forces are bounded from above by a classical (no-\hbar) relation of the form
+L10: \mathcal{F} \leq \eta \cdot \frac{c^4}{G}, \quad (1)
+L11: where \eta is a dimensionless factor. In particular, the strong version of the maximum force conjecture asserts that \eta = 1/4 in the inequality (1) [1, 2], whereas \eta = O(1) in the weak version of the conjecture [4]. Interestingly, it was claimed [5] that the maximum force relation (1) can be used to derive the Einstein-matter field equations of general relativity.
+L12: In the present compact paper we raise the following physically important question: Can a maximum force relation of the form (1) be derived in a mathematically rigorous way for spatially regular self-gravitating matter configurations in curved spacetimes?
+L13: Interestingly, below we shall explicitly prove that the non-linearly coupled Einstein-matter field equations, supplemented by the physically motivated requirement of dynamical stability, yield an upper bound on the radially-dependent dimensionless force function [6]
+L14: \mathcal{F} \equiv 4\pi r^2 \cdot p(r) \quad (2)
+L15: in self-gravitating matter configurations.
+L16: In particular, we shall explicitly show below that the existence of an upper bound on the magnitude of the force function (2) in curved spacetimes of self-gravitating field configurations is closely related to the mathematically elegant theorem presented in [7] (see also [8, 9]), according to which the innermost light ring (the innermost closed null circular geodesic) of an horizonless curved spacetime, if it exists, is stable [10].
+L17: As nicely discussed in [11, 12] (see also [13]), the presence of stable light rings in spatially regular spacetimes of self-gravitating matter configurations implies that the corresponding curved spacetimes develop non-linear instabilities in the presence of massless fields [14]. One therefore concludes that a necessary condition for self-gravitating matter configurations to be dynamically stable is that the corresponding curved spacetimes do not possess null circular geodesics (closed light rings).
+L18: Motivated by the physically intriguing observation made in [7, 11, 12] regarding the (in)stability properties of spatially regular self-gravitating matter configurations in classical general relativity, in the present paper we shall use the non-linearly coupled Einstein-matter field equations in order to derive an explicit upper bound on the dimensionless force function (2) in stable curved spacetimes [15–17].
+L19: II. DESCRIPTION OF THE SYSTEM
+L20: We consider spatially regular self-gravitating matter configurations whose curved spacetimes are described by the spherically symmetric line element [13, 18–21]
+L21: ds^2 = -e^{-2\delta} \mu dt^2 + \mu^{-1} dr^2 + r^2 (d\theta^2 + \sin^2 \theta d\phi^2), \quad (3)
+L22: where \mu = \mu(r) and \delta = \delta(r).
+L23: The non-linearly coupled Einstein-matter field equations G_\nu^\mu = 8\pi T_\nu^\mu of the spherically symmetric spacetime (3) can be expressed in the form [13, 18, 22, 23]
+L24: \mu' = -8\pi r \rho + \frac{1 - \mu}{r} \quad (4)
+L25: and
+L26: \delta' = -\frac{4\pi r(\rho + p)}{\mu} , \quad (5)
+L27: where \rho \equiv -T_t^t and p \equiv T_r^r are respectively the energy density and the radial pressure that characterize the matter fields [24].
+L28: The metric functions of spatially regular asymptotically flat spacetimes are characterized by the boundary relations [13, 22]:
+L29: \mu(r \rightarrow 0) \rightarrow 1 \quad ; \quad \delta(r \rightarrow 0) &lt; \infty \quad (6)
+L30: and
+L31: \mu(r \rightarrow \infty) \rightarrow 1 \quad ; \quad \delta(r \rightarrow \infty) \rightarrow 0 . \quad (7)
+L32: In addition, horizonless matter configurations, which are the focus of the present study, are characterized by the inequality
+L33: \mu(r) &gt; 0 \quad \text{for} \quad r \in [0, \infty] . \quad (8)
+L34: Taking cognizance of the Einstein equation (4) one finds that the dimensionless metric function \mu(r) can be expressed in the compact mathematical form [13, 22]
+L35: \mu(r) = 1 - \frac{2m(r)}{r} , \quad (9)
+L36: where
+L37: m(r) = \int_0^r 4\pi x^2 \rho(x) dx \quad (10)
+L38: is the radially-dependent gravitational mass contained within a sphere of radius r [13, 22].
+L39: We shall assume that the spatially regular self-gravitating matter configurations are characterized by the dominant energy condition,
+L40: 0 \leq |p| \leq \rho , \quad (11)
+L41: which implies the relation [see Eqs. (9) and (10)]
+L42: \mu(r) \leq 1 \quad \text{for} \quad r \in [0, \infty] \quad (12)
+L43: for the dimensionless metric function.
+L44: For later purposes we note that Eq. (10) implies that asymptotically flat spacetimes (with finite ADM masses) are characterized by the asymptotic radial behavior
+L45: r^3 \cdot \rho(r) \rightarrow 0 \quad \text{for} \quad r \rightarrow \infty , \quad (13)
+L46: which also implies the asymptotic relation [see Eq. (11)]
+L47: r^3 \cdot p(r) \rightarrow 0 \quad \text{for} \quad r \rightarrow \infty \quad (14)
+L48: for the pressure function in the curved spacetime (3).
+L49: III. MAXIMUM FORCE RELATION IN CURVED SPACETIMES OF STABLE SPATIALLY REGULAR SELF-GRAVITATING MATTER CONFIGURATIONS
+L50: In the present section we shall explicitly prove that one can use the instability properties of horizonless spacetimes that possess null circular geodesics (closed light rings) [7–9, 11–13] in order to derive an upper bound on the dimensionless force function (2) that characterizes stable spatially regular self-gravitating matter configurations.
+L51: The radial functional relation that determines the radii of null circular geodesics in the curved spacetime (3) was derived in [18, 25]. Before we present our proof for the existence of an explicit upper bound on the dimensionless force function (2) in curved spacetimes of stable self-gravitating matter configurations, we shall first provide here a brief sketch of the analytical derivation of the characteristic equation [see Eq. (17) below] that determines the locations of closed light rings in spherically symmetric curved spacetimes.
+L52: As explicitly shown in [18, 25], null circular geodesics are characterized by the functional relations [26, 27]
+L53: V_r = E^2 \quad \text{and} \quad V_r' = 0, \quad (15)
+L54: where the effective radial potential V_r is determined by the expression [18, 25]
+L55: E^2 - V_r \equiv \dot{r}^2 = \mu \left( \frac{E^2}{e^{-2\delta}\mu} - \frac{L^2}{r^2} \right). \quad (16)
+L56: Here the physical parameters \{E, L\} are respectively the energy and the angular momentum that characterize the geodesic motion in the curved spacetime. These conserved physical quantities reflect the fact that the spherically symmetric static spacetime (3) has no dependence on the time and angular coordinates \{t, \phi\} [18, 25].
+L57: Substituting (16) into the functional relations (15) and taking cognizance of the Einstein equations (4) and (5), one finds that the radial relation
+L58: \mathcal{R}(r = r_\gamma) = 0 \quad (17)
+L59: with
+L60: \mathcal{R}(r) \equiv 3\mu(r) - 1 - 8\pi r^2 p(r) \quad (18)
+L61: determines the radii of null circular geodesics (closed light rings) in the spherically symmetric curved spacetime (3).
+L62: In addition, from Eqs. (6), (7), (14), and (18) one learns that the dimensionless radial function \mathcal{R}(r) is characterized by the boundary relations
+L63: \mathcal{R}(r = 0) = 2 \quad (19)
+L64: and
+L65: \mathcal{R}(r \rightarrow \infty) \rightarrow 2. \quad (20)
+L66: Taking cognizance of Eqs. (17), (19), and (20), one deduces that horizonless curved spacetimes of spatially regular self-gravitating matter configurations are generally characterized by an even (possibly zero) number of closed light rings [7, 8, 28].
+L67: The (in)stability of null circular geodesics in the curved spacetime (3) is determined by the second spatial derivative of the radially-dependent curvature potential (16) [18, 25]. In particular, stable light rings which, as discussed in [11–13], are associated with non-linear dynamical instabilities of massless fields in the corresponding curved spacetimes, are characterized by locally convex curvature potentials with the radial property V_r''(r = r_\gamma) &gt; 0 [18, 25].
+L68: From Eqs. (4), (5), (16), (17), and the conservation equation T_{r;\mu}^\mu = 0 [22], one obtains the radial functional relation [8, 9]
+L69: V_r''(r = r_\gamma) = -\frac{E^2 e^{2\delta}}{\mu r_\gamma} \times \mathcal{R}'(r = r_\gamma) \quad (21)
+L70: for the second radial derivative of the effective curvature potential (16). Interestingly, taking cognizance of Eqs. (17) and (19) one finds that, in general [28], the innermost null circular geodesic of a spatially regular self-gravitating matter configuration is characterized by the properties
+L71: \mathcal{R}(r = r_\gamma^{\text{innermost}}) = 0 \quad \text{and} \quad \mathcal{R}'(r = r_\gamma^{\text{innermost}}) &lt; 0. \quad (22)
+L72: From Eqs. (21) and (22) one deduces that the innermost null circular geodesic of a spatially regular self-gravitating matter configuration is stable. In particular, it is characterized by the property [7–9]
+L73: V_r''(r = r_\gamma^{\text{innermost}}) &gt; 0. \quad (23)
+L74: As discussed above, the presence of the stable light ring (22) in the curved spacetime (3) implies that the spatially regular self-gravitating matter configuration is non-linearly unstable to massless perturbation fields [11, 12, 14]. One therefore concludes that physically realistic (that is, stable) self-gravitating matter configurations have no null circular geodesics (no closed light rings) with the functional properties (22). In particular, taking cognizance of Eqs. (17), (19), and (20), one deduces that spatially regular stable matter configurations are characterized by the radial property
+L75: R(r) &gt; 0 \quad \text{for} \quad r \in [0, \infty], \quad (24)
+L76: which yields the upper bound [see Eq. (18)]
+L77: \mathcal{F}(r) &lt; \frac{1}{2}[3\mu(r) - 1] \quad \text{for} \quad r \in [0, \infty] \quad (25)
+L78: on the dimensionless force function (2).
+L79: IV. SUMMARY
+L80: In the physically important papers [1, 2] Gibbons and Schiller have conjectured that the compact mathematical relation \mathcal{F} \leq c^4/4G provides an upper bound on the magnitude of forces in general relativity. Motivated by this intriguing conjecture, in the present paper we have raised the physically interesting question: Can a maximum force relation of the form \mathcal{F} \leq \eta \cdot c^4/G with \eta = O(1) be derived for spatially regular self-gravitating stable matter configurations in curved spacetimes?
+L81: In order to derive the desired upper bound on the dimensionless force function \mathcal{F} \equiv 4\pi r^2 p(r), we have pointed out that the above stated question is closely related to the recent theorem presented in [7] (see also [8, 9]) which, when combined with the physically interesting results presented in [11, 12], asserts that horizonless curved spacetimes of spatially regular self-gravitating matter configurations that possess closed light rings (null circular geodesics) are dynamically unstable to non-linear massless fields.
+L82: Using this characteristic instability property of self-gravitating matter configurations that possess null circular geodesics, we have explicitly proved that the answer to the above stated intriguing question is ‘Yes!’. In particular, using the non-linearly coupled Einstein-matter field equations, we have proved that the force function \mathcal{F} \equiv 4\pi r^2 p(r) in curved spacetimes of stable self-gravitating matter configurations is bounded from above by the remarkably compact relation [see Eqs. (12) and (25)]
+L83: \mathcal{F} &lt; \frac{c^4}{G}. \quad (26)
+L84: ACKNOWLEDGMENTS
+L85: This research is supported by the Carmel Science Foundation. I would like to thank Yael Oren, Arbel M. Ongo, Ayelet B. Lata, and Alona B. Tea for stimulating discussions.
+L86: [1] G. W. Gibbons, Foundations of Physics 32, 1891 (2002).
+L87: [2] C. Schiller, “Motion Mountain — A Hike Beyond Space and Time Along the Concepts of Modern Physics” (http://www.motionmountain.net, 1997-2004), section 7: Maximum force — a simple principle encompassing general relativity.
+L88: [3] C. Schiller, Phys. Rev. D 104, 124079 (2021).
+L89: [4] Y. C. Ong, Phys. Lett. B 785, 217 (2018).
+L90: [5] C. Schiller, Int. Jour. Theor. Phys. 44, 1629 (2005).
+L91: [6] We shall henceforth use gravitational units with G = c = 1, in which case the radially-dependent force function (2) is dimensionless.
+L92: [7] P. V. P. Cunha, E. Berti, and C. A. R. Herdeiro, Phys. Rev. Lett. 119, 251102 (2017).
+L93: [8] S. Hod, Phys. Lett. B 776, 1 (2018) [arXiv:1710.00836].
+L94: [9] S. Hod, Phys. Lett. B 739, 383 (2014) [arXiv:1412.3808]. [10] Note that closed light rings in curved spacetimes are considered to be stable (attractive) if massless fields tend to pile up on them. [11] P. V. P. Cunha, C. Herdeiro, E. Radu, N. Sanchis-Gual, Phys. Rev. Lett. 130, 061401 (2023). [12] J. Keir, Class. Quant. Grav. 33, 135009 (2016). [13] S. Hod, Phys. Rev. D 84, 124030 (2011) [arXiv:1112.3286]; S. Hod, Phys. Rev. D 84, 104024 (2011) [arXiv:1201.0068]; S. Hod, Phys. Lett. B 727, 345 (2013) [arXiv:1701.06587]. [14] As discussed in [11, 12], this physically interesting assertion is based on the fact that massless fields in curved spacetimes tend to pile up and grow non-linearly around stable null circular geodesics. [15] A. Jowsey and M. Visser, Universe 7, 403 (2021) [arXiv:2102.01831]. [16] It is interesting to note that it has been demonstrated in the physically important work [15] that perfect fluid configurations may violate the strong version of the maximum force conjecture. In particular, it has been shown in [15] that a constant density star is characterized by the dimensionless relation \mathcal{F}_{\max} = 2. In the present paper we shall explicitly prove that generic (that is, not necessarily perfect) stable matter configurations are characterized by the stronger relation \mathcal{F}_{\max} \leq 1 [see Eq. (26) below]. [17] It is worth noting that it has been shown in [15] that the equatorial force function \mathcal{F}_{\text{eq}} \equiv 2\pi \int_0^{R_s} \sqrt{g_{rr}} p_t(r) r dr of perfect fluid configurations may diverge (here R_s and p_t are respectively the radius of the perfect fluid matter configuration and its tangential pressure). As nicely emphasized in [15], it is important to specify precisely which forces are considered. In the present analytical study we shall focus our attention on the functional behavior of the radial pressure function (2). In particular, we will prove that, for stable matter configurations, it is bounded from above. [18] S. Chandrasekhar, The Mathematical Theory of Black Holes, (Oxford University Press, New York, 1983). [19] S. L. Shapiro and S. A. Teukolsky, Black Holes, White Dwarfs and Neutron Stars: The Physics of Compact Objects, 1st ed. (Wiley-Interscience, 1983). [20] S. Hod, Phys. Rev. D 80, 064004 (2009) [arXiv:0909.0314]; S. Hod, Phys. Lett. B 718, 1552 (2013) [arXiv:1210.2486]; S. Hod, Phys. Lett. B 751, 177 (2015) [arXiv:1707.06246]; S. Hod, Class. Quant. Grav. 33, 114001 (2016) [arXiv:1705.08905]. [21] Here (t, r, \theta, \phi) are the familiar Schwarzschild coordinates of the curved spacetime. [22] A. E. Mayo and J. D. Bekenstein, Phys. Rev. D 54, 5059 (1996). [23] The prime symbol ' is used here to denote a spatial derivative of the metric function with respect to the radial coordinate r of the curved spacetime. [24] H. Bondi, Mon. Not. Roy. Astr. Soc. 259, 365 (1992). [25] See [13] and references therein. [26] Note that the radial properties (15), which characterize the closed light rings of the curved spacetime (3), correspond to \dot{r}^2 = (\dot{r}^2)' = 0 [18]. [27] The dot symbol \dot{\cdot} is used here to denote a derivative with respect to an affine parameter. [28] See [8] for the interesting case of horizonless curved spacetimes with degenerate closed null circular geodesics which are characterized by the functional relations \mathcal{R} = \mathcal{R}' = 0. As discussed in [8], these special spacetimes may have an odd number of closed light rings.

@@ -1,0 +1,94 @@
+{
+  "identifier": "arXiv:2504.21626",
+  "cite_key": "Dobkowski2025Reply",
+  "identifiers": {
+    "doi": "10.48550/arXiv.2504.21626",
+    "arxiv": "2504.21626",
+    "title": "Reply to comment on: Observation of the quantum equivalence principle for matter-waves",
+    "author": "Dobkowski"
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/2504.21626",
+    "DataCite": "https://doi.org/10.48550/arXiv.2504.21626",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=2504.21626",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Reply+to+comment+on%3A+Observation+of+the+quantum+equivalence+principle+for+matter-waves&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex content",
+      "format": "xml",
+      "url": "https://content.openalex.org/works/W4417524894.grobid-xml",
+      "note": "GROBID TEI XML, $0.01/file",
+      "diagnostic": false
+    },
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.2504.21626",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/2504.21626",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    },
+    {
+      "source": "OpenAlex content",
+      "format": "pdf",
+      "url": "https://content.openalex.org/works/W4417524894.pdf",
+      "note": "cached PDF, $0.01/file",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/2504.21626",
+      "ok": true,
+      "path": "Dobkowski2025Reply-arxiv-src.tar.gz",
+      "bytes": 10822,
+      "sha256": "a663e4e13a1c9501d248cc322a391122c16e8c6091e7d399d69eb4cbf440f5a6",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/2504.21626",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 35197,
+      "sha256": null,
+      "note": "1 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_2504.21626/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 28827,
+      "sha256": "743bbe5a28abe20c020abee65a58a09dc4c48dc478eac6188d2002791f8097f2",
+      "note": "116 lines of 116, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/2504.21626",
+      "ok": true,
+      "path": "Dobkowski2025Reply.pdf",
+      "bytes": 144288,
+      "sha256": "b1a71061f8668e84aeb57954f5bbd518dadbdba17c6460f53d80b1532ea559c5",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

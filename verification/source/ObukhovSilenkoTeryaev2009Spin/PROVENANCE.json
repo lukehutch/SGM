@@ -1,0 +1,80 @@
+{
+  "identifier": "arXiv:0907.4367",
+  "cite_key": "Obukhov:2009qs",
+  "identifiers": {
+    "doi": "10.48550/arXiv.0907.4367",
+    "arxiv": "0907.4367",
+    "title": "Spin dynamics in gravitational fields of rotating bodies and the equivalence principle",
+    "author": "N."
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/0907.4367",
+    "DataCite": "https://doi.org/10.48550/arXiv.0907.4367",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=0907.4367",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Spin+dynamics+in+gravitational+fields+of+rotating+bodies+and+the+equivalence+principle&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.0907.4367",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/0907.4367",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/0907.4367",
+      "ok": true,
+      "path": "Obukhov:2009qs-arxiv-src.tar.gz",
+      "bytes": 19366,
+      "sha256": "0b73f84eebbb09e96db9b6a0e22ab0e3d69f89165db6ff3c9ae23291ee62e66b",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/0907.4367",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 60061,
+      "sha256": null,
+      "note": "1 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_0907.4367/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 54956,
+      "sha256": "c0da9b6cc8d239f520fb416d8ee9d9d29cf19ed8cad590a065ca1d82be8c2172",
+      "note": "213 lines of 213, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/0907.4367",
+      "ok": true,
+      "path": "Obukhov:2009qs.pdf",
+      "bytes": 253298,
+      "sha256": "5099ceeccc83fd541371c29ae72977541afce330120adfaa39d7fb4f2c9bfb07",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

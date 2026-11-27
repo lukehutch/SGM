@@ -1,0 +1,80 @@
+{
+  "identifier": "arXiv:2504.15409",
+  "cite_key": "AsenbaumOverstreet2025Magnetic",
+  "identifiers": {
+    "doi": "10.48550/arXiv.2504.15409",
+    "arxiv": "2504.15409",
+    "title": "Magnetic recoil interferometer in a uniform gravitational field. Comment on Observation of the quantum equivalence principle for matter-waves",
+    "author": "Asenbaum"
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/2504.15409",
+    "DataCite": "https://doi.org/10.48550/arXiv.2504.15409",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=2504.15409",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Magnetic+recoil+interferometer+in+a+uniform+gravitational+field.+Comment+on+Observation+of+the+quantum+equivalence+principle+for+matter-waves&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.2504.15409",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/2504.15409",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/2504.15409",
+      "ok": true,
+      "path": "AsenbaumOverstreet2025Magnetic-arxiv-src.tar.gz",
+      "bytes": 1415796,
+      "sha256": "98e72589805636c31565de16172926a9706526b40815ec094d6a85612154500a",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/2504.15409",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 2154572,
+      "sha256": null,
+      "note": "2 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_2504.15409/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 9838,
+      "sha256": "98101133844376d0c549a0433d23789af68654d66f73708b11fce0ba598bc750",
+      "note": "30 lines of 30, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/2504.15409",
+      "ok": true,
+      "path": "AsenbaumOverstreet2025Magnetic.pdf",
+      "bytes": 2346739,
+      "sha256": "6b54c06d2730e5f9cfecfd1e70a879a379e6414309a5cc80cdc433de8c76792f",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

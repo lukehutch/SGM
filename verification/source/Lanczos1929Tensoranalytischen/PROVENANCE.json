@@ -1,0 +1,80 @@
+{
+  "identifier": "arXiv:physics/0508002",
+  "cite_key": "Lanczos:1929fnx",
+  "identifiers": {
+    "doi": "10.48550/arXiv.physics/0508002",
+    "arxiv": "physics/0508002",
+    "title": "The tensor analytical relationships of Dirac's equation",
+    "author": "Lanczos"
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/physics/0508002",
+    "DataCite": "https://doi.org/10.48550/arXiv.physics/0508002",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=physics%2F0508002",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=The+tensor+analytical+relationships+of+Dirac%27s+equation&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.physics/0508002",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/physics/0508002",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/physics/0508002",
+      "ok": true,
+      "path": "Lanczos:1929fnx-arxiv-src.tar.gz",
+      "bytes": 23193,
+      "sha256": "91f919da908aced32c2186a2b813906735520301178e1fb4a61d81f22cc1120a",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/physics/0508002",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 77546,
+      "sha256": null,
+      "note": "1 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_physics0508002/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 68081,
+      "sha256": "f16a84bb55a42f16f1052a6fa82f3c94dec15ce8967484232e252279cc548d88",
+      "note": "353 lines of 353, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/physics/0508002",
+      "ok": true,
+      "path": "Lanczos:1929fnx.pdf",
+      "bytes": 233597,
+      "sha256": "efc12fbb7b18d5ed8174c8a1502fb2b2f859fd24cef2051533f060bb31fce9c9",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

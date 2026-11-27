@@ -1,0 +1,34 @@
+{
+  "identifier": "10.1063/1.1705279",
+  "cite_key": "Hestenes_1967",
+  "identifiers": {
+    "doi": "10.1063/1.1705279",
+    "title": "Real Spinor Fields",
+    "author": "Hestenes"
+  },
+  "indexes_answered": [
+    "Crossref"
+  ],
+  "indexes_silent": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "Scholar"
+  ],
+  "index_urls": {
+    "Crossref": "https://doi.org/10.1063/1.1705279",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Real+Spinor+Fields&as_occt=title"
+  },
+  "located_not_fetched": [],
+  "abstract_source": "Crossref",
+  "artefacts": [
+    {
+      "artefact": "pdf",
+      "url": "",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "sha256": null,
+      "note": "no identity-confirmed PDF among 0 locations"
+    }
+  ]
+}

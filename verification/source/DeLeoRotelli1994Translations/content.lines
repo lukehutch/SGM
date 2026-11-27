@@ -1,0 +1,139 @@
+L1: Translations between Quaternion andComplex Quantum Mechanics
+L2: by
+L3: S. De Leo and P. Rotelli
+L4: Dipartimento di Fisica, Università di Lecceand INFN-Sezione di Lecce
+L5: 14 December 1993
+L6: Abstract
+L7: While in general there is no one-to-one correspondence between complex and quaternion quantum mechanics (QQM), there exists at least one version of QQM in which a partial set of translations may be made. We define these translations and use the rules to obtain rapid quaternion counterparts (some of which are new) of standard quantum mechanical results.
+L8: Bitnet:DELEOS@LECCE.INFN.IT
+L9: In this letter we wish to exhibit explicitly a set of rules for passing back and forth between standard (complex) quantum mechanics and the quaternion version of ref.[1]. This will not be possible in all situations, so this “translation” is only partial, consistent with the fact that the quaternion version (QQM) provides additional physical predictions. In a pure translation nothing can be predicted which is not already in the original theory, although some assumptions may appear more or less “natural”, some calculations may be more or less rapid and some (new) results may appear in the translated version for the first time.
+L10: In the work of ref.[1] a quaternion version of the Dirac equation was derived (see also ref.[2]) in the form
+L11: \gamma^\mu \partial_\mu \psi i = m\psi \quad (1)
+L12: where the \gamma^\mu are two by two quaternion matrices satisfying the Dirac condition
+L13: \{\gamma^\mu, \gamma^\nu\} = 2g^{\mu\nu} \quad (2)
+L14: and the adjoint matrix satisfies,
+L15: (\gamma^\mu)^+ = \gamma^0 \gamma^\mu \gamma^0 . \quad (3)
+L16: In this formalism the momentum operator must be defined as
+L17: p^\mu = \partial^\mu | i \quad (4)
+L18: where a bared operator A|b acts as follows upon the quaternion spinor (column matrix) \psi
+L19: (A|b)\psi \equiv A\psi b . \quad (5)
+L20: We anticipate that to date the only b term that has appeared in this formalism is i (except of course for the trivial identity).
+L21: The three-momentum part of the operator in eq.(4) is hermitian only if for the scalar product one adopts the complex scalar product[3] (CSP). This
+L22: choice is generally accepted in order to be able to define the quaternion tensor product and one of the results of this paper will be to derive the rules for performing quaternion tensor products directly from the rules for the tensor products of standard quantum mechanics after “translation”.
+L23: The use of quaternions in quantum mechanics may be suggested by analogy between the imaginary units (i, j, k) of a general quaternion q
+L24: q = q_0 + q_1 i + q_2 j + q_3 k \quad (6)
+L25: (q_m \in R \quad m = 0, \dots, 3)
+L26: with
+L27: i^2 = j^2 = k^2 = -1; \quad ijk = -1. \quad (7)
+L28: and the Pauli sigma matrices \sigma_m. More correctly given the hermitian properties of \sigma_m, the analogy should be made with -i\sigma_m or a similar set. Normally the difficulty of using quaternions in quantum mechanics arises in the question of what represents the “i” in the dynamical equations of fermionic particles or indeed in the momentum operator or in the Heisenberg uncertainty relation etc. In the version that we have studied in the past, the first steps of which have been outlined above, this task is performed by 1|i. Obviously the identity of the right acting i with that from the left is not without physical consequences. For one thing it breaks the symmetry amongst the imaginary quaternion units and justifies the use of a preferred complex plain for the scalar product. We note in passing that our approach is different from that of Morita (see ref.[4]) who uses complex quaternions (or biquaternions) which contain an additional commuting imaginary \mathcal{I} = \sqrt{-1}.
+L29: Returning to our Dirac equation we note that \psi is a quaternion two component spinor, which yields four plain wave solutions which are complex orthogonal (n.b. that 1 and j are complex orthogonal numbers). To complete this introduction we also recall that with this formalism, new physics appears in the bosonic sector if, as is natural, we adopt the standard wave equations
+L30: Klein-Gordon, Maxwell etc. In these cases, we find a doubling of the standard complex solutions and hence the appearance of “anomalous” solutions[5, 6].
+L31: Normally the distinction between operators and states is manifest as in standard complex quantum mechanics. Only with simple (one-dimensional) quaternions is there any need to specify explicitly the difference. We begin by recalling the so called “symplectic” complex representation of a quaternion (state) q [3]
+L32: q = a + j\tilde{a} \quad a, \tilde{a} \in \mathcal{C}(1, i) \quad (8)
+L33: by the complex column matrix
+L34: q \leftrightarrow \begin{pmatrix} a \\ \tilde{a} \end{pmatrix}. \quad (9)
+L35: We now identify the operator representations of i, j and k consistent with the above identification:
+L36: \begin{aligned} i &amp;\leftrightarrow \begin{pmatrix} i &amp; 0 \\ 0 &amp; -i \end{pmatrix} = i\sigma_3 \\ j &amp;\leftrightarrow \begin{pmatrix} 0 &amp; -1 \\ 1 &amp; 0 \end{pmatrix} = -i\sigma_2 \\ k &amp;\leftrightarrow \begin{pmatrix} 0 &amp; -i \\ -i &amp; 0 \end{pmatrix} = -i\sigma_1 \\ 1 &amp;\leftrightarrow \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix} \end{aligned} \quad (10)
+L37: e.g. it is readily checked that the “state”
+L38: jq \leftrightarrow \begin{pmatrix} -\tilde{a} \\ a \end{pmatrix}
+L39: however it is calculated.
+L40: The translation in eq.(10) (or equivalent) has been known since the discovery of quaternions. It permits any quaternion number or matrix (by the obvious generalization) to be translated into a complex matrix, but not necessarily vice-versa. Eight real numbers are necessary to define the most general 2 \times 2 complex matrix but only four are needed to define the most general quaternion. Infact since every (non-zero) quaternion has an inverse, only a sub-class of invertible 2 \times 2 complex matrices are identifiable with quaternions.
+L41: To complete the translation we therefore need four additional degrees of freedom, these can be identified with
+L42: \begin{aligned} 1|i &amp;\leftrightarrow \begin{pmatrix} i &amp; 0 \\ 0 &amp; i \end{pmatrix} \\ i|i &amp;\leftrightarrow \begin{pmatrix} -1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix} \\ j|i &amp;\leftrightarrow \begin{pmatrix} 0 &amp; -i \\ i &amp; 0 \end{pmatrix} \\ k|i &amp;\leftrightarrow \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 0 \end{pmatrix} \end{aligned} \tag{11}
+L43: It is readily seen that the definitions (8), (9), (10) and (11) are all consistent with each other, e.g.
+L44: j \times 1|i = j|i \Leftrightarrow \begin{pmatrix} 0 &amp; -1 \\ 1 &amp; 0 \end{pmatrix} \begin{pmatrix} i &amp; 0 \\ 0 &amp; i \end{pmatrix} = \begin{pmatrix} 0 &amp; -i \\ i &amp; 0 \end{pmatrix}
+L45: and
+L46: k|i \times j|i = kj|i^2 = -kj = i \Leftrightarrow \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 0 \end{pmatrix} \begin{pmatrix} 0 &amp; -i \\ i &amp; 0 \end{pmatrix} = \begin{pmatrix} i &amp; 0 \\ 0 &amp; -i \end{pmatrix}.
+L47: With these rules we can translate any quaternion matrix operator into an equivalent even dimensional complex matrix and vice-versa. For example for the lowest order operators:
+L48: q = a + j\tilde{a} \leftrightarrow \begin{pmatrix} a &amp; -\tilde{a}^* \\ \tilde{a} &amp; a^* \end{pmatrix} \quad (12)
+L49: the first column of which reproduces the symplectic state representation. More in general for \mathcal{H}|\mathcal{C} (q + p|i; p, q \in \mathcal{H})
+L50: \begin{aligned} q + p|i &amp;= a + j\tilde{a} + b|i + j\tilde{b}|i \\ &amp;\leftrightarrow \begin{pmatrix} a + ib &amp; -\tilde{a}^* - i\tilde{b}^* \\ \tilde{a} + i\tilde{b} &amp; a^* + ib^* \end{pmatrix} \end{aligned} \quad (13)
+L51: (where p = b + j\tilde{b}) .
+L52: Equivalently a generic 2 \times 2 complex matrix is given by
+L53: \begin{pmatrix} a &amp; b \\ c &amp; d \end{pmatrix} \leftrightarrow \frac{a + d^*}{2} + j\frac{c - b^*}{2} + \frac{a - d^*}{2i}|i + j\frac{c + b^*}{2i}|i \quad (14)
+L54: We emphasize that the above translation (eq.(8)-(11)) is limited to even complex matrices, and that as a consequence only even complex matrices can be translated into matrices with elements of the form q + p|i.
+L55: We may now proceed to apply these rules. We shall first obtain the quaternion version of a standard complex derivation of the Lorentz spinor transformation beginning with that of the four vector x^\mu. We shall then derive the rules for quaternion tensor products even if the equivalent of these have already been “guessed” [7]. We then rederive the above Dirac quaternion equation not from first principles but simply by translating the standard complex equation. Finally we derive, with a “trick” a quaternion version of the Duffin-Kemmer-Petiau matrices which is not only new, but for spin
+L56: 0 involves odd dimensional complex matrices, formally beyond our rules for translation.
+L57: Spinor Transformations
+L58: We briefly recall first the standard QM steps in this demonstration. Consider the hermitian matrix X defined by
+L59: X = x^\mu \sigma_\mu \quad (15)
+L60: where \sigma_0 is the 2 \times 2 identity matrix and \sigma_i are the Pauli matrices. Then observe that \det X = x_0^2 - |\vec{x}|^2 is Lorentz invariant. One can show (see ref.[8]) that under a general Lorentz transformation
+L61: X \rightarrow X' = LXL^+ \quad (16)
+L62: where
+L63: L = \exp\left(\frac{-i\vec{\theta} \cdot \vec{\sigma}}{2}\right) \quad \text{for spatial rotations} \quad (17)
+L64: L = \exp\left(\frac{\vec{\xi} \cdot \vec{\sigma}}{2}\right) \quad \text{for boosts} \quad (18)
+L65: These L are in fact the transformation matrices for a Weyl spinor.
+L66: Now we repeat these steps with quaternions (this is more instructive than simply translating the final result). Define an hermitian (CSP) quaternion X by
+L67: X = x_0 + \vec{Q} \cdot \vec{x}|i; \quad \vec{Q} \equiv (i, j, k) \quad (19)
+L68: (within the CSP (A|b)^+ = A^+|b^+ when b \in \mathcal{C}) .
+L69: In substitution of the Lorentz invariant determinant, we first define the “left-adjoint” for a general A = q + p|i,
+L70: \bar{A} = q^+ + p^+|i \quad (20)
+L71: (n.b. that A^+ = q^+ - p^+|i and that, as for the adjoint, \overline{AB} = \bar{B}\bar{A}), then
+L72: \bar{X}X = x_0^2 - |\vec{x}|^2 \quad (21)
+L73: As above, let us assume that under a Lorentz transformation
+L74: X \rightarrow LXL^+
+L75: then
+L76: \bar{X}X \rightarrow \bar{L}^+ \bar{X} \bar{L} L X L^+ = \bar{X}X \quad (22)
+L77: The necessary and sufficient condition for this to be valid, is
+L78: \bar{L}^+ \bar{L} L L^+ = 1 \ . \quad (23)
+L79: We use the fact that both \bar{X}X which is a real number and \bar{L}L which is of the form r + s|i with r, s real commute with everything.
+L80: Whence, except for a (non-physical) phase factor e^{\alpha|i} with \alpha real, the Lorentz transformations are given by
+L81: L = \exp\left(\frac{\vec{\theta} \cdot \vec{Q}}{2}\right) \quad \text{rotations} \quad (24)
+L82: or
+L83: L = \exp\left(\frac{\vec{\xi} \cdot \vec{Q}|i}{2}\right) \quad \text{boosts} \quad (25)
+L84: or in general multiples of these transformations. Eq.(24) and (25) are, up to a similarity transformation, the translations of eq.(17) and (18). As an aside we wish to note that without the q|i terms, i.e. using only simple quaternions there is no (known) analogous derivation.
+L85: The quaternion tensor products
+L86: Consider the simplest tensor product that between two quaternion numbers (states) q_1 \otimes q_2. To determine its representation, we consider its behaviour under the quaternion “operator” A_1 \otimes B_2. We require that
+L87: (A_1 \otimes B_2)(q_1 \otimes q_2) = (A_1 q_1) \otimes (B_2 q_2) \quad (26)
+L88: We shall use
+L89: q_1 \leftrightarrow \begin{pmatrix} c_1 \\ \tilde{c}_1 \end{pmatrix}
+L90: and
+L91: q_2 \leftrightarrow \begin{pmatrix} d_2 \\ \tilde{d}_2 \end{pmatrix}
+L92: Then it is immediate that
+L93: \begin{aligned} q_1 \otimes q_2 &amp;\leftrightarrow \begin{pmatrix} c_1 d_2 \\ c_1 \tilde{d}_2 \\ \tilde{c}_1 d_2 \\ \tilde{c}_1 \tilde{d}_2 \end{pmatrix} \\ &amp;\quad (27) \end{aligned}
+L94: \equiv \begin{pmatrix} d_2 c_1 \\ \tilde{d}_2 c_1 \\ d_2 \tilde{c}_1 \\ \tilde{d}_2 \tilde{c}_1 \end{pmatrix} \quad (28)
+L95: retranslated into quaternions the last matrix is identifiable with
+L96: q_1 \otimes q_2 = \begin{pmatrix} q_2 c_1 \\ q_2 \tilde{c}_1 \end{pmatrix}. \quad (29)
+L97: Notice that the position of q_2 cannot be changed since
+L98: q_2 c_1 \leftrightarrow \begin{pmatrix} d_2 c_1 \\ \tilde{d}_2 c_1 \end{pmatrix}
+L99: as desired, while on the contrary
+L100: c_1 q_2 \leftrightarrow \begin{pmatrix} c_1 d_2 \\ c_1^* \tilde{d}_2 \end{pmatrix}
+L101: The above 2 component column representation is consistent with the facts that since
+L102: \begin{aligned} A_1 \otimes B_2 &amp;\leftrightarrow (4 \times 4) \text{ complex matrix} \\ &amp;\leftrightarrow (2 \times 2) \text{ quaternion matrix} \end{aligned}
+L103: it follows that,
+L104: \begin{aligned} q_1 \otimes q_2 &amp;\leftrightarrow 4 \text{ component complex matrix} \\ &amp;\leftrightarrow 2 \text{ component quaternion matrix} \end{aligned}
+L105: n.b. that
+L106: \begin{pmatrix} q_2 c_1 \\ q_2 \tilde{c}_1 \end{pmatrix} = q_2 \begin{pmatrix} c_1 \\ \tilde{c}_1 \end{pmatrix} \neq q_2 q_1 \quad (30)
+L107: because the right column matrix is not a complex symplectic representation of a quaternion. Infact the matrix
+L108: \begin{pmatrix} c_1 \\ \tilde{c}_1 \end{pmatrix}
+L109: in eq.(30) must be considered a two component quaternion matrix which happens to have only complex elements. This demonstrates that one must work either in the complex formalism or the quaternion formalism but avoid (ambiguous) mixed formalisms. It follows that
+L110: (A_1 \otimes B_2)(q_1 \otimes q_2) = (A_1 q_1) \otimes (B_2 q_2)
+L111: as desired. Thus if each state satisfies a generalized quaternion equation, this will remain true for the tensor product states. It can also be shown that the normal definition of scalar product for column matrices results in
+L112: \langle (q_1 \otimes q_2), (q'_1 \otimes q'_2) \rangle_c = \langle q_1, q'_1 \rangle_c \langle q_2, q'_2 \rangle_c \quad (31)
+L113: where \langle f, g \rangle_{\mathcal{C}} is the complex (CSP) \mathcal{C}(1, i) projection of the quaternion scalar product. Apart from the order of the factors q_1 and q_2, the above definition (eq.(29)) was first given in ref.[7].
+L114: Quaternion Dirac Equation
+L115: This equation may be obtained by simply translating the standard Dirac equation:
+L116: (i\gamma^\mu \partial_\mu - m)\psi = 0 \quad (32)
+L117: where we use the set of 4 \times 4 gamma matrices (ref.[9])
+L118: \gamma_0 = \begin{pmatrix} \mathbf{1} &amp; 0 \\ 0 &amp; -\mathbf{1} \end{pmatrix} \quad \vec{\gamma} = \begin{pmatrix} 0 &amp; \vec{\sigma} \\ -\vec{\sigma} &amp; 0 \end{pmatrix}
+L119: (with \vec{\gamma} \equiv (\gamma_1, \gamma_2, \gamma_3))
+L120: then the translation yields:
+L121: \begin{aligned} i\gamma_0 &amp;\leftrightarrow \begin{pmatrix} 1|i &amp; 0 \\ 0 &amp; -1|i \end{pmatrix} \iff \gamma_0 &amp;\leftrightarrow \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} \\ i\gamma_1 &amp;\leftrightarrow \begin{pmatrix} 0 &amp; -k \\ k &amp; 0 \end{pmatrix} \iff \gamma_1 &amp;\leftrightarrow \begin{pmatrix} 0 &amp; k|i \\ -k|i &amp; 0 \end{pmatrix} \\ i\gamma_2 &amp;\leftrightarrow \begin{pmatrix} 0 &amp; -j \\ j &amp; 0 \end{pmatrix} \iff \gamma_2 &amp;\leftrightarrow \begin{pmatrix} 0 &amp; j|i \\ -j|i &amp; 0 \end{pmatrix} \\ i\gamma_3 &amp;\leftrightarrow \begin{pmatrix} 0 &amp; i \\ -i &amp; 0 \end{pmatrix} \iff \gamma_3 &amp;\leftrightarrow \begin{pmatrix} 0 &amp; -i|i \\ i|i &amp; 0 \end{pmatrix} \end{aligned} \quad (33)
+L122: At first sight this is not the same as the quaternion \gamma^\mu set given in ref.[1] (except for \gamma^0), however there exists a similarity transformation which trans-
+L123: forms the above set into those of ref.[1]:
+L124: S\gamma^\mu S^{-1} = \gamma_{ref.1}^\mu \quad (34)
+L125: The matrix S (with S^+ = S^{-1}) is
+L126: S = \frac{1}{\sqrt{2}} \begin{pmatrix} 1+j &amp; 0 \\ 0 &amp; (1+j)i \end{pmatrix} \quad (35)
+L127: The Duffin-Kemmer-Petiau Algebra
+L128: The Kemmer equation is formally similar to the Dirac equation:
+L129: (i\beta^\mu \partial_\mu - m)\psi = 0 \quad (36)
+L130: however the \beta^\mu are non-invertible matrices which satisfy [10]
+L131: \beta^\mu \beta^\nu \beta^\lambda + \beta^\lambda \beta^\nu \beta^\mu = g^{\mu\nu} \beta^\lambda + g^{\lambda\nu} \beta^\mu \quad (37)
+L132: Eq.(37) guarantees that each component of \psi satisfies the Klein-Gordon equation. It can be shown that this equation describes together a particle of spin 1 and spin 0. In the standard theory, this equation is a false first order equation since the components of \psi contain derivatives. For example the 5 components of \psi (spin 0) are identifiable with the scalar wave function \phi and the four derivatives \partial^\mu \phi. The dimension of the \beta matrices is 16 (the algebra has 126 elements) decomposable into a trivial 1 dimensional (null) plus 5 dimensional (spin 0) plus 10 dimensional (spin 1) representations. The interest in finding a quaternion version to this equation is connected to the automatic reduction of the number of components of \psi. By reducing this number, it appears that there are not enough degrees of freedom to accommodate the derivatives. One therefore might hope to find a true “spinor” equation for integer spin. This is not the case here since we are merely performing a translation. Below we list the spin 1 (5 dimensional) quaternion translation of the standard 10 \times 10 \beta matrices (the points represent zeros):
+L133: \begin{aligned} \beta_1 &amp;= \frac{1}{2} \begin{pmatrix} . &amp; . &amp; . &amp; . &amp; -k - j|i \\ . &amp; . &amp; . &amp; . &amp; . \\ . &amp; . &amp; . &amp; -i + 1|i &amp; -i - 1|i \\ . &amp; . &amp; -i + 1|i &amp; . &amp; . \\ -k + j|i &amp; . &amp; -i - 1|i &amp; . &amp; . \end{pmatrix} \\ \beta_2 &amp;= \frac{1}{2} \begin{pmatrix} . &amp; . &amp; . &amp; . &amp; -i + 1|i \\ . &amp; . &amp; . &amp; . &amp; -k + j|i \\ . &amp; . &amp; . &amp; k - j|i &amp; . \\ . &amp; . &amp; k + j|i &amp; . &amp; . \\ -i + 1|i &amp; -k - j|i &amp; . &amp; . &amp; . \end{pmatrix} \\ \beta_3 &amp;= \frac{1}{2} \begin{pmatrix} . &amp; . &amp; . &amp; . &amp; . \\ . &amp; . &amp; . &amp; i - 1|i &amp; -k - j|i \\ . &amp; . &amp; . &amp; i + 1|i &amp; . \\ . &amp; i - 1|i &amp; i + 1|i &amp; . &amp; . \\ . &amp; -k + j|i &amp; . &amp; . &amp; . \end{pmatrix} \\ \beta_0 &amp;= \frac{1}{2} \begin{pmatrix} . &amp; . &amp; . &amp; 2 &amp; . \\ . &amp; . &amp; . &amp; . &amp; 1 - i|i \\ . &amp; . &amp; . &amp; . &amp; . \\ 2 &amp; . &amp; . &amp; . &amp; . \\ . &amp; 1 - i|i &amp; . &amp; . &amp; . \end{pmatrix} \end{aligned} \tag{38}
+L134: For the spin 0 case since 5 is not an even number we add the trivial solution \beta^\mu = 0, which is equivalent to increasing the starting matrices to 6 \times 6 by adding a row and column of zeros. This procedure can be extended to other cases in which odd dimensions are involved, but it may not be without physical content in general. The resulting 3 \times 3 quaternion \beta matrices are:
+L135: \begin{aligned} \beta_1 &amp;= \frac{1}{2} \begin{pmatrix} \cdot &amp; \cdot &amp; i+1|i \\ \cdot &amp; \cdot &amp; \cdot \\ i+1|i &amp; \cdot &amp; \cdot \end{pmatrix} \\ \beta_2 &amp;= \frac{1}{2} \begin{pmatrix} \cdot &amp; \cdot &amp; -k+j|i \\ \cdot &amp; \cdot &amp; \cdot \\ -k-j|i &amp; \cdot &amp; \cdot \end{pmatrix} \\ \beta_3 &amp;= \frac{1}{2} \begin{pmatrix} \cdot &amp; \cdot &amp; \cdot \\ \cdot &amp; \cdot &amp; i+1|i \\ \cdot &amp; i+1|i &amp; \cdot \end{pmatrix} \\ \beta_0 &amp;= \frac{1}{2} \begin{pmatrix} \cdot &amp; \cdot &amp; \cdot \\ \cdot &amp; \cdot &amp; -j-k|i \\ \cdot &amp; j-k|i &amp; \cdot \end{pmatrix} \end{aligned} \tag{39}
+L136: In conclusion we have defined a set of rules for translating from standard QM to a particular version of QQM. We hope that the above procedure demonstrates the possible use of quaternions in QM, although we insist upon the non complete nature of the translation and hence the non triviality in the choice to adopt quaternions as the underlying number field.
+L137: References
+L138: [1] P.Rotelli-Mod.Phys.Lett. A 4, 933 (1989). [2] K.Morita-Prog.Theor.Phys., Progress Letters 75, 220 (1986). [3] L.P.Horwitz and L.C.Biedenharn-Ann. of Phys. 157, 432 (1984).
+L139: [4] K.Morita-Prog.Theor.Phys. 67, 1860 (1981); 68, 2159 (1982); 70, 1648 (1983); 72, 1056 (1984); 73, 999 (1984); 75, 220 (1985); 90, 219 (1993). [5] S.De Leo and P.Rotelli-Phys.Rew. D 45, 575 (1992). [6] P.Rotelli-Mod.Phys.Lett. A 4, 1763 (1989). [7] S.De Leo and P.Rotelli Representations of U(1,q) and Constructive Quaternion Tensor Products Lecce-preprint 93; submitted for publication to Journal of Phys. A. [8] Wu-Ki-Tung-Group Theory in Physics World Scientific (Singapore 1985), 320. [9] Itzykson-Zuber-Quantum Field Theory McGraw-Hill (Singapore 1985), 49. [10] P. Roman-Theory of Elementary Particles North-Holland (Amsterdam 1964), 146.

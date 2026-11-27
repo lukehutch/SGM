@@ -1,0 +1,79 @@
+{
+  "identifier": "arXiv:0908.1276",
+  "cite_key": "Shukla:2009opa",
+  "identifiers": {
+    "doi": "10.48550/arXiv.0908.1276",
+    "arxiv": "0908.1276",
+    "title": "Gauge transformation through an accelerated frame of reference"
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/0908.1276",
+    "DataCite": "https://doi.org/10.48550/arXiv.0908.1276",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=0908.1276",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=Gauge+transformation+through+an+accelerated+frame+of+reference&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.0908.1276",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/0908.1276",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/0908.1276",
+      "ok": true,
+      "path": "Shukla:2009opa-arxiv-src.tar.gz",
+      "bytes": 5989,
+      "sha256": "8e74c57df6509681d0ce3bb2ce38dc6c7e4afb54c5e4e8025902a26e09caed46",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/0908.1276",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 19769,
+      "sha256": null,
+      "note": "1 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_0908.1276/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 16797,
+      "sha256": "3bbcfc08aa7510aada77827203883af76f969633298977310d8916ae002b90c0",
+      "note": "80 lines of 80, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/0908.1276",
+      "ok": true,
+      "path": "Shukla:2009opa.pdf",
+      "bytes": 92703,
+      "sha256": "1d033ccad3a932dc0fd6096dc7434810233d90cc3ad0ff1ac0673c1327cc88c6",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

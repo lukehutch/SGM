@@ -1,0 +1,80 @@
+{
+  "identifier": "arXiv:astro-ph/9803097",
+  "cite_key": "Cooperstock:1998ny",
+  "identifiers": {
+    "doi": "10.48550/arXiv.astro-ph/9803097",
+    "arxiv": "astro-ph/9803097",
+    "title": "The influence of the cosmological expansion on local systems",
+    "author": "I."
+  },
+  "indexes_answered": [
+    "DataCite",
+    "INSPIRE-HEP",
+    "arXiv"
+  ],
+  "indexes_silent": [
+    "Crossref",
+    "Scholar"
+  ],
+  "index_urls": {
+    "INSPIRE-HEP": "https://inspirehep.net/api/arxiv/astro-ph/9803097",
+    "DataCite": "https://doi.org/10.48550/arXiv.astro-ph/9803097",
+    "arXiv": "https://export.arxiv.org/api/query?id_list=astro-ph%2F9803097",
+    "Scholar (no usable record)": "https://scholar.google.com/scholar?hl=en&as_epq=The+influence+of+the+cosmological+expansion+on+local+systems&as_occt=title"
+  },
+  "located_not_fetched": [
+    {
+      "source": "OpenAlex",
+      "format": "html",
+      "url": "https://doi.org/10.48550/arxiv.astro-ph/9803097",
+      "note": "arXiv (Cornell University)",
+      "diagnostic": false
+    },
+    {
+      "source": "arXiv",
+      "format": "html",
+      "url": "https://arxiv.org/html/astro-ph/9803097",
+      "note": "LaTeXML HTML, converted from the submitted TeX",
+      "diagnostic": false
+    }
+  ],
+  "abstract_source": "paperclip meta.json",
+  "artefacts": [
+    {
+      "artefact": "arxiv-src-payload",
+      "url": "https://arxiv.org/src/astro-ph/9803097",
+      "ok": true,
+      "path": "Cooperstock:1998ny-arxiv-src.tar.gz",
+      "bytes": 11370,
+      "sha256": "e1222f6963c02f4c7f3a1654e79b3e598039a7aa18a5775982c60bda2017ad1f",
+      "note": "the bytes arXiv served, before unpacking"
+    },
+    {
+      "artefact": "latex",
+      "url": "https://arxiv.org/src/astro-ph/9803097",
+      "ok": true,
+      "path": "latex/",
+      "bytes": 31711,
+      "sha256": null,
+      "note": "1 files, 1 .tex"
+    },
+    {
+      "artefact": "content.lines",
+      "url": "/papers/arx_astro-ph9803097/content.lines",
+      "ok": true,
+      "path": "content.lines",
+      "bytes": 29362,
+      "sha256": "9fd606fbd839d99fca9cd1730b7ac74a5165202bfe7cece48b627d59de185b21",
+      "note": "135 lines of 135, citable as #L<n>"
+    },
+    {
+      "artefact": "pdf",
+      "url": "https://arxiv.org/pdf/astro-ph/9803097",
+      "ok": true,
+      "path": "Cooperstock:1998ny.pdf",
+      "bytes": 129708,
+      "sha256": "a1a7661e1d3b8e282231db44afc4ee6f6ff443399aaf6579060fad7163030732",
+      "note": "content-type application/pdf"
+    }
+  ]
+}

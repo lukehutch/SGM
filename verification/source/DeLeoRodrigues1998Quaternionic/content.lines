@@ -1,0 +1,280 @@
+L1: Quaternionic Electron Theory:Dirac's Equation
+L2: Stefano De Leo*a,b and Waldyr A. Rodrigues, Jr.†b
+L3: aDipartimento di Fisica, Università degli Studi Lecce and INFN, Sezione di Leccevia Arnesano, CP 193, 73100 Lecce, Italiaand
+L4: bInstituto de Matemática, Estatística e Computação Científica, IMECC-UNICAMPCP 6065, 13081-970, Campinas, S.P., Brasil()
+L5: We perform a one-dimensional complexified quaternionic version of the Dirac equation based on i-complex geometry. The problem of the missing complex parameters in Quaternionic Quantum Mechanics with i-complex geometry is overcome by a nice “trick” which allows to avoid the Dirac algebra constraints in formulating our relativistic equation. A brief comparison with other quaternionic formulations is also presented.
+L6: I. INTRODUCTION
+L7: After the fundamental works of Finkelstein et al. [1] on Quaternionic Quantum Mechanics and Gauge Theories, a renewed and increasing interest recently appeared [2,3] in the use of noncommutative fields to formulate physical theories. In a review paper [4], we showed that is possible to give a consistent version of Quantum Mechanics by using real and complexified quaternions as underlying mathematical structure and by adopting a “complex” geometry [5,6]. We mentioned there, the possibility to obtain a natural formulation of the Dirac equation within a complexified quaternionic Quantum Mechanics with i-complex geometry.
+L8: In the present article, overcoming the problem of the “apparent” missing complex parameters, we formulate a quaternionic version of the Dirac's equation which appears more attractive than the previous ones given in the literature [7,8]. Negative energy solutions will be quickly obtained from positive energy solutions simply by multiplying the latter by the “complex” imaginary unit \iota. The spin-flip will be related to the multiplication by the quaternionic imaginary unit j. The CPT operation will map the spinor field \Psi in its dual space: Parity and Time reversal will be characterized by the “complex” involution; Charge conjugation by multiplication by “complex” (\iota) and quaternionic (j) imaginary units.
+L9: The powerful of this new formulation of the Dirac's equation will be also evident when we take its non-relativistic limit. The one-dimensional complexified quaternionic Dirac equation is obviously not reducible in its dimensions by performing the non-relativistic limit, contrary to what happens in the real quaternionic (2\rightarrow 1) and complex (4\rightarrow 2) case.
+L10: Numerical FieldEquation Matrix DimensionsNumber of Solutions  DiracSchrödinger-PauliSchrödingerSchrödinger    Complex4211  Real Quaternions2112  Complexified Quaternions1114
+L11: In discussing the non-relativistic Schrödinger equation we find in its real quaternionic formulation a belated theoretical discovery of spin [9], working with complexified quaternions we like talking of belated theoretical discovery of positron. It is worth to mention that the non-relativistic Schrödinger approximation to Dirac's equation formulated with the Clifford algebra, Cl_{1,3}, show also that spin is present in Schrödinger theory, but it is “frozen”.
+L12: In the literature we find two different quaternionic formulations of the Dirac equation, with complex geometry, which reproduce the standard results. The first one, performed in 1989 [7], is obtained by 2\times 2 real quaternionic matrices, the second one, dated 1996 [8], overcomes previous difficulties, i.e. non physical doubling of solutions [11,12], and allows a one-dimensional complexified quaternionic representation of the Dirac algebra and consequently a one-dimensional
+L13: *E-Mail: deleos@le.infn.it , deleo@ime.unicamp.br
+L14: †E-Mail: walrod@ime.unicamp.br
+L15: version of the Dirac equation. These formulations, notwithstanding the reduced dimensions of the spinors, reproduce the standard results thanks to the doubling (real quaternions) and quadrupling (complexified quaternions) of solutions due to complex geometries [4]. Nevertheless, we do not have serious reasons in preferring quaternionic to complex formulations. The only apparent advantage in using complexified quaternions is given by the possibility to translate back the one-dimensional complexified quaternionic Dirac's equation in a new equivalent complex equation, performed by the Pauli's algebra and so by 2 \times 2 complex matrices. At first glance, this would appear very strange because of the 4-dimensionality requested for the \gamma-matrices. Nevertheless, we can re-obtain the right complex parameters counting by allowing a left/right action of two-dimensional matrices. By passing from complex to complexified quaternions we show that the standard Dirac equation, written in the standard formalism by using the Clifford algebra Cl_{4,1}, can be rewritten by using the Clifford algebra Cl_{3,0} [13], called the Pauli algebra. In spite of this, we must admit a not elegant version of the Dirac equation by complexified quaternions and \iota-complex geometry [8]. Our aim in this paper is to present a complexified quaternionic formulation of the Dirac equation where the non-commutativity of the quaternionic field represents an advantage and not an undesired and useless complication.
+L16: This work is structured as follows: After a mathematical introduction to the complexified quaternionic algebra, sec. II, we briefly recall the quaternionic formulations of the electron theory found in literature, sec. III. The new complexified quaternionic version of the Dirac equation is given in sec. IV. We discuss the CPT operation in sec. V and draft our conclusions in the last section.
+L17: II. COMPLEXIFIED QUATERNIONIC ALGEBRA
+L18: In this section, we introduce the complexified quaternionic algebra and the so-called “barred” operators. For a complete review of the quaternionic mathematical language used in this paper the reader can consult ref. [4].
+L19: The complexified quaternionic algebra is a quaternionic algebra, \mathcal{H}(1, \vec{h}), over a complex field, \mathcal{C}(1, \iota),
+L20: \mathcal{H}_c = \left\{ c_0 + \vec{h} \cdot \vec{c} , \quad \vec{h} \equiv (i, j, k) , \quad \vec{c} \equiv (c_1, c_2, c_3) , \quad c_{0,1,2,3} \in \mathcal{C}(1, \iota) \right\} , \quad (1)
+L21: with operation of multiplication defined according to the following rules for the imaginary units
+L22: \begin{aligned} \iota^2 &amp;= -1 , \\ i^2 &amp;= j^2 = k^2 = -1 , \\ ijk &amp;= -1 , \\ [\iota, \vec{h}] &amp;= 0 . \end{aligned}
+L23: Working with complexified quaternions we have three different (independent) opportunities to define conjugation operations
+L24: \begin{aligned} q_c^\bullet &amp;= c_0^* + \vec{h} \cdot \vec{c}^* , \\ q_c^\star &amp;= c_0 - \vec{h} \cdot \vec{c} , \\ q_c^\dagger &amp;= c_0^* - \vec{h} \cdot \vec{c}^* , \end{aligned}
+L25: where * indicates the standard complex conjugation (\iota \rightarrow -\iota). Note that q_c^\dagger = q_c^{\star\bullet} = q_c^{\bullet\star}. The \bullet involution is an auto-morphism, (q_c p_c)^\bullet = q_c^\bullet p_c^\bullet, while the \star and \dagger conjugations are anti-auto-morphisms, that is (q_c p_c)^\star = p_c^\star q_c^\star and (q_c p_c)^\dagger = p_c^\dagger q_c^\dagger.
+L26: Due to the non-commutative nature of the quaternionic multiplication, we must distinguish between the left and right-action of our imaginary units i, j, k. We introduce barred operators to represent the right action of the three quaternionic imaginary units. Explicitly,
+L27: 1 \mid i, \quad 1 \mid j, \quad 1 \mid k
+L28: will identify the right-multiplication of i, j, k and so
+L29: \left( 1 \mid \vec{h} \right) q_c \equiv q_c \vec{h} .
+L30: In this formalism, the most general transformation on complexified quaternions will be given by
+L31: q_c + p_c \mid i + r_c \mid j + s_c \mid k \quad q_c, p_c, r_c, s_c \in \mathcal{H}_c . \quad (2)
+L32: Such an object represents an \iota-complex linear (complexified quaternionic) operator, characterized by 16 \iota-complex parameters. Obviously, we can also require i-complex linearity for our transformations. In this case the most general (i-complex linear) transformation which can be performed on complexified quaternions will be characterized by “only” 8 i-complex parameters
+L33: q_c + p_c \mid i . \quad (3)
+L34: Going back to real quaternions, because of the missing imaginary complex unit \iota, we can define only i-complex linear operators
+L35: q + p \mid i \quad q, p \in \mathcal{H} , \quad (4)
+L36: characterized by 4 i-complex parameters. Why this counting of “complex” parameters? Why “complex” geometry?
+L37: We showed in previous papers [4,14] that the choice of a complex projection of quaternionic inner products, also called complex geometry [5], gives the possibility to formulate a consistent quaternionic version of standard (complex) Quantum Mechanics. Many difficulties, due to the non-commutative nature of quaternionic multiplication, are soon overcome. See for example the definition of an appropriate momentum operator [4]. The choice of a complex geometry implies:
+L38: 1 - The introduction of “new” anti-hermitian imaginary units
+L39: \left( 1 \mid \vec{h} \right)^\dagger = -1 \mid \vec{h} \quad \iota\text{-complex geometry ,}
+L40: \left( 1 \mid i \right)^\dagger = -1 \mid i \quad i\text{-complex geometry .}
+L41: 2 - Quadrupling of solutions for complexified quaternions
+L42: 1, i, j, k \quad \iota\text{-complex geometry ,}
+L43: 1, j, \iota, \iota j \quad i\text{-complex geometry ,}
+L44: and doubling of solutions for real quaternions
+L45: 1, j \quad i\text{-complex geometry .}
+L46: The previous counting of “complex” parameters suggests to relate barred operators and quaternionic field to complex matrices and column vectors in the following way,
+L47: \text{Complexified Quaternions :} \quad q_c + p_c \mid i + r_c \mid j + s_c \mid k \quad \leftrightarrow \quad 4 \times 4 \text{ complex matrices ,}
+L48: q_c + \vec{h} \cdot \vec{c} \quad \leftrightarrow \quad \begin{pmatrix} c_0 \\ c_1 \\ c_2 \\ c_3 \end{pmatrix} ,
+L49: \text{Real Quaternions :} \quad q + p \mid i \quad \leftrightarrow \quad 2 \times 2 \text{ complex matrices ,}
+L50: z + j\tilde{z} \quad \leftrightarrow \quad \begin{pmatrix} z \\ \tilde{z} \end{pmatrix} .
+L51: This allows one-dimensional complexified quaternionic [8] and two-dimensional real quaternionic [7] versions of the Dirac equation. We also have the necessary tools to performing a set of translation rules for passing back and forth between standard (complex) and quaternionic Quantum Mechanics [4,15]. Note that when working with complexified quaternions this is achieved by adopting \iota-complex geometries. Up to now, the use of i-complex geometries seemed to be avoided because of the missing complex parameters in the barred operators structure (3).
+L52: III. QUATERNIONIC DIRAC'S EQUATION: A BRIEF REVIEW
+L53: In this section we briefly recall the formulation of the Dirac's equation by real and complexified quaternions.
+L54: A. Real Quaternionic Version: The Milestone
+L55: In 1989 [7], Rotelli derived a quaternionic version of the free particle Dirac's equation, which required, for its development, the use of the complex scalar product. He observed that the need to use the complex scalar product no longer relies solely on arguments relative to tensor product space (multi-particle systems) [6] but is explicit in the single free particle wave function.
+L56: The first important modification, that must be made is, the rewriting the standard Dirac equation
+L57: i\partial_t\psi = (\vec{\alpha} \cdot \vec{p} + \beta m)\psi ,
+L58: where \psi \equiv \psi(x) are 4 \times 1 complex matrices, in the form
+L59: \partial_t\psi i = (\vec{\alpha} \cdot \vec{p} + \beta m)\psi ,
+L60: where now \psi \equiv \psi(x) stands for real quaternionic column vectors. The right position of the imaginary unit i guarantees the norm conservation of \psi
+L61: \partial_t \int d\tau \psi^\dagger \psi = i \int d\tau \psi^\dagger H \psi - \int d\tau \psi^\dagger H \psi i ,
+L62: since "\int d\tau \psi^\dagger H \psi" is real and hence commutes with i.
+L63: The relativistic covariance is obtained by redefining the action of the momentum operator \vec{p} as follows
+L64: \vec{p}\psi \equiv -\vec{\partial}\psi i .
+L65: The hermiticity of \vec{p} imposes the choice of the complex scalar product [7].
+L66: The \gamma-matrices can be now expressed by 2 \times 2 real quaternionic matrices
+L67: \gamma_0 = \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} , \quad \vec{\gamma} = \vec{h} \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 0 \end{pmatrix} ,
+L68: and the solutions read
+L69: \begin{aligned} E &gt; 0 \quad &amp; N \begin{pmatrix} 1 \\ -\frac{\vec{h} \cdot \vec{p}}{|E|+m} \end{pmatrix} e^{-ipx} , \quad N \begin{pmatrix} 1 \\ -\frac{\vec{h} \cdot \vec{p}}{|E|+m} \end{pmatrix} j e^{-ipx} , \\ E &lt; 0 \quad &amp; N \begin{pmatrix} -\frac{\vec{h} \cdot \vec{p}}{|E|+m} \\ 1 \end{pmatrix} e^{-ipx} , \quad N \begin{pmatrix} -\frac{\vec{h} \cdot \vec{p}}{|E|+m} \\ 1 \end{pmatrix} j e^{-ipx} , \end{aligned}
+L70: where
+L71: N = \sqrt{\frac{|E|+m}{2}} .
+L72: In such a formalism the multiplication by the quaternionic imaginary unit j gives a spin-flip and this implies the desired doubling of solutions in the quaternionic version of the Schrödinger's equation. The so-called belated theoretical discovery of spin [9]. Inspired by the Rotelli's work, we find in the literature many papers based on real quaternionic Quantum Mechanics with i-complex geometry. Among these, we cite the quaternionic versions of the Lagrangian formalism [16], Electroweak Model [17] and Grand Unification Theories [18].
+L73: B. Complexified Quaternionic Version: Hope and Disappointment
+L74: Various formulations of Dirac equation on the complexified field were considered since the 1930's. A pioneer in this field was certainly Conway [19]; more recent presentations can be found in the Edmonds paper [11] and Gough [12]. When written in this manner, a doubling of solutions from four to eight occurs. The possible physical significance of these additional solutions has been a matter of speculation [20].
+L75: In a recent article [8], it was showed that such a doubling of solutions is strictly connected with the use of reducible matrices and so there is no new physics in the quaternionic Dirac equation. Indeed, by following the standard Dirac approach it is possible to formulate a one-component equation with only four solutions [8]. The previous
+L76: “unphysical” doubling of solutions is overcome by allowing a one-dimensional representation for the \gamma-matrices by barred complexified quaternionic operators
+L77: q_c + p_c \mid i + r_c \mid j + s_c \mid k .
+L78: Nevertheless, we must admit that such a version of the Dirac’s equation is neither elegant nor simple. In few words, it appears unnatural: Complicated spinors structures, unclear CPT interpretation, etc. We do not have any particular reason to prefer this version to the complex formulation. The other possibility, that is to performing a complexified quaternionic version of the Dirac equation by using i-complex geometry, appears unlikely, due to the missing complex parameters within i-complex linear barred operators.
+L79: We conclude this section by discussing the possibility to write down a Dirac equation based on the Clifford algebra Cl_{3,0}. The formulation of Dirac’s theory by complexified quaternions, implies the possibility to rewrite the Dirac equation by the Pauli’s algebra. The matrices \vec{\sigma} generate the algebra of 2 \times 2 matrices with complex numbers as entries M_2(\mathcal{C}). The matrix algebra M_2(\mathcal{C}) has the following basis over \mathcal{R}
+L80: M_2(\mathcal{C})\mathcal{H}_c    \mathbb{1}1  \sigma_1, \sigma_2, \sigma_3\iota i, \iota j, \iota k  \sigma_3\sigma_2, \sigma_1\sigma_3, \sigma_2\sigma_1i, j, k  \sigma_1\sigma_2\sigma_3\iota
+L81: The above table also gives the corresponding basis of the complexified quaternionic algebra.
+L82: By translation from our complexified quaternionic version we can obtain a formulation of the Dirac equation by M_2(\mathcal{C}). We identify the spinor fields by 2 \times 2 complex matrices and obtain the needed complex freedom degrees. The most general transformation on the 4-dimensional complex vector column
+L83: \begin{pmatrix} \psi_1 \\ \psi_2 \\ \psi_3 \\ \psi_4 \end{pmatrix} \quad (5)
+L84: is obviously performed by 4 \times 4 matrices, 16 complex parameters. By rewriting the previous 4-dimensional vector column by a 2 \times 2 complex matrix
+L85: \begin{pmatrix} \psi_a &amp; \psi_b \\ \psi_c &amp; \psi_d \end{pmatrix}, \quad \psi_a = \psi_1 - i\psi_4, \quad \psi_b = -\psi_3 + i\psi_2, \quad \psi_c = \psi_3 - i\psi_2, \quad \psi_d = \psi_1 + i\psi_4, \quad (6)
+L86: we find again 16 complex parameters within the most general transformation on our “new” spinors. Indeed, by allowing left/right action for the Pauli’s matrices, we have
+L87: M_0 + M_1 \mid \sigma_1 + M_2 \mid \sigma_2 + M_3 \mid \sigma_3 ,
+L88: where M_{0,1,2,3} are 2 \times 2 complex matrices, and so we restore the 16 complex parameters characterizing the standard action on spinor fields.
+L89: IV. QUATERNIONIC DIRAC’S EQUATION: ITS NATURAL FORMULATION
+L90: Let us work within complexified quaternionic Quantum Mechanic with i-complex geometry. In finding the representation of gamma matrices satisfying the Dirac’s algebra, we have no problems with the \vec{\gamma}-matrices, in fact we immediately find as suitable choice
+L91: \vec{\gamma} = \vec{h} \equiv (i, j, k), \quad \{h^m, h^n\} = 2g^{mn} \quad (m, n = 1, 2, 3), \quad \vec{h}^\dagger = -\vec{h} .
+L92: Nevertheless, we cannot find a quaternionic number which anti-commutes with \vec{h}, and consequently we cannot give a (complexified) quaternionic representation for the \gamma^0-matrix. Working in complexified quaternionic QM with \iota-complex geometry, the problem is overcome by using two different barred quaternionic imaginary units in representing \gamma^0 and \vec{\gamma}. Explicitly
+L93: \gamma^0 = i \mid i \quad \text{and} \quad \vec{\gamma} = \iota \vec{h} \mid j .
+L94: Working with i-complex geometry, we have only the barred imaginary unit 1 \mid i, and so this possibility is avoided.
+L95: However, we can have recourse to a “trick”. The action of the standard \gamma^0-matrix [21] on the complex spinor \psi \in C^4 is
+L96: \gamma^0 \psi = \begin{pmatrix} 1 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; -1 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; -1 \end{pmatrix} \begin{pmatrix} \psi_1 \\ \psi_2 \\ \psi_3 \\ \psi_4 \end{pmatrix} = \begin{pmatrix} \psi_1 \\ \psi_2 \\ -\psi_3 \\ -\psi_4 \end{pmatrix} .
+L97: In terms of complexified quaternions we have to find an operation which performs the following transformation
+L98: \Psi \equiv \psi_1 + j\psi_2 + \iota(\psi_3 + j\psi_4) \rightarrow \psi_1 + j\psi_2 - \iota(\psi_3 + j\psi_4) .
+L99: The solution is now obvious. The required operation is the \bullet-involution, \Psi \rightarrow \Psi^\bullet. Finally, the Dirac’s equation
+L100: \left( \partial_t + \gamma^0 \vec{\gamma} \cdot \vec{\partial} \right) \Psi(x) i = m \gamma^0 \Psi(x) ,
+L101: reads
+L102: \left( \partial_t + \iota \vec{h} \cdot \vec{\partial} \right) \Psi(x) i = m \Psi^\bullet(x) . \quad (7)
+L103: Eq. (7) can be concisely rewritten in the following way
+L104: D\Psi(x) = m\Psi^\bullet(x) , \quad (8)
+L105: where
+L106: D \equiv \left( \partial_t + \iota \vec{h} \cdot \vec{\partial} \right) \mid i .
+L107: We can immediately check if this equation reduces to the Klein-Gordon equation. We multiply Eq. (8) on the left by the barred operator
+L108: D^\bullet \equiv \left( \partial_t - \iota \vec{h} \cdot \vec{\partial} \right) \mid i ,
+L109: obtaining
+L110: D^\bullet D\Psi(x) = - \left( \partial_t^2 - \vec{\partial}^2 \right) \Psi(x) = m D^\bullet \Psi^\bullet(x) . \quad (9)
+L111: Note that the \bullet involution changes the Dirac equation as follows
+L112: D\Psi(x) = m\Psi^\bullet(x) \quad \rightarrow \quad D^\bullet \Psi^\bullet(x) = m\Psi(x) ,
+L113: so Eq. (9) gives the required Klein-Gordon equation
+L114: (\partial_\mu \partial^\mu + m^2) \Psi(x) = 0 .
+L115: If \Psi(x) \sim e^{-ipx}, we obtain then from Dirac equation the usual Einstein’s energy-momentum relation
+L116: E^2 = m^2 + \vec{p}^2 .
+L117: It is obvious from the previous discussion that it is not important to pick a particular set of quaternionic imaginary units, since the solutions to the Dirac equation are completely specified by the anti-commutation relations in \vec{h}. However, explicit representations can sometimes be helpful in making calculations. In the following we shall use \vec{h} \equiv (i, j, k).
+L118: In terms of i-complex functions which characterize our Dirac spinor
+L119: \Psi = \psi_1 + j\psi_2 + \iota(\psi_3 + j\psi_4) ,
+L120: the Dirac equation can be rewritten as four i-complex equations. Instead of solving these four coupled equations directly, let us try solutions in which all four i-complex function components from \psi_1 to \psi_4 share a common exponential factor similar to the Klein-Gordon plane wave function
+L121: \Psi = \psi_{\vec{p}} e^{-ipx} .
+L122: Inserting this function into Eq. (7), we obtain
+L123: \left( E - \iota \vec{h} \cdot \vec{p} \right) \psi_{\vec{p}} = m \psi_{\vec{p}}^{\bullet} . \quad (10)
+L124: Let us first solve this equation in the rest frame of the particle, in which Eq. (10) reduces to
+L125: E \psi_{\vec{0}} = m \psi_{\vec{0}}^{\bullet} .
+L126: If we pose
+L127: \psi_{\vec{p}} = u_{\vec{p}} + v_{\vec{p}} ,
+L128: where
+L129: u_{\vec{p}} \in \mathcal{H} \quad \text{and} \quad v_{\vec{p}} \in \iota \mathcal{H} ,
+L130: we find the following solutions to the previous equation
+L131: u_{\vec{0}}^{(1)} \sim 1, \quad u_{\vec{0}}^{(2)} \sim j \quad (E = m); \quad v_{\vec{0}}^{(1)} \sim \iota, \quad v_{\vec{0}}^{(2)} \sim \iota j \quad (E = -m) .
+L132: Each one of the spinors u_{\vec{0}} and v_{\vec{0}} has two independent solutions. Analogous to the interpretation of the two-component Pauli spinors, the two independent solutions for each one of the spinors will be interpreted as the two spin states of a spin \frac{1}{2} particle.
+L133: For the general case in which the particle is in motion the solutions to the Dirac equation are obtained as follows:
+L134: \left( \partial_t + \iota \vec{h} \cdot \vec{\partial} \right) (u_{\vec{p}} + v_{\vec{p}}) e^{-ipx} i = m(u_{\vec{p}} - v_{\vec{p}}) e^{-ipx} ,
+L135: and so
+L136: \left( E - \iota \vec{h} \cdot \vec{p} \right) (u_{\vec{p}} + v_{\vec{p}}) = m(u_{\vec{p}} - v_{\vec{p}}) .
+L137: From the following two coupled equations:
+L138: E u_{\vec{p}} - \iota \vec{h} \cdot \vec{p} v_{\vec{p}} = m u_{\vec{p}} ,
+L139: E v_{\vec{p}} - \iota \vec{h} \cdot \vec{p} u_{\vec{p}} = -m v_{\vec{p}} ,
+L140: we immediately find the desired complexified quaternionic solutions to the Dirac equation:
+L141: \sqrt{\frac{|E|+m}{2}} \times \begin{bmatrix} 1 + \frac{\iota \vec{h} \cdot \vec{p}}{|E|+m} , &amp; \left( 1 + \frac{\iota \vec{h} \cdot \vec{p}}{|E|+m} \right) j , &amp; E &gt; 0 , \\ \left( 1 - \frac{\iota \vec{h} \cdot \vec{p}}{|E|+m} \right) \iota , &amp; \left( 1 - \frac{\iota \vec{h} \cdot \vec{p}}{|E|+m} \right) \iota j , &amp; E &lt; 0 . \end{bmatrix}
+L142: The normalization is chosen so that
+L143: \begin{aligned} \left( \psi_{\vec{p}}^{\dagger} \psi_{\vec{p}}^{\bullet} \right)^{E&gt;0} &amp;= \left( \psi_{\vec{p}}^{\star} \psi_{\vec{p}} \right)^{E&gt;0} = m , \\ \left( \psi_{\vec{p}}^{\dagger} \psi_{\vec{p}}^{\bullet} \right)^{E&lt;0} &amp;= \left( \psi_{\vec{p}}^{\star} \psi_{\vec{p}} \right)^{E&lt;0} = -m , \end{aligned}
+L144: or equivalently
+L145: \left( \psi_{\vec{p}}^{\dagger} \psi_{\vec{p}} \right)_{(1,i)} = |E| .
+L146: The orthogonality of our solutions is guaranteed by the i-complex projection of inner products.
+L147: A. Schrödinger-Pauli's equation
+L148: Let us determine how our complexified quaternionic Dirac equation reduced to the Schrödinger-Pauli's equation of the electron. We consider the case of an electron in the presence of a time-independent electromagnetic field. Under the assumption of “minimal electromagnetic coupling”, we replace
+L149: \partial_\mu \mid i \rightarrow \partial_\mu \mid i - eA_\mu ,
+L150: in the Dirac equation to obtain
+L151: \left( \partial_t \mid i + \gamma^0 \vec{\gamma} \cdot \vec{\partial} \mid i - e\gamma^0 A_0 + e\gamma^0 \vec{\gamma} \cdot \vec{A} \right) \Psi(x) = m\gamma^0 \Psi(x) ,
+L152: or equivalently
+L153: \left[ \partial_t \mid i + \iota \vec{h} \cdot \left( \vec{\partial} \mid i + e\vec{A} \right) \right] \Psi(x) = (m + eA_0) \Psi^\bullet(x) .
+L154: In the following we shall use \vec{p} to indicate the “momentum operator”. The Dirac equation reads
+L155: \left[ E - \iota \vec{h} \cdot \left( \vec{p} - e\vec{A} \right) \right] \Psi(x) = (m + eA_0) \Psi^\bullet(x) .
+L156: From the previous equation we can write down two coupled equations
+L157: \begin{aligned} (E - m - eA_0) u_{\vec{p}} &amp;= \iota \vec{h} \cdot \left( \vec{p} - e\vec{A} \right) v_{\vec{p}} , \\ (E + m + eA_0) v_{\vec{p}} &amp;= \iota \vec{h} \cdot \left( \vec{p} - e\vec{A} \right) u_{\vec{p}} . \end{aligned}
+L158: For E = |E|, we find
+L159: (|E| - m - eA_0) u_{\vec{p}} = \frac{\left[ \iota \vec{h} \cdot \left( \vec{p} - e\vec{A} \right) \right]^2}{|E| + m + eA_0} u_{\vec{p}} .
+L160: Now, noting that
+L161: \partial_x (A_y u_{\vec{p}}) - A_y \partial_x u_{\vec{p}} = (\partial_x A_y) u_{\vec{p}} ,
+L162: we find, for |E| \sim m and A_0 \ll m,
+L163: (|E| - m) u_{\vec{p}} \sim \left[ eA_0 + \frac{1}{2m} \left( \vec{p} - e\vec{A} \right)^2 - \frac{e}{2m} \iota \vec{h} \cdot \vec{B} \right] u_{\vec{p}} .
+L164: We recognize the “Hamiltonian associated with the kinetic energy |E| - m of the electron” characterizing the Schrödinger-Pauli's equation.
+L165: We conclude this section with some considerations about the Schrödinger's equation
+L166: \partial_t \Psi i = \frac{\vec{p}^2}{2m} \Psi .
+L167: Such an equation assumes the same form both in complex and real/complexified quaternionic Quantum Mechanics. Nevertheless, in the complex world it has only one (complex) solution, in the real quaternionic world two (complex orthogonal) solutions and this suggests a their possible identification with the two spin states: up and down. Finally in the complexified quaternionic world we find the “full” solution, spin up/down and particle/anti-particle solution.
+L168: B. Relativistic Covariance
+L169: Before to follow the standard approach to the relativistic covariance of the Dirac's equation, let us briefly analyze the complexified quaternionic Lorentz transformations. We can identify using standard idea of affine geometry the coordinates of events of Minkowsky space-time, as the four-vector (t, \vec{x}), which by it turns can be represented by the complexified quaternion
+L170: \mathcal{X} = t + \iota \vec{h} \cdot \vec{x} .
+L171: The Lorentz square of the complex quaternionic position is then
+L172: \mathcal{X}^\bullet \mathcal{X} = \left( t - \iota \vec{h} \cdot \vec{x} \right) \left( t + \iota \vec{h} \cdot \vec{x} \right) = t^2 - \vec{x}^2 ,
+L173: which represents the translation by complexified quaternions of the standard invariant
+L174: x^\mu x_\mu = g_{\mu\nu} x^\nu x^\mu = t^2 - \vec{x}^2 ,
+L175: thanks to the identification
+L176: x^\mu \leftrightarrow \mathcal{X} , \quad x_\mu \leftrightarrow \mathcal{X}^\bullet .
+L177: The Lorentz transformations are concisely described by
+L178: \mathcal{X}' = \Lambda \mathcal{X} \Lambda^\dagger , \quad \Lambda^\star \Lambda = 1 , \quad \Lambda \in \mathcal{H}_c .
+L179: Let us introduce the operator
+L180: \mathcal{D} \equiv \partial_t - \iota \vec{h} \cdot \vec{\partial} , \quad (11)
+L181: which represents the quaternionic counterpart of
+L182: \partial^\mu \equiv \left( \partial_t, -\vec{\partial} \right) ,
+L183: and which transforms like \mathcal{X}
+L184: \mathcal{D}' = \Lambda \mathcal{D} \Lambda^\dagger .
+L185: In order to obtain the relativistic covariance of the Dirac equation we must assume that, under Lorentz transformations, \mathcal{X} \rightarrow \mathcal{X}', there is a linear relation between the wave function \Psi in the first frame and the wave function \Psi' in the transformed frame, namely
+L186: \Psi' = \mathcal{T}(\Lambda) \Psi . \quad (12)
+L187: Both the wave functions, \Psi and \Psi', must satisfy the Dirac equation:
+L188: D\Psi = m\Psi^\bullet , \quad D'\Psi' = m\Psi'^\bullet ,
+L189: which in terms of the operator \mathcal{D} become
+L190: \mathcal{D}^\bullet \Psi i = m\Psi^\bullet , \quad \mathcal{D}'^\bullet \Psi' i = m\Psi'^\bullet ,
+L191: note that
+L192: D \equiv \mathcal{D}^\bullet \mid i .
+L193: By observing that under Lorentz transformations the \mathcal{D}^\bullet-operator transforms in the following way
+L194: \mathcal{D}'^\bullet = \Lambda^\bullet \mathcal{D}^\bullet \Lambda^\star ,
+L195: we find for the “transformed” Dirac equation
+L196: D'\Psi' = \Lambda^\bullet \mathcal{D}^\bullet \Lambda^\star \mathcal{T}(\Lambda) \Psi i = m (\mathcal{T}(\Lambda) \Psi)^\bullet = m\Psi' .
+L197: After simple algebraic manipulations we obtain
+L198: \mathcal{T}(\Lambda) = \Lambda . \quad (13)
+L199: A finite transformation is of the form
+L200: \exp \left( \vec{h} \cdot \vec{c} \right) \quad \vec{c} \in \mathcal{C}(1, \iota) .
+L201: For spatial rotation \mathcal{T} is unitary (generators \vec{h}), whereas it is hermitian for Lorentz boosts (generators \iota \vec{h}). It is immediate to observe that \Psi \Psi^\dagger transforms as the four-dimensional vector \mathcal{X}
+L202: \Psi' \Psi'^\dagger = \Lambda \Psi \Psi^\dagger \Lambda^\dagger , \quad (14)
+L203: whereas \Psi^* \Psi transforms like a scalar
+L204: \Psi'^* \Psi' = \Psi^* \Lambda^* \Lambda \Psi = \Psi^* \Psi . \quad (15)
+L205: An explicit calculation for the Dirac's spinors gives
+L206: \begin{aligned} \Psi_{\vec{p}} \Psi_{\vec{p}}^\dagger &amp;= |E| \pm \iota \vec{h} \cdot \vec{p} , \\ \Psi_{\vec{p}}^* \Psi_{\vec{p}} &amp;= \pm m . \end{aligned}
+L207: We will show in the next section that the parity operation is expressed by the \bullet-involution, so we observe that the multiplication by \iota transform scalars and vectors in pseudo-scalars and pseudo-vectors:
+L208: \begin{aligned} \Psi^* \Psi &amp;\quad \text{scalar ,} \\ \Psi \Psi^\dagger &amp;\quad \text{vector ,} \\ \iota \Psi^* \Psi &amp;\quad \text{pseudo-scalar ,} \\ \iota \Psi \Psi^\dagger &amp;\quad \text{pseudo-vector .} \end{aligned}
+L209: C. Spin Operator
+L210: We conclude this section by giving the explicit form of the spin operator. We know that the spin operator is related to space rotations, thus by considering an infinitesimal rotation around x, and finding the corresponding transformation of the wave function \Psi, we obtain
+L211: \mathcal{S}_x = -\frac{i | i}{2} . \quad (16)
+L212: Thus, the four solutions u_{\vec{p}}^{1,2}, correspond to positive energy solutions with \mathcal{S} = \frac{1}{2} and for \vec{p} \equiv (p_x, 0, 0) to \mathcal{S}_x = \frac{1}{2}, -\frac{1}{2}, \frac{1}{2}, -\frac{1}{2} respectively. Our polarization direction is the x-axis because the imaginary unit i has been associated with p_x.
+L213: V. CPT OPERATION
+L214: In this section we discuss the CPT operation. We will show that in the complexified quaternionic world, it assumes a simple form and represents a mapping of our spinors \Psi in their dual space. In order to simplify the mathematical language, we shall use the following notation
+L215: \begin{aligned} \Psi &amp;\equiv \Psi(x) , \\ \Psi_P &amp;\equiv \Psi'(-\vec{x}, t) , \\ \Psi_C &amp;\equiv \Psi_C(x) , \\ \Psi_T &amp;\equiv \Psi'(\vec{x}, -t) . \end{aligned}
+L216: A. Parity
+L217: We start from the complexified quaternionic Dirac's equation
+L218: \left(\partial_t + \iota \vec{h} \cdot \vec{\partial}\right) \Psi i = m\Psi^\bullet ,
+L219: and we perform the required coordinates transformation (space inversion)
+L220: \vec{x} \rightarrow -\vec{x} .
+L221: We obtain the transformed Dirac equation:
+L222: \left(\partial_t - \iota \vec{h} \cdot \vec{\partial}\right) \Psi_P i = m\Psi_P^\bullet . \quad (17)
+L223: In our formalism is now very easy to find the relation between the transformed wave function, \Psi_P, and the wave function in the first frame, \Psi. The \bullet-involution modifies the Dirac equation as follows
+L224: \left(\partial_t - \iota \vec{h} \cdot \vec{\partial}\right) \Psi^\bullet i = m\Psi ,
+L225: and so by comparison of this equation with Eq. (17), we immediately find
+L226: \Psi_P \equiv \Psi^\bullet
+L227: And as anticipated in the previous section, the parity operation is expressed by the \bullet-involution.
+L228: B. Charge Conjugation
+L229: To discuss charge conjugation, we introduce the potential (A^0, \vec{A}) by performing the following change in our Dirac equation
+L230: \begin{aligned} \partial_t | i &amp;\rightarrow \partial_t | i + eA^0 , \\ \vec{\partial} | i &amp;\rightarrow \vec{\partial} | i - e\vec{A} . \end{aligned}
+L231: The “modified” Dirac equation now reads
+L232: \left[\partial_t | i + eA^0 + \iota \vec{h} \cdot \left(\vec{\partial} | i - e\vec{A}\right)\right] \Psi = m\Psi^\bullet .
+L233: The charge conjugation requires the change e \rightarrow -e
+L234: \left[\partial_t | i - eA^0 + \iota \vec{h} \cdot \left(\vec{\partial} | i + e\vec{A}\right)\right] \Psi_C = m\Psi_C^\bullet . \quad (18)
+L235: By multiplying the Dirac's equation by \iota,
+L236: \left[\partial_t | i + eA^0 + \iota \vec{h} \cdot \left(\vec{\partial} | i - e\vec{A}\right)\right] (\iota\Psi) = -m(\iota\Psi)^\bullet ,
+L237: and by j on the right, we find
+L238: \left[-\partial_t | i + eA^0 + \iota \vec{h} \cdot \left(-\vec{\partial} | i - e\vec{A}\right)\right] (\iota\Psi j) = -m(\iota\Psi j)^\bullet .
+L239: The last equation when rewritten as
+L240: \left[\partial_t | i - eA^0 + \iota \vec{h} \cdot \left(\vec{\partial} | i + e\vec{A}\right)\right] (\iota\Psi j) = m(\iota\Psi j)^\bullet ,
+L241: and confronted with (18) gives
+L242: \Psi_C \equiv \iota\Psi j
+L243: Thus, the charge conjugation is expressed in the complexified quaternionic formalism, by the multiplication by imaginary units, \iota (mapping in the dual space) and j (spin flip).
+L244: C. Time Reversal
+L245: By noting that the time reversal requires
+L246: A^0 \rightarrow A^0, \quad \vec{A} \rightarrow -\vec{A},
+L247: we have
+L248: \left[ -\partial_t | i + eA^0 + \iota \vec{h} \cdot (\vec{\partial} | i + e\vec{A}) \right] \Psi_T = m\Psi_T^\bullet. \quad (19)
+L249: Let us multiply, from the right, the Dirac's equation by j
+L250: \left[ -\partial_t | i + eA^0 + \iota \vec{h} \cdot (-\vec{\partial} | i - e\vec{A}) \right] (\Psi j) = m(\Psi j)^\bullet.
+L251: The \bullet-involution modifies the previous equation as follows
+L252: \left[ -\partial_t | i + eA^0 + \iota \vec{h} \cdot (\vec{\partial} | i + e\vec{A}) \right] (\Psi j)^\bullet = m(\Psi j).
+L253: By comparing with (19), we find
+L254: \Psi_T \equiv \Psi^\bullet j
+L255: It is now immediate to obtain the “full” CPT operation
+L256: \Psi_{CPT}(x') \equiv \iota \Psi(x) e^{i\phi}
+L257: We conclude this section with some considerations about the geometric interpretations of the complexified quaternionic imaginary units. The pure quaternionic imaginary units, \vec{h}, represent the generators of the space rotations, the complexified quaternionic products, \iota \vec{h}, are related to the boost generators and finally the pure complex imaginary unit, \iota, gives rotations in the plane individuated by \Psi and its dual image \iota \Psi.
+L258: VI. CONCLUSIONS
+L259: We conclude this paper by showing a surprising possibility of translation between standard (complex) Quantum Mechanics and complexified quaternionic QM with \iota-complex geometry.
+L260: We begin by recalling the “symplectic” quaternionic representation of a complexified quaternionic (state) q_c
+L261: q_c = q_1 + \iota q_2 \quad q_{1,2} \in \mathcal{H},
+L262: by the quaternionic column vector
+L263: q_c \leftrightarrow \begin{pmatrix} q_1 \\ q_2 \end{pmatrix}.
+L264: We now identify the operator representation of \iota consistent with the above identification:
+L265: \iota \leftrightarrow \begin{pmatrix} 0 &amp; -1 \\ 1 &amp; 0 \end{pmatrix}.
+L266: In order to obtain a translation between 2 \times 2 real quaternionic (barred) matrices
+L267: \begin{pmatrix} q_1 + q_2 | i &amp; p_1 + p_2 | i \\ r_1 + r_2 | i &amp; s_1 + s_2 | i \end{pmatrix},
+L268: and barred complexified quaternions
+L269: q_c + p_c | i ,
+L270: we need to obtain the complexified quaternionic counterpart of
+L271: \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} .
+L272: This is soon achieved by the \bullet-involution. Thus, we have the following set of rules for the required translation
+L273: 1 \leftrightarrow \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix} , \quad \iota \leftrightarrow \begin{pmatrix} 0 &amp; -1 \\ 1 &amp; 0 \end{pmatrix} , \quad \bullet\text{-inv} \leftrightarrow \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} , \quad \iota \times \bullet\text{-inv} \leftrightarrow \begin{pmatrix} 0 &amp; 1 \\ 1 &amp; 0 \end{pmatrix} .
+L274: The basis is
+L275: 1 , \quad 1 | i , \quad \vec{h} , \quad \vec{h} | i ,
+L276: and so we restore the needed 32 real parameters. Since 2 \times 2 real quaternionic (barred) matrices are related to 4 \times 4 complex matrices [15], we can immediately obtain the translation between 4-dimensional complex matrices and one-dimensional complexified operators.
+L277: In conclusion we have completed our previous work on the possibility to formulate a consistent Quantum Mechanics by noncommutative fields [4], by discussing the main features of a complexified quaternionic approach based on \iota-complex geometry. We hope that the complexified quaternionic Dirac's equation elaborated in this article and the translation given in this section demonstrate the possible potentialities in the use of noncommutative numerical fields (and in particular complexified quaternions) in formulating physical theories.
+L278: Nevertheless, we wish to insist upon the non-complete nature of the translation and hence the non-triviality in the choice to adopt complexified quaternions as underlying numerical field. Many geometric interpretations, hidden in the "complex world", can be pointed out by the complexified quaternionic algebra [22]
+L279: [1] D. Finkelstein, J. M. Jauch, S. Schiminovich and D. Speiser, J. Math. Phys. 3, 207 (1962); 4, 788 (1963).D. Finkelstein, J. M. Jauch and D. Speiser, J. Math. Phys. 4, 136 (1963). [2] S. L. Adler, Quaternion Quantum Mechanics and Quantum Field (Oxford UP, New York, 1995). [3] A. Razon and L. P. Horwitz, Acta Appl. Math. 24, 141 (1991); ibidem, 179 (1991); J. Math. Phys. 33, 3098 (1992).L. P. Horwitz, J. Math. Phys. 34, 3405 (1993); 35, 2743 (1994); ibidem, 2761 (1994).B. de Witt and A. Van Proyen, Comm. Math. Phys. 149, 307 (1992); Int. J. Mod. Phys. D 3, 31 (1994).S. De Leo and P. Rotelli, Nuovo Cimento B110, 33 (1995); Int. J. Mod. Phys. A 10, 4359 (1995).S. L. Adler, Nucl. Phys. B415, 195 (1994); Phys. Lett. 332B, 358 (1994); J. Math. Phys. 37, 2352 (1996).S. De Leo, Prog. Theor. Phys. 94, 1109 (1995); J. Math. Phys. 37, 2955 (1996). [4] S. De Leo and W. A. Rodrigues, Int. J. Theor. Phys. (to be published, Dec. 1997). [5] J. Rembieliński, J. Phys. A 11, 2323 (1978). [6] L. P. Horwitz and L. C. Biedenharn, Ann. Phys. 157, 432 (1984). [7] P. Rotelli, Mod. Phys. Lett. A 4, 933 (1989). [8] S. De Leo, Int. J. Mod. Phys. A 11, 3973 (1996). [9] S. De Leo and P. Rotelli, Phys. Rev. D 45, 575 (1992). [10] D. Hestenes, Found. Phys. 20, 1213 (1991). [11] J. D. Edmonds, Int. J. Theor. Phys. 6, 205 (1972); Am. J. Phys. 157, 432 (1984). [12] W. Gough, Eur. J. Phys. 7, 35 (1986); 8, 164 (1987); 10, 188 (1989). [13] J. R. Zeni, in P. Letelier and W. A. Rodrigues (eds.), Gravitation: The Space-Time Structure (World Scientific, Singapore, 1994), p. 544. [14] S. De Leo, Prog. Theor. Phys. 95, 1029 (1996); Int. J. Theor. Phys. 36, 1165 (1997). [15] S. De Leo and P. Rotelli, Prog. Theor. Phys. 92, 917 (1994); 96, 247 (1996). [16] S. De Leo and P. Rotelli, Mod. Phys. Lett. A 11, 357 (1996). [17] S. De Leo and P. Rotelli, J. Phys. G 22, 1137 (1996). [18] S. De Leo, Int. J. Theor. Phys. 35, 1821 (1996).
+L280: [19] A. W. Conway, Proc. R. Soc. A 162, 145 (1937).[20] J. D. Edmonds, Found. Phys. 3, 313 (1973).[21] C. Itzykson and J. B. Zuber, Quantum Field Theory (McGraw-Hill, New York, 1985).[22] S. De Leo and W. A. Rodrigues, Quaternionic Electron Theory: Geometry, Algebra and Dirac's Spinors (Int. J. Theor. Phys., following paper).
