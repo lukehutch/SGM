@@ -1,0 +1,810 @@
+\documentclass[aps,prd,onecolumn,tightenlines,nofootinbib,notitlepage,10pt,floatfix]{revtex4-2}
+\usepackage[margin=0.69in]{geometry}
+\usepackage{xurl}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{relsize}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{graphicx,lmodern,microtype,xcolor}
+\usepackage[T1]{fontenc}
+\definecolor{linkblue}{RGB}{22,64,128}
+% revtex4-2 redefines \label, so nameref warns while loading and restores the
+% kernel \label. Mute nameref's warnings during the load only.
+\makeatletter
+\let\SGM@PackageWarning\PackageWarning
+\def\SGM@nameref{nameref}
+\def\PackageWarning#1#2{\def\SGM@pkg{#1}%
+  \ifx\SGM@pkg\SGM@nameref\else\SGM@PackageWarning{#1}{#2}\fi}
+\usepackage[colorlinks=true, urlcolor=linkblue, linkcolor=linkblue, citecolor=linkblue, bookmarks, psdextra, pdfauthor={Luke Hutchison}, pdftitle={Spectral Gradient Mechanics: force as the gradient of wave function frequency, and time dilation as the origin of gravity and inertia}]{hyperref}
+\let\PackageWarning\SGM@PackageWarning
+\makeatother
+
+\hyphenation{Zeit-schrift}
+\setlength{\emergencystretch}{2em}
+\tolerance=1000
+\def\bibpreamble{\raggedright\sloppy}
+\def\bibfont{\fontsize{7.5}{8.6}\selectfont}
+\setlength{\bibsep}{0pt}
+\linespread{1.0}
+
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1.12}
+\setlist{itemsep=1.5pt,topsep=3pt}
+
+\makeatletter
+\g@addto@macro\@arrayparboxrestore{\raggedright\let\\\tabularnewline}
+\def\frontmatter@title@format{\Large\bfseries\centering\linespread{1.15}\selectfont\parskip\z@skip}
+\def\frontmatter@abstractheading{\begingroup\centering\small\bfseries Abstract\par\vspace{2pt}\endgroup}
+\def\frontmatter@abstractfont{\footnotesize\linespread{1.03}\selectfont\leftskip=0.03\textwidth\rightskip=\leftskip}
+\def\prep@absbox{\vspace{-4pt}\noindent\hspace{0.03\textwidth}\textcolor{black!25}{\rule{0.94\textwidth}{0.5pt}}\par\vspace{3pt}}
+\def\post@absbox{\vspace{2pt}\noindent\hspace{0.03\textwidth}\textcolor{black!25}{\rule{0.94\textwidth}{0.5pt}}\par\vspace{4pt}\noindent\hspace{0.03\textwidth}\parbox{0.94\textwidth}{\footnotesize\textbf{Keywords:} spectral gradient mechanics, gravitational time dilation, equivalence principle, gravitationally induced entanglement, post-Newtonian dynamics, semiclassical gravity}\par\vspace{6pt}}
+\makeatother
+
+\newtheoremstyle{indentedtheorem}%
+  {4pt}{4pt}{\itshape}{\parindent}{\bfseries}{:}{.5em}{}
+\theoremstyle{indentedtheorem}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{definition}{Definition}
+\newtheorem{axiom}{Axiom}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+
+\begin{document}
+
+\title{Spectral Gradient Mechanics:\texorpdfstring{\\}{ }%
+force as the gradient of wave function frequency,\texorpdfstring{\\}{ }%
+and time dilation as the origin of gravity and inertia}
+
+\newif\ifanonymous \anonymousfalse % \anonymoustrue restores double-anonymous review
+\newcommand{\companionauthor}{\ifanonymous Anonymous\else L.~Hutchison\fi}
+\ifanonymous\else\author{Luke Hutchison}
+\email{luke.hutch@alum.mit.edu}\noaffiliation\fi
+\date{\today}
+
+%===============================================================================
+\begin{abstract}
+%===============================================================================
+In flat-spacetime nonrelativistic quantum mechanics, a stationary state carries one coordinate angular frequency $\omega=E/\hbar$ across space and its rest frequency $\omega_0=mc^2/\hbar$ is discarded as a uniform additive constant ($\nabla(\omega_0\alpha)\equiv\mathbf{0}$). In general relativity, clocks at different positions run at different proper-time rates $\alpha(\mathbf{x})=d\tau/dt$, so the rest term $\omega_0\alpha(\mathbf{x})$ of the phase-space frequency function $\omega(\mathbf{x},\mathbf{p})=H(\mathbf{x},\mathbf{p})/\hbar$ varies spatially. Treating $\omega(\mathbf{x},\mathbf{p})$ as a frequency field unifies Hamilton's equation, Whitham's eikonal ray law, the Legendre transform, and Ehrenfest's theorem into a single operator and eikonal law, $\mathbf{F}=-\hbar\nabla\omega|_{\mathbf{p}}$. On a prescribed spacetime metric (lapse $\alpha$, spatial curvature $W$) assuming local position invariance, retaining $\omega_0\alpha(\mathbf{x})$ derives Newtonian and exact strong-field Schwarzschild test-particle forces from time dilation alone without the geodesic equation, and derives the inertial reaction $-m\mathbf{a}$ from Rindler time dilation with the same prefactor $\omega_0$---yielding $m_g=m_i$ and universal free fall while taking the gravitational field equations fixing $\alpha$ and $W$ as external input. Combined with a companion quaternionic Dirac analysis, the identity organizes all forces outside the strong and weak interactions. Because $\hbar$ cancels from $-mc^2\nabla\alpha$ and no combination of $c$ and $G$ has action dimension, static and first post-Newtonian forces and gravitationally induced entanglement follow unitarily on matter configuration space without virtual graviton exchange, whereas deterministic nonlinear mean-field gravity (static and radiative) is excluded by finite-time state orthogonalization and superluminal Bell gravitational-wave power signaling, leaving dynamical radiation requiring quantized modes or linear stochastic dynamics.
+\end{abstract}
+
+\maketitle
+
+%===============================================================================
+\section{Introduction}
+\label{sec:intro}
+%===============================================================================
+
+Gravity is the one fundamental interaction without a complete quantum theory. Standard programs quantize the gravitational field canonically \citep{DeWitt1967Quantum}, in string theory \citep{Green1987Superstring,Polchinski1998String}, or in loop quantum gravity \citep{Ashtekar1986Variables,Rovelli2004Quantum}, while a separate line derives gravity from horizon thermodynamics or entanglement entropy \citep{Jacobson1995Thermodynamics,Padmanabhan2010Thermodynamics,Verlinde2011Origin,Jacobson2016Entanglement,Verlinde2017Emergent}. Whether the gravitational field must be quantized at all remains unsettled, and tabletop experiments testing gravitationally induced entanglement have been proposed to probe it \citep{Bose2017Spin,Marletto2017Gravitationally}.
+
+Quantum mechanics and general relativity also take inertia---the reaction $-m\mathbf{a}$ of a body of mass $m$ to its acceleration $\mathbf{a}$---and its equality with gravitational mass as inputs. Inertia has been sought in gravitational induction \citep{Sciama1953Origin} and trapped waves \citep{Jennison1977Approach,Jennison1983Wave}; the equality $m_g=m_i$, confirmed by MICROSCOPE at $10^{-15}$ \citep{Touboul2017Microscope,Touboul2022Final}, is the founding hypothesis of general relativity \citep{Einstein1907Relativitatsprinzip}. In the Schr\"odinger equation gravity enters as a postulated potential $mgz$, and transforming to accelerated coordinates adds the inertial potential in the same form \citep{Shukla2010Gauge}. A single-atom superposition of a freely falling and a magnetically levitated wave packet found a relative phase consistent with Newtonian free fall \citep{Dobkowski2026Observation}, though its interpretation as an equivalence-principle test is disputed \citep{AsenbaumOverstreet2025Magnetic,Dobkowski2025Reply} and the phase contains no $c$.
+
+The two theories also treat time differently---the \emph{problem of time} \citep{Isham1993Canonical,Kuchavr1992Time,Anderson2012Problem}. By the Planck--Einstein relation $E=\hbar\omega$ \citep{Planck1901Radiation,Einstein1905Photoelectric} and the de~Broglie relation $\mathbf{p}=\hbar\nabla\theta$ \citep{deBroglie1925Thesis}, every massive particle's wave function carries an angular frequency $\omega$ and momentum $\mathbf{p}$. Flat-spacetime nonrelativistic quantum mechanics gives each stationary state one phase rate $E/\hbar$ across space \citep{Wentzel1926WKB,Kramers1926WKB,Brillouin1926WKB,Goldstein2002Classical}, and omits the rest term $\omega_0=mc^2/\hbar$ of the phase-space frequency function $H(\mathbf{x},\mathbf{p})/\hbar$ as a uniform additive constant (the \emph{single-frequency assumption}, $\nabla(\omega_0\alpha)\equiv\mathbf{0}$). General relativity forbids setting $\alpha\equiv 1$: in a static field, proper time $\tau$ advances relative to coordinate time $t$ at the position-dependent rate $\alpha(\mathbf{x})=d\tau/dt$, now resolved across one millimeter \citep{Bothwell2022Resolving}, making the coordinate rest frequency $mc^2\alpha(\mathbf{x})/\hbar$. In a frame accelerating with a particle, special-relativistic time dilation likewise creates a spatial gradient of the rest frequency while acceleration lasts. Where rest frequency varies across a state, phases drift apart and the de~Broglie momentum changes; a stationary mode maintains a single coordinate rate $E/\hbar$ only because kinetic or potential terms compensate $\omega_0\alpha(\mathbf{x})$, while the fixed-momentum gradient $-\hbar\nabla(\omega_0\alpha)$ exerts a real force. Causality further forbids instantaneous updates across a wave function's extent, unlike the nonrelativistic Coulomb potential (Bell correlations send no signal \citep{Bell1964EPR,Aspect1982Experimental}).
+
+Weak-field Newtonian gravity from time dilation acting on the Compton frequency $\omega_0$ has been found several times \citep{Evans2001Matter,Wootters2003Why,Mueller2014Quantum,Xu2019DeBroglie,Czarnecki2021Gravitational}; inertia has been linked to motion-induced frequency shifts \citep{Schlegel1954Wave} and anisotropic light propagation in extended charges \citep{Petkov1999Acceleration}; and curved-space Dirac and localized-system Hamiltonians incorporate redshift-multiplied rest energy \citep{HehlNi1990Inertial,Perche2022Localized}. The Dirac spinor has been factored as a density times a rotor \citep{Hestenes1967Real,Hestenes1990Zitterbewegung,LasenbyDoranGull1998Gravity}, and local accounts of the Aharonov--Bohm phase \citep{Aharonov1959Significance} ordinarily invoke external source or field degrees of freedom \citep{Vaidman2012Role,Marletto2020Aharonov}. This paper derives both the static gravitational gradient and the dynamic Rindler inertial gradient from the same rest frequency $\omega_0$ via the unifying law $\mathbf{F}=-\hbar\nabla\omega|_{\mathbf{p}}$, obtaining $m_g=m_i$, universal free fall, and the tidal separation of gravity and inertia from its first and second derivatives.
+
+Section~\ref{sec:identity} states the axioms, derives $\mathbf{F}=-\hbar\nabla\omega$ by four routes, and establishes its universality. Section~\ref{sec:grav_inertia} derives Newtonian and exact strong-field Schwarzschild gravity from static time dilation, the inertial reaction from Rindler time dilation, $m_g=m_i$, free fall, tidal curvature, and gravitational light deflection. Section~\ref{sec:potentials} incorporates gauge potentials, the quaternionic Dirac master frequency equation and $c^{-2}$ force catalog from the companion paper \citep{HutchisonWavefn2026}, and single-equation biquaternion Maxwell dynamics. Section~\ref{sec:canonical} recovers canonical mechanics, Noether conservation, the angular spectral gradient, and a local holonomy account of the Aharonov--Bohm and Sagnac phases. Sections~\ref{sec:experiment} and~\ref{sec:scope} address experiment, prior work, and exact scope boundaries. Section~\ref{sec:discussion} develops the corollaries: wave-function reach, exact $\hbar$ cancellation and absence of a gravitational action constant, unitary configuration-space BMV entanglement versus Schr\"odinger--Newton orthogonalization, manifestly Hermitian $1$PN cross-momentum coupling, exclusion of deterministic radiative mean-field gravity, and horizon Bekenstein saturation.
+
+%===============================================================================
+\section{The force-frequency identity}
+\label{sec:identity}
+%===============================================================================
+
+At each point of a wave function, the frequency sums a rest term $mc^2\alpha/\hbar$, a kinetic term, and potential terms, forming a field over the wave function's extent. Macroscopic wave-packet separations up to $16$~cm already probe spacetime curvature across a single atom's phase \citep{Asenbaum2017Phase}.
+
+\begin{axiom}[Frequency is a field, measured only at the position of the particle]\label{ax:local_frequency}
+A wave function's frequency is a field $\omega(\mathbf{x})$ over the wave function's spatial extent; at each point where the amplitude is nonzero, $\omega(\mathbf{x})$ is the rate $-\partial_t\theta$, at fixed position, at which the phase $\theta$ decreases under the equation of motion, in the gauge of the stated potentials.
+\end{axiom}
+
+\noindent Under an electromagnetic gauge transformation $\psi\to e^{iq\lambda/\hbar}\psi$ for charge $q$ and scalar potential $\Phi$, $\omega(\mathbf{x})$ shifts by $-q\,\partial_t\lambda/\hbar$ and $q\Phi$ by $-q\,\partial_t\lambda$, leaving $\hbar\omega(\mathbf{x})-q\Phi$ gauge invariant.
+
+To bound frequency perturbations in the \emph{far tail} (beyond a few uncertainty widths), decompose a normalized state at one instant as $\psi=\psi_\text{core}+\psi_\text{tail}$ with $P_\text{tail}=\|\psi_\text{tail}\|^2$, where $\langle\phi_1|\phi_2\rangle=\int\phi_1^*\phi_2\,d^3x$. Changing only the phase in the far tail gives $\psi'=\psi_\text{core}+\psi'_\text{tail}$ with $\|\psi'_\text{tail}\|^2=P_\text{tail}$, so $\langle\psi|\psi'\rangle=1-P_\text{tail}+\langle\psi_\text{tail}|\psi'_\text{tail}\rangle$. By Cauchy--Schwarz, $|\langle\psi|\psi'\rangle|\ge 1-2P_\text{tail}$ for $P_\text{tail}\le 1/2$, whence the pure-state trace distance satisfies
+\begin{equation}
+    d_\text{tr}(\psi,\psi') \equiv \sqrt{1-|\langle\psi|\psi'\rangle|^2} \le 2\sqrt{P_\text{tail}} .
+    \label{eq:tail_distance}
+\end{equation}
+(Truncating $\psi$ to the core and renormalizing to $\psi_\text{box}\equiv\psi_\text{core}/\sqrt{1-P_\text{tail}}$ gives the exact trace distance $d_\text{tr}(\psi,\psi_\text{box})=\sqrt{P_\text{tail}}$, half the phase-perturbation bound; under causal finite-speed evolution over duration $T$, padding the core by $cT$ preserves the bound.) Because $|\psi\rangle\langle\psi|-|\psi'\rangle\langle\psi'|$ has eigenvalues $\pm d_\text{tr}$ in the span of $\psi,\psi'$, every measurement projector $\Pi$ has its outcome probability shifted by at most $d_\text{tr}\le 2\sqrt{P_\text{tail}}$ at that instant (below $\varepsilon=10^{-2}$ beyond $\approx 4.2\sigma$ in 1D and $\approx 4.9\sigma$ in 3D for a Gaussian; expectations of unbounded operators like energy can shift more).
+
+\begin{axiom}[The Planck--Einstein relation]\label{ax:planck}
+The energy of a stationary quantum state is $\hbar$ times the angular frequency of its wave function \citep{Planck1901Radiation,Einstein1905Photoelectric},
+\begin{equation}
+    E = \hbar \, \omega ,
+    \label{eq:planck}
+\end{equation}
+and in a superposition each stationary component carries its own frequency.
+\end{axiom}
+
+\noindent Equating $E=\hbar\omega$ with $E=mc^2$ \citep{Einstein1905Inertia} assigns a particle of mass $m$ its \emph{rest frequency}
+\begin{equation}
+    \omega_0 = mc^2/\hbar .
+    \label{eq:rest_freq}
+\end{equation}
+Throughout, an overdot denotes a total time derivative along the trajectory ($\dot{\mathcal{X}}\equiv d\mathcal{X}/dt$, velocity $\mathbf{v}=\dot{\mathbf{x}}$), $\partial_t$ denotes the partial derivative at fixed $\mathbf{x}$ in coordinate time $t$, unqualified frequencies and energies refer to coordinate time $t$, and quantities measured by a co-located clock are called \emph{proper}.
+
+\begin{axiom}[The de~Broglie relation]\label{ax:debroglie}
+A particle's momentum is $\hbar$ times the spatial gradient of the phase $\theta(\mathbf{x},t)$ \citep{deBroglie1925Thesis}, and its angular frequency is the negative time rate of that phase:
+\begin{equation}
+    \mathbf{p} = \hbar \, \nabla\theta = \hbar\,\mathbf{k} , \qquad \omega = -\partial_t\theta ,
+    \label{eq:debroglie}
+\end{equation}
+where $\mathbf{k}\equiv\nabla\theta$ is the wavevector ($\lambdabar_\mathrm{dB}=1/|\mathbf{k}|=\hbar/|\mathbf{p}|$).
+\end{axiom}
+
+\noindent Pointwise, $\mathbf{p}(\mathbf{x})=\hbar\nabla\theta$ is the canonical momentum per unit probability density $\rho=|\psi|^2$ (for a multicomponent state $\rho^{1/2}e^{i\theta}\xi$ with varying unit spinor $\xi$, it gains $-i\hbar\,\xi^\dagger\nabla\xi$).
+
+\begin{axiom}[Hamiltonian dynamics]\label{ax:hamilton}
+A particle with Hamiltonian $H(\mathbf{x},\mathbf{p})$ evolves by Hamilton's canonical equations \citep{Hamilton1835Second,Goldstein2002Classical}; in particular, the force is $\mathbf{F}=\dot{\mathbf{p}}=-\nabla_{\mathbf{x}}H|_{\mathbf{p}}$.
+\end{axiom}
+
+\noindent The kinetic term makes the frequency a function on phase space, $\omega(\mathbf{x},\mathbf{p})=H(\mathbf{x},\mathbf{p})/\hbar$. For $H=mc^2+\mathbf{p}^2/2m+V(\mathbf{x})$, writing the Schr\"odinger equation \citep{Schrodinger1926Quantization4} in polar form $\psi=|\psi|e^{i\theta}$ yields
+\begin{equation}
+    -\partial_t\theta = \omega\big(\mathbf{x},\mathbf{p}(\mathbf{x})\big) + Q(\mathbf{x})/\hbar ,
+    \label{eq:phase_rate_split}
+\end{equation}
+where $Q=-(\hbar^2/2m)\,\nabla^2|\psi|/|\psi|$ is the Madelung--Bohm \emph{quantum potential} \citep{Madelung1927Quantentheorie,Bohm1952Suggested}, negligible when $|\psi|$ varies slowly over $\lambdabar_\mathrm{dB}$.
+
+\begin{definition}[The spectral gradient]\label{def:spectral_gradient}
+Throughout, $\nabla$ denotes the gradient of a phase-space function with respect to position at fixed momentum,
+\begin{equation}
+    \nabla \equiv \nabla_{\mathbf{x}}\big|_{\mathbf{p}} \, .
+    \label{eq:gradient_def}
+\end{equation}
+For functions of position alone it is the ordinary spatial gradient. Evaluated at the particle's $(\mathbf{x},\mathbf{p})$, $\nabla\omega$ is the \emph{spectral gradient}.
+\end{definition}
+
+\noindent In a stationary state $\hbar\theta=S_0(\mathbf{x})-Et$, the phase rate $-\partial_t\theta=E/\hbar$ is spatially uniform, yet $\nabla\omega=\nabla V/\hbar$ remains nonzero wherever $V$ varies.
+
+\begin{axiom}[Static case: the rate of time varies with position]\label{ax:nonzero_spectral_gradient}
+The rate of proper time relative to coordinate time varies continuously with position, as set by the distribution of mass, and its gradient is in general nonzero \citep{Einstein1907Relativitatsprinzip,Einstein1911Influence,Pound1960Apparent,Bothwell2022Resolving}.
+\end{axiom}
+
+\begin{axiom}[Causality: frequency changes propagate no faster than light]\label{ax:causal_propagation}
+Information propagates no faster than $c$ \citep{Einstein1905Electrodynamics}. A localized frequency change reaches displacement $\delta\mathbf{x}$ no earlier than $|\delta\mathbf{x}|/c$, matching the Dirac characteristic speed $c$ \citep{Thaller1992Dirac}.
+\end{axiom}
+
+\begin{axiom}[Local position invariance]\label{ax:lpi}
+Any local nongravitational experiment is independent of where and when it is performed \citep{Will2014Confrontation}; in particular, a particle at rest advances in phase at the proper rate $\omega_0=mc^2/\hbar$ at every location.
+\end{axiom}
+
+%-------------------------------------------------------------------------------
+\subsection{Four derivations of the identity}
+\label{sec:deriv}
+%-------------------------------------------------------------------------------
+
+\emph{Route I (Force and energy).}---By Axiom~\ref{ax:hamilton} and $H=E=\hbar\,\omega(\mathbf{x},\mathbf{p})$ (Eq.~\eqref{eq:planck}; cf.~\citep{Lagrange1788Mecanique,Helmholtz1847Erhaltung}), substituting $E=\hbar\omega$ into $\mathbf{F}=-\nabla E$ immediately yields
+\begin{equation}
+    \boxed{\; \mathbf{F} = \dot{\mathbf{p}} = -\hbar\nabla\omega \;} \qquad \text{\small\itshape (The SGM identity)} ,
+    \label{eq:sgm}
+\end{equation}
+where $\mathbf{p}$ is the canonical momentum and $\nabla\equiv\nabla_{\mathbf{x}}|_{\mathbf{p}}$ (Definition~\ref{def:spectral_gradient}).
+
+\begin{definition}[Spectral gradient mechanics (SGM)]\label{def:sgm_def}
+Spectral gradient mechanics (SGM) is the identification of the spectral gradient as the organizing law of forces; Eq.~\eqref{eq:sgm} is the \emph{SGM identity} (force-frequency identity).
+\end{definition}
+
+\emph{Route II (Momentum and phase).}---Differentiating $\mathbf{p}=\hbar\nabla_{\mathbf{x}}\theta$ (Eq.~\eqref{eq:debroglie}) at fixed $\mathbf{x}$ on a $C^2$ phase field ($\partial_t\nabla_{\mathbf{x}}\theta=\nabla_{\mathbf{x}}\partial_t\theta$) gives $\partial_t\mathbf{p}=-\hbar\nabla_{\mathbf{x}}\omega$. Where $Q$ is negligible, $\omega(\mathbf{x})=\omega(\mathbf{x},\mathbf{p}(\mathbf{x}))$ (Eq.~\eqref{eq:phase_rate_split}), so the chain rule gives $\partial_{x_i}\omega(\mathbf{x},\mathbf{p}(\mathbf{x}))=\partial_{x_i}\omega|_{\mathbf{p}}+(\partial_{x_i}p_j)\partial_{p_j}\omega$ (summed over $j=1,2,3$), with $\partial_{x_i}p_j=\hbar\,\partial_{x_i}\partial_{x_j}\theta$ and group velocity $\hbar\,\partial_{p_j}\omega=\dot{x}_j$ \citep{deBroglie1925Thesis}. Along the trajectory $\dot{\mathbf{p}}=\partial_t\mathbf{p}+(\dot{\mathbf{x}}\cdot\nabla)\mathbf{p}$, therefore,
+\begin{equation}
+    \dot{p}_i = -\hbar\,\partial_{x_i}\omega\big|_{\mathbf{p}} - \hbar\,\dot{x}_j\,\partial_{x_i}\partial_{x_j}\theta + \hbar\,\dot{x}_j\,\partial_{x_j}\partial_{x_i}\theta = -\hbar\,\partial_{x_i}\omega\big|_{\mathbf{p}} ,
+    \label{eq:route2_components}
+\end{equation}
+because the phase Hessian is symmetric ($\theta\in C^2$), cancelling the convective terms at every velocity (and identically at $\dot{\mathbf{x}}=\mathbf{0}$). Where $Q$ is non-negligible, $-\nabla Q$ adds to the trajectory force (e.g., in the real harmonic-oscillator ground state $\theta$ is uniform and $-\nabla(V+Q)=\mathbf{0}$, while mean momentum and force still obey Eq.~\eqref{eq:sgm}). Dividing Eq.~\eqref{eq:route2_components} by $\hbar$ recovers Whitham's eikonal ray equation \citep{Whitham1974Linear,Evans1986Optics,Dodin2009Langmuir},
+\begin{equation}
+    \dot{\mathbf{k}} = -\nabla\omega ,
+    \label{eq:eikonal_ray}
+\end{equation}
+applicable to any short-wavelength wave including light; $\hbar$ enters Eq.~\eqref{eq:sgm} solely via $\mathbf{p}=\hbar\mathbf{k}$ and $E=\hbar\omega$.
+
+\emph{Route III (Euler--Lagrange and Legendre bridge).}---For a Lagrangian $L(\mathbf{x},\dot{\mathbf{x}})$ satisfying $\frac{d}{dt}(\partial L/\partial\dot{\mathbf{x}})=\partial L/\partial\mathbf{x}$ \citep{Euler1744Methodus,Lagrange1788Mecanique} with canonical momentum $\mathbf{p}=\partial L/\partial\dot{\mathbf{x}}$ and Legendre transform $H(\mathbf{x},\mathbf{p})=\mathbf{p}\cdot\dot{\mathbf{x}}-L$, differentiating $H$ at fixed $\mathbf{p}$ cancels $(p_j-\partial L/\partial\dot{x}_j)(\partial\dot{x}_j/\partial x_i|_{\mathbf{p}})$ identically, leaving
+\begin{equation}
+    \frac{\partial L}{\partial\mathbf{x}}\bigg|_{\dot{\mathbf{x}}} = -\frac{\partial H}{\partial\mathbf{x}}\bigg|_{\mathbf{p}} = -\hbar\nabla\omega ,
+    \label{eq:legendre_bridge}
+\end{equation}
+which yields $\dot{\mathbf{p}}=-\hbar\nabla\omega$ along any stationary-action path \citep{Goldstein2002Classical}.
+
+\emph{Route IV (Schr\"odinger equation and Ehrenfest's theorem).}---For a normalized state $\psi$ evolving under $i\hbar\partial_t\psi=\hat{H}\psi$ with $\hat{H}=\hbar\hat{\omega}$ Hermitian in the unweighted inner product, any time-independent operator $\hat{A}$ with $\psi,\hat{A}\psi\in\operatorname{dom}(\hat{H})$ and $\hat{H}\psi\in\operatorname{dom}(\hat{A})$ (and vanishing boundary terms) satisfies \citep{Ehrenfest1927Bemerkung,Sakurai2020Modern}
+\begin{equation}
+    \frac{d}{dt}\langle\hat{A}\rangle = \frac{i}{\hbar}\,\big\langle[\hat{H},\hat{A}]\big\rangle .
+    \label{eq:ehrenfest_commutator}
+\end{equation}
+Setting $\hat{A}=\hat{\mathbf{p}}=-i\hbar\nabla$ and defining the spectral-gradient operator $\nabla\hat{\omega}\equiv(i/\hbar)[\hat{\mathbf{p}},\hat{\omega}]$ immediately yields the exact expectation-value form of Eq.~\eqref{eq:sgm},
+\begin{equation}
+    \frac{d}{dt}\langle\hat{\mathbf{p}}\rangle = -\hbar\,\langle\nabla\hat{\omega}\rangle .
+    \label{eq:sgm_expectation}
+\end{equation}
+For $\hat{H}=\hat{\mathbf{p}}^2/2m+V(\mathbf{x})$, $[\hat{H},\hat{\mathbf{p}}]\psi=i\hbar(\nabla V)\psi$, giving Ehrenfest's theorem $d\langle\hat{\mathbf{p}}\rangle/dt=-\langle\nabla V\rangle$. Expanding $\nabla V(\hat{\mathbf{x}})$ around $\mathbf{x}=\langle\hat{\mathbf{x}}\rangle$ vanishes at first order, so $\langle\nabla V\rangle=\nabla V(\mathbf{x})$ up to second order in packet width (exact for quadratic $V$), and in any bound stationary state $\langle\nabla\hat{\omega}\rangle=\mathbf{0}$. Because the Schr\"odinger equation takes $c\to\infty$, Route~IV covers static fields only and cannot derive the finite-$c$ Rindler inertial gradient.
+
+%-------------------------------------------------------------------------------
+\subsection{The single-frequency assumption, universality, and tidal expansion}
+\label{sec:single_frequency}
+%-------------------------------------------------------------------------------
+
+Flat-spacetime nonrelativistic quantum mechanics sets $\alpha=1$ everywhere, discarding $mc^2$ as an unobservable constant \citep{Dirac1947Principles,Feynman1965Lectures3} and imposing the \emph{single-frequency assumption} on the rest term:
+\begin{equation}
+    \nabla(\omega_0\,\alpha) = \mathbf{0} .
+    \label{eq:single_frequency}
+\end{equation}
+Under Eq.~\eqref{eq:single_frequency}, the rest term drops out of $\nabla\omega$ and Eq.~\eqref{eq:sgm_expectation} reduces to standard Ehrenfest's theorem. Curved-space Schr\"odinger and Dirac analyses---including neutron-interferometry studies, \citet{HehlNi1990Inertial}, \citet{ObukhovSilenkoTeryaev2011Dirac}, \citet{Perche2022Localized}, and the Compton-frequency derivations cited in Section~\ref{sec:intro}---already include a spatially varying lapse $\alpha(\mathbf{x})$ in specific regimes. Rather than claiming curved-space quantum mechanics overlooked $\alpha(\mathbf{x})$, $\mathbf{F}=-\hbar\nabla\omega|_{\mathbf{p}}$ serves as a unifying operator and eikonal organizing principle placing flat-space potentials, static gravity, Rindler inertia, and spin couplings on one footing, in contrast to textbook statements that ``no such simple relations exist between the wave properties of matter and force'' \citep{Bohm1951Quantum}. Replacing Eq.~\eqref{eq:single_frequency} with Axiom~\ref{ax:nonzero_spectral_gradient} (static) or special-relativistic Rindler time dilation (accelerated) restores $-\hbar\nabla(\omega_0\alpha)$.
+
+\begin{theorem}[Universality of the force-frequency law]\label{thm:universal}
+Any interaction described by a Hermitian quantum Hamiltonian $\hat{H}=\hbar\hat{\omega}$ in the unweighted inner product drives the canonical momentum at the rate $\dot{\mathbf{p}}=-\hbar\nabla\omega$ in expectation values (Eq.~\eqref{eq:sgm_expectation}) on every normalizable state $\psi$ such that $\psi,\hat{\mathbf{p}}\psi\in\operatorname{dom}(\hat{H})$ and $\hat{H}\psi\in\operatorname{dom}(\hat{\mathbf{p}})$ with vanishing boundary terms; for matrix-valued spin Hamiltonians, $\nabla\hat{\omega}$ is the matrix gradient. For interactions depending on position alone, when the kinetic term depends on momentum alone (no explicit time dependence, position-dependent metric, or position-dependent effective mass), that rate equals the observable force $m\,d^2\langle\hat{\mathbf{x}}\rangle/dt^2$.
+\end{theorem}
+
+\noindent Three boundary notes apply: (i) an adiabatic eigenbasis that rotates in space adds a Berry-curvature term to the projected force \citep{Berry1984Quantal,Sundaram1999Wave}; (ii) hard impenetrable walls ($\psi=0$) violate the domain condition and enter via a boundary flux $(\hbar^2/2m)\int_{\text{wall}}|\partial_n\psi|^2\,d\mathcal{S}$ (for an $n$-mode box of width $L_\text{box}$, yielding wall force $\pi^2\hbar^2 n^2/(mL_\text{box}^3)=-\partial E_n/\partial L_\text{box}$); and (iii) open-system Lindblad dissipation \citep{Lindblad1976Generators} is accounted for by applying Route~IV to the closed system-plus-environment Hamiltonian with environment coordinates fixed.
+
+Expanding $\omega(\mathbf{x}+\delta\mathbf{x},\mathbf{p})$ at fixed $\mathbf{p}$ around the particle gives
+\begin{equation}
+    \omega(\mathbf{x}+\delta\mathbf{x},\mathbf{p}) = \omega + \nabla\omega\cdot\delta\mathbf{x} + \tfrac{1}{2}\,(\partial_i\partial_j\omega)\,\delta x_i\,\delta x_j + \cdots ,
+    \label{eq:omega_expansion}
+\end{equation}
+whose first derivative is the force ($\mathbf{F}=-\hbar\nabla\omega$) and whose second derivative is minus the force Jacobian ($\partial_i F_j=-\hbar\,\partial_i\partial_j\omega$), governing tidal variations across the wave function.
+
+%===============================================================================
+\section{Gravity and inertia}
+\label{sec:grav_inertia}
+%===============================================================================
+
+%-------------------------------------------------------------------------------
+\subsection{Gravity from the static gradient}
+\label{sec:gravity}
+%-------------------------------------------------------------------------------
+
+A massive particle at rest oscillates in proper time $\tau$ at de~Broglie's internal Compton rate $\omega_0=mc^2/\hbar$ \citep{Compton1923Quantum,deBroglie1925Thesis} (internal-clock interferometry probes proper-time differences \citep{Zych2011Quantum}, though interpreting atom interferometers as Compton clocks is debated \citep{Lan2013Clock,Wolf2011,SinhaSamuel2011}). In a stationary spacetime with signature $(-,+,+,+)$ and $x^0=ct$, a static clock advances relative to coordinate time $t$ at the dimensionless smooth \emph{time-dilation factor} \citep{Einstein1915GR,MTW1973Gravitation}
+\begin{equation}
+    \alpha(\mathbf{x}) \equiv \frac{d\tau}{dt} = \sqrt{-g_{00}(\mathbf{x})} ,
+    \label{eq:alpha_def}
+\end{equation}
+with $\alpha(\infty)=1$. By Axiom~\ref{ax:lpi}, $-\partial_\tau\theta=\omega_0$ everywhere, so in coordinate time $\theta=-\omega_0\alpha t$ and the coordinate rest frequency and static energy are
+\begin{equation}
+    \omega(\mathbf{x}) = \omega_0\,\alpha(\mathbf{x}) , \qquad E(\mathbf{x}) = \hbar\,\omega_0\,\alpha(\mathbf{x}) = mc^2\,\alpha(\mathbf{x}) .
+    \label{eq:omega_alpha}
+\end{equation}
+Comparing static clocks at $\mathbf{x}\pm\ell\hat{\mathbf{u}}$ as $\ell\to 0$ gives the \emph{static spectral gradient} $\nabla\omega(\mathbf{x},\mathbf{0})=\omega_0\nabla\alpha(\mathbf{x})$. Substituting Eq.~\eqref{eq:omega_alpha} into Eq.~\eqref{eq:sgm} yields the exact gravitational force on a particle at rest in any static metric (and to zeroth order in $v^2/c^2$ for slow particles):
+\begin{equation}
+    \mathbf{F}_\text{grav} = -mc^2\,\nabla\alpha , \qquad \mathbf{g} \equiv \mathbf{F}_\text{grav}/m = -c^2\,\nabla\alpha .
+    \label{eq:geometric_force}
+\end{equation}
+
+To determine $\alpha(\mathbf{x})$ from sources requires an external field law. In the weak-field static limit, Gauss's law for gravity \citep{Gauss1813Theoria,Gourgoulhon2007Formalism} written for $\alpha$ reads
+\begin{equation}
+    \oint_{\partial\mathcal{V}}\nabla\alpha\cdot d\boldsymbol{\mathcal{S}} = \frac{4\pi G \, M_\text{enc}}{c^2} .
+    \label{eq:gauss_alpha}
+\end{equation}
+Its source-free part expresses flux conservation independent of $G$, while its source coupling $4\pi G/c^2$ is measured. Outside a spherically symmetric mass $M$, Eq.~\eqref{eq:gauss_alpha} gives $d\alpha/dr = GM/(c^2 r^2)$ and, integrating to $\alpha(\infty)=1$,
+\begin{equation}
+    \alpha(r) \approx 1 - \frac{GM}{c^2\,r} ,
+    \label{eq:alpha_weak}
+\end{equation}
+matching the weak-field Schwarzschild metric \citep{Schwarzschild1916Metric,MTW1973Gravitation} and yielding $\Phi_g=c^2(\alpha-1)$, $\mathbf{g}=-\nabla\Phi_g$, and $E(r)\approx mc^2-GMm/r$. At Earth's surface, $d\alpha/dr=g/c^2\approx 1.1\times 10^{-16}~\text{m}^{-1}$ (resolved at $10^{-19}$ over $1$~mm \citep{Bothwell2022Resolving}), and across an electron's reduced Compton wavelength $\delta\alpha\approx 4\times 10^{-29}$. Substituting $\nabla\omega=\omega_0(GM/c^2r^2)\hat{\mathbf{r}}=(mGM/\hbar r^2)\hat{\mathbf{r}}$ into Eq.~\eqref{eq:sgm} yields Newton's law \citep{Newton1687Philosophiae},
+\begin{equation}
+    \boxed{\;\mathbf{F}_\text{grav} = -\frac{GMm}{r^2}\,\hat{\mathbf{r}}\;} \qquad \text{\small\itshape (Newton's law of universal gravitation)} .
+    \label{eq:newton}
+\end{equation}
+
+In the strong exterior field of a spherical mass (with cosmological constant zero), the vacuum Einstein equations yield the exact Schwarzschild lapse $\alpha(r)=\sqrt{1-R_s/r}$ in areal radius $r>R_s$ with proper radial distance $dr_\text{p}=dr/\alpha$. Because $2\alpha\,d\alpha/dr=R_s/r^2$, the proper-distance gradient obeys the exact exterior Komar--Gauss flux law at every field strength:
+\begin{equation}
+    \frac{d\alpha}{dr_\text{p}} = \alpha\,\frac{d\alpha}{dr} = \frac{R_s}{2r^2} \implies \oint_{S^2(r)}(\nabla_\text{prop}\alpha)\cdot d\boldsymbol{\mathcal{S}} = 2\pi R_s = \frac{4\pi GM}{c^2} .
+    \label{eq:gauss_exact}
+\end{equation}
+Clocks at two areal radii determine $R_s$ monotonically, and far from the mass Eq.~\eqref{eq:geometric_force} gives $-(mc^2 R_s/2r^2)\hat{\mathbf{r}}$, identifying $R_s=2GM/c^2$. At arbitrary $r>R_s$, Eq.~\eqref{eq:geometric_force} establishes the exact strong-field three-force triad: the coordinate-gradient force $\mathbf{F}_\text{SGM}\equiv -mc^2\nabla_r\alpha = -(GMm/(r^2\alpha))\hat{\mathbf{r}}$, the local accelerometer proper weight $\mathbf{F}_\text{prop}\equiv -mc^2\nabla_\text{prop}\ln\alpha = -(GMm/(r^2\alpha))\hat{\mathbf{r}}$ \citep{Wald1984General}, and the force at infinity $\mathbf{F}_\infty\equiv \alpha\,\mathbf{F}_\text{prop}=-mc^2\nabla_\text{prop}\alpha=-(GMm/r^2)\hat{\mathbf{r}}$ \citep{Wald1984General} obey
+\begin{equation}
+    \mathbf{F}_\text{SGM} = \mathbf{F}_\text{prop} = \alpha^{-1}\mathbf{F}_\infty = -\frac{GMm}{r^2\alpha}\,\hat{\mathbf{r}} .
+    \label{eq:triad}
+\end{equation}
+The identity $\mathbf{F}_\text{SGM}=\mathbf{F}_\text{prop}$ holds in Schwarzschild areal coordinates because $g_{00}g_{rr}=-1$ ($dr_\text{p}=dr/\alpha$); on a general static spatial slice with non-diagonal metric $h_{jk}$ \citep{HutchisonWavefn2026}, the local proper weight satisfies $m\,a_\text{prop}=\alpha^{-1}\sqrt{h^{jk}F_j F_k}$ with $F_j=-mc^2\partial_j\alpha$.
+
+\begin{corollary}[From metric to force]\label{cor:causal_gravity}
+In a static metric, time dilation alone gives the gravitational force on a particle at rest via Eq.~\eqref{eq:geometric_force} without invoking the geodesic equation. Coupled to weak-field Gauss's law~\eqref{eq:gauss_alpha} (or vacuum Schwarzschild with clock constant $R_s=2GM/c^2$), Eq.~\eqref{eq:geometric_force} yields Newton's inverse-square law~\eqref{eq:newton} and the exact strong-field triad~\eqref{eq:triad}; $\mathbf{g}=-c^2\nabla\alpha$ and $\Phi_g=c^2(\alpha-1)+O(\Phi_g^2/c^2)$.
+\end{corollary}
+
+%-------------------------------------------------------------------------------
+\subsection{Inertia from the dynamic gradient}
+\label{sec:inertia}
+%-------------------------------------------------------------------------------
+
+While a particle accelerates with proper acceleration $\mathbf{a}$ ($a=|\mathbf{a}|$, $\delta x_\parallel=\hat{\mathbf{a}}\cdot\delta\mathbf{x}$), special relativity creates a \emph{dynamic} spectral gradient across its wave function. A Born-rigid profile has local proper acceleration $a/(1+a\delta x_\parallel/c^2)$ \citep{Born1909Theorie,Moller1952Theory,Rindler1966Kruskal}, differing from a uniform profile at $O(a\delta x_\parallel/c^2)$ ($1.1\times 10^{-16}~\text{m}^{-1}$ at $a=g$) and coinciding with it at an instant of rest. In co-accelerating Rindler coordinates $(t,\delta\mathbf{x})$, where $t$ is proper time at the mean position $\delta\mathbf{x}=\mathbf{0}$, the line element is $ds^2=-(1+\mathbf{a}\cdot\delta\mathbf{x}/c^2)^2c^2dt^2+|d(\delta\mathbf{x})|^2$ \citep{Rindler1966Kruskal,MTW1973Gravitation}, giving the exact time-dilation factor for all $\mathbf{a}\cdot\delta\mathbf{x}>-c^2$ \citep{Einstein1907Relativitatsprinzip,Einstein1911Influence,Doppler1842Farbige}:
+\begin{equation}
+    \alpha = 1 + \delta\alpha , \qquad \delta\alpha = \frac{\mathbf{a}\cdot\delta\mathbf{x}}{c^2} , \qquad \omega(\mathbf{x}+\delta\mathbf{x}) = \omega_0\,(1+\delta\alpha) .
+    \label{eq:alpha_rindler}
+\end{equation}
+The symmetric difference across $\pm\delta\mathbf{x}$ cancels every even order in Eq.~\eqref{eq:omega_expansion} and equals $\omega_0(\mathbf{a}\cdot\hat{\mathbf{d}})/c^2$ identically for every separation inside the Rindler horizon ($|\delta x_\parallel|<c^2/a$), yielding the \emph{dynamic spectral gradient} and, via Eq.~\eqref{eq:sgm}, the inertial reaction:
+\begin{equation}
+    \nabla\omega = \frac{\omega_0\,\mathbf{a}}{c^2} = \frac{m\,\mathbf{a}}{\hbar} \implies \boxed{\;\mathbf{F}_\text{in} = -m\,\mathbf{a} = -mc^2\,\nabla\alpha\;} \qquad \text{\small\itshape (The inertial reaction)} .
+    \label{eq:inertia}
+\end{equation}
+No kinetic term or gravitational field enters: the coefficient is purely $m=\hbar\omega_0/c^2$, the inertia of rest energy \citep{Einstein1905Inertia}.
+
+Now apply a uniform force $\mathbf{F}$ with potential $V=-\mathbf{F}\cdot\mathbf{x}$. In the momentarily comoving inertial frame (time $t_\text{in}$), the phase rate is $\omega_\text{st}(\mathbf{x}+\delta\mathbf{x})=\omega_0(1-\mathbf{F}\cdot\delta\mathbf{x}/mc^2)$. Transforming the phase-rate covector $\omega=-\partial_t\theta$ to Rindler time $t_\text{R}$ multiplies the entire inertial frequency by $\partial t_\text{in}/\partial t_\text{R}=1+\delta\alpha$ (agreeing with an unredshifted coordinate potential through $O(|\delta\mathbf{x}|)$):
+\begin{equation}
+    \omega_\text{acc}(\mathbf{x}+\delta\mathbf{x}) = \omega_0 \left(1-\frac{\mathbf{F}\cdot\delta\mathbf{x}}{mc^2}\right) (1+\delta\alpha) = \omega_0\!\left[1+\frac{(\mathbf{a}-\mathbf{F}/m)\cdot\delta\mathbf{x}}{c^2}\right] + O(|\delta\mathbf{x}|^2) .
+    \label{eq:flat_total}
+\end{equation}
+Because the particle's momentum remains zero in its accelerating rest frame, the net force $\mathbf{F}-m\mathbf{a}$ vanishes, recovering Newton's second law $\mathbf{F}=m\mathbf{a}$ as d'Alembert's principle \citep{DAlembert1743Traite,Goldstein2002Classical}: the applied potential gradient cancels the Rindler shift to first order. Physically, Eq.~\eqref{eq:inertia} expresses relativity of simultaneity---a small velocity $\mathbf{v}$ shifts local rest phase by $-\omega_0(t-\mathbf{v}\cdot\delta\mathbf{x}/c^2)$, whose wavevector $\omega_0\mathbf{v}/c^2$ grows at $\omega_0\mathbf{a}/c^2$---distinct from a causal propagation front $-(\hat{\mathbf{n}}/c)\partial_t\omega$, which vanishes at rest ($\mathbf{F}\cdot\mathbf{v}=0$).
+
+%-------------------------------------------------------------------------------
+\subsection{Equivalence of gravitational and inertial mass, free fall, and tidal curvature}
+\label{sec:duality}
+%-------------------------------------------------------------------------------
+
+Both gravity (Eq.~\eqref{eq:geometric_force}) and inertia (Eq.~\eqref{eq:inertia}) have the identical form $\mathbf{F}=-mc^2\nabla\alpha$ built from $\omega=\omega_0\alpha$ with the \emph{same} coefficient $\omega_0=mc^2/\hbar$. Consequently $m_g=m_i$ follows directly from local position invariance (Axiom~\ref{ax:lpi}). For a composite body small compared with the scale of $\nabla\alpha$, $\omega_0$ is total internal rest energy over $\hbar$ (for a relativistic bound state, the virial relation between internal kinetic energy coupled via $\alpha_n W^{-2}$ and binding energy cancels $\gamma_\text{PPN}$ from the total weight, preserving universal coupling to $\alpha$). Experiment confirms $m_g=m_i$: MICROSCOPE measured the Ti--Pt E\"otv\"os parameter as $[-1.5\pm 2.3\,(\text{stat})\pm 1.5\,(\text{syst})]\times 10^{-15}$ ($0.5\sigma$ from $0$) \citep{Touboul2017Microscope,Touboul2022Final}; accelerated neutron interferometry confirms phase-level equivalence \citep{Bonse1983Measurement}; and because $\omega_0>0$ for antiparticles as well, antihydrogen falls downward, measured by ALPHA-g as $(0.75\pm 0.13\pm 0.16)\,g$ ($1.2\sigma$ from $g$, $8.5\sigma$ from $-g$) \citep{Anderson2023Observation}. The nonrelativistic Schr\"odinger limit masks this unity because discarding $e^{-imc^2t/\hbar}$ drops $\omega_0\propto c^2$ while $c\to\infty$ sends $\delta\alpha\propto c^{-2}\to 0$ (and removes the finite-$c$ light cone from the free kernel), leaving only the postulated product $m\mathbf{a}\cdot\delta\mathbf{x}$ via a gauge phase \citep{Shukla2010Gauge}.
+
+In free fall in a static metric $ds^2=-\alpha^2 c^2 dt^2+\gamma_{ij}dx^i dx^j$, introduce orthogonal comoving coordinates $(\tilde{t},\delta\mathbf{x})$ along $\mathbf{x}_0(\tilde{t})$ via $\mathbf{x}=\mathbf{x}_0(\tilde{t})+\delta\mathbf{x}$ and $t=\tilde{t}+\gamma_{ij}(\mathbf{x}_0)\dot{x}_0^{\,j}\delta x^i/(\alpha_0^2 c^2)$, where $\alpha_0=\alpha(\mathbf{x}_0)$. At an instant of coordinate rest ($\dot{\mathbf{x}}_0=\mathbf{0}$) with coordinate acceleration $\mathbf{a}_c=\ddot{\mathbf{x}}_0$, $dt=(1+\gamma_{ij}a_c^{\,j}\delta x^i/(\alpha_0^2 c^2))d\tilde{t}$, giving the moving-frame time-dilation factor
+\begin{equation}
+    \tilde{\alpha} = \alpha(\mathbf{x}_0+\delta\mathbf{x})\!\left(1+\frac{\gamma_{ij}\,a_c^{\,j}\,\delta x^i}{\alpha_0^2\,c^2}\right) .
+    \label{eq:moving_frame_alpha}
+\end{equation}
+Differentiating $\omega_0\tilde{\alpha}$ at $\delta\mathbf{x}=\mathbf{0}$ yields $\nabla\omega_\text{grav}+\nabla\omega_\text{in}=\mathbf{0}$ with components $\omega_0(\partial_i\alpha+\gamma_{ij}a_c^{\,j}/(\alpha_0 c^2))=0$. The shared factor $\omega_0$ cancels identically, yielding the exact instantaneous-rest geodesic acceleration \citep{MTW1973Gravitation} independent of mass:
+\begin{equation}
+    a_c^{\,k} = -c^2\,\alpha_0\,\gamma^{ki}\,\partial_i\alpha ,
+    \label{eq:freefall_accel}
+\end{equation}
+reducing to $\mathbf{a}_c=-c^2\nabla\alpha=-GM\hat{\mathbf{r}}/r^2$ in the weak field. Whereas metric theories postulate universal free fall along geodesics \citep{Will2014Confrontation}, here it follows from cancelling static and Rindler gradients with common prefactor $\omega_0$.
+
+\begin{remark}[Tidal curvature distinguishes gravity from inertia]\label{rem:rank}
+Gravity and uniform acceleration coincide at first order in Eq.~\eqref{eq:omega_expansion} ($\nabla\omega=\omega_0\nabla\alpha$) but separate at second order in the Hessian $\omega_0\nabla_i\nabla_j\alpha$. On a static metric $ds^2=-\alpha^2 c^2 dt^2+\gamma_{ij}dx^i dx^j$, the tidal Riemann components are $R_{0i0j}=\alpha\,\nabla_i\nabla_j\alpha$ (reducing to $\alpha\,\partial_i\partial_j\alpha$ for $\gamma_{ij}=\delta_{ij}$ and $\partial_i\partial_j\alpha$ at weak-field linear order \citep{MTW1973Gravitation}). The linear Rindler factor~\eqref{eq:alpha_rindler} has identically zero Hessian and Riemann tensor, whereas the nonlinear static profile~\eqref{eq:alpha_weak} has nonzero frame-invariant tidal curvature $R_{0i0j}$. (Both $1/r$ Newtonian and Coulomb potentials share Hessian eigenvalues $2/r^3,-1/r^3,-1/r^3$.)
+\end{remark}
+
+%-------------------------------------------------------------------------------
+\subsection{Light}
+\label{sec:light}
+%-------------------------------------------------------------------------------
+
+Light has no rest frequency, so $\alpha$ acts through its dispersion relation via the eikonal ray law~\eqref{eq:eikonal_ray}. In isotropic weak-field coordinates, $ds^2=-\alpha^2 c^2 dt^2+\alpha^{-2}d\mathbf{x}^2$ \citep{MTW1973Gravitation}, the mass-shell condition $g^{\mu\nu}k_\mu k_\nu=-(mc/\hbar)^2$ with $k_\mu=(-\omega/c,\mathbf{k})$ yields
+\begin{equation}
+    \hbar\,\omega = \alpha\,\sqrt{m^2c^4+\alpha^2c^2\hbar^2|\mathbf{k}|^2} .
+    \label{eq:isotropic_dispersion}
+\end{equation}
+As $|\mathbf{k}|\to 0$, Eq.~\eqref{eq:isotropic_dispersion} gives $\omega=\omega_0\alpha$ (spatial curvature enters slow massive bodies only at $O(v^2/c^2)$ \citep{Gould2016Why}). At $m=0$ it gives $\omega=c|\mathbf{k}|/n_\text{r}$ with gravitational refractive index $n_\text{r}=1/\alpha^2$ \citep{Eddington1920,Gordon1923Refraction,deFelice1971Gravitational}. Applying Eq.~\eqref{eq:eikonal_ray} yields $\dot{\mathbf{k}}=(\omega/n_\text{r})\nabla n_\text{r}$ along constant-$\omega$ rays ($ds_\text{ray}/dt=c/n_\text{r}$, $\mathbf{k}=(n_\text{r}\omega/c)\,d\mathbf{x}/ds_\text{ray}$), giving Fermat's ray equation \citep{Fermat1662Refractions,Evans1986Optics},
+\begin{equation}
+    \frac{d}{ds_\text{ray}}\!\left(n_\text{r}\,\frac{d\mathbf{x}}{ds_\text{ray}}\right) = \nabla n_\text{r} .
+    \label{eq:optical_path}
+\end{equation}
+Each factor of $\alpha^{-1}$ in $n_\text{r}=1/\alpha^2$ (time dilation and spatial curvature) supplies half of the full deflection $4GM/(c^2 b_\text{imp})$ (contrasting Einstein's 1911 $n_\text{r}=1/\alpha$ value $2GM/(c^2 b_\text{imp})$ \citep{Einstein1911Influence,Huygens1690Traite}) and yields the Shapiro delay \citep{Shapiro1964Fourth,Bertotti2003Test}. Equivalently, curved-space Maxwell equations map exactly to a flat-space medium with equal relative permittivity and permeability tensors \citep{Gordon1923Refraction,Plebanski1960Electromagnetic,Leonhardt2006General},
+\begin{equation}
+    \varepsilon_r^{ij} = \mu_r^{ij} = -\frac{\sqrt{-\det(g_{\mu\nu})}\,g^{ij}}{g_{00}} ,
+    \label{eq:constitutive_map}
+\end{equation}
+giving constant vacuum impedance $\mathcal{Z}_0=\sqrt{\mu_0/\varepsilon_0}$ (zero normal-incidence reflection and zero polarization birefringence for $g_{0i}=0$), $\varepsilon_r=\mu_r=1/\alpha^2$ at weak-field isotropic order, and exact isotropic Schwarzschild index $n_\text{r}=4/[\alpha(1+\alpha)^2]$ \citep{MTW1973Gravitation}.
+
+%===============================================================================
+\section{Force laws from the Dirac equation}
+\label{sec:potentials}
+%===============================================================================
+
+The companion paper \citep{HutchisonWavefn2026} derives the exact positive-frequency operator of a spin-$\tfrac{1}{2}$ particle in electromagnetic, Lorentz-scalar, and stationary gravitational fields from the minimally coupled Dirac equation.
+
+%-------------------------------------------------------------------------------
+\subsection{Additive potentials and coupling classes}
+\label{sec:em}
+%-------------------------------------------------------------------------------
+
+Unlike geometric couplings ($\omega=\omega_0\alpha$), gauge potentials shift the frequency \emph{additively}. With kinematic momentum $\boldsymbol{\pi}\equiv\mathbf{p}-q\mathbf{A}$, the minimally coupled nonrelativistic frequency is
+\begin{equation}
+    \omega = \omega_0 + \frac{|\mathbf{p}-q\mathbf{A}|^2/2m + q\Phi}{\hbar} .
+    \label{eq:omega_em}
+\end{equation}
+Here $\mathbf{v}=\hbar\nabla_{\mathbf{p}}\omega=\boldsymbol{\pi}/m$ and $\dot{p}_i=-\hbar\partial_i\omega=-q\partial_i\Phi+q v_j\partial_i A_j$ (Theorem~\ref{thm:universal}), so the observable rate of kinematic momentum is the gauge-invariant Lorentz force:
+\begin{equation}
+    \dot{\boldsymbol{\pi}} = -\hbar\nabla\omega - q\,\dot{\mathbf{A}} = q\,(\mathbf{E}+\mathbf{v}\times\mathbf{B}) ,
+    \label{eq:lorentz}
+\end{equation}
+where $\mathbf{E}=-\nabla\Phi-\partial_t\mathbf{A}$ and $\mathbf{B}=\nabla\times\mathbf{A}$. Because an additive potential carries no factor $\omega_0$, its force scales with $q$ rather than $m$, and a uniform $\Phi$ shifts all levels of a system of charge $q_\text{tot}$ equally, leaving transition clock rates unaltered (observable only interferometrically \citep{Aharonov1959Significance}). Table~\ref{tab:classes} summarizes the coupling classes.
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{Coupling classes distinguished by how each enters the rest frequency $\omega_0=mc^2/\hbar$. A Lorentz-scalar potential $V_\text{sc}$ shifts rest mass to $m=m_0+V_\text{sc}/c^2$ and yields mass-independent acceleration only if $V_\text{sc}\propto m_0$.}
+\label{tab:classes}
+\begin{tabular}{lll}
+\toprule
+\textbf{Coupling class} & \textbf{Frequency at rest} & \textbf{Mass-independent acceleration} \\
+\midrule
+Geometric (gravity, inertia, rotation) & $\omega=\omega_0\,\alpha$ & yes, $\mathbf{F}\propto m$ \\
+Charge (electromagnetic, strong) & $\omega=\omega_0+V/\hbar$ & no \\
+Lorentz scalar & $\omega=\omega_0+V_\text{sc}/\hbar$ & only if $V_\text{sc}\propto m_0$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{remark}[Gauge invariance fixes the additive form]\label{rem:additivity}
+With $x^\mu=(ct,\mathbf{x})$, $\partial_\mu\theta=(-\omega/c,\mathbf{k})$, and $A_\mu=(-\Phi/c,\mathbf{A})$, a gauge shift $\lambda=-t\,\delta\Phi$ changes $\Phi\to\Phi+\delta\Phi$ and $\omega\to\omega+q\,\delta\Phi/\hbar$. If $\omega=\omega_0 f(\Phi)$ with $f(0)=1$, then $\omega_0[f(\Phi+\delta\Phi)-f(\Phi)]=q\,\delta\Phi/\hbar$ for all $\Phi,\delta\Phi$, forcing $f'=q/(mc^2)$ and hence $\omega=\omega_0+q\Phi/\hbar$. By contrast, $\alpha$ adds no phase of its own; it rescales proper time $d\tau=\alpha\,dt$.
+\end{remark}
+
+%-------------------------------------------------------------------------------
+\subsection{Quaternionic spinor, curved-slice wave equation, and master frequency}
+\label{sec:spinor}
+%-------------------------------------------------------------------------------
+
+With quaternion units $e_j e_k=-\delta_{jk}+\epsilon_{jkl}e_l$ and $\mathbf{e}\equiv(e_1,e_2,e_3)$, a two-component spinor $(\psi_1,\psi_2)$ maps to one real quaternion $\psi=\operatorname{Re}\psi_1-(\operatorname{Im}\psi_1)e_3+e_2[\operatorname{Re}\psi_2-(\operatorname{Im}\psi_2)e_3]$ with density $\rho=|\psi|^2=\psi\bar{\psi}$ \citep{HutchisonWavefn2026}. Complex multiplication by $i$ is right multiplication by $-e_3$, while Pauli matrices act two-sidedly as $\sigma_k\psi=-e_k\psi e_3$ (so $-i\sigma_k$ is left multiplication by $e_k$, and $\mathbf{S}=\tfrac{1}{2}\hbar\boldsymbol{\sigma}$). In polar form $\psi=\rho^{1/2}\mathcal{R}_\psi$ ($\mathcal{R}_\psi\bar{\mathcal{R}}_\psi=1$), the spin axis is $\hat{\mathbf{s}}\cdot\mathbf{e}=\mathcal{R}_\psi e_3\bar{\mathcal{R}}_\psi$; left multiplication by $\mathcal{R}=\exp(\tfrac{1}{2}\vartheta\,\hat{\mathbf{n}}\cdot\mathbf{e})$ rotates the spin, while a stationary state $\psi(\mathbf{x},t)=\psi_0(\mathbf{x})\exp(e_3\omega t)$ advances phase on the right (spinning the transverse axes of $\mathcal{R}_\psi$ at $2\omega$).
+
+Right-acting gauge-covariant derivatives $D_t\psi=\partial_t\psi-(V/\hbar)\psi e_3$ and $D_k\psi=\partial_k\psi+(q/\hbar)A_k\psi e_3$ (so $D_k\psi=-\hbar^{-1}(\hat{\pi}_k\psi)e_3$) produce field strengths as commutators:
+\begin{equation}
+    [D_1,D_2]\psi = \frac{q}{\hbar}B_3\psi e_3 , \qquad [D_t,D_k]\psi = \frac{1}{\hbar}(\partial_k V+q\partial_t A_k)\psi e_3 , \qquad (\mathbf{e}\cdot\mathbf{D})^2\psi = -\mathbf{D}^2\psi + \frac{q}{\hbar}(\mathbf{e}\cdot\mathbf{B})\psi e_3 ,
+    \label{eq:fueter_square}
+\end{equation}
+the last identity giving $(\boldsymbol{\sigma}\cdot\hat{\boldsymbol{\pi}})^2=\hat{\boldsymbol{\pi}}^2-q\hbar\,\boldsymbol{\sigma}\cdot\mathbf{B}$ ($g_s=2$ \citep{Dirac1928Quantum}).
+
+On a stationary conformally flat ADM spacetime \citep{Arnowitt2008Dynamics,MTW1973Gravitation},
+\begin{equation}
+    ds^2 = -\alpha_n^2 c^2 dt^2 + W^2|d\mathbf{x}+\mathbf{A}_g dt|^2 , \qquad \alpha = \sqrt{\alpha_n^2 - W^2|\mathbf{A}_g|^2/c^2} ,
+    \label{eq:lapse_shift_metric}
+\end{equation}
+with lapse $\alpha_n>0$, shift (gravitomagnetic potential) $\mathbf{A}_g$, and spatial scale factor $W>0$. (A rotating frame has $\alpha_n=W=1$, $\mathbf{A}_g=\boldsymbol{\Omega}\times\mathbf{x}$; the $1$PN metric has $\alpha_n=1+\Phi_g/c^2+(\beta_\text{PPN}-\tfrac{1}{2})\Phi_g^2/c^4$, $W^{-1}=1+\gamma_\text{PPN}\Phi_g/c^2$, and $\mathbf{A}_g=-(2G/c^2r^3)\mathbf{J}_\text{src}\times\mathbf{x}$ with $\beta_\text{PPN}=\gamma_\text{PPN}=1$ in GR \citep{Will2014Confrontation}; an accelerating frame adds $\mathbf{a}\cdot\mathbf{x}/c^2$ to $\alpha_n$.) Rescaling the orthonormal-frame spinor by $\alpha_n^{1/2}W^{3/2}$ (norm $\int|\psi|^2\alpha_n^{-1}d^3x$) yields the normal covariant derivative
+\begin{equation}
+    D_n\psi = \frac{1}{c\alpha_n}\big[D_t\psi - \mathbf{A}_g\cdot\mathbf{D}\psi + \tfrac{1}{4}(\mathbf{e}\cdot\mathbf{B}_g)\psi - \tfrac{1}{2}(\nabla\cdot\mathbf{A}_g)\psi + \tfrac{1}{2}(\mathbf{A}_g\cdot\nabla\ln\alpha_n)\psi\big] ,
+    \label{eq:normal_derivative}
+\end{equation}
+where $\mathbf{B}_g\equiv\nabla\times\mathbf{A}_g$ couples identically to $\mathbf{L}=\mathbf{x}\times\hat{\boldsymbol{\pi}}$ and $\mathbf{S}$ (gravitomagnetic $g=1$, zero anomalous gravitomagnetic moment \citep{KobzarevOkun1963Gravitational,HehlNi1990Inertial}).
+
+Defining $\mathsf{N}\psi\equiv(D_n\psi)e_3$, $\mathsf{X}\psi\equiv\mathbf{e}\cdot\mathbf{D}\psi$, $\mathsf{X}_W\psi\equiv W^{-1/2}\mathsf{X}(W^{-1/2}\psi)$, and $\kappa\equiv mc/\hbar$, the minimally coupled curved-spacetime Dirac equation \citep{Dirac1928Quantum,Peskin1995Introduction} for $\varphi_R\equiv\psi_R$ and $\varphi_L\equiv-\psi_L$ becomes the chiral pair $(\mathsf{N}+\mathsf{X}_W)\varphi_R=\kappa\varphi_L$ and $(\mathsf{N}-\mathsf{X}_W)\varphi_L=\kappa\varphi_R$ \citep{HutchisonWavefn2026}. For constant $m\neq 0$, eliminating $\varphi_L$ yields the equivalent second-order \emph{quaternionic wave equation} for $\psi\equiv\varphi_R$:
+\begin{equation}
+    \boxed{\; (\mathsf{N}-\mathsf{X}_W)(\mathsf{N}+\mathsf{X}_W)\,\psi = \kappa^2\,\psi \;} ,
+    \label{eq:pure_form}
+\end{equation}
+with conserved density $(|\varphi_R|^2+|\varphi_L|^2)/\alpha_n$. Expanding yields $\mathsf{N}^2-\mathsf{X}_W^2+[\mathsf{N},\mathsf{X}_W]$: the minimally coupled Klein--Gordon operator \citep{Klein1926Quantum,Gordon1926Compton} with the $g_s=2$ magnetic term, plus electric and gravitational field-strength commutators.
+
+In stationary fields, whenever the positive-frequency states form the graph of a bounded Riccati operator---proved in \citet{HutchisonWavefn2026} both by Banach contraction for bounded operators and, without any norm bound on the spatial Dirac operator, by Lyapunov coercivity whenever the potential spread lies below $(\inf\alpha_n)mc^2$---an exact unitary Eriksen decoupling \citep{Foldy1950Dirac,Eriksen1958Foldy} produces the self-adjoint \emph{master frequency equation} on positive-frequency two-component spinors $\chi$:
+\begin{equation}
+    \boxed{\;
+    \hbar\,\omega\,\chi = \Big[V + \alpha_n\sqrt{(mc^2)^2 + c^2 W^{-1}\big(\hat{\boldsymbol{\pi}}^2 - q\hbar\,\boldsymbol{\sigma}\cdot\mathbf{B}\big)W^{-1}} - \hat{\Pi}_g - \tfrac{1}{4}\hbar\,\boldsymbol{\sigma}\cdot\mathbf{B}_g + \mathsf{C}\Big]\,\chi\;} ,
+    \label{eq:master}
+\end{equation}
+where $m=m_0+V_\text{sc}/c^2$, $\hat{\Pi}_g\equiv\alpha_n^{1/2}\tfrac{1}{2}\{\mathbf{A}_g,\hat{\boldsymbol{\pi}}\}\alpha_n^{-1/2}$, and $\mathsf{C}$ is a sum of commutators of $\boldsymbol{\sigma}\cdot\hat{\boldsymbol{\pi}}$, $W$, $\mathsf{G}\equiv m_0 c^2(\alpha_n-1)$, and $\hat{V}\equiv V-\hat{\Pi}_g-\tfrac{1}{4}\hbar\,\boldsymbol{\sigma}\cdot\mathbf{B}_g$ that vanishes when those operators commute. Taking the $\hbar^0$ Weyl symbol (where spin and $\mathsf{C}$ vanish \citep{PanatiSpohnTeufel2003Space,HutchisonWavefn2026}) for a particle at rest ($\dot{\mathbf{x}}=\mathbf{0}$) gives, with no $c^{-2}$ expansion and with $\alpha$ from Eq.~\eqref{eq:lapse_shift_metric},
+\begin{equation}
+    \hbar\omega = V + mc^2\alpha ,
+    \label{eq:static_master}
+\end{equation}
+deriving Eq.~\eqref{eq:omega_alpha} directly from the Dirac equation and giving $\mathbf{F}=-\nabla V-c^2\nabla(m\alpha)$.
+
+%-------------------------------------------------------------------------------
+\subsection{The \texorpdfstring{$c^{-2}$}{1/c2} expansion and force catalog}
+\label{sec:expansion_orders}
+%-------------------------------------------------------------------------------
+
+Expanding the bracket $\hat{h}$ of Eq.~\eqref{eq:master} through $O(c^{-2})$ (proved analytically convergent with Cauchy error $O(c^{-2N-2})$ in \citet{HutchisonWavefn2026}) yields eight additive parts:
+\begin{equation}
+    \boxed{\begin{aligned}
+    \hat{h} = {} & \underbrace{mc^2\,\alpha_n}_{\hbar\omega_\text{geom}} + \underbrace{V}_{\hbar\omega_\text{ext}} + \underbrace{\frac{\alpha_n}{4}\big\{m^{-1},W^{-1}\hat{\boldsymbol{\pi}}^2 W^{-1}\big\}}_{\hbar\omega_\text{kin}} - \underbrace{\hat{\Pi}_g}_{\hbar\omega_\text{gm}} - \underbrace{\frac{\alpha_n q\hbar\,\boldsymbol{\sigma}\cdot\mathbf{B}}{2mW^2}}_{\hbar\omega_\text{Pauli}} \\
+    & - \underbrace{\frac{\hbar\,\boldsymbol{\sigma}\cdot\mathbf{B}_g}{4}}_{\hbar\omega_\text{rot}} - \underbrace{\frac{\hbar^4\mathsf{X}^4}{8m^3 c^2}}_{\hbar\omega_\text{rel}} + \underbrace{\frac{\hbar^2}{2m}\big(\tilde{\mathsf{X}}_W\tilde{\mathsf{X}}_W^\dagger - W^{-1}\mathsf{X}^2 W^{-1}\big)}_{\hbar\omega_\text{so}} + O(c^{-4}) ,
+    \end{aligned}}
+    \label{eq:nr_expansion}
+\end{equation}
+where $\tilde{\mathsf{X}}\equiv e^{-f/4mc^2}\mathsf{X}e^{f/4mc^2}$, $\tilde{\mathsf{X}}_W\equiv W^{-1/2}\tilde{\mathsf{X}}W^{-1/2}$, and $f\equiv\hat{V}+\mathsf{G}-V_\text{sc}$; the similarity map $\alpha_n^{-1/2}\hat{h}\alpha_n^{1/2}$ renders $\hat{h}$ Hermitian in the unweighted inner product. Table~\ref{tab:forces} collects the resulting force and spin-precession laws (using $\dot{\mathbf{x}}=\boldsymbol{\pi}/m_0-\mathbf{A}_g$ and $d\mathbf{S}/dt=(i/\hbar)[\hat{h},\mathbf{S}]$).
+
+\begin{table}[tbp]
+\centering
+\footnotesize
+\caption{Leading force and spin-precession laws from Eq.~\eqref{eq:nr_expansion} through $O(c^{-2})$ ($V=q\Phi+V_\text{ext}$, $\alpha_n=1+\Phi_g/c^2+(\beta_\text{PPN}-\tfrac{1}{2})\Phi_g^2/c^4+\mathbf{a}\cdot\mathbf{x}/c^2$, $\langle\cdot\rangle$ cycle average). The $1$PN velocity row lists the canonical-force term $-\nabla$ at fixed $\mathbf{p}$; a spin term $\mathbf{S}\cdot\boldsymbol{\Omega}_S$ gives $d\mathbf{S}/dt=\boldsymbol{\Omega}_S\times\mathbf{S}$. Complete derivations and cross terms appear in \citet{HutchisonWavefn2026}.}
+\label{tab:forces}
+\renewcommand{\arraystretch}{1.02}
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{p{0.23\linewidth}lll}
+\toprule
+\textbf{Force law} & \textbf{Part} & \textbf{Term of }$\hbar\omega$ & \textbf{Force, canonical force, or precession} \\
+\midrule
+Newtonian gravity & geom & $m_0\Phi_g$ & $-m_0\nabla\Phi_g$ \\
+Nonlinear gravity ($1$PN) & geom & $(\beta_\text{PPN}-\tfrac{1}{2})\,m_0\Phi_g^2/c^2$ & $-(2\beta_\text{PPN}-1)\,(m_0\Phi_g/c^2)\,\nabla\Phi_g$ \\
+Inertial reaction & geom & $m_0\,\mathbf{a}\cdot\mathbf{x}$ & $-m_0\mathbf{a}$ \\
+Lorentz-scalar force & geom & $\alpha_n V_\text{sc}$ & $-\nabla(\alpha_n V_\text{sc})$ \\
+Coulomb / trap force & ext & $q\Phi+V_\text{ext}$ & $-q\nabla\Phi-\nabla V_\text{ext}$ \\
+Magnetic Lorentz, induction & kin & $|\hat{\boldsymbol{\pi}}|^2/2m_0$ & $q\,\dot{\mathbf{x}}\times\mathbf{B}-q\,\partial_t\mathbf{A}$ \\
+Diamagnetic, ponderomotive & kin & $q^2|\mathbf{A}|^2/2m_0$ & $-(q^2/2m_0)\,\nabla\langle|\mathbf{A}|^2\rangle$ \\
+Velocity-dep.\ gravity ($1$PN) & kin & $(\tfrac{1}{2}+\gamma_\text{PPN})\,(\Phi_g/c^2)\,|\hat{\boldsymbol{\pi}}|^2/m_0$ & $-(\tfrac{1}{2}+\gamma_\text{PPN})\,m_0\,(|\dot{\mathbf{x}}|^2/c^2)\,\nabla\Phi_g$ \\
+Frame dragging (Lense--Thirring) & gm & $-\tfrac{1}{2}\{\mathbf{A}_g,\hat{\boldsymbol{\pi}}\}$ & $m_0\,\dot{\mathbf{x}}\times\mathbf{B}_g-m_0\,\partial_t\mathbf{A}_g$ \\
+Coriolis, Euler, centrifugal & gm & $-\boldsymbol{\Omega}\cdot\mathbf{L}$ & $-2m_0\boldsymbol{\Omega}\times\dot{\mathbf{x}}-m_0\dot{\boldsymbol{\Omega}}\times\mathbf{x}-m_0\boldsymbol{\Omega}\times(\boldsymbol{\Omega}\times\mathbf{x})$ \\
+Stern--Gerlach, Larmor & Pauli & $-(q/m_0)\,\mathbf{S}\cdot\mathbf{B}$ & $\nabla[(q/m_0)\,\mathbf{S}\cdot\mathbf{B}],\ \ \boldsymbol{\Omega}_S=-(q/m_0)\,\mathbf{B}$ \\
+Spin-rotation (Mashhoon), Barnett & rot & $-\tfrac{1}{2}\,\mathbf{S}\cdot\mathbf{B}_g$ & $\nabla(\tfrac{1}{2}\,\mathbf{S}\cdot\mathbf{B}_g),\ \ \boldsymbol{\Omega}_S=-\tfrac{1}{2}\,\mathbf{B}_g$ \\
+Relativistic mass increase & rel & $-|\hat{\boldsymbol{\pi}}|^4/8m_0^3 c^2$ & $\dot{\mathbf{x}}=(\boldsymbol{\pi}/m_0)\,(1-|\boldsymbol{\pi}|^2/2m_0^2 c^2)$ \\
+Darwin term & so & $(\hbar^2/8m_0^2 c^2)\,\nabla^2 V$ & $-(\hbar^2/8m_0^2 c^2)\,\nabla(\nabla^2 V)$ \\
+Spin-orbit (Thomas $\tfrac{1}{2}$) & so & $\mathbf{S}\cdot(\nabla V\times\hat{\boldsymbol{\pi}})/2m_0^2 c^2$ & $\boldsymbol{\Omega}_S=(\nabla V\times\boldsymbol{\pi})/2m_0^2 c^2$ \\
+Geodetic precession & so & $(\tfrac{1}{2}+\gamma_\text{PPN})\,\mathbf{S}\cdot(\nabla\Phi_g\times\hat{\boldsymbol{\pi}})/m_0 c^2$ & $\boldsymbol{\Omega}_S=(\tfrac{1}{2}+\gamma_\text{PPN})\,(\nabla\Phi_g\times\dot{\mathbf{x}})/c^2$ \\
+Inertial / scalar spin-orbit & so & $\mathbf{S}\cdot\big[(m_0\mathbf{a}-\nabla V_\text{sc})\times\hat{\boldsymbol{\pi}}\big]/2m_0^2 c^2$ & $\boldsymbol{\Omega}_S=\big[(m_0\mathbf{a}-\nabla V_\text{sc})\times\boldsymbol{\pi}\big]/2m_0^2 c^2$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Newtonian gravity and frame dragging mirror electrostatics and magnetism under $(q,\Phi,\mathbf{A})\leftrightarrow(m_0,\Phi_g,\mathbf{A}_g)$, whereas nonlinear and velocity-dependent gravity, spin couplings ($g_s=2$ magnetic vs.\ $g=1$ gravitomagnetic), and geodetic precession ($\tfrac{1}{2}+\gamma_\text{PPN}$ vs.\ Thomas $\tfrac{1}{2}$) break that analogy. Inertial rows arise directly by setting $\Phi_g=\mathbf{a}\cdot\mathbf{x}$, $W=1$ ($\gamma_\text{PPN}=0$), and $\mathbf{A}_g=\boldsymbol{\Omega}\times\mathbf{x}$ ($\mathbf{B}_g=2\boldsymbol{\Omega}$), with $\tfrac{1}{2}m_0|\dot{\mathbf{x}}|^2-\tfrac{1}{2}m_0|\mathbf{A}_g|^2$ yielding the centrifugal potential $-\tfrac{1}{2}m_0|\boldsymbol{\Omega}\times\mathbf{x}|^2$ as the $c^0$ shift part of $m_0 c^2\alpha$.
+
+%-------------------------------------------------------------------------------
+\subsection{Maxwell's equations, Dirac Route IV, tensor rank, and spin}
+\label{sec:maxwell}
+%-------------------------------------------------------------------------------
+
+Applying the operator Jacobi identity $[D_a,[D_b,D_c]]+\text{cyc.}=0$ to Eq.~\eqref{eq:fueter_square} for $(a,b,c)=(1,2,3)$ and $(t,1,2)$ immediately yields the homogeneous Maxwell (Bianchi) equations $\nabla\cdot\mathbf{B}=0$ and $\nabla\times\mathbf{E}+\partial_t\mathbf{B}=\mathbf{0}$. Introducing a commuting imaginary unit $\mathsf{i}$ ($\mathsf{i}^2=-1$) and the Riemann--Silberstein biquaternion $\mathcal{F}\equiv\mathbf{E}\cdot\mathbf{e}+\mathsf{i}\,c\,\mathbf{B}\cdot\mathbf{e}$ \citep{Silberstein1907Elektromagnetische,Silberstein1912Quaternionic,BialynickiBirula1996Photon}, the identity $(\mathbf{e}\cdot\nabla)(\mathbf{w}\cdot\mathbf{e})=-\nabla\cdot\mathbf{w}+(\nabla\times\mathbf{w})\cdot\mathbf{e}$ collapses all four flat-space Maxwell equations with sources $(\rho_q,\mathbf{J}_q)$ into one equation:
+\begin{equation}
+    \Big(\mathbf{e}\cdot\nabla-\frac{\mathsf{i}}{c}\,\partial_t\Big)\,\mathcal{F} = -\frac{\rho_q}{\varepsilon_0} + \mathsf{i}\,\mu_0 c\,\mathbf{J}_q\cdot\mathbf{e} .
+    \label{eq:maxwell_biquaternion}
+\end{equation}
+Its operator is identical to the massless quaternionic Weyl operator $\mathsf{N}+\mathsf{X}=\mathbf{e}\cdot\nabla-(i/c)\partial_t$ with $\mathsf{i}$ replacing right-acting $i$ ($-e_3$). Applying the commuting conjugate operator $\mathbf{e}\cdot\nabla+(\mathsf{i}/c)\partial_t$ produces $(-\nabla^2+c^{-2}\partial_t^2)\mathcal{F}$ (pure vector) on the left and scalar part $-\mathsf{i}\mu_0 c(\partial_t\rho_q+\nabla\cdot\mathbf{J}_q)$ on the right, forcing charge conservation $\partial_t\rho_q+\nabla\cdot\mathbf{J}_q=0$ (satisfied by the Dirac conserved current), while in the Lorenz gauge the conjugate operator maps $-\Phi+\mathsf{i}c\mathbf{A}\cdot\mathbf{e}$ to $\mathcal{F}$.
+
+Route~IV (Section~\ref{sec:deriv}) transfers verbatim to the Dirac Hamiltonian \citep{Dirac1928Quantum}, which keeps both $\omega_0$ and finite $c$ (hence the light cone \citep{Thaller1992Dirac}). In an accelerated frame, Hehl and Ni's exact Dirac Hamiltonian contains $\beta mc^2(1+\mathbf{a}\cdot\delta\mathbf{x}/c^2)$ before any expansion \citep{HehlNi1990Inertial}, reproducing Eq.~\eqref{eq:alpha_rindler} on the $\beta=+1$ branch (and similarly for localized Fermi-normal systems \citep{Perche2022Localized}). Fields of any tensor rank (rank-$1$ $A_\mu$, rank-$2$ $g_{\mu\nu}$) enter $\omega$ strictly through scalar contractions without altering $\mathbf{F}=-\hbar\nabla\omega$. Because Theorem~\ref{thm:universal} uses only $H=\hbar\omega$, the identity holds at every spin: the spin-free WKB part of Eq.~\eqref{eq:master} is universal, while the rotational coupling $-\tfrac{1}{2}\mathbf{B}_g\cdot\mathbf{S}$ extends to arbitrary spin $\mathbf{S}$, lowering rotating-frame energies by $\hbar M_\Omega\Omega$ for total angular momentum projection $\hbar M_\Omega$ \citep{Mashhoon1998Helicity} (observed as GPS circular-polarization phase wrap-up \citep{Ashby2003Relativity}).
+
+%===============================================================================
+\section{Lagrangian, Hamiltonian, and Noether structure}
+\label{sec:canonical}
+%===============================================================================
+
+%-------------------------------------------------------------------------------
+\subsection{Lagrangian, Hamiltonian, and conservation laws}
+\label{sec:lagrangian}
+%-------------------------------------------------------------------------------
+
+Legendre-transforming the spin-free Newtonian limit of Eq.~\eqref{eq:nr_expansion} (using $\dot{\mathbf{x}}=\alpha_n W^{-2}\boldsymbol{\pi}/m-\mathbf{A}_g$ and absorbing $(mW^2/2\alpha_n)|\mathbf{A}_g|^2$ into $-mc^2\alpha$ via Eq.~\eqref{eq:lapse_shift_metric}) gives the slow-particle Lagrangian
+\begin{equation}
+    L = \tfrac{1}{2}m|\dot{\mathbf{x}}|^2 - U(\mathbf{x},\dot{\mathbf{x}}) , \qquad U(\mathbf{x},\dot{\mathbf{x}}) = mc^2(\alpha-1) + q\Phi - q\,\dot{\mathbf{x}}\cdot\mathbf{A} - m\,\dot{\mathbf{x}}\cdot\mathbf{A}_g ,
+    \label{eq:sgm_lagrangian}
+\end{equation}
+recovering Eq.~\eqref{eq:lorentz}, frame dragging $m\,\dot{\mathbf{x}}\times\mathbf{B}_g-m\partial_t\mathbf{A}_g$, and, for $\mathbf{A}_g=\boldsymbol{\Omega}\times\mathbf{x}$ and $\alpha=\sqrt{1-|\boldsymbol{\Omega}\times\mathbf{x}|^2/c^2}$, the Coriolis and centrifugal forces. Substituting $\mathbf{p}=\hbar\mathbf{k}=\hbar\nabla\theta$ and $H=\hbar\omega=-\hbar\partial_t\theta$ into $L=\mathbf{p}\cdot\dot{\mathbf{x}}-H$ gives along the classical path
+\begin{equation}
+    L = \hbar\,\frac{d\theta}{dt} , \qquad S = \int L\,dt = \hbar\,\Delta\theta
+    \label{eq:action_phase}
+\end{equation}
+(holding exactly for a free relativistic particle: $d\theta/d\tau=-\omega_0\implies L=-mc^2\sqrt{1-|\dot{\mathbf{x}}|^2/c^2}$ and $S=-mc^2\int d\tau$), identifying Hamilton's stationary-action principle with Huygens's constructive-phase principle \citep{Huygens1690Traite,Schrodinger1926Quantization}.
+
+From the symplectic form $\sum_j dp_j\wedge dx_j$ and $H=\hbar\omega(\mathbf{x},\mathbf{p},t)$, Hamilton's equations are dual frequency gradients,
+\begin{equation}
+    \dot{\mathbf{p}} = -\hbar\,\nabla\omega , \qquad \dot{\mathbf{x}} = +\hbar\,\nabla_{\mathbf{p}}\omega , \qquad \frac{dE}{dt} = +\hbar\,\frac{\partial\omega}{\partial t} = -\frac{\partial L}{\partial t} .
+    \label{eq:ham_dual}
+\end{equation}
+With four-momentum $p_\mu=\hbar\,\partial_\mu\theta=(-E/c,\mathbf{p})$ and $\partial_0=c^{-1}\partial_t$, all four rates unify in coordinate time as
+\begin{equation}
+    \frac{dp_\mu}{dt} = -\hbar\,\partial_\mu\omega\big|_{\mathbf{p}} .
+    \label{eq:sgm_fourvector}
+\end{equation}
+Time-translation invariance ($\partial_t\omega=0$) conserves energy ($K+U$, yielding path-independent work $\mathcal{W}=-\Delta U=\Delta K$); integrating Eq.~\eqref{eq:sgm} gives impulse $\mathbf{J}=\Delta\mathbf{p}=\hbar\Delta\mathbf{k}$; and translation invariance of an isolated system's total frequency $\omega_\text{sys}$ ($\sum_i\nabla_i\omega_\text{sys}=\mathbf{0}$) enforces Noether momentum conservation \citep{Noether1918Invariante,Goldstein2002Classical}.
+
+%-------------------------------------------------------------------------------
+\subsection{Rotation: the angular spectral gradient}
+\label{sec:angular}
+%-------------------------------------------------------------------------------
+
+Under an infinitesimal rotation $\delta\vartheta\,\hat{\mathbf{n}}$ of the state with external fields fixed, $\mathbf{x}$, $\mathbf{p}$, and $\langle\boldsymbol{\sigma}\rangle$ rotate together. Defining the unitary generator $\mathsf{T}_\vartheta=\exp[-i\vartheta\,\hat{\mathbf{n}}\cdot(\hat{\mathbf{L}}+\tfrac{1}{2}\hbar\boldsymbol{\sigma})/\hbar]$ and $\partial\hat{\omega}/\partial\vartheta\equiv\frac{d}{d\vartheta}(\mathsf{T}_\vartheta^{-1}\hat{\omega}\mathsf{T}_\vartheta)|_{\vartheta=0}=(i/\hbar)[\hat{\mathbf{n}}\cdot(\hat{\mathbf{L}}+\tfrac{1}{2}\hbar\boldsymbol{\sigma}),\hat{\omega}]$, Eq.~\eqref{eq:ehrenfest_commutator} gives (for $\mathbf{A}=\mathbf{0}$, so $\hat{\mathbf{L}}=\mathbf{L}$) the \emph{angular SGM identity}:
+\begin{equation}
+    \boxed{\;\hat{\mathbf{n}}\cdot\frac{d}{dt}(\mathbf{L}+\mathbf{S}) = -\hbar\,\frac{\partial\omega}{\partial\vartheta}\;} ,
+    \label{eq:sgm_angular}
+\end{equation}
+whose orbital piece comes from the chain rule $(\hat{\mathbf{n}}\times\mathbf{x})\cdot\nabla\omega+(\hat{\mathbf{n}}\times\mathbf{p})\cdot\nabla_{\mathbf{p}}\omega=-\hat{\mathbf{n}}\cdot\frac{d}{dt}(\mathbf{x}\times\mathbf{p})/\hbar$ and whose spin piece comes from $[\mathbf{b}\cdot\boldsymbol{\sigma},\sigma_k]=2i\epsilon_{jkl}b_j\sigma_l$. Rotational invariance of $\omega_\text{sys}$ conserves total $\mathbf{L}+\mathbf{S}$ \citep{Noether1918Invariante}.
+
+In coordinates rotating at $\boldsymbol{\Omega}=\Omega\hat{\mathbf{n}}$, azimuthal phase $m_l\varphi-\omega t$ Doppler-shifts to $\omega-m_l\Omega$, while left-rotating a spin-aligned quaternion $\psi=\rho^{1/2}\mathcal{R}_{\psi_0}\exp(e_3\omega t)$ gives
+\begin{equation}
+    \exp\big(-\tfrac{1}{2}\Omega t\,\hat{\mathbf{n}}\cdot\mathbf{e}\big)\,\psi = \rho^{1/2}\mathcal{R}_{\psi_0}\exp\big(e_3(\omega\mp\tfrac{1}{2}\Omega)\,t\big) ,
+    \label{eq:spin_doppler}
+\end{equation}
+yielding $\hbar\omega=mc^2+\boldsymbol{\pi}^2/2m-\boldsymbol{\Omega}\cdot(\mathbf{L}+\mathbf{S})$ (with $\boldsymbol{\pi}=m(\dot{\mathbf{x}}+\boldsymbol{\Omega}\times\mathbf{x})$). Applying Eq.~\eqref{eq:sgm_angular} gives the \emph{gyroscopic torque}
+\begin{equation}
+    \frac{d}{dt}(\mathbf{L}+\mathbf{S}) = (\mathbf{L}+\mathbf{S})\times\boldsymbol{\Omega} .
+    \label{eq:gyroscopic}
+\end{equation}
+For a held spin, balancing $\mathbf{N}_\text{app}+\mathbf{N}_\text{in}=\mathbf{0}$ with $\mathbf{N}_\text{in}=\mathbf{S}\times\boldsymbol{\Omega}$ recovers gyroscope precession $\mathbf{N}_\text{app}=\boldsymbol{\Omega}\times\mathbf{S}$. Summing the moments $\mathbf{x}\times m\mathbf{a}$ of linear inertial gradients across a rigid body with $\mathbf{a}=\dot{\boldsymbol{\Omega}}\times\mathbf{x}+\boldsymbol{\Omega}\times(\boldsymbol{\Omega}\times\mathbf{x})$ and inertia tensor $\mathcal{I}\mathbf{w}=\sum m\,\mathbf{x}\times(\mathbf{w}\times\mathbf{x})$ yields Euler's rigid-body equation $\mathbf{N}_\text{app}=\mathcal{I}\dot{\boldsymbol{\Omega}}+\boldsymbol{\Omega}\times\mathcal{I}\boldsymbol{\Omega}$ \citep{Goldstein2002Classical} (the spin carries no $\mathcal{I}\dot{\boldsymbol{\Omega}}$ term; $\dot{\boldsymbol{\Omega}}$ only shifts energy via $dE/dt=-\dot{\boldsymbol{\Omega}}\cdot\mathbf{S}$). For $\omega(\mathbf{x},|\mathbf{p}|^2)$, phase winding obeys $d(\partial\theta/\partial\varphi)/dt=-\partial\omega/\partial\varphi$, so angular acceleration $\dot{\Omega}$ winds each particle's phase at $m\dot{\Omega}r_\perp^2/\hbar$. The rotational shift $\Omega$ of spin precession is observed in rotating diamond $^{13}$C NMR \citep{Wood2017Magnetic}, neutron polarimetry/interferometry \citep{Demirel2015Measurement,Danner2020Spin,Werner1979Effect}, and Barnett/Einstein--de~Haas spin--lattice exchange \citep{Barnett1915,EinsteinDeHaas1915Experimental}. Table~\ref{tab:linear_angular} compares linear and angular mechanisms.
+
+\begin{table}[tbp]
+\centering
+\footnotesize
+\caption{Comparison of linear and angular spectral gradients (Sections~\ref{sec:inertia}, \ref{sec:duality}, \ref{sec:lagrangian}, and \ref{sec:angular}).}
+\label{tab:linear_angular}
+\begin{tabular}{lll}
+\toprule
+\textbf{Quantity} & \textbf{Linear} & \textbf{Angular} \\
+\midrule
+State change / conjugate & displacement $\delta\mathbf{x}$ / momentum $\mathbf{p}$ & rotation $\delta\vartheta\,\hat{\mathbf{n}}$ / angular momentum $\mathbf{L}+\mathbf{S}$ \\
+SGM identity & $\dot{\mathbf{p}}=-\hbar\nabla\omega$ & $\hat{\mathbf{n}}\cdot d(\mathbf{L}+\mathbf{S})/dt=-\hbar\,\partial\omega/\partial\vartheta$ \\
+Phase gradient / rate & $\mathbf{k}=\nabla\theta$,\ $\dot{\mathbf{k}}=-\nabla\omega$ & $m_l=\partial\theta/\partial\varphi$ (spin $\pm\tfrac{1}{2}$),\ $d(\partial\theta/\partial\varphi)/dt=-\partial\omega/\partial\varphi$ \\
+Frame Doppler shift & $-\mathbf{k}\cdot\mathbf{u}$ & $-\boldsymbol{\Omega}\cdot(\mathbf{L}+\mathbf{S})/\hbar$ \\
+Inertial reaction / balance & $\mathbf{F}_\text{in}=-m\mathbf{a}$,\ $\mathbf{F}+\mathbf{F}_\text{in}=\mathbf{0}$ & $\mathbf{N}_\text{in}=(\mathbf{L}+\mathbf{S})\times\boldsymbol{\Omega}-\mathcal{I}\dot{\boldsymbol{\Omega}}$,\ $\mathbf{N}_\text{app}+\mathbf{N}_\text{in}=\mathbf{0}$ \\
+Noether symmetry & translation & rotation \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%-------------------------------------------------------------------------------
+\subsection{The Aharonov--Bohm and Sagnac phases}
+\label{sec:ab}
+%-------------------------------------------------------------------------------
+
+In a static field-free region ($\Phi=0$, $\mathbf{B}=\mathbf{0}$, $\mathbf{A}\neq\mathbf{0}$), the Lorentz force~\eqref{eq:lorentz} vanishes and $\hbar\omega=mc^2+\tfrac{1}{2}m|\mathbf{v}|^2$ is unchanged (matching the measured absence of electron time delay \citep{Caprez2007Macroscopic}), while the canonical wavevector $\nabla\theta=(\boldsymbol{\pi}+q\mathbf{A})/\hbar$ shifts locally along each arm. Around a closed loop enclosing magnetic flux $\Phi_B$, parallel transport under the flat right connection $\mathbf{D}\psi=\mathbf{0}$ yields the gauge-invariant holonomy $\exp(-e_3\Delta\theta_\text{AB})$ with the Aharonov--Bohm geometric phase \citep{Aharonov1959Significance,Berry1984Quantal}:
+\begin{equation}
+    \Delta\theta_\text{AB} = \frac{q}{\hbar}\oint\mathbf{A}\cdot d\boldsymbol{\ell} = \frac{q}{\hbar}\,\Phi_B ,
+    \label{eq:ab}
+\end{equation}
+confirmed with shielded toroidal flux \citep{Chambers1960Shift,Tonomura1986Evidence} and mirrored gravitationally in atom interferometry \citep{Hohensee2012Force,Overstreet2022Observation}. Because $\mathbf{A}$ acts directly on the particle's own phase gradient along each arm, this local account needs no auxiliary solenoid-charge or quantized-field degrees of freedom \citep{Vaidman2012Role,Aharonov2016Nonlocality,Marletto2020Aharonov}. Analogously, in rotating coordinates $\mathbf{A}_g=\boldsymbol{\Omega}\times\mathbf{x}$ gives the Sagnac phase $2m\boldsymbol{\Omega}\cdot\boldsymbol{\mathcal{A}}/\hbar$ around vector area $\boldsymbol{\mathcal{A}}$ \citep{Sagnac1913Effect,Werner1979Effect}, accompanied here by the nonzero Coriolis field $\mathbf{B}_g=2\boldsymbol{\Omega}$.
+
+%===============================================================================
+\section{Consistency with experiment}
+\label{sec:experiment}
+%===============================================================================
+
+For a light-pulse atom interferometer with arm height separation $\Delta z(t)$ enclosing spacetime area $\mathcal{A}_{zt}=\int\Delta z\,dt$, Earth's vertical gradient $\partial_z\omega=\omega_0 g/c^2=mg/\hbar$ yields the accumulated phase difference \citep{Anandan1977Gravitational,Stodolsky1979Matter,Kasevich1992Measurement,Storey1994Feynman,Peters1999Measurement}
+\begin{equation}
+    \Delta\theta_g = -\,\partial_z\omega\,\mathcal{A}_{zt} = -\frac{mg}{\hbar}\,\mathcal{A}_{zt} ,
+    \label{eq:interferometer}
+\end{equation}
+evaluated on unperturbed paths (along freely falling trajectories in a symmetric three-pulse $T_\text{p}$ sequence, kinetic and potential action differences $\pm mgv_\text{r}T_\text{p}^2$ cancel and laser pulse phases carry the identical total). Reading Eq.~\eqref{eq:sgm} in reverse extracts particle weight directly from measured phase: in the Colella--Overhauser--Werner silicon-crystal neutron interferometer ($\mathcal{A}_{zt}=3.83\times 10^{-7}~\text{m\,s}$, predicted $59.6$~rad, measured $54.3$~rad due to crystal bending \citep{Colella1975Observation}), $-\hbar\Delta\theta_g/\mathcal{A}_{zt}=1.64\times 10^{-26}$~N equals one neutron's weight; in the Peters--Chung--Chu cesium fountain ($g$ resolved to $3\times 10^{-9}$ \citep{Peters1999Measurement}), the same quotient gives $m_\text{Cs}g=2.16\times 10^{-24}$~N; and tidal curvature across $16$~cm arms has likewise been resolved \citep{Asenbaum2017Phase}.
+
+Direct clock measurements of $\alpha$ span aircraft \citep{Hafele1972Clocks,Hafele1972Observed}, rocket masers \citep{Vessot1980Test}, optical clocks over $0.33$~m \citep{Chou2010Optical} and $1$~mm \citep{Bothwell2022Resolving}, and ultracold-neutron gravitational bound states \citep{Nesvizhevsky2002Quantum} (SGM reproduces Eq.~\eqref{eq:interferometer} without taking a side in the Compton-clock vs.\ universality-of-free-fall debate \citep{Mueller2010Precision,Wolf2011,SinhaSamuel2011,Hohensee2012Comment,Wolf2012Reply,Schleich2013Representation,Roura2020Gravitational}). Earth's gravitomagnetic shift $\mathbf{A}_g$ is confirmed by LAGEOS orbital frame dragging ($99\pm 5\%$ of GR, $10\%$ total uncertainty \citep{Ciufolini2004Confirmation}) and Gravity Probe~B gyroscopic drift ($37.2\pm 7.2$~mas/yr vs.\ $39.2$~mas/yr \citep{Everitt2011Gravity}). In the additive class, the AC Josephson frequency $f_J=(2e/h)\Delta\Phi$ directly measures $q\Phi/\hbar$ and realizes the exact 2019 SI volt standard \citep{Josephson1962Possible,Shapiro1963Josephson,BIPM2019Ampere,CODATA2022Constants}.
+
+%===============================================================================
+\section{Scope and relation to prior work}
+\label{sec:scope}
+%===============================================================================
+
+The optical-mechanical analogy traces to Hamilton \citep{Synge1937Geometrical,Evans1996Optical}, Whitham's ray law \citep{Whitham1974Linear}, Eddington--Gordon gravitational optics \citep{Eddington1920,Gordon1923Refraction}, and Stodolsky's matter-wave phase \citep{Stodolsky1979Matter,Greenberger1979Coherence}. Earlier Compton-frequency gravity derivations \citep{Evans2001Matter,Wootters2003Why,Mueller2014Quantum,Xu2019DeBroglie,Czarnecki2021Gravitational} treated static gravity alone, while Schlegel \citep{Schlegel1954Wave} and Petkov \citep{Petkov1999Acceleration} attributed inertia to whole-wave Lorentz shifts or electromagnetic self-forces; here both gravity and inertia arise from $\omega_0\alpha$ via one operator identity independent of wave-packet size. Our left-right quaternion factorization parallels \citet{Hestenes1990Zitterbewegung} and \citet{LasenbyDoranGull1998Gravity}; Tanimura's curved-space Feynman commutator proof \citep{Tanimura1992Relativistic} recovers our two coupling classes; and Bargmann's Galilean superselection rule \citep{Bargmann1954Unitary} explains why the rest phase becomes observable only relativistically. Unlike pilot-wave theory \citep{deBroglie1927Wave,Bohm1952Suggested,Bohm1952SuggestedB}, where the amplitude-dependent quantum potential $Q$ drives quantum corrections (adding to $\hbar\omega=H+Q$), the spectral gradient $-\hbar\nabla\omega$ survives the classical limit with $\hbar$ cancelling from $-mc^2\nabla\alpha$. Unlike entropic/emergent gravity \citep{Jacobson1995Thermodynamics,Padmanabhan2010Thermodynamics,Verlinde2011Origin,Jacobson2016Entanglement,Verlinde2017Emergent}, no horizon microstates or vacuum entanglement entropy are averaged.
+
+The framework cleanly separates two layers: \emph{given} a prescribed stationary metric---lapse $\alpha(\mathbf{x})$, shift $\mathbf{A}_g(\mathbf{x})$, and spatial curvature $W(\mathbf{x})$ (which supplies half of weak-field light deflection and $\gamma_\text{PPN}/(\gamma_\text{PPN}+\tfrac{1}{2})=\tfrac{2}{3}$ of GR geodetic precession)---together with local position invariance, $\mathbf{F}=-\hbar\nabla\omega|_{\mathbf{p}}$ derives test-particle forces, inertia, $m_g=m_i$, and constrained static/$1$PN many-body matter Hamiltonians; \emph{by contrast}, the gravitational field equations fixing $\alpha$ and $W$ from stress-energy (weak-field Gauss's law and Einstein's equations), the value of $G$, and local position invariance itself are external inputs. Fully time-dependent strong-field metrics and quantized gravitational radiation lie outside it, except for two exact interfaces: interferometric gravitational-wave response and the radiative mean-field exclusion analyzed in the corollaries. In the detector's freely falling Fermi frame, a transverse-traceless wave $h_{ij}^\text{TT}(t)$ induces $\alpha=1+\tfrac{1}{2}R_{0i0j}x_i x_j$ with $R_{0i0j}=-\ddot{h}_{ij}^\text{TT}/(2c^2)$ \citep{Rakhmanov2014Fermi}, so $-mc^2\nabla\alpha$ gives $F_i=\tfrac{1}{2}m\ddot{h}_{ij}^\text{TT}x_j$, shifting test-mass separation by $\tfrac{1}{2}h_{ij}^\text{TT}x_j$ \citep{Flanagan2005Basics}.
+
+%===============================================================================
+\section{Corollaries of the derived laws}
+\label{sec:discussion}
+%===============================================================================
+
+%-------------------------------------------------------------------------------
+\subsection{Wave-function reach and exterior classical field laws}
+\label{sec:reach}
+%-------------------------------------------------------------------------------
+
+Hydrogenic and smooth-potential bound states are nonzero generically at all finite radii \citep{Sakurai2020Modern}, while the free Schr\"odinger kernel spreads instantaneously. Relativistically, the Dirac kernel vanishes outside the light cone \citep{Thaller1992Dirac}, limiting signal spread to $c\Delta t$ (at most the $\approx 46$~Glyr particle horizon $\approx 3c/H_0$ since the early universe \citep{DavisLineweaver2004Expanding}), whereas any state built purely from positive-energy free Dirac modes has unbounded spatial support at every instant by Hegerfeldt's theorem \citep{Hegerfeldt1998Instantaneous}. Below continuum threshold, exponential tail decay preserves finite spread $\Delta x$ obeying Kennard's inequality $\Delta x\,\Delta p\ge\hbar/2$ (for hydrogen $1s$, $\Delta x\,\Delta p=\hbar/\sqrt{3}$; at zero-energy threshold, e.g., $\psi=[\pi(1+x^2)]^{-1/2}$ in $V=(2x^2-1)/[2(1+x^2)^2]$, $\Delta x$ can diverge).
+
+\begin{proposition}[Particles are as large as the universe]\label{prop:reach}
+In a potential without impenetrable hard walls (where unique continuation forbids a bound eigenfunction from vanishing identically on any open set), a bound state generically has nonzero amplitude at arbitrarily large distance, and any positive-energy free Dirac state has unbounded support at every instant \citep{Hegerfeldt1998Instantaneous}. For matter evolved since the early universe, causal reach is bounded only by the particle horizon, while any subsequent localized change propagates strictly inside its future light cone; states with finite second moment remain concentrated near their mean obeying $\Delta x\,\Delta p\ge\hbar/2$.
+\end{proposition}
+
+\begin{remark}[Classical exterior reach versus quantum-gravitational holography]\label{rem:reach}
+In weak-field mean-field coupling, solving Gauss's law~\eqref{eq:gauss_alpha} with $\alpha(\infty)=1$ yields
+\begin{equation}
+    \alpha(\mathbf{x}) - 1 = -\frac{G}{c^2}\int\frac{\rho_m(\mathbf{y})}{|\mathbf{x}-\mathbf{y}|}\,d^3y ,
+    \label{eq:static_density_clock_field}
+\end{equation}
+so positive mass density lowers $\alpha$ everywhere within causal contact (limited in de~Sitter space by the cosmological event horizon \citep{Gibbons1977Cosmological}). By Birkhoff/Gauss symmetry, a spherically symmetric interior rearrangement at fixed mass leaves exterior $\alpha$ unchanged. This classical exterior field reach is distinct from holographic boundary completeness in perturbative quantum gravity, where the asymptotic ADM Hamiltonian and boundary algebra encode interior quantum excitations \citep{Bousso2002,Marolf2009,Laddha2021,Raju2022}; our statements rely strictly on classical exterior field laws and causal propagation.
+\end{remark}
+
+%-------------------------------------------------------------------------------
+\subsection{Planck's constant cancels and the gravitational sector lacks an action constant}
+\label{sec:hbar_cancels}
+%-------------------------------------------------------------------------------
+
+Substituting $\omega_0=mc^2/\hbar$ and $\omega=\omega_0\alpha$ into Eq.~\eqref{eq:sgm} cancels $\hbar$ identically for every $m$ and $\alpha$:
+\begin{equation}
+    \mathbf{F} = -\hbar\,\nabla\!\left(\frac{mc^2}{\hbar}\,\alpha\right) = -mc^2\,\nabla\alpha .
+    \label{eq:hbar_cancels_identity}
+\end{equation}
+Here $\hbar$ belongs to matter (action per radian of its phase), whereas in $x^\mu=(ct,\mathbf{x})$ every component of $g_{\mu\nu}$ (and $\alpha=\sqrt{-g_{00}}$) is dimensionless. Attempting to form an action $\mathsf{M}\mathsf{L}^2\mathsf{T}^{-1}$ from $c^{n_c}G^{n_G}$ (dimension $\mathsf{M}^{-n_G}\mathsf{L}^{n_c+3n_G}\mathsf{T}^{-n_c-2n_G}$) requires $-n_G=1$, $n_c+3n_G=2$, and $-n_c-2n_G=-1$, which is inconsistent ($n_G=-1, n_c=5\implies -n_c-2n_G=-3\neq -1$; equivalently $\det M(\hbar,c,G)=2\neq 0$).
+
+\begin{proposition}[The gravitational sector contains no constant of action]\label{prop:no_grav_action}
+For the gravitational sector $(g_{\mu\nu},c,G)$ in length coordinates $x^\mu=(ct,\mathbf{x})$, every metric component is dimensionless, no product $c^{n_c}G^{n_G}$ has the dimension of action, and $\hbar$ cancels identically from $-mc^2\nabla\alpha$ (Eq.~\eqref{eq:hbar_cancels_identity}). The sector therefore supplies no internal constant of dimension action by which an action functional could be divided to form a phase.
+\end{proposition}
+
+\noindent Two premises and caveats must be stated explicitly. First, a dimensional check alone does not exclude quantization: classical electrodynamics $(c,\varepsilon_0)$ likewise lacks an internal action constant and cancels $\hbar$ from Coulomb's law, yet the electromagnetic field is quantized with the universal $\hbar$ (and path integrals divide the Einstein--Hilbert action $S_\text{EH}=(c^3/16\pi G)\int R\sqrt{-g}\,d^4x$ by matter's $\hbar$). Second, by Lovelock's theorem \citep{Lovelock1972Four} the only further geometric constant in 4D is the cosmological constant $\Lambda$ (which gives $c^3/(G\Lambda)$ of action dimension if placed on the geometric side, though here treated as vacuum source density $c^2\Lambda/(8\pi G)$ \citep{Carroll2001Cosmological}), and free gravitational waves carry dynamical degrees of freedom outside $\alpha$.
+
+Two structural facts sharpen the scope for static and particle-scale gravity. First, quantum matter operates at the \emph{Compton scale} $\hbar/(mc)$ ($\approx 2.10\times 10^{-16}$~m for a proton, $3.86\times 10^{-13}$~m for an electron), separated by roughly $20$ orders of magnitude from the Planck scale $\ell_P\equiv\sqrt{\hbar G/c^3}\approx 1.62\times 10^{-35}$~m ($m_P\equiv\sqrt{\hbar c/G}\approx 2.18\times 10^{-8}$~kg):
+\begin{equation}
+    \frac{\hbar/(m_p c)}{\ell_P} = \frac{m_P}{m_p} \approx 1.30\times 10^{19} , \qquad \frac{\hbar/(m_e c)}{\ell_P} = \frac{m_P}{m_e} \approx 2.39\times 10^{22} .
+    \label{eq:compton_planck_ratio}
+\end{equation}
+Even if spacetime geometry has discrete microstructure at $\ell_P$, $\alpha(\mathbf{x})$ remains indistinguishable from a smooth field across all particle-scale physics. Second, in the ADM decomposition of general relativity \citep{Arnowitt2008Dynamics,DeWitt1967Quantum,Gourgoulhon2007Formalism}, the lapse $\alpha_n$ and shift $\mathbf{A}_g$ have identically vanishing conjugate momenta---they are Lagrange multipliers fixed elliptically by the matter constraints on maximal slices (reducing to Gauss's law~\eqref{eq:gauss_alpha} in static weak fields, analogous to the Coulomb-gauge scalar potential $\Phi$) and therefore carry no independent canonical field quanta to quantize.
+
+%-------------------------------------------------------------------------------
+\subsection{Configuration-space gravity, BMV purity, and Schr\"odinger--Newton exclusion}
+\label{sec:fields_gravity}
+%-------------------------------------------------------------------------------
+
+Integrating $m_1 c^2\alpha_n$ against the conserved Dirac density $(|\varphi_R|^2+|\varphi_L|^2)/\alpha_n$ for two static masses gives the symmetric pair energy $-Gm_1 m_2\iint\rho_1(\mathbf{x})\rho_2(\mathbf{y})|\mathbf{x}-\mathbf{y}|^{-1}d^3x\,d^3y$. Summing solid-angle fluxes of the $1/|\mathbf{x}-\mathbf{y}|$ kernel recovers Gauss's law~\eqref{eq:gauss_alpha} identically (failing for any finite-range Yukawa kernel $e^{-r/\lambda_Y}/r$, whose flux decays as $4\pi(1+r/\lambda_Y)e^{-r/\lambda_Y}$). Just as in electrodynamics---where charge conservation cancels $O(c^{-1})$ retardation in $\Phi$ so delay enters electric forces only at $O(c^{-2})$ \citep{Jackson1999Classical,LandauLifshitz1975Classical}, and Coulomb's static constraint entangles ions separated by $27~\mu\text{m}$ with fidelity $0.82(1)$ without radiation quantization \citep{Wilson2014Tunable,Anastopoulos2018Comment}---applying the static lapse constraint configuration by configuration on the $N$-particle Hilbert space $\mathcal{H}_\text{mat}$ yields
+\begin{equation}
+    \alpha_i(\mathbf{x}_i) - 1 = -\frac{G}{c^2}\sum_{j\neq i}\frac{m_j}{|\mathbf{x}_i-\mathbf{x}_j|} , \qquad H_\text{grav,pair} = \frac{1}{2}\sum_{i=1}^{N} m_i c^2\big(\alpha_i(\mathbf{x}_i)-1\big) = -\sum_{1\le i<j\le N}\frac{G\,m_i m_j}{|\mathbf{x}_i-\mathbf{x}_j|} ,
+    \label{eq:h_grav_pair}
+\end{equation}
+where the factor $\tfrac{1}{2}$ avoids double counting pairs while $-\nabla_{\mathbf{x}_1}H_\text{grav,pair}=-m_1 c^2\nabla_{\mathbf{x}_1}\alpha_1$ recovers the exact single-particle force.
+
+\begin{corollary}[Fields as configuration-space functions]\label{cor:fields}
+In static weak fields, $\alpha$ and $\Phi$ have no independent degrees of freedom and act on the joint matter wave function in $\mathcal{H}_\text{mat}$ as configuration-space multiplication operators built from the Green functions of their constraint laws (Eq.~\eqref{eq:h_grav_pair}), reducing in mean field to Eq.~\eqref{eq:static_density_clock_field}. For moving sources, Einstein's and Maxwell's equations supply $\alpha,\Phi,\mathbf{A},\mathbf{A}_g$ from densities and currents, leaving only free radiation with independent degrees of freedom.
+\end{corollary}
+
+\begin{corollary}[Gravity as wave-function interaction]\label{cor:gravity}
+Every non-radiative interaction acts on a particle solely through the coupling of its wave function to constrained fields sourced by other particles within its causal contact (changes propagating at most at $c$). For static gravity the field is $\alpha$, governed by Eq.~\eqref{eq:gauss_alpha}, exerting $-mc^2\nabla\alpha$.
+\end{corollary}
+
+\noindent (For moving sources, full general relativity cancels first-order aberration via velocity-dependent metric terms and quadrupole conservation, whereas a purely scalar retarded field suffers aberration \citep{Carlip2000Aberration}; Eq.~\eqref{eq:gauss_alpha} is the static constraint only.)
+
+\begin{remark}[Testing the ontology of $\alpha$]\label{rem:lapse_test}
+A deterministic mean-field $\alpha[\langle\hat{\rho}_m\rangle]$ cannot entangle two superposed masses (product states remain product states), and macroscopic uncollapsed mean-field sourcing is already excluded by \citet{PageGeilker1981Indirect}. Under Eq.~\eqref{eq:h_grav_pair}, branch $|a,b\rangle$ ($a,b\in\{0,1\}$, separation $r_{ab}$) accumulates phase $\theta_{ab}=Gm_1 m_2\tau/(\hbar r_{ab})$ ($\approx 0.8$~rad for $10^{-14}$~kg masses at $200~\mu\text{m}$ over $\tau=2.5$~s \citep{Bose2017Spin}). Thus Bose--Marletto--Vedral (BMV) entanglement \citep{Bose2017Spin,Marletto2017Gravitationally} directly tests Corollary~\ref{cor:fields} (a coherent null result with $\Delta\theta_\text{grav}\not\equiv 0\pmod{2\pi}$ would exclude it), while arising here from matter's $\hbar$ via the static constraint without virtual graviton exchange \citep{Anastopoulos2018Comment,Christodoulou2019Possibility} (rapid relativistic recombination links Newtonian phases to radiative modes via causality \citep{DanielsonSatishchandranWald2022}).
+\end{remark}
+
+Because $H_\text{grav,pair}$ is a real multiplication operator on $\mathcal{H}_\text{mat}$, $\exp(-iH_\text{grav,pair}\tau/\hbar)$ is strictly unitary: an atom in spatial superposition pulls neither from a single collapsed site nor from an expectation midpoint, total probability stays identically $100\%$, and branches entangle smoothly. Deterministic Schr\"odinger--Newton mean-field gravity instead breaks linear unitarity quantitatively.
+
+\begin{proposition}[BMV purity versus two-site Schr\"odinger--Newton orthogonalization]\label{prop:config_space_gravity}
+For two masses coupled through static weak-field gravity:
+\begin{enumerate}[label=(\roman*)]
+\item \emph{Configuration-space BMV purity:} Under $\exp(-iH_\text{grav,pair}\tau/\hbar)$ (Eq.~\eqref{eq:h_grav_pair}), the initial product state $|\Psi(0)\rangle=\tfrac{1}{2}(|0\rangle+|1\rangle)\otimes(|0\rangle+|1\rangle)$ evolves to $|\Psi(\tau)\rangle=\tfrac{1}{2}\sum_{a,b}e^{i\theta_{ab}}|a,b\rangle$ with $\theta_{ab}=Gm_1 m_2\tau/(\hbar r_{ab})$. The reduced state $\hat{\rho}_1(\tau)=\operatorname{tr}_2|\Psi(\tau)\rangle\langle\Psi(\tau)|$ has exact purity
+\begin{equation}
+    \operatorname{tr}\big(\hat{\rho}_1(\tau)^2\big) = 1 - \frac{1}{2}\sin^2\!\left(\frac{\Delta\theta_\text{grav}}{2}\right), \qquad \Delta\theta_\text{grav} \equiv \theta_{00}+\theta_{11}-\theta_{01}-\theta_{10} ,
+    \label{eq:gie_phase}
+\end{equation}
+reaching maximal entanglement ($\operatorname{tr}(\hat{\rho}_1^2)=\tfrac{1}{2}$) at $\Delta\theta_\text{grav}=\pi\pmod{2\pi}$ while conserving global unitarity on $\mathcal{H}_\text{mat}$.
+\item \emph{Two-site Schr\"odinger--Newton orthogonalization:} Under deterministic two-site mean-field evolution with $U_\text{self}>U_\text{cross}>0$ \citep{Bahrami2014},
+\begin{equation}
+    i\hbar\,\frac{dc_a}{dt} = -U_\text{self}|c_a|^2 c_a - U_\text{cross}|c_{1-a}|^2 c_a \qquad (a\in\{0,1\}) ,
+    \label{eq:sn_mean_field}
+\end{equation}
+site probabilities $p_a=|c_a|^2$ are constant, while two pure states $|\psi^{(A,B)}(0)\rangle=\sqrt{1-p_{A,B}}|0\rangle+\sqrt{p_{A,B}}|1\rangle$ evolve with squared overlap
+\begin{equation}
+    \big|\langle\psi^{(A)}(t)\mid\psi^{(B)}(t)\rangle\big|^2 = (1-p_A)(1-p_B) + p_A p_B + 2\sqrt{p_A(1-p_A)p_B(1-p_B)}\,\cos(\Delta\omega_\text{SN}\,t) ,
+    \label{eq:sn_overlap_drift}
+\end{equation}
+where $\Delta\omega_\text{SN}=\frac{2(U_\text{self}-U_\text{cross})}{\hbar}(p_B-p_A)$. For $(p_A,p_B)=(\tfrac{1}{4},\tfrac{3}{4})$, the overlap $\tfrac{\sqrt{3}}{2}\big|\cos\big(\frac{(U_\text{self}-U_\text{cross})t}{2\hbar}\big)\big|$ drops from $\sqrt{3}/2$ to exact orthogonality $0$ at finite time $t_*^\text{SN}=\pi\hbar/(U_\text{self}-U_\text{cross})$, breaking unitarity and enabling superluminal Gisin collapse signaling \citep{Gisin1990,Bahrami2014}.
+\end{enumerate}
+\end{proposition}
+\begin{proof}
+(i) $\hat{\rho}_1(\tau)$ has diagonal entries $\tfrac{1}{2}$ and off-diagonal $(\hat{\rho}_1)_{01}=\tfrac{1}{4}(e^{i(\theta_{00}-\theta_{10})}+e^{i(\theta_{01}-\theta_{11})})$, so $|(\hat{\rho}_1)_{01}|^2=\tfrac{1}{4}\cos^2(\Delta\theta_\text{grav}/2)$ and $\operatorname{tr}(\hat{\rho}_1^2)=\tfrac{1}{2}+2|(\hat{\rho}_1)_{01}|^2=1-\tfrac{1}{2}\sin^2(\Delta\theta_\text{grav}/2)$.
+(ii) Equation~\eqref{eq:sn_mean_field} preserves $|c_a|^2$ and drives $\dot{\phi}_1-\dot{\phi}_0=(U_\text{self}-U_\text{cross})(2p-1)/\hbar$, so the relative phase between $A$ and $B$ drifts at $\Delta\omega_\text{SN}=2(U_\text{self}-U_\text{cross})(p_B-p_A)/\hbar$; expanding $|\langle\psi^{(A)}(t)|\psi^{(B)}(t)\rangle|^2$ yields Eq.~\eqref{eq:sn_overlap_drift}, vanishing at $t_*^\text{SN}=\pi\hbar/(U_\text{self}-U_\text{cross})$ for $(p_A,p_B)=(\tfrac{1}{4},\tfrac{3}{4})$.
+\end{proof}
+
+%-------------------------------------------------------------------------------
+\subsection{Moving sources (\texorpdfstring{$1$}{1}PN), radiative mean-field exclusion, and horizon saturation}
+\label{sec:dynamical_gravity}
+%-------------------------------------------------------------------------------
+
+Three exact results extend the analysis beyond static weak fields while defining the precise boundary of graviton-free coupling.
+
+\begin{proposition}[Manifestly Hermitian $1$PN Einstein--Infeld--Hoffmann cross-momentum operator]\label{prop:eih_1pn}
+With the real symmetric $3\times 3$ spatial tensor kernel
+\begin{equation}
+    \mathcal{W}_{ij}^{ab}(\mathbf{r}) \equiv \frac{G}{2c^2|\mathbf{r}|}\!\left(7\,\delta^{ab} + \frac{r^a r^b}{|\mathbf{r}|^2}\right) \qquad (a,b\in\{1,2,3\},\; i\neq j) ,
+    \label{eq:eih_kernel}
+\end{equation}
+eliminating the constrained gravitomagnetic shift at $1$PN order yields the cross-momentum operator on $\mathcal{H}_\text{mat}$ alone,
+\begin{equation}
+    H_\text{EIH}^\text{cross} \equiv \frac{1}{2}\sum_{1\le i<j\le N}\sum_{a,b=1}^{3} \Big(\hat{p}_{i,a}\,\mathcal{W}_{ij}^{ab}(\mathbf{x}_i-\mathbf{x}_j)\,\hat{p}_{j,b} + \hat{p}_{j,b}\,\mathcal{W}_{ij}^{ab}(\mathbf{x}_i-\mathbf{x}_j)\,\hat{p}_{i,a}\Big) ,
+    \label{eq:eih_1pn}
+\end{equation}
+which is manifestly Hermitian on $\mathcal{H}_\text{mat}$ (no graviton Fock space), has the exact classical $1$PN EIH symbol $+\sum_{i<j}\frac{G}{2c^2 r_{ij}}[7\mathbf{p}_i\cdot\mathbf{p}_j+(\mathbf{p}_i\cdot\hat{\mathbf{r}}_{ij})(\mathbf{p}_j\cdot\hat{\mathbf{r}}_{ij})]$, and produces positive Lense--Thirring frame dragging $\dot{\mathbf{x}}_1|_{\mathbf{p}_1=\mathbf{0}}=+\frac{G}{2c^2 r}[7\mathbf{p}_2+(\mathbf{p}_2\cdot\hat{\mathbf{r}})\hat{\mathbf{r}}]$ ($+\frac{7G}{2c^2 r}\mathbf{p}_2$ for $\mathbf{p}_2\perp\mathbf{r}$).
+\end{proposition}
+\begin{proof}
+Since $\hat{p}_{i,a}$ and $\hat{p}_{j,b}$ are Hermitian on distinct particles $i\neq j$ and $\mathcal{W}_{ij}^{ab}$ is real symmetric, taking the adjoint swaps the two terms in each summand of Eq.~\eqref{eq:eih_1pn}. Under the Legendre transform with $\mathbf{v}_i=\mathbf{p}_i/m_i+O(c^{-2})$, the $1$PN EIH Lagrangian cross term $-\sum_{i<j}\frac{Gm_i m_j}{2c^2 r_{ij}}[7\mathbf{v}_i\cdot\mathbf{v}_j+(\mathbf{v}_i\cdot\hat{\mathbf{r}}_{ij})(\mathbf{v}_j\cdot\hat{\mathbf{r}}_{ij})]$ flips sign to $+H_\text{EIH}^\text{cross}$; differentiating with respect to $\mathbf{p}_1$ at $\mathbf{p}_1=\mathbf{0}$ yields $\dot{\mathbf{x}}_1|_{\mathbf{p}_1=\mathbf{0}}$.
+\end{proof}
+
+Conversely, for dynamical transverse-traceless gravitational radiation $h_{ij}^\text{TT}$, coupling matter to a deterministic nonlinear radiative mean field $h_{ij}^\text{TT}[\langle\hat{T}_{\mu\nu}\rangle]$ fails even when static mass densities coincide.
+
+\begin{proposition}[Exclusion of deterministic nonlinear radiative mean-field gravity]\label{prop:rad_meanfield_signaling}
+Consider orthogonal matter states $|0\rangle,|1\rangle$ with identical static mass-energy density $T_{00}^{(0)}(\mathbf{x})\equiv T_{00}^{(1)}(\mathbf{x})$ (so $\Delta\omega_\text{SN}\equiv 0$) but orthogonal $+/\times$ traceless quadrupole tensors $E^{(0)}=\operatorname{diag}(1,-1,0)$ and $E^{(1)}=\bigl(\begin{smallmatrix}0&1&0\\1&0&0\\0&0&0\end{smallmatrix}\bigr)$ ($\operatorname{tr}(E^{(a)}E^{(b)})=2\delta_{ab}$). Under deterministic nonlinear radiative mean-field coupling $h_{ij}^\text{TT}[\langle\hat{T}_{\mu\nu}\rangle]$:
+\begin{enumerate}[label=(\roman*)]
+\item \emph{Radiative pure-state orthogonalization:} Near-zone time-symmetric TT self-coupling yields $E_0^\text{rad}(p)=-\kappa_\text{rad}(1-p)$ and $E_1^\text{rad}(p)=-\kappa_\text{rad}p$ ($\kappa_\text{rad}>0$), driving $|\psi^{(A,B)}(0)\rangle=\sqrt{1-p_{A,B}}|0\rangle+\sqrt{p_{A,B}}|1\rangle$ to obey
+\begin{equation}
+    \big|\langle\psi^{(A)}(t)\mid\psi^{(B)}(t)\rangle\big|^2 = (1-p_A)(1-p_B) + p_A p_B + 2\sqrt{p_A(1-p_A)p_B(1-p_B)}\,\cos(\Delta\omega_\text{rad}\,t) ,
+    \label{eq:rad_overlap_drift}
+\end{equation}
+with $\Delta\omega_\text{rad}=\frac{2\kappa_\text{rad}}{\hbar}(p_B-p_A)$, orthogonalizing $(p_A,p_B)=(\tfrac{1}{4},\tfrac{3}{4})$ at finite time $t_*^\text{rad}=\pi\hbar/\kappa_\text{rad}$ \citep{Polchinski1991}.
+\item \emph{Superluminal Bell gravitational-wave power signaling:} If Alice and Bob share $|\Phi^+\rangle=\tfrac{1}{\sqrt{2}}(|00\rangle+|11\rangle)$ and Bob drives oscillating $+/\times$ quadrupoles $\hat{I}_{ij}^\text{TF}(t)=\mathcal{Q}_0\cos(\Omega_\text{quad}t)(E_{ij}^{(0)}|0\rangle\langle 0|+E_{ij}^{(1)}|1\rangle\langle 1|)$, then under collapsed-branch sourcing Bob's ensemble-average quadrupole power $P_\text{GW}=\frac{G}{5c^5}\langle\dddot{I}_{ij}^\text{TF}\dddot{I}_{ij}^\text{TF}\rangle_t$ equals $P_\text{GW}^{(Z)}=P_0\equiv\frac{G\mathcal{Q}_0^2\Omega_\text{quad}^6}{5c^5}$ when Alice measures $Z$ versus $P_\text{GW}^{(X)}=\tfrac{1}{2}P_0$ when Alice measures $X$, producing the superluminal power bias
+\begin{equation}
+    \Delta P_\text{GW} \equiv P_\text{GW}^{(Z)} - P_\text{GW}^{(X)} = \frac{1}{2}\,P_0 = \frac{G\,\mathcal{Q}_0^2\,\Omega_\text{quad}^6}{10\,c^5} > 0 .
+    \label{eq:gw_power_bias}
+\end{equation}
+Uncollapsed reduced-density-matrix sourcing removes $\Delta P_\text{GW}$ while retaining pure-state orthogonalization~\eqref{eq:rad_overlap_drift} \citep{Polchinski1991} and remaining macroscopically excluded by \citet{PageGeilker1981Indirect}.
+\end{enumerate}
+\end{proposition}
+\begin{proof}
+Direct traces give $\operatorname{tr}(E^{(a)})=0$, $\operatorname{tr}(E^{(a)}E^{(b)})=2\delta_{ab}$, and $\operatorname{tr}[(\tfrac{1}{2}(E^{(0)}+E^{(1)}))^2]=1$. Time-averaging $\sin^2(\Omega_\text{quad}t)$ gives $\tfrac{1}{2}$, so each $Z$-branch radiates $\frac{G\mathcal{Q}_0^2\Omega_\text{quad}^6}{10c^5}\cdot 2=P_0$ whereas each $X$-branch $|\pm\rangle$ has expectation quadrupole $\tfrac{1}{2}(E^{(0)}+E^{(1)})$ radiating $\frac{G\mathcal{Q}_0^2\Omega_\text{quad}^6}{10c^5}\cdot 1=\tfrac{1}{2}P_0$, proving Eq.~\eqref{eq:gw_power_bias}. Equation~\eqref{eq:rad_overlap_drift} follows identically to Proposition~\ref{prop:config_space_gravity}(ii) with $U_\text{self}-U_\text{cross}\to\kappa_\text{rad}$.
+\end{proof}
+
+\noindent Together with causality, Proposition~\ref{prop:rad_meanfield_signaling} fixes the sharp boundary of graviton-free coupling: static and quasi-static ($1$PN) particle-scale forces and BMV entanglement follow unitarily on $\mathcal{H}_\text{mat}$ without virtual graviton exchange, whereas deterministic nonlinear radiative mean fields are excluded, leaving dynamical gravitational radiation $h_{ij}^\text{TT}$ requiring either quantized modes or linear stochastic dynamics.
+
+Finally, at the Schwarzschild horizon $\alpha(r)=\sqrt{1-R_s/r}$ ($r>R_s=2GM/c^2$, $A(r)=4\pi r^2$, $E=Mc^2$), the matter-side Bekenstein ratio obeys the exact identity
+\begin{equation}
+    \frac{S_\text{Bek}}{k_B} \equiv \frac{2\pi r E}{\hbar c} = \frac{A(r)}{4\ell_P^2}\big(1-\alpha(r)^2\big) \xrightarrow{\;r\to R_s^+\;} \frac{A(R_s)}{4\ell_P^2} ,
+    \label{eq:bek_bh_sat}
+\end{equation}
+since $1-\alpha(r)^2=2GE/(rc^4)$ and $A(r)/(4\ell_P^2)=\pi r^2 c^3/(\hbar G)$. Thus $\hbar$ enters the horizon saturation value $A(R_s)/(4\ell_P^2)$ from matter's wavelength scale at $\alpha\to 0$ without quantizing the static lapse, while any microscopic holographic interpretation belongs to quantum gravity beyond classical exterior field laws \citep{Bousso2002,Marolf2009}.
+
+%===============================================================================
+\section{Conclusion}
+\label{sec:conclusion}
+%===============================================================================
+
+Replacing flat-spacetime quantum mechanics' uniform rest-frequency assumption $\nabla(\omega_0\alpha)\equiv\mathbf{0}$ with the spatially varying frequency field $\omega(\mathbf{x},\mathbf{p})=H(\mathbf{x},\mathbf{p})/\hbar$ unifies Hamilton's equation, Whitham's eikonal ray law, the Legendre transform, and Ehrenfest's theorem into $\mathbf{F}=-\hbar\nabla\omega|_{\mathbf{p}}$ (Eq.~\eqref{eq:sgm}), valid in expectation values for every Hermitian quantum Hamiltonian under explicit domain conditions (Theorem~\ref{thm:universal}). Taking a prescribed metric $(\alpha,\mathbf{A}_g,W)$, local position invariance, and external gravitational field equations as input, the static clock gradient yields $\mathbf{F}_\text{grav}=-mc^2\nabla\alpha$ without the geodesic equation---recovering Newtonian gravity via weak-field Gauss's law and the exact strong-field Schwarzschild three-force triad and Komar--Gauss flux (Corollary~\ref{cor:causal_gravity})---while Rindler time dilation yields the inertial reaction $-m\mathbf{a}$ with the identical prefactor $\omega_0$, explaining $m_g=m_i$, universal free fall, and Newton's second law while separating gravity from uniform acceleration at second order in the tidal Riemann Hessian $R_{0i0j}=\alpha\nabla_i\nabla_j\alpha$ (Remark~\ref{rem:rank}). The same eikonal law yields gravitational light deflection $4GM/(c^2 b_\text{imp})$ and the Shapiro delay from $n_\text{r}=1/\alpha^2$.
+
+Coupled to the companion paper's quaternionic Dirac reduction \citep{HutchisonWavefn2026}, the identity organizes electromagnetic, gravitomagnetic, spin, fine-structure, and inertial forces (Table~\ref{tab:forces}), compresses flat-space Maxwell's equations into one biquaternion equation~\eqref{eq:maxwell_biquaternion}, recovers canonical mechanics, Noether conservation, Euler's rigid-body equations, and local Aharonov--Bohm and Sagnac holonomies, and matches atom-interferometry, atomic-clock, frame-dragging, and Josephson measurements. Because $\hbar$ cancels identically from $-mc^2\nabla\alpha$, $(g_{\mu\nu},c,G)$ supplies no internal action constant (Proposition~\ref{prop:no_grav_action}), and particle-scale Compton quantization sits $\sim 20$ orders of magnitude above $\ell_P$, static and $1$PN gravitational interactions act unitarily on matter configuration space via the strictly Hermitian operators $H_\text{grav,pair}$ and $H_\text{EIH}^\text{cross}$, yielding exact BMV entanglement purity (Propositions~\ref{prop:config_space_gravity} and~\ref{prop:eih_1pn}) without virtual graviton exchange. By contrast, deterministic nonlinear mean-field gravity---both static Schr\"odinger--Newton and radiative quadrupole sourcing---is excluded by finite-time state orthogonalization and superluminal Bell gravitational-wave power signaling (Propositions~\ref{prop:config_space_gravity} and~\ref{prop:rad_meanfield_signaling}), leaving dynamical radiation $h_{ij}^\text{TT}$, $2.5$PN radiation reaction, and time-dependent strong-field gravity outside the static constrained sector, where the Schwarzschild horizon cleanly saturates the Bekenstein bound $A/(4\ell_P^2)$ as $\alpha\to 0$.
+
+\section*{Data availability statement}
+No new experimental data were created or analyzed in this study. All equations, derivations, and numerical estimates in this paper have been formally and computationally verified via a symbolic/numerical Python verification suite (1,015 checks with negative-control mutants), an automated derivation-graph auditor, and a sorry-free Lean~4 formalization of the underlying algebraic, kinematic, and analytical theorems (audited to Lean's three standard axioms). Both the Python verification suite and the Lean~4 formalization are publicly available at \url{https://github.com/lukehutch/SGM}.
+
+\bibliographystyle{apsrev4-2}
+\bibliography{references-sgm}
+
+\end{document}

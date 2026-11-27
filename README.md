@@ -26,27 +26,30 @@ A particle is driven toward lower oscillation frequency at a rate set by the spa
 
 ### The Two Companion Papers
 
-Each companion paper is provided both as a **full manuscript** (complete derivations, proofs, appendices, and supplements) and as a **4-page *Physical Review Letters* (PRL) short summary**. All LaTeX sources and the shared bibliography live in [`papers/`](papers/), and compiled PDFs with Page-1 previews live in [`pdf/`](pdf/).
+Each companion paper is provided in three lengths: a **full manuscript** (complete derivations, proofs, appendices, and supplements), a **medium journal-length paper** (self-contained main derivations and key theorems), and a **4-page *Physical Review Letters* (PRL) short summary**. All LaTeX sources and the shared bibliography live in [`papers/`](papers/), and compiled PDFs with Page-1 previews live in [`pdf/`](pdf/).
 
 #### Paper I — *Spectral Gradient Mechanics: force as the gradient of wave function frequency, and time dilation as the origin of gravity and inertia*
 
 Derives $`\mathbf{F} = -\hbar\nabla\omega|_{\mathbf{p}}`$ via four independent routes (Hamiltonian, eikonal/convective, Legendre/dispersion, and Ehrenfest); applies it to electromagnetism, inertia, light deflection, and strong-field gravity; shows that Maxwell's four equations collapse into a single biquaternion equation; proves the absence of a gravitational action quantum and quantifies the Compton-to-Planck scale gap; and contrasts unitary configuration-space gravitational entanglement and post-Newtonian frame dragging against nonlinear mean-field signaling exclusions.
 
-<table width="60%">
+<table width="90%">
   <thead>
     <tr>
-      <th width="50%" align="center">Full Paper (84 pp.)</th>
-      <th width="50%" align="center">4-Page PRL Summary</th>
+      <th width="33%" align="center">Full Paper (84 pp.)</th>
+      <th width="33%" align="center">Medium Paper (19 pp.)</th>
+      <th width="33%" align="center">4-Page PRL Summary</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td width="50%" align="center"><a href="pdf/sgm.pdf"><img src="pdf/sgm_thumb.png" alt="SGM Full Paper" width="240"></a></td>
-      <td width="50%" align="center"><a href="pdf/sgm_short.pdf"><img src="pdf/sgm_short_thumb.png" alt="SGM Short PRL Paper" width="240"></a></td>
+      <td width="33%" align="center"><a href="pdf/sgm_full.pdf"><img src="pdf/sgm_full_thumb.png" alt="SGM Full Paper" width="220"></a></td>
+      <td width="33%" align="center"><a href="pdf/sgm_medium.pdf"><img src="pdf/sgm_medium_thumb.png" alt="SGM Medium Paper" width="220"></a></td>
+      <td width="33%" align="center"><a href="pdf/sgm_short.pdf"><img src="pdf/sgm_short_thumb.png" alt="SGM Short PRL Paper" width="220"></a></td>
     </tr>
     <tr>
-      <td width="50%" align="center"><a href="pdf/sgm.pdf"><strong>PDF</strong></a> · <a href="papers/sgm.tex">LaTeX</a><br><code>sgm.pdf</code></td>
-      <td width="50%" align="center"><a href="pdf/sgm_short.pdf"><strong>PDF</strong></a> · <a href="papers/sgm_short.tex">LaTeX</a><br><code>sgm_short.pdf</code></td>
+      <td width="33%" align="center"><a href="pdf/sgm_full.pdf"><strong>PDF</strong></a> · <a href="papers/sgm_full.tex">LaTeX</a><br><code>sgm_full.pdf</code></td>
+      <td width="33%" align="center"><a href="pdf/sgm_medium.pdf"><strong>PDF</strong></a> · <a href="papers/sgm_medium.tex">LaTeX</a><br><code>sgm_medium.pdf</code></td>
+      <td width="33%" align="center"><a href="pdf/sgm_short.pdf"><strong>PDF</strong></a> · <a href="papers/sgm_short.tex">LaTeX</a><br><code>sgm_short.pdf</code></td>
     </tr>
   </tbody>
 </table>
@@ -55,21 +58,24 @@ Derives $`\mathbf{F} = -\hbar\nabla\omega|_{\mathbf{p}}`$ via four independent r
 
 Builds the quaternionic Weyl/Dirac wave equation on general curved stationary spacetime slices; proves exact positive/negative-frequency decoupling for both bounded and unbounded momentum operators; derives a convergent, pole-free $`c^{-2}`$ catalog of all relativistic forces and spin precessions; proves all-speeds WKB quasimode bounds and four **one-to-one** $`O(\hbar^2)`$ relativistic Bohr–Sommerfeld quantization theorems; and establishes the algebraic and unitary constraints (selection of $`\mathbb{H}`$ over the octonions $`\mathbb{O}`$, single-equation biquaternion Maxwell & curved optical-gravity Maxwell unification, and horizon Zitterbewegung limits).
 
-<table width="60%">
+<table width="90%">
   <thead>
     <tr>
-      <th width="50%" align="center">Full Paper (94 pp.)</th>
-      <th width="50%" align="center">4-Page PRL Summary</th>
+      <th width="33%" align="center">Full Paper (94 pp.)</th>
+      <th width="33%" align="center">Medium Paper (17 pp.)</th>
+      <th width="33%" align="center">4-Page PRL Summary</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td width="50%" align="center"><a href="pdf/sgm_wavefn.pdf"><img src="pdf/sgm_wavefn_thumb.png" alt="Quaternionic Dirac Full Paper" width="240"></a></td>
-      <td width="50%" align="center"><a href="pdf/sgm_wavefn_short.pdf"><img src="pdf/sgm_wavefn_short_thumb.png" alt="Quaternionic Dirac Short PRL Paper" width="240"></a></td>
+      <td width="33%" align="center"><a href="pdf/sgm_wavefn_full.pdf"><img src="pdf/sgm_wavefn_full_thumb.png" alt="Quaternionic Dirac Full Paper" width="220"></a></td>
+      <td width="33%" align="center"><a href="pdf/sgm_wavefn_medium.pdf"><img src="pdf/sgm_wavefn_medium_thumb.png" alt="Quaternionic Dirac Medium Paper" width="220"></a></td>
+      <td width="33%" align="center"><a href="pdf/sgm_wavefn_short.pdf"><img src="pdf/sgm_wavefn_short_thumb.png" alt="Quaternionic Dirac Short PRL Paper" width="220"></a></td>
     </tr>
     <tr>
-      <td width="50%" align="center"><a href="pdf/sgm_wavefn.pdf"><strong>PDF</strong></a> · <a href="papers/sgm_wavefn.tex">LaTeX</a><br><code>sgm_wavefn.pdf</code></td>
-      <td width="50%" align="center"><a href="pdf/sgm_wavefn_short.pdf"><strong>PDF</strong></a> · <a href="papers/sgm_wavefn_short.tex">LaTeX</a><br><code>sgm_wavefn_short.pdf</code></td>
+      <td width="33%" align="center"><a href="pdf/sgm_wavefn_full.pdf"><strong>PDF</strong></a> · <a href="papers/sgm_wavefn_full.tex">LaTeX</a><br><code>sgm_wavefn_full.pdf</code></td>
+      <td width="33%" align="center"><a href="pdf/sgm_wavefn_medium.pdf"><strong>PDF</strong></a> · <a href="papers/sgm_wavefn_medium.tex">LaTeX</a><br><code>sgm_wavefn_medium.pdf</code></td>
+      <td width="33%" align="center"><a href="pdf/sgm_wavefn_short.pdf"><strong>PDF</strong></a> · <a href="papers/sgm_wavefn_short.tex">LaTeX</a><br><code>sgm_wavefn_short.pdf</code></td>
     </tr>
   </tbody>
 </table>
@@ -78,30 +84,30 @@ Builds the quaternionic Weyl/Dirac wave equation on general curved stationary sp
 
 ## Key Mathematical & Algorithmic Findings
 
-1. **Universal Force–Frequency Identity & Wave-Function Truncation Control (`sgm.tex` Secs. 2–3):**
+1. **Universal Force–Frequency Identity & Wave-Function Truncation Control (`sgm_full.tex` Secs. 2–3):**
    - Four independent derivations—Hamilton's equations, $`C^2`$ eikonal convective cancellation, the Legendre dispersion bridge, and Ehrenfest's commutator law (with explicit domain and symmetry hypotheses)—converge on $`\mathbf{F} = -\hbar\nabla\omega|_{\mathbf{p}}`$. In static gravity, $`\hbar`$ drops out of the force $`-mc^2\nabla\alpha`$ while remaining in interferometric phase shifts.
    - Truncating a normalized wave function to a finite region whose far tail carries probability $`P_\text{tail}`$ changes the state by exact pure-state trace distance $`d_\text{tr}(\psi,\psi_\text{box}) = \sqrt{P_\text{tail}}`$, bounding every measurement probability shift.
    - In strong-field Schwarzschild spacetime (both areal and isotropic coordinates), the coordinate force, local proper weight, and force-at-infinity obey $`\mathbf{F}_\text{SGM} = \mathbf{F}_\text{prop} = \alpha^{-1}\mathbf{F}_\infty`$, reconciling with the general non-diagonal static metric norm $`m a_\text{prop} = \alpha^{-1}\sqrt{h^{jk}F_j F_k}`$ and the exact exterior Komar–Gauss flux $`4\pi GM/c^2`$.
 
-2. **Constrained Configuration-Space Gravity, Scale Separation & Mean-Field Exclusions (`sgm.tex` Secs. 7.2–7.4 & Supp. S8):**
+2. **Constrained Configuration-Space Gravity, Scale Separation & Mean-Field Exclusions (`sgm_full.tex` Secs. 7.2–7.4 & Supp. S8):**
    - **No gravitational action quantum (`prop:no_grav_action`) & Compton-to-Planck scale gap (`eq:compton_planck_ratio`):** The $`3\times 3`$ dimensional matrix for $`(G, c, \hbar)`$ has $`\det = 2 \neq 0`$, proving no product of powers of $`G`$ and $`c`$ yields action, while the Planck force $`c^4/G`$ is independent of $`\hbar`$. Proton and electron Compton wavelengths sit $`m_P/m_p \approx 1.30\times 10^{19}`$ and $`m_P/m_e \approx 2.39\times 10^{22}`$ times above $`\ell_P`$—roughly $`20`$ orders of magnitude separating particle quantization from any putative Planck-scale structure of time dilation.
    - **BMV entanglement purity vs. Schrödinger–Newton orthogonalization (`prop:config_space_gravity`):** Correct $`\tfrac{1}{2}`$ pair counting gives the Hermitian configuration-space operator $`H_\text{grav,pair}`$ on $`\mathcal{H}_\text{mat}`$, conserving total probability unitarily and yielding exact reduced-state purity $`\mathrm{tr}(\hat{\rho}_1^2) = 1 - \tfrac{1}{2}\sin^2(\Delta\theta_\text{grav}/2)`$. By contrast, two-site Schrödinger–Newton mean-field gravity drives states with initial overlap $`\sqrt{3}/2`$ to exact orthogonality in finite time $`t_*^\text{SN} = \pi\hbar/(U_\text{self} - U_\text{cross})`$, breaking unitarity and enabling Gisin collapse signaling.
    - **Manifestly Hermitian 1PN moving-source coupling (`prop:eih_1pn`):** Eliminating the constrained gravitomagnetic shift at first post-Newtonian order yields a manifestly Hermitian 3D tensor-sandwich operator $`\tfrac{1}{2}\big(\hat{p}_{i,a}\mathcal{W}_{ij}^{ab}\hat{p}_{j,b} + \hat{p}_{j,b}\mathcal{W}_{ij}^{ab}\hat{p}_{i,a}\big)`$ directly on $`\mathcal{H}_\text{mat}`$ with positive Lense–Thirring frame dragging.
    - **Radiative mean-field exclusion (`prop:rad_meanfield_signaling`):** Coupling matter to deterministic nonlinear radiative mean fields $`h_{ij}^\text{TT}[\langle\hat{T}_{\mu\nu}\rangle]`$ produces both finite-time orthogonalization (even at identical static mass densities) and a superluminal Bell gravitational-wave power bias $`\Delta P_\text{GW} = G \mathcal{Q}_0^2 \Omega_\text{quad}^6 / (10 c^5)`$.
    - **Horizon Bekenstein saturation (`eq:bek_bh_sat`, `rem:reach`):** Along a Schwarzschild sphere of areal radius $`r > R_s`$, the matter-side Bekenstein ratio obeys $`2\pi r(Mc^2)/(\hbar c) = (A(r)/4\ell_P^2)(1-\alpha(r)^2) \to A(R_s)/(4\ell_P^2)`$ as $`\alpha(r)\to 0`$, cleanly separating classical exterior field laws from quantum-gravitational boundary completeness.
 
-3. **Quaternionic Selection, Single-Equation Maxwell Formulation & Octonionic Obstructions (`sgm.tex` Sec. 4.6; `sgm_wavefn.tex` Secs. 3 & 7.6, App. A.2 & A.8):**
+3. **Quaternionic Selection, Single-Equation Maxwell Formulation & Octonionic Obstructions (`sgm_full.tex` Sec. 4.6; `sgm_wavefn_full.tex` Secs. 3 & 7.6, App. A.2 & A.8):**
    - Sequential closure of left multiplications into a single algebra element ($`\forall a,b\,\exists c,\, L_a\circ L_b = L_c`$) holds if and only if the algebra is associative, uniquely selecting the quaternions $`\mathbb{H}`$ among the four Hurwitz division algebras $`\{\mathbb{R},\mathbb{C},\mathbb{H},\mathbb{O}\}`$ once spin non-commutativity is required.
    - Over $`\mathbb{H}`$, left spin rotations commute pointwise with right $`U(1)`$ phases ($`[L_a, R_b]=0`$), while spatially varying potentials generate $`\mathbf{E}`$ and $`\mathbf{B}`$ via $`[\partial_\mu, R_{fe_3}]\psi = (\partial_\mu f)\psi e_3`$. The 16 two-sided maps $`e_\mu\psi e_\nu`$ form a basis of $`\mathrm{End}_\mathbb{R}(\mathbb{H})`$, and the $`4\times 4`$ wave operator table decomposes cleanly into Klein–Gordon (diagonal), electric/gravitational (border), and magnetic/curvature (interior) blocks.
    - **All four of Maxwell's equations as a single quaternion (biquaternion) equation (`eq:maxwell_biquaternion`):** The Jacobi identity of the covariant derivatives automatically yields the two homogeneous Maxwell equations ($`\nabla\cdot\mathbf{B}=0`$, $`\nabla\times\mathbf{E}+\partial_t\mathbf{B}=\mathbf{0}`$). Introducing a commuting imaginary unit $`\mathsf{i}`$ and forming the Riemann–Silberstein biquaternion $`\mathcal{F} = \mathbf{E}\cdot\mathbf{e} + \mathsf{i}\,c\,\mathbf{B}\cdot\mathbf{e}`$ collapses all four Maxwell equations with sources into the single equation $`\big(\mathbf{e}\cdot\nabla - (\mathsf{i}/c)\,\partial_t\big)\mathcal{F} = -\rho_q/\varepsilon_0 + \mathsf{i}\,\mu_0 c\,\mathbf{J}_q\cdot\mathbf{e}`$—using the exact same first-order operator as the massless quaternionic Weyl equation (with $`\mathsf{i}`$ in place of right-multiplication $`i`$), and yielding charge conservation $`\partial_t\rho_q + \nabla\cdot\mathbf{J}_q = 0`$ directly as its consistency condition. In curved static metrics, optical-gravity Maxwell evolution factors into a self-adjoint congruence $`\hat{H}_\text{Max}^{(n)} = M_\text{opt} C_0 M_\text{opt}`$ on the weighted transverse subspace $`\nabla\cdot(\sqrt{n_\text{opt}}\tilde{\mathbf{F}})=0`$, generating a Stone unitary evolution group.
    - Over the Fano octonions $`\mathbb{O}`$: (i) the left-action commutant collapses to $`\mathrm{End}_{\mathbb{O}_L}(\mathbb{O}) = \mathbb{R}\cdot I_8`$, excluding any commuting complex phase operator $`J^2=-I_8`$; (ii) element Jacobi fails ($`[e_1,[e_2,e_4]]+\text{cyc}=-12e_7`$) and $`[L_a,L_b]=L_{[a,b]}-2[L_a,R_b]\neq L_d`$ obstructs single-field-strength curvature reduction; and (iii) the 7D Dirac operator satisfies $`L_{e_a}L_{e_b}+L_{e_b}L_{e_a}=-2\delta_{ab}I_8`$, yielding an elliptic principal symbol ($`\mathcal{D}_7^2 = -\Delta_7 I_8`$).
 
-4. **Exact Riccati Decoupling, Unbounded $`\mathsf{P}`$ Lyapunov Gap & Convergent $`c^{-2}`$ Expansion (`sgm_wavefn.tex` Secs. 4–5 & App. A.8):**
+4. **Exact Riccati Decoupling, Unbounded $`\mathsf{P}`$ Lyapunov Gap & Convergent $`c^{-2}`$ Expansion (`sgm_wavefn_full.tex` Secs. 4–5 & App. A.8):**
    - **Bounded contraction ($`\epsilon < 1`$):** The operator Riccati map $`\mathcal{F}(\mathsf{R})`$ is an $`\epsilon`$-contraction on the closed unit ball $`\|\mathsf{R}\|\le 1`$ in any complete normed algebra, yielding a unique decoupling operator ($`\|\mathsf{R}\|\le\epsilon`$) and a unitary Eriksen transformation $`\mathsf{U}`$ satisfying $`\mathsf{U}\mathsf{H}\mathsf{U}^\dagger = \mathrm{diag}(\hat{h},\hat{h}_-)`$.
    - **Unbounded $`\mathsf{P}`$ Lyapunov theorem:** For **arbitrary unbounded** symmetric $`\mathsf{P}`$, off-diagonal terms cancel identically in $`\mathrm{Re}\langle\beta\Psi,(\mathsf{H}-V_0)\Psi\rangle = \langle u,Au\rangle + \langle w,(-D)w\rangle \ge \delta\|\Psi\|^2`$, establishing a uniform spectral gap $`\|(\mathsf{H}-V_0)\Psi\|\ge\delta\|\Psi\|`$ and strict positive-energy graph contraction $`\|w\| < \|u\|`$ ($`\|\mathsf{R}u\| < \|u\|`$) independent of $`\|\mathsf{P}\|`$.
    - **Pole-free $`\lambda = 1/(2mc^2)`$ expansion:** Rescaling $`\mathsf{Q}=c\mathsf{R}`$ produces a $`(1/2)`$-contraction on $`\|\mathsf{Q}\|\le\|\mathsf{P}\|/m`$, binomial convergence $`\|\mathsf{W}(\lambda)-1\|\le 1/2`$, Cauchy truncation error $`2\mathcal{K}(|\lambda|/\lambda_1)^{N+1}`$, exact cancellation of $`\mathsf{R}_1`$, the dressed spatial operator catalog, and the PPN geodetic coefficient $`\gamma_\text{PPN}+\tfrac{1}{2}`$.
 
-5. **All-Speeds WKB & Four One-to-One $`O(\hbar^2)`$ Relativistic Bohr–Sommerfeld Theorems (`sgm_wavefn.tex` Sec. 6 & App. B):**
+5. **All-Speeds WKB & Four One-to-One $`O(\hbar^2)`$ Relativistic Bohr–Sommerfeld Theorems (`sgm_wavefn_full.tex` Sec. 6 & App. B):**
    - The static WKB residual terminates identically at $`O(\hbar^2)`$, giving an exact quasimode spectral distance bound (`eq:quasimode`).
    - In static curved metrics (`lem:grav_spin`), $`qB`$ and $`W'`$ cancel identically in $`\Omega_z + \dot{\phi}_\mathbf{n}`$, splitting the spin precession angle $`\Theta_\text{spin}`$ into a Berry solid angle plus a Rammal–Wilkinson term ($`\Theta_\text{spin}=-2\pi`$ whenever $`\alpha_n`$ and $`V`$ are constant).
    - Combining Olver's uniform Airy matching, Prüfer/Sturm comparison (Lemma 5), quadratic monotonicity completion (Lemma 8), continuous integer-label transfer without global monotonicity (Lemma 6(b)), and IVT action-to-energy transfer (Lemma 1) establishes **one-to-one** $`O(\hbar^2)`$ spectral approximation for magnetic (Thm. 1), electric (Thm. 2), static gravitational with exact $`\nu^{\pm 1/2}=(\alpha_n/W)^{\pm 1/2}`$ Weyl-sequence rescaling (Thm. 4), and **crossed-field** blocks (Thm. 3(b), via boost congruence, Hellmann–Feynman strict negativity $`f_n'(E_\text{d})<0`$ at every crossing zero, and an at-most-one-zero theorem; plus exact zero-remainder uniform and shape-invariant $`\tanh`$ checks in Thm. 3(c)–(d)).
@@ -114,10 +120,10 @@ Every displayed equation, numerical estimate, and spectral theorem across both m
 
 | Script | Size | Coverage & Method |
 | :--- | ---: | :--- |
-| `verification/sgm_check.py` | 6,501 lines / 203 blocks | Walks `sgm.tex` in exact manuscript order (**`1,015/1,015`** checks passing): all four force routes, box-truncation trace distance, strong-field Schwarzschild triad & Komar–Gauss flux, CODATA/experimental benchmarks (COW neutron interferometry, Cs atom interferometry, Gravity Probe B, Pound–Rebka, Hafele–Keating), Compton-to-Planck scale ratios (`eq:compton_planck_ratio`), pair counting, BMV purity, two-site SN orthogonalization, 1PN EIH tensor sandwich, radiative quadrupole GW-power bias, Bekenstein–BH saturation, `tab:notation` SI units, and Supplements S1–S8. |
-| `verification/sgm_wavefn_check.py` | 11,323 lines / 402 blocks | Walks `sgm_wavefn.tex` in exact manuscript order (**`1,680/1,680`** checks passing): quaternionic Weyl/Dirac algebra, covariant derivatives, Maxwell biquaternions, Riccati contraction & Eriksen rotation, unbounded $`\mathsf{P}`$ Lyapunov coercivity, $`c^{-2}`$ expansion and dressed spatial operators (Darwin, Thomas, geodetic, shift-strain Moyal calculus), all-speeds WKB precession, Bohr–Sommerfeld rules, crossed-field boost/Hellmann–Feynman & Rosen–Morse II termination edge-case checks, Fano octonions (commutant collapse, Jacobi failure, 7D elliptic symbol), curved optical-gravity Maxwell energy conservation, hyperbolic bimodule flow, and horizon Zitterbewegung/Tolman–Unruh limits. |
+| `verification/sgm_check.py` | 6,501 lines / 203 blocks | Walks `sgm_full.tex` in exact manuscript order (**`1,015/1,015`** checks passing): all four force routes, box-truncation trace distance, strong-field Schwarzschild triad & Komar–Gauss flux, CODATA/experimental benchmarks (COW neutron interferometry, Cs atom interferometry, Gravity Probe B, Pound–Rebka, Hafele–Keating), Compton-to-Planck scale ratios (`eq:compton_planck_ratio`), pair counting, BMV purity, two-site SN orthogonalization, 1PN EIH tensor sandwich, radiative quadrupole GW-power bias, Bekenstein–BH saturation, `tab:notation` SI units, and Supplements S1–S8. |
+| `verification/sgm_wavefn_check.py` | 11,323 lines / 402 blocks | Walks `sgm_wavefn_full.tex` in exact manuscript order (**`1,680/1,680`** checks passing): quaternionic Weyl/Dirac algebra, covariant derivatives, Maxwell biquaternions, Riccati contraction & Eriksen rotation, unbounded $`\mathsf{P}`$ Lyapunov coercivity, $`c^{-2}`$ expansion and dressed spatial operators (Darwin, Thomas, geodetic, shift-strain Moyal calculus), all-speeds WKB precession, Bohr–Sommerfeld rules, crossed-field boost/Hellmann–Feynman & Rosen–Morse II termination edge-case checks, Fano octonions (commutant collapse, Jacobi failure, 7D elliptic symbol), curved optical-gravity Maxwell energy conservation, hyperbolic bimodule flow, and horizon Zitterbewegung/Tolman–Unruh limits. |
 | `verification/worked_example.py` | 296 lines | Numerical spectral testbench for Theorems 1, 2, and 4 (`thm:levels_B`, `thm:levels_V`, `thm:levels_grav`): diagonalizes the reduced operator $`\mathsf{K}(E)`$ and the $`2\times 2`$ curved-metric Dirac block on periodic Fourier grids across inhomogeneous magnetic, electric, and curved static gravitational profiles, confirming box/grid/quadrature convergence, $`O(\hbar^2)`$ accuracy of the full spin-angle rule vs. $`O(\hbar)`$ of the root rule, and the exact one-to-one level count on $`J = [1.2, 2.1]`$. |
-| `verification/dag_check.py` | 342 lines | Enforces manuscript-order alignment between each `.tex` file and its check script, verifies that every `Derived from` source label is defined strictly earlier (acyclic derivation DAG), and resolves all `\label`/`\ref` chains (`papers/sgm.tex`: 232 labels, 1,006 refs; `papers/sgm_wavefn.tex`: 287 labels, 792 refs; `papers/sgm_short.tex`: 16 labels, 17 refs; `papers/sgm_wavefn_short.tex`: 21 labels, 15 refs). |
+| `verification/dag_check.py` | 342 lines | Enforces manuscript-order alignment between each `.tex` file and its check script, verifies that every `Derived from` source label is defined strictly earlier (acyclic derivation DAG), and resolves all `\label`/`\ref` chains (`papers/sgm_full.tex`: 232 labels, 1,005 refs; `papers/sgm_wavefn_full.tex`: 287 labels, 792 refs; `papers/sgm_medium.tex`: 112 labels, 104 refs; `papers/sgm_wavefn_medium.tex`: 93 labels, 101 refs; `papers/sgm_short.tex`: 16 labels, 17 refs; `papers/sgm_wavefn_short.tex`: 21 labels, 15 refs). |
 
 ### Mutation Testing & Negative Controls
 Each block in `sgm_check.py` and `sgm_wavefn_check.py` pairs exact symbolic identities (`symcheck` via SymPy), numerical comparisons to explicit relative tolerances (`check` via NumPy/SciPy), and structural assertions (`boolcheck`) with at least one mandatory **negative control** (`mutant` / `numutant`). Each mutant deliberately corrupts a sign, factor, or operator ordering and re-runs the test; if the check fails to catch the corruption, the block fails.
@@ -147,7 +153,7 @@ Every one of the 147 public theorems and lemmas across the 16 modules (+ root `l
 - `Classical.choice` (classical choice, used across Mathlib's real analysis and inner-product spaces), and
 - `Quot.sound` (quotient soundness).
 
-External classical-analysis inputs such as Olver's uniform Airy matching (Proposition 5 / Lemma 7 of `sgm_wavefn.tex`) are never asserted as opaque global axioms. Instead, they are supplied explicitly as typed hypothesis structures (`MonotoneScalarMatchingData` in `SGM/Semiclassical/LevelTheorems.lean`), keeping every mathematical assumption transparent in each theorem's type signature and end-to-end checked by Lean.
+External classical-analysis inputs such as Olver's uniform Airy matching (Proposition 5 / Lemma 7 of `sgm_wavefn_full.tex`) are never asserted as opaque global axioms. Instead, they are supplied explicitly as typed hypothesis structures (`MonotoneScalarMatchingData` in `SGM/Semiclassical/LevelTheorems.lean`), keeping every mathematical assumption transparent in each theorem's type signature and end-to-end checked by Lean.
 
 ### Verification Depth & Hypothesis Boundaries
 To make clear what the Lean kernel verifies directly versus what is passed as a typed assumption:
@@ -210,9 +216,11 @@ Phase 4: Semiclassical & Levels   (SGM/Semiclassical/*)
 
 ### 1. Symbolic/Numerical Verification, Spectral Testbench & DAG Checks
 ```bash
-# Check equation ordering, labels, references, and derivation DAGs across all four manuscripts
-python3 verification/dag_check.py papers/sgm.tex verification/sgm_check.py
-python3 verification/dag_check.py papers/sgm_wavefn.tex verification/sgm_wavefn_check.py
+# Check equation ordering, labels, references, and derivation DAGs across all six manuscripts
+python3 verification/dag_check.py papers/sgm_full.tex verification/sgm_check.py
+python3 verification/dag_check.py papers/sgm_wavefn_full.tex verification/sgm_wavefn_check.py
+python3 verification/dag_check.py papers/sgm_medium.tex
+python3 verification/dag_check.py papers/sgm_wavefn_medium.tex
 python3 verification/dag_check.py papers/sgm_short.tex
 python3 verification/dag_check.py papers/sgm_wavefn_short.tex
 

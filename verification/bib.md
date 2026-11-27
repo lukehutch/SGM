@@ -3270,7 +3270,7 @@ session's adjudication tables (0-10, higher = stronger case for citing).
 
 **Verification status (2026-06-11):** the verbatim-quote back-fill pass is complete for every key
 recorded above, via the sourcing flow documented in the project standards
-(`/home/luke/Work/papers/new/STANDARDS.md`): legitimate free sources only — publisher pages and
+(`STANDARDS.md`): legitimate free sources only — publisher pages and
 official samples, official journal archives, arXiv, Wikisource, archive.org public-domain scans,
 institutional repositories and university course postings, and PubMed/OpenAlex/Crossref/INSPIRE/
 Semantic Scholar abstract records; no pirate mirrors were used in that pass. Later the same day,
