@@ -26,13 +26,51 @@ A particle is driven toward lower oscillation frequency at a rate set by the spa
 
 Each companion paper is provided both as a **full manuscript** (complete derivations, proofs, appendices, and supplements) and as a **4-page *Physical Review Letters* (PRL) short summary**. All LaTeX sources and the shared bibliography live in [`papers/`](papers/), and compiled PDFs with Page-1 previews live in [`pdf/`](pdf/).
 
-| SGM — Full Paper (84 pp.) | SGM — 4-Page PRL Summary | Quaternionic Dirac — Full Paper (94 pp.) | Quaternionic Dirac — 4-Page PRL Summary |
-| :---: | :---: | :---: | :---: |
-| [![SGM Full Paper](pdf/sgm_thumb.png)](pdf/sgm.pdf) | [![SGM Short PRL Paper](pdf/sgm_short_thumb.png)](pdf/sgm_short.pdf) | [![Quaternionic Dirac Full Paper](pdf/sgm_wavefn_thumb.png)](pdf/sgm_wavefn.pdf) | [![Quaternionic Dirac Short PRL Paper](pdf/sgm_wavefn_short_thumb.png)](pdf/sgm_wavefn_short.pdf) |
-| [**PDF (`pdf/sgm.pdf`)**](pdf/sgm.pdf)<br>[LaTeX (`papers/sgm.tex`)](papers/sgm.tex) | [**PDF (`pdf/sgm_short.pdf`)**](pdf/sgm_short.pdf)<br>[LaTeX (`papers/sgm_short.tex`)](papers/sgm_short.tex) | [**PDF (`pdf/sgm_wavefn.pdf`)**](pdf/sgm_wavefn.pdf)<br>[LaTeX (`papers/sgm_wavefn.tex`)](papers/sgm_wavefn.tex) | [**PDF (`pdf/sgm_wavefn_short.pdf`)**](pdf/sgm_wavefn_short.pdf)<br>[LaTeX (`papers/sgm_wavefn_short.tex`)](papers/sgm_wavefn_short.tex) |
+#### Paper I — *Spectral Gradient Mechanics: force as the gradient of wave function frequency, and time dilation as the origin of gravity and inertia*
 
-- **Paper I — *Spectral Gradient Mechanics: force as the gradient of wave function frequency, and time dilation as the origin of gravity and inertia*** ([Full PDF](pdf/sgm.pdf) · [4-Page PRL PDF](pdf/sgm_short.pdf) · [Full TeX](papers/sgm.tex) · [Short TeX](papers/sgm_short.tex)): derives $\mathbf{F} = -\hbar\nabla\omega|_{\mathbf{p}}$ via four independent routes (Hamiltonian, eikonal/convective, Legendre/dispersion, and Ehrenfest); applies it to electromagnetism, inertia, light deflection, and strong-field gravity; shows that Maxwell's four equations collapse into a single biquaternion equation; proves the absence of a gravitational action quantum and quantifies the Compton-to-Planck scale gap; and contrasts unitary configuration-space gravitational entanglement and post-Newtonian frame dragging against nonlinear mean-field signaling exclusions.
-- **Paper II — *Deriving force laws from a quaternionic reformulation of the Dirac equation*** ([Full PDF](pdf/sgm_wavefn.pdf) · [4-Page PRL PDF](pdf/sgm_wavefn_short.pdf) · [Full TeX](papers/sgm_wavefn.tex) · [Short TeX](papers/sgm_wavefn_short.tex)): builds the quaternionic Weyl/Dirac wave equation on general curved stationary spacetime slices; proves exact positive/negative-frequency decoupling for both bounded and unbounded momentum operators; derives a convergent, pole-free $c^{-2}$ catalog of all relativistic forces and spin precessions; proves all-speeds WKB quasimode bounds and four **one-to-one** $O(\hbar^2)$ relativistic Bohr–Sommerfeld quantization theorems; and establishes the algebraic and unitary constraints (selection of $\mathbb{H}$ over the octonions $\mathbb{O}$, single-equation biquaternion Maxwell & curved optical-gravity Maxwell unification, and horizon Zitterbewegung limits).
+Derives $\mathbf{F} = -\hbar\nabla\omega|_{\mathbf{p}}$ via four independent routes (Hamiltonian, eikonal/convective, Legendre/dispersion, and Ehrenfest); applies it to electromagnetism, inertia, light deflection, and strong-field gravity; shows that Maxwell's four equations collapse into a single biquaternion equation; proves the absence of a gravitational action quantum and quantifies the Compton-to-Planck scale gap; and contrasts unitary configuration-space gravitational entanglement and post-Newtonian frame dragging against nonlinear mean-field signaling exclusions.
+
+<table width="60%">
+  <thead>
+    <tr>
+      <th width="50%" align="center">Full Paper (84 pp.)</th>
+      <th width="50%" align="center">4-Page PRL Summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="50%" align="center"><a href="pdf/sgm.pdf"><img src="pdf/sgm_thumb.png" alt="SGM Full Paper" width="240"></a></td>
+      <td width="50%" align="center"><a href="pdf/sgm_short.pdf"><img src="pdf/sgm_short_thumb.png" alt="SGM Short PRL Paper" width="240"></a></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><a href="pdf/sgm.pdf"><strong>PDF</strong></a> · <a href="papers/sgm.tex">LaTeX</a><br><code>sgm.pdf</code></td>
+      <td width="50%" align="center"><a href="pdf/sgm_short.pdf"><strong>PDF</strong></a> · <a href="papers/sgm_short.tex">LaTeX</a><br><code>sgm_short.pdf</code></td>
+    </tr>
+  </tbody>
+</table>
+
+#### Paper II — *Deriving force laws from a quaternionic reformulation of the Dirac equation*
+
+Builds the quaternionic Weyl/Dirac wave equation on general curved stationary spacetime slices; proves exact positive/negative-frequency decoupling for both bounded and unbounded momentum operators; derives a convergent, pole-free $c^{-2}$ catalog of all relativistic forces and spin precessions; proves all-speeds WKB quasimode bounds and four **one-to-one** $O(\hbar^2)$ relativistic Bohr–Sommerfeld quantization theorems; and establishes the algebraic and unitary constraints (selection of $\mathbb{H}$ over the octonions $\mathbb{O}$, single-equation biquaternion Maxwell & curved optical-gravity Maxwell unification, and horizon Zitterbewegung limits).
+
+<table width="60%">
+  <thead>
+    <tr>
+      <th width="50%" align="center">Full Paper (94 pp.)</th>
+      <th width="50%" align="center">4-Page PRL Summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="50%" align="center"><a href="pdf/sgm_wavefn.pdf"><img src="pdf/sgm_wavefn_thumb.png" alt="Quaternionic Dirac Full Paper" width="240"></a></td>
+      <td width="50%" align="center"><a href="pdf/sgm_wavefn_short.pdf"><img src="pdf/sgm_wavefn_short_thumb.png" alt="Quaternionic Dirac Short PRL Paper" width="240"></a></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><a href="pdf/sgm_wavefn.pdf"><strong>PDF</strong></a> · <a href="papers/sgm_wavefn.tex">LaTeX</a><br><code>sgm_wavefn.pdf</code></td>
+      <td width="50%" align="center"><a href="pdf/sgm_wavefn_short.pdf"><strong>PDF</strong></a> · <a href="papers/sgm_wavefn_short.tex">LaTeX</a><br><code>sgm_wavefn_short.pdf</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
